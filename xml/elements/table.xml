@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<ElementTable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+    <!-- Element data sourced from http://www.da-wizard.com/elements.html -->
+    <Source Element="None">
+        <Target Element="None" Multiplier="0.58"/>
+        <Target Element="Wind" Multiplier="0.37"/>
+        <Target Element="Water" Multiplier="0.37"/>
+        <Target Element="Earth" Multiplier="0.37"/>
+        <Target Element="Fire" Multiplier="0.37"/>
+        <Target Element="Dark" Multiplier="0.37"/>
+        <Target Element="Light" Multiplier="0.37"/>
+        <Target Element="Metal" Multiplier="0.37"/>
+        <Target Element="Wood" Multiplier="0.37"/>
+        <Target Element="Undead" Multiplier="0.37"/>
+    </Source>
+    <Source Element="Earth">
+        <Target Element="None" Multiplier="2.32"/>
+        <Target Element="Fire" Multiplier="1.03"/>
+        <Target Element="Wind" Multiplier="0.66"/>
+        <Target Element="Earth" Multiplier="0.58"/>
+        <Target Element="Water" Multiplier="1.74"/>
+        <Target Element="Light" Multiplier="0.93"/>
+        <Target Element="Dark" Multiplier="0.83"/>
+        <Target Element="Metal" Multiplier="0.83"/>
+        <Target Element="Wood" Multiplier="0.50"/>
+        <Target Element="Undead" Multiplier="0.25"/>
+    </Source>
+    <Source Element="Fire">
+        <Target Element="None" Multiplier="2.32"/>
+        <Target Element="Fire" Multiplier="0.58"/>
+        <Target Element="Wind" Multiplier="1.74"/>
+        <Target Element="Earth" Multiplier="1.03"/>
+        <Target Element="Water" Multiplier="0.66"/>
+        <Target Element="Light" Multiplier="0.93"/>
+        <Target Element="Dark" Multiplier="0.83"/>
+        <Target Element="Metal" Multiplier="0.83"/>
+        <Target Element="Wood" Multiplier="1.88"/>
+        <Target Element="Undead" Multiplier="0.25"/>
+    </Source>
+    <Source Element="Wind">
+        <Target Element="None" Multiplier="2.32"/>
+        <Target Element="Fire" Multiplier="0.66"/>
+        <Target Element="Wind" Multiplier="0.58"/>
+        <Target Element="Earth" Multiplier="1.74"/>
+        <Target Element="Water" Multiplier="1.03"/>
+        <Target Element="Light" Multiplier="0.93"/>
+        <Target Element="Dark" Multiplier="0.83"/>
+        <Target Element="Metal" Multiplier="0.50"/>
+        <Target Element="Wood" Multiplier="0.83"/>
+        <Target Element="Undead" Multiplier="0.25"/>
+    </Source>
+    <Source Element="Water">
+        <Target Element="None" Multiplier="2.32"/>
+        <Target Element="Fire" Multiplier="1.74"/>
+        <Target Element="Wind" Multiplier="1.03"/>
+        <Target Element="Earth" Multiplier="0.66"/>
+        <Target Element="Water" Multiplier="0.58"/>
+        <Target Element="Light" Multiplier="0.93"/>
+        <Target Element="Dark" Multiplier="0.83"/>
+        <Target Element="Metal" Multiplier="1.88"/>
+        <Target Element="Wood" Multiplier="0.83"/>
+        <Target Element="Undead" Multiplier="0.25"/>
+    </Source>
+    <Source Element="Dark">
+        <Target Element="None" Multiplier="2.32"/>
+        <Target Element="Fire" Multiplier="1.25"/>
+        <Target Element="Wind" Multiplier="1.25"/>
+        <Target Element="Earth" Multiplier="1.25"/>
+        <Target Element="Water" Multiplier="1.25"/>
+        <Target Element="Light" Multiplier="1.48"/>
+        <Target Element="Dark" Multiplier="0.58"/>
+        <Target Element="Metal" Multiplier="1.25"/>
+        <Target Element="Wood" Multiplier="1.25"/>
+        <Target Element="Undead" Multiplier="0.50"/>
+    </Source>
+    <Source Element="Light">
+        <Target Element="None" Multiplier="2.32"/>
+        <Target Element="Fire" Multiplier="0.76"/>
+        <Target Element="Wind" Multiplier="0.76"/>
+        <Target Element="Earth" Multiplier="0.76"/>
+        <Target Element="Water" Multiplier="0.76"/>
+        <Target Element="Light" Multiplier="0.58"/>
+        <Target Element="Dark" Multiplier="1.48"/>
+        <Target Element="Metal" Multiplier="0.76"/>
+        <Target Element="Wood" Multiplier="0.76"/>
+        <Target Element="Undead" Multiplier="0.60"/>
+    </Source>
+    <Source Element="Wood">
+        <Target Element="None" Multiplier="2.32"/>
+        <Target Element="Fire" Multiplier="0.50"/>
+        <Target Element="Wind" Multiplier="0.83"/>
+        <Target Element="Earth" Multiplier="1.88"/>
+        <Target Element="Water" Multiplier="0.83"/>
+        <Target Element="Light" Multiplier="0.93"/>
+        <Target Element="Dark" Multiplier="0.83"/>
+        <Target Element="Metal" Multiplier="1.25"/>
+        <Target Element="Wood" Multiplier="0.58"/>
+        <Target Element="Undead" Multiplier="0.40"/>
+    </Source>
+    <Source Element="Metal">
+        <Target Element="None" Multiplier="2.32"/>
+        <Target Element="Fire" Multiplier="0.83"/>
+        <Target Element="Wind" Multiplier="1.88"/>
+        <Target Element="Earth" Multiplier="0.83"/>
+        <Target Element="Water" Multiplier="0.50"/>
+        <Target Element="Light" Multiplier="0.93"/>
+        <Target Element="Dark" Multiplier="0.83"/>
+        <Target Element="Metal" Multiplier="0.58"/>
+        <Target Element="Wood" Multiplier="1.25"/>
+        <Target Element="Undead" Multiplier="0.40"/>
+    </Source>
+    <Source Element="Undead">
+        <Target Element="None" Multiplier="2.32"/>
+        <Target Element="Fire" Multiplier="1.50"/>
+        <Target Element="Wind" Multiplier="1.50"/>
+        <Target Element="Earth" Multiplier="1.50"/>
+        <Target Element="Water" Multiplier="1.50"/>
+        <Target Element="Light" Multiplier="1.50"/>
+        <Target Element="Dark" Multiplier="1.50"/>
+        <Target Element="Metal" Multiplier="1.50"/>
+        <Target Element="Wood" Multiplier="1.50"/>
+        <Target Element="Undead" Multiplier="0.58"/>
+    </Source>
+</ElementTable>

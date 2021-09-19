@@ -1,0 +1,314 @@
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Duration="Integer" Tick="Integer" Icon="uShort" Name="String">
+<!--Introduction-->
+<!--This is the fully documented "How to make an Status" guide.  Several references will be made to the coma status in the public repository.  Additionally, a fully filled out "Test" status will be provided in ExampleStatus.xml for an example of a well formed xml with every possible element called at least once-->
+
+<!--xmlns Element: Should reference the most current xml definition at hybrasyl.com--> 
+<!--Duration Element-->
+    <!--Description: The time the status lasts in seconds-->
+    <!--Overrides: Can be *replaced* in status section of Castable-->
+    <!--Optionality: Duration is optional, not setting it will make it last forever-->  <!--Needs validation-->
+    <!--Default Value: No default assumed; if you want a duration outside of forever, you must declare one--> <!--Needs validation-->
+<!--Tick Element--> 
+    <!--Description: How often any perodic effect occurs in seconds--> 
+    <!--Overrides: Can be *modified* in status section of Castable; setting the "Speed" element will replace the tick value--> <!--Needs validation-->
+    <!--Optionality: Tick is optional; No Tick declaration assumes an interval of "every second"-->
+    <!--Default Value: 1 Second-->
+<!--Icon Element-->
+    <!--Description: Sets the icon on the status bar--> <!--Determine if offset for skill/spell as both start at 0-->
+    <!--Overrides: None, must be declared-->
+    <!--Optionality: Required.  Failure to declare will result in broken xml-->
+    <!--Default Value: None, must be declared-->
+<!--Name Element-->
+    <!--Description: The UNIQUE name of the status; statuses are indexed by name; having more than one status with the same name will have unintended effects-->
+    <!--Overrides: None, must be declared-->
+    <!--Optionality: Required.  Failure to declare will result in broken xml-->
+    <!--Default Value: None, must be declared-->
+
+<Category>String8</Category>
+  <!--Description: Categorization of the Status - used to organize and create groupings-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: No default assumed; if you want a category, you must declare one-->
+  <!--Occurrences: You can have as many or few of these as you would like-->
+
+<CastRestriction Use="Token" Receive="Token"/>
+  <!--Description: Allows you to prohibit use/receipt of a group of spells/skills (as defined in Castable Category) while under effects of the status-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: No default assumed; if you want a restriction, you must declare one-->
+  <!--Occurrences: You can have as many or few of these as you would like-->
+    <!--Use Token-->
+      <!--Description: Allows you to pick a grouping of spells or skills to prohibit the use of for custom statuses; Note that built in statuses (see effects) have this functionality already - coma will prohibit movement, spell/skill usage, etc -->
+      <!--Overrides: None-->
+      <!--Optionality: Optional.  However, if you've added a <CastRestriction> element you should probably like... do something with it-->
+     <!--Default Value: None, must be declared-->
+    <!--Receive Token-->
+      <!--Description: Allows you to pick a grouping of spells or skills to prohibit the receipt of for custom statuses; Note that built in statuses (see effects) have this functionality already - coma will prohibit movement, spell/skill usage, etc -->
+      <!--Overrides: None-->
+      <!--Optionality: Optional.  However, if you've added a <CastRestriction> element you should probably like... do something with it-->
+      <!--Default Value: None, must be declared-->
+
+<ProhibitedMessage>String8</ProhibitedMessage>
+  <!--Description: The system message that is triggered when a character attempts an action prohibited by the status; e.g., should someone attempt to cast a spell while under Coma, no action will happen and they will receive the message "The life is draining from your body-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: No default assumed; if you want a Prohibited Message to appear, you must declare one-->
+  <!--Occurrences: You can have as many or few of these as you would like, but one or none is recommended; uncertain how useful multiple occurrences of this would be at base level-->
+
+<Effects> <!--The big one, here is where all the action happens-->
+
+<OnApply> <!--Here is where you set the conditions that happen with the status is first applied;  Note, you can have multiple "OnApply" to give separate effects on spell cast-->
+
+<Animations> <!--You can cause a spell effect to display on application (see coma.xml)-->
+
+<Target Id="byte" Speed="byte"/>
+  <!--Description: Cause a spell animation to appear the target of the status on application-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: No default assumed; if you want an Animation to appear, you must declare one-->
+  <!--Occurrences: You can have as many or few of these as you would like, but one or none is recommended; uncertain how useful multiple occurrences of this would be-->
+    <!--Id Token-->
+      <!--Description: Selects an ID from the dat files to determine which effect to play on the target of the status-->
+      <!--Overrides: None-->
+      <!--Optionality: Optional.  However, if you've added a <Target> element you should probably like... do something with it-->
+     <!--Default Value: None, must be declared to have any effect-->
+    <!--Speed Token-->  
+      <!--Description: Determine how quickly the animation displays in ??milliseconds?? -->
+      <!--Overrides: None-->
+      <!--Optionality: Optional.  However, if you've added a <CastRestriction> element you should probably like... do something with it-->
+      <!--Default Value: None, must be declared; suggested value is 26 for most spell/skill effects.  Will not be visible without a speed selected-->
+
+<SpellEffect Id="" Speed=""/><!--Needs Validation?  What is the difference?-->
+  <!--Description: Cause a spell animation to appear on the caster at application to the target-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: No default assumed; if you want an Animation to appear, you must declare one-->
+  <!--Occurrences: You can have as many or few of these as you would like, but one or none is recommended; uncertain how useful multiple occurrences of this would be-->
+    <!--Id Token-->
+      <!--Description: Selects an ID from the dat files to determine which effect to play on the target of the status-->
+      <!--Overrides: None-->
+      <!--Optionality: Optional.  However, if you've added a <Target> element you should probably like... do something with it-->
+      <!--Default Value: None, must be declared to have any effect-->
+    <!--Speed Token-->  
+      <!--Description: Determine how quickly the animation displays in ??milliseconds?? -->
+      <!--Overrides: None-->
+      <!--Optionality: Optional.  However, if you've added a <CastRestriction> element you should probably like... do something with it-->
+      <!--Default Value: None, must be declared; suggested value is 26 for most spell/skill effects.  Will not be visible without a speed selected-->
+
+</Animations> <!--Closing your tags is always good-->
+
+<Sound Id="uByte"/> <!--Note that you do not need a </Sound> because of tokens-->
+  <!--Description: Cause a sound to play on successful application of status-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: No default assumed; if you want Sound to play, you must declare one-->
+  <!--Occurrences: You can have as many or few of these as you would like, but one or none is recommended; uncertain how useful multiple occurrences of this would be-->
+    <!--Id Token-->
+    <!--Description: Selects an ID from the dat files to determine which sound effect to play on the application-->
+    <!--Overrides: None-->
+    <!--Optionality: Required.  If you declare a <Sound> element, you must provide an ID-->
+    <!--Default Value: None, must be declared.-->
+
+<Messages> <!--Various ways to make automated speech occur-->
+  <Target>String8</Target> <!--Description - System message for target-->
+  <Source>String8</Source> <!--Description - System message for caster-->
+  <Group>String8</Group> <!--Description - Make the target say something in group chat-->
+  <Say>String8</Say> <!--Description - Make the target say something outloud-->
+  <Shout>String8</Shout> <!--Description - Make the target shout/yell something-->
+<!--Common Attributes for all message types-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: No default assumed; if you want message to happen you need to declare one-->
+  <!--Occurrences: You can have as many or few of these as you would like-->
+</Messages> <!--Close them tags-->
+
+<Heal> <!--You can have only one of these for... reasons?-->
+  <Simple>NumbersOnly</Simple>
+  <Formula>Refer to FormulaParser.cs for the full range of variables</Formula>
+  <!--Description: Causes a heal to occur on the successful application of a status-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: No default assumed; if you want a heal to happen, you must declare one-->
+  <!--Occurrences: You may have one of these-->
+    <!--Simple Element-->
+      <!--Description: Applies a heal for exact value typed in (e.g., 1234 becomes +1234 hp to target, up to maximum HP-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: 100% Optional, sort of!  You must have Simple or Formula, not both-->
+      <!--Default Value: No default assumed; if you want a Simple Heal, you must declare one-->
+      <!--Occurrences: You may have one of these; mutually exclusive with Formula-->
+    <!--Formula Element-->
+      <!--Description: Applies a heal for a variable amount from an algebraic formula using variables from FormulaParser.cs-->
+        <!--Example 1: ($CASTERINT+$CASTERBONUSDMG+($CASTERWIS*0.5))*$RAND100-->
+        <!--Example 2: $CASTERWIS*$RAND100-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: 100% Optional, sort of!  You must have Simple or Formula, not both-->
+      <!--Default Value: No default assumed; if you want a Formula Heal, you must declare one-->
+      <!--Occurrences: You may have one of these; mutually exclusive with Simple-->
+</Heal>
+
+<Damage Type="Direct Physical Magical Elemental"><!--Choose One-->
+  <Flags>None Scaled Resistance Threat Nonlethal</Flags><!--Any combination of these is supported-->
+  <Simple>NumbersOnly</Simple>
+  <Formula>Refer to FormulaParser.cs for the full range of variables</Formula>
+  <!--Description: Causes damage to occur on the successful application of a status-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: No default assumed; if you want Damage to happen, you must declare the damage via <Simple> OR <Formula> element-->
+  <!--Occurrences: You may have as many or few as you please; one or none recommended-->
+    <!--Type Attribute-->
+      <!--Description: Chooses how damage is processed-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: Required if <Damage> is declared-->
+      <!--Default Value: No default assumed; you must choose one-->
+      <!--Occurrences: You may only have one Type="" per <Damage>-->
+        <!--Damage Type Descriptions-->
+        <!--Direct: Bypasses armor, elemental damage modifier to deal damage-->
+        <!--Physical: Is subject to reduction via AC/Aite, must overcome "Miss" check-->
+        <!--Magical: Is subject to reduction via Magic Resistance, does not receive elemental damage modifier-->
+        <!--Elemental: Is subject to reduction via Magic Resistance, DOES receive elemental damage modifier-->
+    <!--Flag Element-->
+      <!--Description: Various predefined configurations-->
+        <!--None Description: No flags-->
+        <!--Scaled Description: Subject to Armor Class--> <!--Needs Verification?-->
+        <!--Resistance Description: Subject to resistance-->
+        <!--Threat Description: Causes threat-->
+        <!--Nonlethal Description: Cannot kill target-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: 100% Optional-->
+      <!--Default Value: None-->
+      <!--Occurrences: You may have multiple of these; recommend one instance with all flags desired per Occurrence of <Damage>-->
+    <!--Simple Element-->
+      <!--Description: Applies damage for exact value typed in (e.g., 1234 becomes -1234 hp to target, up to dead-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: 100% Optional, sort of!  You must have Simple or Formula, not both-->
+      <!--Default Value: No default assumed; if you want Simple Damage, you must declare one-->
+      <!--Occurrences: You may have one of these; mutually exclusive with Formula-->
+    <!--Formula Element-->
+      <!--Description: Applies a heal for a variable amount from an algebraic formula using variables from FormulaParser.cs-->
+        <!--Example 1: ($CASTERINT+$CASTERBONUSDMG+($CASTERWIS*0.5))*$RAND100-->
+        <!--Example 2: $CASTERWIS*$RAND100-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: 100% Optional, sort of!  You must have Simple or Formula, not both-->
+      <!--Default Value: No default assumed; if you want a Formula Heal, you must declare one-->
+      <!--Occurrences: You may have one of these; mutually exclusive with Simple-->
+</Damage><!--CLOSE YOUR TAGS-->
+
+<!--NOTE: You can include all 19 attributes on one line; they have been broken up here for readability purposes-->
+<StatModifiers Str="" Int="" Wis="" Con="" Dex="" Hp="" Mp=""/>
+<StatModifiers Hit="" Dam="" Ac="" Regen="" Mr=""/>
+<StatModifiers OffensiveElement="" DefensiveElement=""/>
+<StatModifiers DamageModifier="" HealModifier="" ReflectChance="" ReflectIntensity=""/>
+      <!--Description: Allows a status to change an attribute for the duration of the effect-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: 100% Optional-->
+      <!--Default Value: Default values for all are 0-->
+      <!--Occurrences: You may have multiple <StatModifiers> elements; recommended to break them up to avoid a 5,000 character line-->
+        <!--Common StatModifier Attribute (haha) properties-->
+          <!--Overrides: None, either is declared or is not-->
+          <!--Optionality: 100% Optional-->
+          <!--Default Value: Default values for all are 0-->
+          <!--Occurrences: You may have one attribute (e.g., AC, str, etc) per <StatModifier>; Recommendation is any attribute is modified once across all instances of <StatModifier> in <OnApply>-->
+        <!--StatModifier Attribute Descriptions-->
+          <!--Str: The Strength stat-->
+          <!--Int: The Intelligence stat-->
+          <!--Wis: The Wisdom stat-->
+          <!--Con: The Constitution stat-->
+          <!--Dex: The Dexterity stat-->
+          <!--Hit: The Hit stat-->
+          <!--Dam: The Damage stat-->
+          <!--Ac: The Armor Class stat; Note, this stat works reverse of all others; Positive is a debuff, Negative is a buff-->
+          <!--Regen: The Regen stat-->
+          <!--MR: The magic resistance stat; Note, while you can enter any value, keep in mind client limitations (will only display multiples of 10) and maximum/minimum values (0% through 80%)-->
+          <!--OffensiveElement: Sets the target's attack element-->
+          <!--DefensiveElement: Sets the target's defensive element-->
+          <!--DamageModifier: Percent based increase, applied after damage formula; to get 110%, type 1.1; to get 75%, type .75-->
+          <!--HealModifier: Percent based increase, applied after heal formula; to get 110%, type 1.1; to get 75%, type .75-->
+          <!--ReflectChance: Percent based chance to reflect physical/magical; to get 110% (why tho), type 1.1; to get 75%, type .75; Works best with Conditions ReflectPhysical/ReflectMagical and may have unintended effects without those two present-->
+          <!--ReflectIntensity: Percent based modifier on reflected physical/magical damage/heals; to get 110%, type 1.1; to get 75%, type .75; Works best with Conditions ReflectPhysical/ReflectMagical and may have unintended effects without those two present-->
+
+<Conditions> <!--These are predefined statuses that come with server setup-->
+<Set>See below list for options, both Set + Unset are set up as follows </Set>
+<Unset>Coma Freeze Paralyze</Unset>
+  <!--Description: Adds a predefined status to a creature-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: None, is Element with no attribute or type-->
+  <!--Occurrences: You may have as many <Conditions> groups as you desire (nor none); one is recommended due to structure-->
+    <!--Set Element-->
+      <!--Description: Adds a condition-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: 100% Optional; but you should probably choose set or unset if you add the <Conditions> element-->
+      <!--Default Value: No default assumed; you must choose one-->
+      <!--Occurrences: You may have as many as you like-->
+    <!--Unset element-->
+      <!--Description: Removes a condition-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: 100% Optional; but you should probably choose set or unset if you add the <Conditions> element-->
+      <!--Default Value: No default assumed; you must choose one-->
+      <!--Occurrences: You may have as many of these as you like-->
+    <!--Condition Descriptions-->
+      <!--Freeze: Suain; essentially same thing as sleep-->
+      <!--Sleep: Pramh-->
+      <!--Paralyze: Beag Suain-->
+      <!--Blind: Dall/Blind Trap-->
+      <!--Coma: "Skulled"; eg, "I have zero hp and grouped"-->
+      <!--Poison: Puinsein-->
+      <!--Mist: Mist, except it actually works as a dodge chance-->
+      <!--Regen: Inner Fire-->
+      <!--Sight: Cat's Hearing-->
+      <!--Invisible: Hide-->
+      <!--Mute: Prevents whisper/shout/group/world shout/you name it-->
+      <!--ReflectPhysical: Asgall Faileas-->
+      <!--ReflectMagical: Deireas Faileas-->
+      <!--Invulnerable: Dion-->
+      <!--Charm: Seun-->
+      <!--IncreaseDamage: Fas Deireas-->
+      <!--ReduceDamage: Aite-->
+      <!--AbsorbSpell: No equivalent; absorbs incoming spell-->
+      <!--ProhibitItemUse: Does what it says on the tin-->
+      <!--ProhibitEquipChange: Does what it says on the tin-->
+      <!--ProhibitSpeech: Does what it says on the tin-->
+      <!--ProhibitWhisper: Does what it says on the tin-->
+      <!--ProhibitShout: Does what it says on the tin-->
+</Conditions> <!--Close them tags-->
+<Handler> <!--Utilize Scripting-->
+  <Function>String8</Function>
+  <ScriptSource>Target or Caster</ScriptSource><!--Choose One-->
+  <!--Description: XML Elements to Utilize a .lua script in the [scripts] directory of your server [world]-->
+  <!--Overrides: None, either is declared or is not-->
+  <!--Optionality: 100% Optional-->
+  <!--Default Value: No value, xml element container only-->
+  <!--Occurrences: You may have one of these-->
+    <!--Function Element-->
+      <!--Description: The name of a .lua script in the [scripts] directory-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: 100% Optional; however, if you set a <Handler> element, you should probably make a function-->
+      <!--Default Value: No default assumed; if you want a script to happen, you must declare one-->
+      <!--Occurrences: You may have as many of these as you want; one recommended-->
+    <!--ScriptSource Element-->
+      <!--Description: Who "casts" the script?  Status Target or Status Caster only-->
+      <!--Overrides: None, either is declared or is not-->
+      <!--Optionality: 100% Optional; however, if you set a <Handler> element, you should probably make a ScriptSource-->
+      <!--Default Value: No default assumed; if you want a script to happen, you must declare one-->
+      <!--Occurrences: You may have as many of these as you want; one recommended-->
+</Handler> <!--Close them tags-->
+
+</OnApply> <!--In the words of the Gambler, you gotta know when to close'em-->
+
+<OnTick> <!--Here is where you set the conditions that can happen on each tick - this is optional.  Again, you can have multiple "OnTick" to give separate effects on an interval-->
+    <!--For details of elements in OnTick, see OnApply - they are exactly the same-->
+</OnTick>
+
+<OnRemove> <!--Here is where you can set the conditions that happen when the status is **dispelled** or otherwise removed before completing;  Again, you can have multiple "OnRemove" to give separate effects on a dispel-->
+    <!--For details of elements in OnRemove, see OnApply - they are exactly the same-->
+</OnRemove>
+
+<OnExpire><!--Here is where you set the conditions that can happen when the status completes its timer without being dispelled or removed;  Again, you can have multiple "OnExpire" to give separate effects on expiration due to duration completing-->
+    <!--For details of elements in OnExpire, see OnApply - they are exactly the same-->
+</OnExpire>
+</Effects> <!-- Remember to close your tags!-->
+<!-- TO DO LIST 
+1. Determine "%s" "%t" shortcuts - appears to be {0}
+2. Clarify all the things that don't make any sense
+3. Publish -->
+</Status> <!--You've reached the end, hurray!--> 

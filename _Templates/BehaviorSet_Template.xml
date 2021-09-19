@@ -1,0 +1,94 @@
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="" Import="">
+    <!--Testing Behavior Set-->
+    <StatAlloc></StatAlloc>
+    <Castables Auto="" SkillCategories="" SpellCategories="">
+        <Castable></Castable>
+    </Castables>
+    <CreatureBehavior>
+        <Casting>
+            <Offense Interval="" Priority="" Categories="" HealthPercentage="" Random="">
+                <Castable/>
+            </Offense>
+            <Defense Interval="" Priority="" Categories="" HealthPercentage="" Random="">
+                <Castable/>
+            </Defense>
+            <OnDeath Interval="" Priority="" Categories="" HealthPercentage="" Random="">
+                <Castable/>
+            </OnDeath>
+            <NearDeath Interval="" Priority="" Categories="" HealthPercentage="" Random="">
+                <Castable/>
+            </NearDeath>
+        </Casting>
+        <Assail>
+            <Castable></Castable>
+        </Assail>
+        <Hostility></Hostility>
+        <SetCookies></SetCookies>
+    </CreatureBehavior>
+</BehaviorSet>
+
+<!--
+    ** General Notes**
+    All attributes have default values and can be removed if not used ***EXCEPT*** <BehaviorSet xmlns and name>
+
+    <BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="" Import="">
+        - How we start the file
+        - Name: should equal the behaviorset name assigned to a creature
+        - Import: Allows you to import all of the contents of a different behavior set and add to them
+    <StatAlloc/>
+        - Defines how the creature gains stats
+        - <StatAlloc>Str Str Int Wis Con Dex</StatAlloc> would have a creature gain 2 str, then 1 int/1wis, then 1 con/1dex, then repeat
+    <Castables/>
+        - Spells that the creature know - they have to be defined here first
+        - Auto: Do they auto learn spells?  If true, then they will just learn what is available via stats
+        - SkillCategories: limits what skills they can learn via castable categories e.g.: iocs, assails, etc
+        - SpellCategories: limits what spells they can learn via castable categories e.g.: wizard, priest, etc
+        <Castable>
+            - plug in a castable by name
+    <CreatureBehavior>
+        - how does the creture act during combat
+            <Offense>
+                - spells/skills the creature uses offensively
+                - Interval: how often does the creature cast, in seconds - input is integer; default 15
+                - Priority: what does the creature target; default highthreat.  use this list:
+                    - Attacker: Most recent thing to attack creature on threat table
+                    - HighThreat: Thing with the highest amount of threat
+                    - LowThreat: Thing with the lowest amount of threat
+                    - AttackingCaster: Targeting things using casting
+                    - AttackingHealer: Targeting things using healing spells
+                    - SimilarNearby: For mob on mob combat
+                    - Nearby: For mob on mob combat
+                    - Random: Spins the wheel, wins a prize
+                    - Group: NYI or magically determined through blood sacrifice 
+                - Health Percentage: integer between 1-100 representing creature's hp; default 0
+                - Random: boolean true/false on if creature uses spells at random; default true
+            <Defense>
+                - spells/skills the creature uses defensively.  NYI
+            <OnDeath>
+                - spells/skills the creature uses upon being defeated
+            <NearDeath>
+                - spells/skills the creature uses as an oh shit buton
+            <Assail>
+                - spells/skills marked as assail=Y that the creature uses to hit you with
+            <Hostility>
+                - Defines who the creature is hostile against, using these values:
+                <Players> and/or <Monsters> and/or <Neutral>
+                    - self-closing, can take "OnlyCookie" or "ExceptCookie"
+                    - e.g. <Players OnlyCookie="Bald"/> or <Players OnlyCookie="BearedLinuxUser"/>
+            <SetCookies>
+                - allows creatures to set cookies to itself on spawn
+                <Cookie>
+                    - Name: name of an existing cookie
+                    - Value: boolean true/false on if cookie is true or false
+
+
+
+    
+
+
+
+
+
+
+
+-->
