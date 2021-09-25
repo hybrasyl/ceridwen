@@ -1,3 +1,5 @@
+<!-- 2021-09-18 - This probably needs some corrections/condensing and needs to be checked to see if up to date-->
+
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Duration="Integer" Tick="Integer" Icon="uShort" Name="String">
 <!--Introduction-->
 <!--This is the fully documented "How to make an Status" guide.  Several references will be made to the coma status in the public repository.  Additionally, a fully filled out "Test" status will be provided in ExampleStatus.xml for an example of a well formed xml with every possible element called at least once-->

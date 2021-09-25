@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="Accepts integer" Icon="Accepts integer 0-254" Book="Accepts PrimarySkill, PrimarySpell, SecondarySkill, SecondarySpell, UtilitySkill, UtilitySpell" Element="Accepts any element defined in elements xml" Class="Accepts any defined class: Rogue, Monk, Wizard, Priest, Peasant, Warrior.  To share skills, enter Rogue Warrior - this will allow rogues and warriors to learn the spell" Cooldown="Accepts integer" IsAssail="Y or N" Reflectable="Y or N">
+  <Name>Whatever You Want to Call it</Name>
+  <Descriptions>
+    <Description Class="Limits which classes can see description">Description that displays on trainer</Description>
+    <Description Class="Limits which class can see description">Second description that displays on trainer</Description>
+    <Description Class="Limits which class can see description">Third description</Description>
+    <Description Class="Limits which class can see description">Fourth description</Description>
+    <Description Class="Limits which class can see description">Fifth description</Description>
+    <Description Class="Limits which class can see description">Sixth description</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Use categories to group spells for statuses</Category>
+    <Category>You can define as many as you want or need</Category>
+    <Category>Like really, as many</Category>
+    <Category>Even more if needed</Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Hp="cost to cast in hp"/>
+      <Stat Mp="cost to cast in mp"/>
+      <Gold>cost to cast in gold</Gold>
+      <Item Quantity="how many items">cost to cast in items</Item>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Accepts: Unusable, Prompt, Target, FourDigit, ThreeDigit, NoTarget, OneDigit, TwoDigit" MaxTargets="Accepts Integer" Flags="Accepts: None, Scaled, Resistance, Threat, Nonlethal">
+      <Map/>
+      <Cross Radius="how many tiles of a cross - 1 is a meall spell"/>
+      <Square Side="How many tiles per side of square - 3 is mentor"/>
+      <Line Length="How long is line that radiates out from caster, in tiles - 1 is assail" Direction="Which direction does it go from the caster?"/>
+      <Line Length="Declare a second line" Direction="declare a second direction"/>
+      <Line Length="Declare a third line" Direction="Declare a third direction"/>
+      <Line Length="Declare a fourth line" Direction="Declare a fourth direction"/>
+      <Tile Direction="Declare a single tile" RelativeX="how many tiles +/- from caster" RelativeY="how many tiles +/- from caster"/>
+      <Tile Direction="Declare a single tile" RelativeX="how many tiles +/- from caster" RelativeY="how many tiles +/- from caster"/>
+      <Tile Direction="Declare a single tile" RelativeX="how many tiles +/- from caster" RelativeY="how many tiles +/- from caster"/>
+      <Tile Direction="Declare a single tile" RelativeX="how many tiles +/- from caster" RelativeY="how many tiles +/- from caster"/>
+      <Tile Direction="Declare a single tile" RelativeX="how many tiles +/- from caster" RelativeY="how many tiles +/- from caster"/>
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="Highest level skill can level to for monk" Warrior="Highest level skill can level to for warrior" Peasant="Highest level skill can level to for peasant" Wizard="Highest level skill can level to for wizard" Priest="Highest level skill can level to for priest" Rogue="Highest level skill can level to for rogue"/>
+  <Requirements>
+    <Requirement Class="Name of class(es) that use these requirements to train spell">
+      <Level Min="min level to learn from trainer" Max="max level to learn from trainer"/>
+      <Gold>cost in gold</Gold>
+      <Physical Str="str required" Int="int required" Wis="wis required" Con="con required" Dex="dex required"/>
+      <AB Min="min ab to learn from trainer" Max="max ab to learn from trainer"/>
+      <Items>
+        <Item Quantity="how man">item required to learn</Item>
+        <Item Quantity="how many">item required to learn</Item>
+        <Item Quantity="how many">item required to learn</Item>
+        <Item Quantity="how many">item required to learn</Item>
+      </Items>
+      <Prerequisites>
+        <Prerequisite Level="what level">spell needed to learn</Prerequisite>
+        <Prerequisite Level="what level">spell needed to learn</Prerequisite>
+      </Prerequisites>
+    </Requirement>
+    <Requirement Class="second class requirements">
+      <Level Min="min level to learn" Max="max level to learn"/>
+      <Gold>cost in gold</Gold>
+      <Physical Str="str needed" Int="int needed" Wis="wis needed" Con="con needed" Dex="dex needed"/>
+      <AB Min="min ab to learn" Max="max ab to learn"/>
+      <Items>
+        <Item Quantity="how many">item needed to learn</Item>
+        <Item Quantity="how many">item needed to learn</Item>
+        <Item Quantity="how many">item needed to learn</Item>
+        <Item Quantity="how many">item needed to learn</Item>
+      </Items>
+      <Prerequisites>
+        <Prerequisite Level="what level">spell needed to learn</Prerequisite>
+        <Prerequisite Level="what level">spell needed to learn</Prerequisite>
+      </Prerequisites>
+    </Requirement>
+  </Requirements>
+  <Restrictions>
+    <Item Slot="Accepts one of: None, Weapon, Armor, Shield, Helmet, Earring, Necklace, LeftHand, RightHand, LeftArm, RightArm, Waist, Leg, Foot, FirstAcc, Trousers, Coat, SecondAcc, ThirdAcc, Gauntlet, Ring" Type="Accepts item type">accepts individual item</Item>
+    <Item Slot="Accepts one of: None, Weapon, Armor, Shield, Helmet, Earring, Necklace, LeftHand, RightHand, LeftArm, RightArm, Waist, Leg, Foot, FirstAcc, Trousers, Coat, SecondAcc, ThirdAcc, Gauntlet, Ring" Type="Accepts item type">accepts individual item</Item>
+    <Item Slot="Accepts one of: None, Weapon, Armor, Shield, Helmet, Earring, Necklace, LeftHand, RightHand, LeftArm, RightArm, Waist, Leg, Foot, FirstAcc, Trousers, Coat, SecondAcc, ThirdAcc, Gauntlet, Ring" Type="Accepts item type">accepts individual item</Item>
+    <Item Slot="Accepts one of: None, Weapon, Armor, Shield, Helmet, Earring, Necklace, LeftHand, RightHand, LeftArm, RightArm, Waist, Leg, Foot, FirstAcc, Trousers, Coat, SecondAcc, ThirdAcc, Gauntlet, Ring" Type="Accepts item type">accepts individual item</Item>
+  </Restrictions>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="animation for peasant cast" Speed=""/>
+          <Motion Class="Warrior" Id="animation for warrior cast" Speed=""/>
+          <Motion Class="Wizard" Id="animation for wizard cast" Speed=""/>
+          <Motion Class="Priest" Id="animation for priest cast" Speed=""/>
+          <Motion Class="Rogue" Id="animation for rogue cast" Speed=""/>
+          <Motion Class="Monk" Id="animation for monk cast" Speed=""/>
+        </Player>
+        <Target Id="animation on target" Speed="speed of animation"/>
+      </OnCast>
+      <OnEnd>
+        <Player>
+          <Motion Class="for which classes" Id="animation on caster when ends" Speed="speed"/>
+        </Player>
+        <Target Id="animation" Speed="speed"/>
+      </OnEnd>
+    </Animations>
+    <Sound Id="what sound plays"/>
+    <Heal Type="accepts: formula or simple">
+      <Simple Min="if simple, enter number for min" Max="if simple, enter number for max"/>
+      <Simple Value="if no min/max, enter number"/>
+      <Formula>if formula, insert here</Formula>
+    </Heal>
+    <Damage Type="accepts: Direct, Physical, Magical, Elemental">
+      <Flags>accepts: None, Scaled, Resistance, Threat, Nonlethal</Flags>
+      <Simple Min="if no simple or formula, enter min" Max="if no simple or formula, enter max"/>
+      <Simple>if no min/max and no formula, enter number</Simple>
+      <Formula>if uses a formula, enter formula here</Formula>
+    </Damage>
+    <Statuses>
+      <Add Duration="how long" Intensity="formula for intensity" Speed="how often">Name of status xml that is added</Add>
+      <Add Duration="how long" Intensity="formula for intensity" Speed="how often">Name of status xml that is added</Add>
+      <Add Duration="how long" Intensity="formula for intensity" Speed="how often">Name of status xml that is added</Add>
+      <Remove>name of status xml remove</Remove>
+      <Remove>name of status xml removed</Remove>
+      <Remove>name of status xml removed</Remove>
+      <Remove>name of status xml removed</Remove>
+    </Statuses>
+  </Effects>
+  <Script>what script plays</Script>
+  <Mastery Uses="how many uses to level" Modifiers="NYI" Tiered="NYI"/>
+</Castable>
