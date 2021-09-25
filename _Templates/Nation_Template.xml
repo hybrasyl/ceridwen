@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Nation xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Flag="">
+    <Name></Name>
+    <Description></Description>
+    <SpawnPoints>
+        <SpawnPoint X="" Y="" MapName=""/>
+    </SpawnPoints>
+</Nation>

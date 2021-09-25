@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="" Music="" X="" Y="" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name></Name>
+  <Flags></Flags>
+  <Warps>
+    <Warp X="" Y="">
+      <MapTarget X="" Y=""></MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors>
+    <Reactor X="" Y="">
+      <Description></Description>
+      <Script></Script>
+    </Reactor>
+  </Reactors>
+  <Npcs>
+    <Npc Name="" X="" Y="" Direction="" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="" X="" Y="">
+      <Name></Name>
+      <Description></Description>
+    </Sign>
+  <Sign Type="Sign" X="" Y="">
+      <Message></Message>
+    </Sign>
+  </Signs>
+</Map>

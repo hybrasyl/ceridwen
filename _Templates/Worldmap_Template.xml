@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorldMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ClientMap="" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name></Name>
+  <Points>
+    <Point X="" Y="">
+      <Name></Name>
+      <Target X="" Y=""></Target>
+    </Point>
+  </Points>
+</WorldMap>

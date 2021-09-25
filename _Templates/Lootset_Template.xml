@@ -1,0 +1,9 @@
+<LootSet Name="" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Table Rolls="" Chance="">
+    <Items Rolls="" Chance="">
+      <Item Variants=""></Item>
+      <Item Unique="" Variants=""></Item>
+      <Item Min=""></Item>
+    </Items>
+  </Table>
+</LootSet>

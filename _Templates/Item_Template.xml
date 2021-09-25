@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name></Name>
+  <UnidentifiedName></UnidentifiedName>
+  <Comment></Comment>
+  <Properties>
+    <Appearance Sprite="" EquipSprite="" DisplaySprite="" BodyStyle="" Color=""/>
+    <CastModifiers>
+      <Match Group="" Castable="" All="false">
+        <Add Match="" Amount="" Min="" Max=""/>
+        <Subtract Match="" Amount="" Min="" Max=""/>
+        <Replace Match="" Amount="" Min="" Max=""/>
+      </Match>
+      <Match Group="" Castable="" All="false">
+        <Add Match="" Amount="" Min="" Max=""/>
+        <Subtract Match="" Amount="" Min="" Max=""/>
+        <Replace Match="" Amount="" Min="" Max=""/>
+      </Match>
+      <Match Group="" Castable="" All="false">
+        <Add Match="" Amount="" Min="" Max=""/>
+        <Subtract Match="" Amount="" Min="" Max=""/>
+        <Replace Match="" Amount="" Min="" Max=""/>
+      </Match>
+    </CastModifiers>
+    <Stackable Max=""/>
+    <Physical Value="" Weight="" Durability=""/>
+    <Equipment Slot="" WeaponType=""/>
+    <StatModifiers>
+      <Base Str="" Int="" Wis="" Con="" Dex="" Hp="" Mp=""/>
+      <Combat Hit="" Dmg="" Ac="" Regen="" Mr=""/>
+      <Element Offense="" Defense=""/>
+    </StatModifiers>
+    <Flags>Bound Depositable Exchangeable Vendorable Perishable UniqueInventory MasterOnly UniqueEquipped Identifiable Undamageable Consumable</Flags>
+    <Variants>
+      <Group></Group>
+      <Name></Name>
+      <Group></Group>
+      <Name></Name>
+      <Group></Group>
+      <Name></Name>
+      <Group></Group>
+      <Name></Name>
+    </Variants>
+    <Vendor ShopTab="">
+      <Description></Description>
+    </Vendor>
+    <Damage>
+      <Small Min="" Max=""/>
+      <Large Min="" Max=""/>
+    </Damage>
+    <Use>
+      <Script></Script>
+      <Teleport X="" Y=""></Teleport>
+      <PlayerEffect Gold="" Hp="" Mp="" Xp=""/>
+      <Effect Id="" Speed=""/>
+      <Sound Id=""/>
+    </Use>
+    <Restrictions>
+      <Level Min="" Max=""/>
+      <Ab Min="" Max=""/>
+      <Class></Class>
+      <Gender></Gender>
+      <Castables>
+        <Castable></Castable>
+        <Castable></Castable>
+        <Castable></Castable>
+        <Castable></Castable>
+      </Castables>
+    </Restrictions>
+    <Motion>
+      <Motion Id="" Speed=""/>
+    </Motion>
+  </Properties>
+</Item>

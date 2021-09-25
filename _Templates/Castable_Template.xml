@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="" Icon="" Book="" Element="" Class="" Cooldown="" IsAssail="" Reflectable="">
+  <Name> </Name>
+  <Descriptions>
+    <Description Class=""> </Description>
+  </Descriptions>
+  <Categories>
+    <Category> </Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Hp=""/>
+      <Stat Mp=""/>
+      <Gold> </Gold>
+      <Item Quantity=""> </Item>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="" MaxTargets="" Flags="">
+      <Map/>
+      <Cross Radius=""/>
+      <Square Side=""/>
+      <Line Length="" Direction=""/>
+      <Line Length="" Direction=""/>
+      <Line Length="" Direction=""/>
+      <Line Length="" Direction=""/>
+      <Tile Direction="" RelativeX="" RelativeY=""/>
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="" Warrior="" Peasant="" Wizard="" Priest="" Rogue=""/>
+  <Requirements>
+    <Requirement Class="">
+      <Level Min="" Max=""/>
+      <Gold> </Gold>
+      <Physical Str="" Int="" Wis="" Con="" Dex=""/>
+      <AB Min="" Max=""/>
+      <Items>
+        <Item Quantity=""> </Item>
+      </Items>
+      <Prerequisites>
+        <Prerequisite Level=""></Prerequisite>
+      </Prerequisites>
+    </Requirement>
+  </Requirements>
+  <Restrictions>
+    <Item Slot="" Type=""> </Item>
+  </Restrictions>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="" Speed=""/>
+          <Motion Class="Warrior" Id="" Speed=""/>
+          <Motion Class="Wizard" Id="" Speed=""/>
+          <Motion Class="Priest" Id="" Speed=""/>
+          <Motion Class="Rogue" Id="" Speed=""/>
+          <Motion Class="Monk" Id="" Speed=""/>
+        </Player>
+        <Target Id="" Speed=""/>
+      </OnCast>
+      <OnEnd>
+        <Player>
+          <Motion Class="" Id="" Speed=""/>
+        </Player>
+        <Target Id="" Speed=""/>
+      </OnEnd>
+    </Animations>
+    <Sound Id=""/>
+    <Heal Type=""> <!--Use only one line-->
+      <Simple Min="" Max=""/>
+      <Simple Value=""/>
+      <Formula> </Formula>
+    </Heal>
+    <Damage Type="">
+      <Flags> </Flags>
+      <!-- Use only one of the below-->
+      <Simple Min="" Max=""/>
+      <Simple> </Simple>
+      <Formula> </Formula>
+    </Damage>
+    <Statuses>
+      <Add Duration="" Intensity="" Speed=""> </Add>
+      <Remove></Remove>
+    </Statuses>
+  </Effects>
+  <Script> </Script>
+  <Mastery Uses="" Modifiers="" Tiered=""/>
+</Castable>

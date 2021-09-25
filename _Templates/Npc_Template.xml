@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name></Name>
+  <DisplayName></DisplayName>
+  <Appearance Sprite="" Portrait=""/>
+  <AllowDead></AllowDead>
+  <Roles>
+    <Bank Nation="" Discount=""/>
+    <Post Nation="">
+      <Surcharge Nation="" Percent=""/>
+    </Post>
+    <Repair Nation="" Discount="" Type=""/>
+    <Vend>
+      <Items>
+        <Item Name="" Quantity="" Restock=""/>
+      </Items>
+    </Vend>
+    <Train>
+      <Castable Name="" Type="" Class=""/>
+    </Train>
+  </Roles>
+</Npc>

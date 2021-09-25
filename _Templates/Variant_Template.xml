@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name></Name>
+  <Variant>
+    <Name></Name>
+    <Modifier></Modifier>
+    <Properties>
+      <Flags></Flags>
+      <Physical Durability="" Weight="" Value=""/>
+      <Restrictions>
+        <Level Min=""/>
+      </Restrictions>
+      <StatModifiers>
+        <Base Dex=""/>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+</VariantGroup>

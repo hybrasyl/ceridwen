@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="" Icon="" Duration="" Tick="">
+  <Category></Category>
+  <CastRestriction Use="" Receive=""/>
+  <ProhibitedMessage></ProhibitedMessage>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="" Speed=""/>
+        <SpellEffect Id="" Speed=""/>
+      </Animations>
+      <Sound Id=""/>
+      <Messages>
+        <Target></Target>
+        <Source></Source>
+        <Group></Group>
+        <Say></Say>
+        <Shout></Shout>
+      </Messages>
+      <Heal>
+        <Simple></Simple>
+        <Formula></Formula>
+      </Heal>
+      <Damage>
+        <Flags></Flags>
+        <Simple></Simple>
+        <Formula></Formula>
+      </Damage>
+      <StatModifiers Str="" Int="" Wis="" Con="" Dex="" Hp="" Mp="" Hit="" Dmg="" Ac="" Regen="" Mr="" OffensiveElement="" DefensiveElement="" DamageModifier="" HealModifier="" ReflectChance="" ReflectIntensity=""/>
+      <Conditions>
+        <Set></Set>
+        <Remove></Remove>
+      </Conditions>
+    </OnApply>
+    <OnTick>
+      <Animations>
+        <Target Id="" Speed=""/>
+        <SpellEffect Id="" Speed=""/>
+      </Animations>
+      <Sound Id=""/>
+      <Messages>
+        <Target></Target>
+        <Source></Source>
+        <Group></Group>
+        <Say></Say>
+        <Shout></Shout>
+      </Messages>
+      <Heal>
+        <Simple></Simple>
+        <Formula></Formula>
+      </Heal>
+      <Damage>
+        <Flags></Flags>
+        <Simple></Simple>
+        <Formula></Formula>
+      </Damage>
+      <StatModifiers Str="" Int="" Wis="" Con="" Dex="" Hp="" Mp="" Hit="" Dmg="" Ac="" Regen="" Mr="" OffensiveElement="" DefensiveElement="" DamageModifier="" HealModifier="" ReflectChance="" ReflectIntensity=""/>
+      <Conditions>
+        <Set></Set>
+        <Remove></Remove>
+      </Conditions>
+    </OnTick>
+    <OnRemove>
+      <Animations>
+        <Target Id="" Speed=""/>
+        <SpellEffect Id="" Speed=""/>
+      </Animations>
+      <Sound Id=""/>
+      <Messages>
+        <Target></Target>
+        <Source></Source>
+        <Group></Group>
+        <Say></Say>
+        <Shout></Shout>
+      </Messages>
+      <Heal>
+        <Simple></Simple>
+        <Formula></Formula>
+      </Heal>
+      <Damage>
+        <Flags></Flags>
+        <Simple></Simple>
+        <Formula></Formula>
+      </Damage>
+      <StatModifiers Str="" Int="" Wis="" Con="" Dex="" Hp="" Mp="" Hit="" Dmg="" Ac="" Regen="" Mr="" OffensiveElement="" DefensiveElement="" DamageModifier="" HealModifier="" ReflectChance="" ReflectIntensity=""/>
+      <Conditions>
+        <Set></Set>
+        <Remove></Remove>
+      </Conditions>
+    </OnRemove>
+    <OnExpire>
+      <Animations>
+        <Target Id="" Speed=""/>
+        <SpellEffect Id="" Speed=""/>
+      </Animations>
+      <Sound Id=""/>
+      <Messages>
+        <Target></Target>
+        <Source></Source>
+        <Group></Group>
+        <Say></Say>
+        <Shout></Shout>
+      </Messages>
+      <Heal>
+        <Simple></Simple>
+        <Formula></Formula>
+      </Heal>
+      <Damage>
+        <Flags></Flags>
+        <Simple></Simple>
+        <Formula></Formula>
+      </Damage>
+      <StatModifiers Str="" Int="" Wis="" Con="" Dex="" Hp="" Mp="" Hit="" Dmg="" Ac="" Regen="" Mr="" OffensiveElement="" DefensiveElement="" DamageModifier="" HealModifier="" ReflectChance="" ReflectIntensity=""/>
+      <Conditions>
+        <Set></Set>
+        <Remove></Remove>
+      </Conditions>
+    </OnExpire>
+  </Effects>
+</Status>
