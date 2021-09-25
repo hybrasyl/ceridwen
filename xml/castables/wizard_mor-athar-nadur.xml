@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="93" Book="PrimarySpell" Element="None" Class="Wizard" Cooldown="0" IsAssail="N" Reflectable="N">
+  <Name>mor athar nadur</Name>
+  <Descriptions>
+    <Description Class="Wizard">Change the defence element of the enemy to wind.</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Spell</Category>
+    <Category>Wizard</Category>
+    <Category>Fire</Category>
+    <Category>Defense Change</Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="25"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1">
+      <Line Length="1" Direction="Front"/>
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="60" Warrior="30" Peasant="20" Wizard="100" Priest="80" Rogue="40"/>
+  <Requirements>
+    <Requirement Class="Wizard">
+      <Level Min="15" Max=""/>
+      <Gold>50000</Gold>
+      <Physical Str="25" Int="13" Wis="6" Con="13" Dex="6"/>
+      <Items>
+        <Item Quantity="5">fior athar</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+        <Target Id="21" Speed="100"/>
+      </OnCast>
+    </Animations>
+    <Sound Id="155"/>
+  </Effects>
+  <Script>MorAtharNadur</Script>
+  <Mastery Uses="30"/>
+</Castable>
