@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3049" X="12" Y="16" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Rucesion Town Hall</Name>
+  <Flags />
+  <Warps>
+    <Warp X="6" Y="15">
+      <MapTarget X="4" Y="6">Rucesion Commons</MapTarget>
+    </Warp>
+    <Warp X="7" Y="15">
+      <MapTarget X="5" Y="6">Rucesion Commons</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Eduardo" X="1" Y="9" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="RucDemaBoard" X="7" Y="1">
+      <Name>Rucesion Demagougery Board</Name>
+      <Description>A board for Rucesion demagoguery</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

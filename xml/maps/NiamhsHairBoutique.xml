@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="381" X="12" Y="12" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Niamh's Hair Boutique</Name>
+  <Flags />
+  <Warps>
+    <Warp X="11" Y="5">
+      <MapTarget X="60" Y="80">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="11" Y="6">
+      <MapTarget X="60" Y="80">Mileth Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Niamh" X="6" Y="4" />
+    <Npc Name="Vaughan" X="7" Y="6" />
+  </Npcs>
+  <Signs />
+</Map>

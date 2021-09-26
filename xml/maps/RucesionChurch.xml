@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="719" Music="18" X="41" Y="25" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Rucesion Church</Name>
+  <Flags />
+  <Warps>
+    <Warp X="18" Y="24">
+      <MapTarget X="10" Y="12">Rucesion Village</MapTarget>
+    </Warp>
+    <Warp X="19" Y="24">
+      <MapTarget X="10" Y="12">Rucesion Village</MapTarget>
+    </Warp>
+    <Warp X="20" Y="24">
+      <MapTarget X="11" Y="12">Rucesion Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Ereno" X="18" Y="2" Direction="East" />
+  </Npcs>
+  <Signs />
+</Map>

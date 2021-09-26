@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="192" X="18" Y="25" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Church</Name>
+  <Flags />
+  <Warps>
+    <Warp X="8" Y="24">
+      <MapTarget X="40" Y="76">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="9" Y="24">
+      <MapTarget X="40" Y="76">Mileth Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Naomhan" X="9" Y="2" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="MilethChurchBoard" X="3" Y="24">
+      <Name>Mileth Church Board</Name>
+      <Description>A board for the Mileth Chuch</Description>
+    </Sign>
+  </Signs>
+</Map>

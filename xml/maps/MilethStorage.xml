@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="135" X="12" Y="12" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Storage</Name>
+  <Flags />
+  <Warps>
+    <Warp X="5" Y="11">
+      <MapTarget X="54" Y="70">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="6" Y="11">
+      <MapTarget X="54" Y="70">Mileth Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Cassidy" X="3" Y="5" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="MilMercBoard" X="1" Y="8">
+      <Name>Mileth Merchant Board</Name>
+      <Description>A board for Mileth markets</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

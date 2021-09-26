@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="200" X="5" Y="17" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Inn Corridor 1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="4" Y="15">
+      <MapTarget X="1" Y="9">Mileth Inn</MapTarget>
+    </Warp>
+    <Warp X="0" Y="14">
+      <MapTarget X="6" Y="4">Mileth Inn Room 1</MapTarget>
+    </Warp>
+    <Warp X="0" Y="11">
+      <MapTarget X="6" Y="4">Mileth Inn Room 2</MapTarget>
+    </Warp>
+    <Warp X="0" Y="8">
+      <MapTarget X="6" Y="4">Mileth Inn Room 3</MapTarget>
+    </Warp>
+    <Warp X="0" Y="5">
+      <MapTarget X="6" Y="4">Mileth Inn Room 4</MapTarget>
+    </Warp>
+    <Warp X="0" Y="2">
+      <MapTarget X="6" Y="4">Mileth Inn Room 5</MapTarget>
+    </Warp>
+    <Warp X="2" Y="0">
+      <MapTarget X="1" Y="3">Mileth Inn Corridor 2</MapTarget>
+    </Warp>
+    <Warp X="3" Y="0">
+      <MapTarget X="2" Y="3">Mileth Inn Corridor 2</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

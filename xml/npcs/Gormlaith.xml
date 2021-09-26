@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Gormlaith</Name>
+  <!-- Location: Mileth Tavern1 -->
+  <DisplayName>Gormlaith</DisplayName>
+  <Appearance Sprite="58"/>
+  <AllowDead>false</AllowDead>
+</Npc>

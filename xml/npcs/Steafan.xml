@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Steafan</Name>
+  <!-- Location: Mileth Literature -->
+  <DisplayName>Steafan</DisplayName>
+  <Appearance Sprite="33"/>
+  <AllowDead>false</AllowDead>
+</Npc>

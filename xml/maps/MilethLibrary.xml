@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3042" X="12" Y="12" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Library</Name>
+  <Flags />
+  <Warps>
+    <Warp X="5" Y="11">
+      <MapTarget X="9" Y="9">Mileth College</MapTarget>
+    </Warp>
+    <Warp X="6" Y="11">
+      <MapTarget X="10" Y="9">Mileth College</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Uistean" X="5" Y="7" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="ColHistBoard" X="1" Y="8">
+      <Name>College History Board</Name>
+      <Description>A board for works of history</Description>
+      <Message />
+    </Sign>
+    <Sign Type="Messageboard" BoardKey="ColPhilBoard" X="1" Y="4">
+      <Name>College Philosophy Board</Name>
+      <Description>A board for works of Philosophy</Description>
+      <Message />
+    </Sign>
+    <Sign Type="Messageboard" BoardKey="ColLoreBoard" X="5" Y="1">
+      <Name>College Lore Board</Name>
+      <Description>A board for works of Lore</Description>
+      <Message />
+    </Sign>
+    <Sign Type="Messageboard" BoardKey="ColLiteBoard" X="10" Y="1">
+      <Name>College Literature Board</Name>
+      <Description>A board for works of Literature</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

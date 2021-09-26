@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="496" X="5" Y="15" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Rucesion Inn Corridor 1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="4" Y="13">
+      <MapTarget X="1" Y="10">Rucesion Inn</MapTarget>
+    </Warp>
+    <Warp X="0" Y="13">
+      <MapTarget X="6" Y="4">Rucesion Inn Room 1</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="6" Y="4">Rucesion Inn Room 2</MapTarget>
+    </Warp>
+    <Warp X="0" Y="7">
+      <MapTarget X="6" Y="4">Rucesion Inn Room 3</MapTarget>
+    </Warp>
+    <Warp X="0" Y="4">
+      <MapTarget X="6" Y="4">Rucesion Inn Room 4</MapTarget>
+    </Warp>
+    <Warp X="0" Y="1">
+      <MapTarget X="6" Y="4">Rucesion Inn Room 5</MapTarget>
+    </Warp>
+    <Warp X="2" Y="0">
+      <MapTarget X="1" Y="3">Rucesion Inn Corridor 2</MapTarget>
+    </Warp>
+    <Warp X="3" Y="0">
+      <MapTarget X="2" Y="3">Rucesion Inn Corridor 2</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

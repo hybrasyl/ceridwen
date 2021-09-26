@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="302" X="15" Y="15" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Devlin's White Magic</Name>
+  <Flags />
+  <Warps>
+    <Warp X="14" Y="8">
+      <MapTarget X="81" Y="73">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="14" Y="7">
+      <MapTarget X="81" Y="73">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="8" Y="14">
+      <MapTarget X="12" Y="1">Mileth Combat Trainer</MapTarget>
+    </Warp>
+    <Warp X="7" Y="14">
+      <MapTarget X="12" Y="1">Mileth Combat Trainer</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Devlin" X="5" Y="2" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

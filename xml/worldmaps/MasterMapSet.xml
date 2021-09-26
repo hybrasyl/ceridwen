@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WorldMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ClientMap="field001" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Master Map Set</Name>
+  <Points>
+    <Point X="241" Y="84">
+      <Name>Mileth</Name>
+      <Target X="14" Y="7">Mileth Village Way</Target>
+    </Point>
+    <Point X="502" Y="200">
+      <Name>Rucesion</Name>
+      <Target X="48" Y="42">Rucesion Village</Target>
+    </Point>
+
+<!--
+    <Point X="312" Y="84">
+      <Name>Abel</Name>
+      <Target X="14" Y="13">Abel Port Way</Target>
+    </Point>
+    <Point X="345" Y="254">
+      <Name>Loures</Name>
+      <Target X="14" Y="9">Loures Castle Way</Target>
+    </Point>
+    <Point X="326" Y="241">
+      <Name>Loures Castle</Name>
+      <Target X="61" Y="59">Loures Castle</Target>
+    </Point>
+    <Point X="302" Y="185">
+      <Name>Piet</Name>
+      <Target X="38" Y="15">Piet Market</Target>
+    </Point>
+    <Point X="570" Y="385">
+      <Name>Oren</Name>
+      <Target X="57" Y="169">Oren Island City</Target>
+    </Point>
+    <Point X="150" Y="297">
+      <Name>Tagor</Name>
+      <Target X="21" Y="98">Tagor Village</Target>
+    </Point>
+    <Point X="74" Y="197">
+      <Name>Suomi</Name>
+      <Target X="16" Y="1">Suomi Village Way</Target>
+    </Point>
+    <Point X="460" Y="144">
+      <Name>Dubhaim Castle</Name>
+      <Target X="25" Y="47">Dubhaim Castle</Target>
+    </Point>
+    <Point X="96" Y="272">
+      <Name>House Macabre</Name>
+      <Target X="10" Y="18">Road to House Macabre</Target>
+    </Point>
+    <Point X="369" Y="217">
+      <Name>Coliseum Arena</Name>
+      <Target X="8" Y="22">Coliseum Entrance</Target>
+    </Point>
+    <Point X="352" Y="198">
+      <Name>Mehadi Swamp</Name>
+      <Target X="1" Y="8">Mehadi Entrance</Target>
+    </Point>
+    <Point X="406" Y="262">
+      <Name>Grass Fields</Name>
+      <Target X="9" Y="18">Base Camp</Target>
+    </Point>
+    <Point X="408" Y="290">
+      <Name>Loures Harbor</Name>
+      <Target X="34" Y="1">Loures Harbor</Target>
+    </Point>
+    <Point X="576" Y="349">
+      <Name>Karlopos</Name>
+      <Target X="36" Y="40">Karlopos Island</Target>
+    </Point>
+    <Point X="526" Y="366">
+      <Name>Lynith Beach</Name>
+      <Target X="16" Y="10">Lynith Beach Way</Target>
+    </Point>
+    <Point X="217" Y="440">
+      <Name>Beal na Carraige</Name>
+      <Target X="27" Y="19">Excavation Camp</Target>
+    </Point>
+    <Point X="87" Y="396">
+      <Name>Shinewood</Name>
+      <Target X="13" Y="22">Shinewood Forest Entranc</Target>
+    </Point>
+    <Point X="140" Y="108">
+      <Name>Undine</Name>
+      <Target X="14" Y="15">Undine Village Way</Target>
+    </Point>
+    <Point X="77" Y="137">
+      <Name>Undine Field</Name>
+      <Target X="10" Y="9">Undine Field Entrance</Target>
+    </Point>
+    <Point X="110" Y="153">
+      <Name>Astrid</Name>
+      <Target X="8" Y="10">Astrid Entrance</Target>
+    </Point>
+    <Point X="70" Y="163">
+      <Name>Sapphire Stream</Name>
+      <Target X="14" Y="5">Sapphire Stream Pass</Target>
+    </Point>
+    <Point X="42" Y="178">
+      <Name>Mount Giragan</Name>
+      <Target X="38" Y="7">Mount Giragan 1</Target>
+    </Point>
+    <Point X="284" Y="132">
+      <Name>Pravat Cave</Name>
+      <Target X="25" Y="24">Pravat South Entrance</Target>
+    </Point>
+    <Point X="284" Y="148">
+      <Name>Pravat Cave</Name>
+      <Target X="34" Y="24">Pravat South Entrance</Target>
+    </Point>
+    <Point X="253" Y="117">
+      <Name>East Woodlands</Name>
+      <Target X="11" Y="23">East Woodlands Crossroads</Target>
+    </Point>
+    <Point X="226" Y="104">
+      <Name>West Woodlands</Name>
+      <Target X="48" Y="25">West Woodland 8-1</Target>
+    </Point>
+    <Point X="251" Y="163">
+      <Name>Kasmanium Mines</Name>
+      <Target X="24" Y="48">Mine Entrance</Target>
+    </Point>
+    <Point X="299" Y="72">
+      <Name>Abel Port</Name>
+      <Target X="14" Y="64">Abel Port</Target>
+    </Point>
+    <Point X="127" Y="108">
+      <Name>Undine Village</Name>
+      <Target X="10" Y="87">Undine Village</Target>
+    </Point>
+-->
+  </Points>
+</WorldMap>

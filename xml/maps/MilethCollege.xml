@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3043" X="28" Y="28" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth College</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="11">
+      <MapTarget X="14" Y="13">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="0" Y="12">
+      <MapTarget X="14" Y="14">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="4" Y="22">
+      <MapTarget X="3" Y="12">Mileth History</MapTarget>
+    </Warp>
+    <Warp X="5" Y="22">
+      <MapTarget X="4" Y="12">Mileth History</MapTarget>
+    </Warp>
+    <Warp X="9" Y="8">
+      <MapTarget X="5" Y="10">Mileth Library</MapTarget>
+    </Warp>
+    <Warp X="9" Y="17">
+      <MapTarget X="12" Y="3">Mileth Literature</MapTarget>
+    </Warp>
+    <Warp X="9" Y="18">
+      <MapTarget X="12" Y="4">Mileth Literature</MapTarget>
+    </Warp>
+    <Warp X="10" Y="8">
+      <MapTarget X="6" Y="10">Mileth Library</MapTarget>
+    </Warp>
+    <Warp X="16" Y="11">
+      <MapTarget X="3" Y="12">Mileth Lore</MapTarget>
+    </Warp>
+    <Warp X="17" Y="11">
+      <MapTarget X="4" Y="12">Mileth Lore</MapTarget>
+    </Warp>
+    <Warp X="21" Y="6">
+      <MapTarget X="12" Y="3">Mileth Philosophy</MapTarget>
+    </Warp>
+    <Warp X="21" Y="7">
+      <MapTarget X="12" Y="4">Mileth Philosophy</MapTarget>
+    </Warp>
+    <Warp X="24" Y="23">
+      <MapTarget X="16" Y="3">Mileth Contest Hall</MapTarget>
+    </Warp>
+    <Warp X="24" Y="24">
+      <MapTarget X="16" Y="4">Mileth Contest Hall</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Sign" BoardKey="" X="7" Y="10">
+      <Name>Mileth Library Sign</Name>
+      <Description>A sign describing the Mileth Library</Description>
+      <Message>Mileth Library.  Post educational events upon this bulletin.  Study and discuss the Arts within.</Message>
+    </Sign>
+    <Sign Type="Sign" BoardKey="" X="15" Y="12">
+      <Name>Mileth Lore Sign</Name>
+      <Description>A sign describing Mileth Lore</Description>
+      <Message>College Lore.  Learn lore from an Aisling teacher within.  See times for classes on the grey slate by the library.</Message>
+    </Sign>
+    <Sign Type="Sign" BoardKey="" X="11" Y="20">
+      <Name>Mileth Literature Sign</Name>
+      <Description>A sign describing Mileth Literature</Description>
+      <Message>College Literature.  Learn literature from an Aisling teacher within.  See times for classes on the grey slate by the library.</Message>
+    </Sign>
+    <Sign Type="Sign" BoardKey="" X="3" Y="24">
+      <Name>Mileth History Sign</Name>
+      <Description>A sign describing Mileth History</Description>
+      <Message>College History.  Learn history from an Aisling teacher within.  See times for classes on the grey slate by the library.</Message>
+    </Sign>
+    <Sign Type="Sign" BoardKey="" X="23" Y="9">
+      <Name>Mileth Philosophy Sign</Name>
+      <Description>A sign describing Mileth Philosophy</Description>
+      <Message>College Philosophy.  Learn philosophy from an Aisling teacher within.  See times for classes on the grey slate by the library.</Message>
+    </Sign>
+    <Sign Type="Sign" BoardKey="" X="24" Y="21">
+      <Name>College Contest Hall</Name>
+      <Description>A board describing the Contest Hall</Description>
+      <Message>College Contest Hall.  A sad monument to a failed regime of usurpers, this abandoned building echoes with a bittersweet reminder of what once was, and a whispered promise of what may yet be again.</Message>
+    </Sign>
+    <Sign Type="Messageboard" BoardKey="ColDiscBoard" X="11" Y="10">
+      <Name>College Discourse Board</Name>
+      <Description>A board for College Discourse</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

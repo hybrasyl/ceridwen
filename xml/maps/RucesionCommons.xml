@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3048" X="20" Y="12" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Rucesion Commons</Name>
+  <Flags />
+  <Warps>
+    <Warp X="5" Y="5">
+      <MapTarget X="7" Y="14">Rucesion Town Hall</MapTarget>
+    </Warp>
+    <Warp X="4" Y="5">
+      <MapTarget X="6" Y="14">Rucesion Town Hall</MapTarget>
+    </Warp>
+    <Warp X="15" Y="5">
+      <MapTarget X="8" Y="18">Rucesion Justice Hall</MapTarget>
+    </Warp>
+    <Warp X="0" Y="9">
+      <MapTarget X="22" Y="10">Rucesion Village Way</MapTarget>
+    </Warp>
+    <Warp X="0" Y="8">
+      <MapTarget X="22" Y="9">Rucesion Village Way</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="22" Y="11">Rucesion Village Way</MapTarget>
+    </Warp>
+    <Warp X="19" Y="3">
+      <MapTarget X="1" Y="10">Sgath Pit</MapTarget>
+    </Warp>
+    <Warp X="19" Y="4">
+      <MapTarget X="1" Y="10">Sgath Pit</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="RucDiscBoard" X="7" Y="6">
+      <Name>Rucesion Political Discourse</Name>
+      <Description>A board for Rucesion Political Discourse</Description>
+      <Message />
+    </Sign>
+    <Sign Type="Sign" BoardKey="" X="2" Y="6">
+      <Name>Rucesion Commons Sign</Name>
+      <Description />
+      <Message>On the right, Rucesion Town Hall, where Aislings gather to create and amend the laws of Rucesion.  Further to the right, Rucesion Justice hall, where Aislings mete out justice for the citizens of the commonwealth.</Message>
+    </Sign>
+  </Signs>
+</Map>

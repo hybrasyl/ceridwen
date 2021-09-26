@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="424" X="13" Y="13" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Rucesion Empty Room 1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="12" Y="6">
+      <MapTarget X="24" Y="18">Rucesion Village</MapTarget>
+    </Warp>
+    <Warp X="12" Y="7">
+      <MapTarget X="24" Y="18">Rucesion Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

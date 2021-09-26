@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Brody</Name>
+  <!-- Location: Mileth Trader -->
+  <DisplayName>Brody</DisplayName>
+  <Appearance Sprite="56" Portrait="bank.spf"/>
+  <AllowDead>false</AllowDead>
+</Npc>

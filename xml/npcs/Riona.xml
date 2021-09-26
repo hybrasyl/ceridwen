@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Riona</Name>
+  <!-- Location: Mileth Innkeeper -->
+  <DisplayName>Riona</DisplayName>
+  <Appearance Sprite="516" Portrait="inn.spf"/>
+  <AllowDead>false</AllowDead>
+</Npc>

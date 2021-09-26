@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Oona</Name>
+  <!-- Location: Mileth Restaurant -->
+  <DisplayName>Oona</DisplayName>
+  <Appearance Sprite="24" Portrait="hof.spf"/>
+  <AllowDead>false</AllowDead>
+</Npc>

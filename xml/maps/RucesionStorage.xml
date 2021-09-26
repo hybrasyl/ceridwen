@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="422" Music="16" X="15" Y="15" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Rucesion Storage</Name>
+  <Flags />
+  <Warps>
+    <Warp X="5" Y="14">
+      <MapTarget X="42" Y="12">Rucesion Village</MapTarget>
+    </Warp>
+    <Warp X="6" Y="14">
+      <MapTarget X="42" Y="12">Rucesion Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Antonio" X="3" Y="4" Direction="South" />
+    <Npc Name="Angelo" X="7" Y="3" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="RucMercBoard" X="1" Y="8">
+      <Name>Rucesion Merchant Board</Name>
+      <Description>A board for Rucesion mercantilism</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

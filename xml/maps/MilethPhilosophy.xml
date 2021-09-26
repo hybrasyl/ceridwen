@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3046" X="14" Y="14" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Philosophy</Name>
+  <Flags />
+  <Warps>
+    <Warp X="13" Y="3">
+      <MapTarget X="22" Y="6">Mileth College</MapTarget>
+    </Warp>
+    <Warp X="13" Y="4">
+      <MapTarget X="22" Y="7">Mileth College</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Conn" X="5" Y="3" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="PhiDiscBoard" X="1" Y="3">
+      <Name>College Philosophy Discourse</Name>
+      <Description>A board for philosophy discourse</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

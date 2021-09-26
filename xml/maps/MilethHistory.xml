@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3044" Music="15" X="14" Y="14" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth History</Name>
+  <Flags />
+  <Warps>
+    <Warp X="3" Y="13">
+      <MapTarget X="4" Y="23">Mileth College</MapTarget>
+    </Warp>
+    <Warp X="4" Y="13">
+      <MapTarget X="5" Y="23">Mileth College</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Rory" X="3" Y="5" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="HisDiscBoard" X="10" Y="1">
+      <Name>College History Discourse</Name>
+      <Description>A board for History discourse</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

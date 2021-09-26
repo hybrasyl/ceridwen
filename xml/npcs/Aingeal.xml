@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Aingeal</Name>
+  <!-- Location: Mileth Tavern -->
+  <DisplayName>Aingeal</DisplayName>
+  <Appearance Sprite="163" Portrait="rho.spf"/>
+  <AllowDead>false</AllowDead>
+</Npc>
