@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Blouse</Name>
+  <Comment>Armor - Female Peasant</Comment>
+  <Properties>
+    <Appearance Sprite="115" DisplaySprite="1"/>
+    <Stackable Max="1"/>
+    <Physical Value="100" Weight="2" Durability="2000"/>
+    <Equipment Slot="Armor"/>
+    <StatModifiers>
+      <Combat Ac="-4"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Tailorable</Flags>
+    <Variants>
+      <Group>Tailorable</Group>
+    </Variants>
+    <Vendor ShopTab="Armor-F">
+      <Description>A simple shirt for peasants</Description>
+    </Vendor>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+      <Gender>Female</Gender>
+    </Restrictions>
+  </Properties>
+</Item>

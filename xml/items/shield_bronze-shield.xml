@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Bronze Shield</Name>
+  <Comment>Shield</Comment>
+  <Properties>
+    <Appearance Sprite="189" DisplaySprite="6"/>
+    <Stackable Max="1"/>
+    <Physical Value="3000" Weight="6" Durability="7000"/>
+    <Equipment Slot="Shield"/>
+    <StatModifiers>
+      <Base Mp="-2000"/>
+      <Combat Ac="-8"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Enchantable Consecratable</Flags>
+    <Variants>
+      <Group>Enchantable</Group>
+      <Group>Consecratable</Group>
+    </Variants>
+    <Vendor ShopTab="Shield"/>
+    <Restrictions>
+      <Level Min="31" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

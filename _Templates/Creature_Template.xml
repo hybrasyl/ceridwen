@@ -1,9 +1,19 @@
-<Creature xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="" Sprite="" BehaviorSet="">
+<Creature xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="" Sprite="" BehaviorSet="" MinDmg="" MaxDmg="">
   <!---->
   <Description></Description>
+  <Loot Xp=""> <!-- Loot has far more expansive capabilities, see lootsets.  For sanity, creatures will only import separate loot lists-->
+    <Set Name="" Rolls="" Chance=""></Set>
+  </Loot>
+  <Hostility></Hostility>
+  <SetCookies></SetCookies>
   <Types>
-    <Type Name="" Sprite="" BehaviorSet="">
+    <Type Name="" Sprite="" BehaviorSet="" MinDmg="" MaxDmg="">
       <Description></Description>
+      <Loot Xp="">
+        <Set Name="" Rolls="" Chance=""></Set>
+      </Loot>
+      <Hostility></Hostility>
+      <SetCookies></SetCookies>
     </Type>
   </Types>
 </Creature>

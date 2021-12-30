@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Lotus Bodice</Name>
+  <Comment>Armor - Female Monk 11</Comment>
+  <Properties>
+    <Appearance Sprite="122" DisplaySprite="8"/>
+    <Stackable Max="1"/>
+    <Physical Value="4250" Weight="6" Durability="6000"/>
+    <Equipment Slot="Armor"/>
+    <StatModifiers>
+      <Base Con="1"/>
+      <Combat Ac="-14"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Tailorable</Flags>
+    <Variants>
+      <Group>Tailorable</Group>
+    </Variants>
+    <Vendor ShopTab="Armor-F"/>
+    <Restrictions>
+      <Level Min="11" Max="99"/>
+      <Class>Monk</Class>
+      <Gender>Female</Gender>
+    </Restrictions>
+  </Properties>
+</Item>

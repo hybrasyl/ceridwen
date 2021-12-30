@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Amethyst Ring</Name>
+  <Comment>Rings</Comment>
+  <Properties>
+    <Appearance Sprite="209"/>
+    <Stackable Max="1"/>
+    <Physical Value="5000" Weight="1" Durability="4000"/>
+    <Equipment Slot="Ring"/>
+    <StatModifiers>
+      <Base Hp="200" Mp="100"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Consecratable Enchantable</Flags>
+    <Variants>
+      <Group>Consecratable</Group>
+      <Group>Enchantable</Group>
+    </Variants>
+    <Vendor ShopTab="Ring"/>
+    <Restrictions>
+      <Level Min="12" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Wind Belt</Name>
+  <Comment>Belt</Comment>
+  <Properties>
+    <Appearance Sprite="243"/>
+    <Stackable Max="1"/>
+    <Physical Value="500" Weight="1" Durability="2000"/>
+    <Equipment Slot="Waist"/>
+    <StatModifiers>
+      <Element Defense="Wind"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable</Flags>
+    <Vendor ShopTab="Belt"/>
+    <Restrictions>
+      <Level Min="4" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

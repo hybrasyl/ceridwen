@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Sea Garb</Name>
+  <Comment>Armor - Female Monk 97</Comment>
+  <Properties>
+    <Appearance Sprite="163" DisplaySprite="23"/>
+    <Stackable Max="1"/>
+    <Physical Value="17000" Weight="16" Durability="15000"/>
+    <Equipment Slot="Armor"/>
+    <StatModifiers>
+      <Base Str="2" Con="2"/>
+      <Combat Ac="-59"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Tailorable</Flags>
+    <Variants>
+      <Group>Tailorable</Group>
+    </Variants>
+    <Vendor ShopTab="Armor-F"/>
+    <Restrictions>
+      <Level Min="97" Max="99"/>
+      <Class>Monk</Class>
+      <Gender>Female</Gender>
+    </Restrictions>
+  </Properties>
+</Item>

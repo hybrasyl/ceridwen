@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="347" Music="1" X="12" Y="12" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Chief Warrior Hall</Name>
+  <Flags />
+  <Warps>
+    <Warp X="11" Y="5">
+      <MapTarget X="2" Y="7">Path Temple 5</MapTarget>
+    </Warp>
+    <Warp X="11" Y="6">
+      <MapTarget X="2" Y="7">Path Temple 5</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Neal" X="2" Y="5" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

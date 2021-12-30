@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Earth Garb</Name>
+  <Comment>Armor - Male Monk 41</Comment>
+  <Properties>
+    <Appearance Sprite="103" DisplaySprite="8" BodyStyle="Male"/>
+    <Stackable Max="1"/>
+    <Physical Value="8500" Weight="8" Durability="9000"/>
+    <Equipment Slot="Armor"/>
+    <StatModifiers>
+      <Base Str="1" Con="1"/>
+      <Combat Ac="-21"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Tailorable</Flags>
+    <Variants>
+      <Group>Tailorable</Group>
+    </Variants>
+    <Vendor ShopTab="Armor-M"/>
+    <Restrictions>
+      <Level Min="41" Max="99"/>
+      <Class>Monk</Class>
+      <Gender>Male</Gender>
+    </Restrictions>
+  </Properties>
+</Item>

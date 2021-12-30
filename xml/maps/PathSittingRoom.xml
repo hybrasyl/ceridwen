@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="394" X="12" Y="12" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Path Sitting Room</Name>
+  <Flags />
+  <Warps>
+    <Warp X="2" Y="4">
+      <MapTarget X="10" Y="7">Path Temple 1</MapTarget>
+    </Warp>
+    <Warp X="2" Y="5">
+      <MapTarget X="10" Y="7">Path Temple 1</MapTarget>
+    </Warp>
+    <Warp X="11" Y="5">
+      <MapTarget X="2" Y="5">Temple of Choosing</MapTarget>
+    </Warp>
+    <Warp X="11" Y="6">
+      <MapTarget X="2" Y="5">Temple of Choosing</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Dee" X="4" Y="8" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

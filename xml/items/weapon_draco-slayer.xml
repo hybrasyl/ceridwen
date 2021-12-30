@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Draco Slayer</Name>
+  <Comment>Weapon - 2h Sword</Comment>
+  <Properties>
+    <Appearance Sprite="178" DisplaySprite="19"/>
+    <Stackable Max="1"/>
+    <Physical Value="7350" Weight="12" Durability="14000"/>
+    <Equipment Slot="Weapon" WeaponType="TwoHand"/>
+    <Flags>Depositable Exchangeable Vendorable Smithable</Flags>
+    <Variants>
+      <Group>Smithable</Group>
+    </Variants>
+    <Vendor ShopTab="Sword">
+      <Description>The fabled slayer of dracos, thought lost in the Kasmanium Mines</Description>
+    </Vendor>
+    <Damage>
+      <Small Min="371" Max="399"/>
+      <Large Min="180" Max="240"/>
+    </Damage>
+    <Restrictions>
+      <Level Min="97" Max="99"/>
+      <Class>Warrior</Class>
+      <Castables>
+        <Castable>Wield Two-Handed Weapon</Castable>
+      </Castables>
+    </Restrictions>
+  </Properties>
+</Item>

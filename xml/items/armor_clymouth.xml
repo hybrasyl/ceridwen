@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Clymouth</Name>
+  <Comment>Armor - Female Wizard 71</Comment>
+  <Properties>
+    <Appearance Sprite="161" DisplaySprite="21"/>
+    <Stackable Max="1"/>
+    <Physical Value="11250" Weight="8" Durability="12000"/>
+    <Equipment Slot="Armor"/>
+    <StatModifiers>
+      <Base Int="2" Wis="1"/>
+      <Combat Ac="-35"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Tailorable</Flags>
+    <Variants>
+      <Group>Tailorable</Group>
+    </Variants>
+    <Vendor ShopTab="Armor-F"/>
+    <Restrictions>
+      <Level Min="71" Max="99"/>
+      <Class>Wizard</Class>
+      <Gender>Female</Gender>
+    </Restrictions>
+  </Properties>
+</Item>

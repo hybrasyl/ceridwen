@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mythril Bracer</Name>
+  <Comment>Bracer</Comment>
+  <Properties>
+    <Appearance Sprite="225"/>
+    <Stackable Max="1"/>
+    <Physical Value="5000" Weight="2" Durability="9000"/>
+    <Equipment Slot="Gauntlet"/>
+    <StatModifiers>
+      <Base Dex="3"/>
+      <Combat Ac="-3"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Enchantable Consecratable</Flags>
+    <Variants>
+      <Group>Enchantable</Group>
+      <Group>Consecratable</Group>
+    </Variants>
+    <Vendor ShopTab="Glove"/>
+    <Restrictions>
+      <Level Min="63" Max="99"/>
+      <Class>Monk</Class>
+    </Restrictions>
+  </Properties>
+</Item>

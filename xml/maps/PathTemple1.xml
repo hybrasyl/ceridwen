@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="395" Music="6" X="12" Y="12" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Path Temple 1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="1" Y="7">
+      <MapTarget X="10" Y="5">Path Temple 2</MapTarget>
+    </Warp>
+    <Warp X="6" Y="1">
+      <MapTarget X="6" Y="10">Path Temple 4</MapTarget>
+    </Warp>
+    <Warp X="11" Y="7">
+      <MapTarget X="3" Y="4">Path Sitting Room</MapTarget>
+    </Warp>
+    <Warp X="11" Y="8">
+      <MapTarget X="3" Y="5">Path Sitting Room</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors>
+    <Reactor X="4" Y="4">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="4" Y="5">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="4" Y="6">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="4" Y="7">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="5" Y="4">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="5" Y="5">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="5" Y="6">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="5" Y="7">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="5" Y="8">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="6" Y="4">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="6" Y="5">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="6" Y="6">
+      <Script>PathTemple1</Script>
+    </Reactor>
+    <Reactor X="6" Y="7">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="6" Y="8">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="7" Y="5">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="7" Y="6">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="7" Y="7">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="7" Y="8">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="8" Y="5">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="8" Y="6">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+    <Reactor X="8" Y="7">
+      <Script>TempleReactor1</Script>
+    </Reactor>
+  </Reactors>
+  <Npcs />
+  <Signs />
+</Map>

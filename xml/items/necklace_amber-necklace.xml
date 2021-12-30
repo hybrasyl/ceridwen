@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Amber Necklace</Name>
+  <Comment>Necklace</Comment>
+  <Properties>
+    <Appearance Sprite="204"/>
+    <Stackable Max="1"/>
+    <Physical Value="1600" Weight="1" Durability="3000"/>
+    <Equipment Slot="Necklace"/>
+    <StatModifiers>
+      <Combat Dmg="2"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable</Flags>
+    <Variants>
+      <Group>Elemental</Group>
+    </Variants>
+    <Vendor ShopTab="Necklace"/>
+    <Restrictions>
+      <Level Min="14" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>
