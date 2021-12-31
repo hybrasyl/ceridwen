@@ -2,7 +2,7 @@
 <Strings xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
 	<Common>
 		<String Key="monk_equip_fail">Equipping this would break your connection to the mossy grass or whatever the fuck</String>
-		<String Key="shield_equip_fail">Shields and staves go together like peanut butter and ass. Not happening.</String>
+		<String Key="item_equip_shield_staff">Shields and staves go together like peanut butter and ass. Not happening.</String>
 	</Common>
 	<Merchant>
 		<String Key="greeting">Hello. What can I do for you?</String>
