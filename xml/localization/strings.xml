@@ -1,82 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Strings xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-	<Common />
+	<Common>
+		<String Key="monk_equip_fail">Equipping this would break your connection to the mossy grass or whatever the fuck</String>
+		<String Key="shield_equip_fail">Shields and staves go together like peanut butter and ass. Not happening.</String>
+	</Common>
 	<Merchant>
-		<String Key="greeting" Value="Hello. What can I do for you?"/>
-		<String Key="buy" Value="Perhaps I can offer you something you are looking for?"/>
-		<String Key="buy_quantity" Value="How many would you like?"/>
-		<String Key="buy_failure_gold" Value="Come back when you can afford it."/>
-		<String Key="buy_failure_quantity" Value="Sorry, I don't have that many on hand."/>
-		<String Key="buy_failure_weight" Value="Looks like your bags might be a little too full."/>
-		<String Key="sell" Value="What are you selling?"/>
-		<String Key="sell_quantity" Value="How many of your $QUANTITY $ITEM do you want to sell?"/>
-		<String Key="sell_offer" Value="I'll give you $GOLD coins for $QUANTITY. Deal?"/>
-		<String Key="sell_failure_no_item" Value="I cannot buy what you do not have."/>
-		<String Key="sell_failure_durability" Value="I can't purchase that! Come back when it has been fully repaired."/>
-		<String Key="sell_failure_quantity" Value="Trying to pull a fast one on me? Come back when you actually have that many to sell."/>
-		<String Key="sell_failure_gold_limit" Value="Looks like your pockets are a little too full. Come back when you're carrying less coin."/>
-		<String Key="fix_item" Value="What needs to be repaired?"/>
-		<String Key="fix_item_confirm" Value="I'll need $REPAIRAMT gold coins to fix that. Ok?"/>
-		<String Key="fix_all" Value="Well... That will be $REPAIRAMT gold coins. Do you still want to do it?"/>
-		<String Key="fix_fail" Value="Come back when you have money."/>
-		<String Key="learn_spell" Value="You have unravelled your mind. It is waiting now; is it not? There are some secrets which you may learn."/>
-		<String Key="forget_spell" Value="Here are the secrets that you may cleanse from your spirit. Let them foul your mind no longer."/>
-		<String Key="learn_skill" Value="Keep this eagerness for higher learning. This is the list of the arts you may learn."/>
-		<String Key="forget_skill" Value="These are the skills that you can banish from your mind. You sure you want to do this?"/>
-		<String Key="learn_skill_choice" Value="$SKILLNAME, $SKILLDESC. You swear that you will use this art only for the Light?"/>
-		<String Key="learn_skill_reqs" Value="To learn $SKILLNAME, $REQS will have to be presented. Do you want to do that?"/>
-		<String Key="learn_skill_player_level" Value="To learn $SKILLNAME you must be insight $LEVEL or greater."/>
-		<String Key="learn_skill_prereq_level" Value="To learn $SKILLNAME, $PREREQ must be mastered at level $LEVEL or greater."/>
-		<String Key="learn_skill_prereq_stats" Value="You lack the physical requirements to learn $SKILLNAME. $STATS"/>
-		<String Key="learn_skill_prereq_gold" Value="Come back when you have the correct fee."/>
-		<String Key="learn_skill_prereq_item" Value="Come back when you have the items that I seek."/>
-		<String key="learn_error" Value="An unknown error occurred. Please contact Hybrasyl support and/or open a ticket."/>
-		<String Key="learn_skill_success" Value="If you use this skill for evil cause, I can always take it away from you."/>
-		<String Key="learn_spell_choice" Value="$SPELLNAME, $SPELLDESC. Do you swear that you will use this secret for just good causes?"/>
-		<String Key="learn_spell_reqs" Value="To learn $SPELLNAME, $REQS have to be presented to me. Do you want to do that?"/>
-		<String Key="learn_spell_player_level" Value="To learn $SPELLNAME you must be insight $LEVEL or greater."/>
-		<String Key="learn_spell_prereq_level" Value="To learn $SPELLNAME, $PREREQ must be mastered at level $LEVEL or greater."/>
-		<String Key="learn_spell_prereq_stats" Value="You lack the physical fortitude to learn $SPELLNAME. $STATS"/>
-		<String Key="learn_spell_prereq_gold" Value="Return when you have the fee I require."/>
-		<String Key="learn_spell_prereq_item" Value="Return when you have the items I require and have them in perfect condition."/>
-		<String Key="learn_spell_success" Value="If you use this secret for evil, I will suck it from your brain. Use it for the Light."/>
-		<String Key="forget_castable_success" Value="The path for learning is endless. Be always humble."/>
-		<String Key="send_parcel" Value="What do you wish to send?"/>
-		<String Key="send_parcel_quantity" Value="How many of your $QUANTITY $ITEM do you want to send?"/>
-		<String Key="send_parcel_recipient" Value="To whom do you want this parcel sent?"/>
-		<String Key="send_parcel_success" Value="You've given $FEE coins. It will be done."/>
-		<String Key="send_parcel_fail" Value="I need $FEE coins for postage; $FEE coins you understand. Come back when you won't be wasting my time."/>
-		<String Key="send_sausage" Value="Alright, but I cannot guarantee that these will arrive fresh. They might leak."/>
-		<String Key="receive_parcel" Value="Let me see... ah yes, here it is."/>
-		<String Key="deposit_gold" Value="Lessee... I've got $COINS $REF of yours. How much more you going to put in today?"/>
-		<String Key="withdraw_gold" Value="You have $COINS $REF. How much will you be taking out?"/>
-		<String Key="deposit_item" Value="I can only take new or fully repaired items. What do you want to deposit?"/>
-		<String Key="deposit_item_quantity" Value="How many of your $QUANTITY $ITEM do you want to deposit?"/>
-		<String Key="withdraw_item" Value="Here's what you have deposited with me previously. What do you want to withdraw?"/>
-		<String Key="withdraw_item_quantity" Value="How many do you want?"/>
-		<String Key="deposit_gold_success" Value="I'll gladly hold $COINS $REF."/>
-		<String Key="withdraw_gold_success" Value="Here's the $COINS $REF you requested."/>
-		<String Key="deposit_gold_failure_surplus" Value="I'm sorry, I can't take those coins. I can only store $COINS more $REF for you."/>
-		<String Key="deposit_gold_failure_deficit" Value="I'm sorry, I can't take what you do not have."/>
-		<String Key="withdraw_gold_failure_deficit" Value="I'm sorry, I can't give you more than you currently have deposited."/>
-		<String Key="withdraw_gold_failure_surplus" Value="I'm sorry, your coin pouch seems to be too full."/>
-		<String Key="deposit_item_failure_quantity" Value="I'm sorry, but I cannot take what you do not have."/>
-		<String Key="deposit_item_failure_durability" Value="Come back when that item has been repaired."/>
-		<String Key="deposit_item_failure_fee" Value="Come back when you have the required fee of $COINS $REF."/>
-		<String Key="withdraw_item_failure_quantity_bank" Value="Are you trying to cheat me? You haven't given me $QUANTITY $ITEM!"/>
-		<String Key="withdraw_item_failure_quantity_inventory" Value="It seems as though you already have too many $ITEM."/>
-		<String Key="withdraw_item_failure_quantity_inventory_diff" Value="I can't give you that many $ITEM, you can only hold $QUANTITY more."/>
-		<String Key="withdraw_item_failure_weight" Value="It seems that your bags are a bit too full. Come back when you've lightened your load."/>
-		<String Key="withdraw_item_failure_slot" Value="It looks like you don't have enough room in your bag. Come back when you've cleared up some space."/>
-		<String Key="deposit_item_success" Value="I'll take your $ITEM, $QUANTITY of them. The fee is $COINS $REF."/>
-		<String Key="withdraw_item_success" Value="Here's your $ITEM, $QUANTITY of them."/>
-		<String Key="repair_item_none" Value="All of your items are already repaired."/>
-		<String Key="repair_item" Value="What needs to be repaired?"/>
-		<String Key="repair_item_nocost" Value="That was too easy. Here is you $ITEM back."/>
-		<String Key="repair_item_cost" Value="I'll need $COINS coins to fix that. Ok?"/>
-		<String Key="repair_all_items_cost" Value="Well... That will be $COINS gold coins. Do you still want to do it?"/>
-		<String Key="repair_item_fail" Value="Come back when you have the money."/>
-		<String Key="repair_all_items_success" Value="Your items have been repaired."/>
+		<String Key="greeting">Hello. What can I do for you?</String>
+		<String Key="buy">Perhaps I can offer you something you are looking for?</String>
+		<String Key="buy_quantity">How many would you like?</String>
+		<String Key="buy_failure_gold">Come back when you can afford it.</String>
+		<String Key="buy_failure_quantity">Sorry, I don't have that many on hand.</String>
+		<String Key="buy_failure_weight">Looks like your bags might be a little too full.</String>
+		<String Key="sell">What are you selling?</String>
+		<String Key="sell_quantity">How many of your $QUANTITY $ITEM do you want to sell?</String>
+		<String Key="sell_offer">I'll give you $GOLD coins for $QUANTITY. Deal?</String>
+		<String Key="sell_failure_no_item">I cannot buy what you do not have.</String>
+		<String Key="sell_failure_durability">I can't purchase that! Come back when it has been fully repaired.</String>
+		<String Key="sell_failure_quantity">Trying to pull a fast one on me? Come back when you actually have that many to sell.</String>
+		<String Key="sell_failure_gold_limit">Looks like your pockets are a little too full. Come back when you're carrying less coin.</String>
+		<String Key="fix_item">What needs to be repaired?</String>
+		<String Key="fix_item_confirm">I'll need $REPAIRAMT gold coins to fix that. Ok?</String>
+		<String Key="fix_all">Well... That will be $REPAIRAMT gold coins. Do you still want to do it?</String>
+		<String Key="fix_fail">Come back when you have money.</String>
+		<String Key="learn_spell">You have unravelled your mind. It is waiting now; is it not? There are some secrets which you may learn.</String>
+		<String Key="forget_spell">Here are the secrets that you may cleanse from your spirit. Let them foul your mind no longer.</String>
+		<String Key="learn_skill">Keep this eagerness for higher learning. This is the list of the arts you may learn.</String>
+		<String Key="forget_skill">These are the skills that you can banish from your mind. You sure you want to do this?</String>
+		<String Key="learn_skill_choice">$SKILLNAME, $SKILLDESC. You swear that you will use this art only for the Light?</String>
+		<String Key="learn_skill_reqs">To learn $SKILLNAME, $REQS will have to be presented. Do you want to do that?</String>
+		<String Key="learn_skill_player_level">To learn $SKILLNAME you must be insight $LEVEL or greater.</String>
+		<String Key="learn_skill_prereq_level">To learn $SKILLNAME, $PREREQ must be mastered at level $LEVEL or greater.</String>
+		<String Key="learn_skill_prereq_stats">You lack the physical requirements to learn $SKILLNAME. $STATS</String>
+		<String Key="learn_skill_prereq_gold">Come back when you have the correct fee.</String>
+		<String Key="learn_skill_prereq_item">Come back when you have the items that I seek.</String>
+		<String key="learn_error">An unknown error occurred. Please contact Hybrasyl support and/or open a ticket.</String>
+		<String Key="learn_skill_success">If you use this skill for evil cause, I can always take it away from you.</String>
+		<String Key="learn_spell_choice">$SPELLNAME, $SPELLDESC. Do you swear that you will use this secret for just good causes?</String>
+		<String Key="learn_spell_reqs">To learn $SPELLNAME, $REQS have to be presented to me. Do you want to do that?</String>
+		<String Key="learn_spell_player_level">To learn $SPELLNAME you must be insight $LEVEL or greater.</String>
+		<String Key="learn_spell_prereq_level">To learn $SPELLNAME, $PREREQ must be mastered at level $LEVEL or greater.</String>
+		<String Key="learn_spell_prereq_stats">You lack the physical fortitude to learn $SPELLNAME. $STATS</String>
+		<String Key="learn_spell_prereq_gold">Return when you have the fee I require.</String>
+		<String Key="learn_spell_prereq_item">Return when you have the items I require and have them in perfect condition.</String>
+		<String Key="learn_spell_success">If you use this secret for evil, I will suck it from your brain. Use it for the Light.</String>
+		<String Key="forget_castable_success">The path for learning is endless. Be always humble.</String>
+		<String Key="send_parcel">What do you wish to send?</String>
+		<String Key="send_parcel_quantity">How many of your $QUANTITY $ITEM do you want to send?</String>
+		<String Key="send_parcel_recipient">To whom do you want this parcel sent?</String>
+		<String Key="send_parcel_success">You've given $FEE coins. It will be done.</String>
+		<String Key="send_parcel_fail">I need $FEE coins for postage; $FEE coins you understand. Come back when you won't be wasting my time.</String>
+		<String Key="send_sausage">Alright, but I cannot guarantee that these will arrive fresh. They might leak.</String>
+		<String Key="receive_parcel">Let me see... ah yes, here it is.</String>
+		<String Key="deposit_gold">Lessee... I've got $COINS $REF of yours. How much more you going to put in today?</String>
+		<String Key="withdraw_gold">You have $COINS $REF. How much will you be taking out?</String>
+		<String Key="deposit_item">I can only take new or fully repaired items. What do you want to deposit?</String>
+		<String Key="deposit_item_quantity">How many of your $QUANTITY $ITEM do you want to deposit?</String>
+		<String Key="withdraw_item">Here's what you have deposited with me previously. What do you want to withdraw?</String>
+		<String Key="withdraw_item_quantity">How many do you want?</String>
+		<String Key="deposit_gold_success">I'll gladly hold $COINS $REF.</String>
+		<String Key="withdraw_gold_success">Here's the $COINS $REF you requested.</String>
+		<String Key="deposit_gold_failure_surplus">I'm sorry, I can't take those coins. I can only store $COINS more $REF for you.</String>
+		<String Key="deposit_gold_failure_deficit">I'm sorry, I can't take what you do not have.</String>
+		<String Key="withdraw_gold_failure_deficit">I'm sorry, I can't give you more than you currently have deposited.</String>
+		<String Key="withdraw_gold_failure_surplus">I'm sorry, your coin pouch seems to be too full.</String>
+		<String Key="deposit_item_failure_quantity">I'm sorry, but I cannot take what you do not have.</String>
+		<String Key="deposit_item_failure_durability">Come back when that item has been repaired.</String>
+		<String Key="deposit_item_failure_fee">Come back when you have the required fee of $COINS $REF.</String>
+		<String Key="withdraw_item_failure_quantity_bank">Are you trying to cheat me? You haven't given me $QUANTITY $ITEM!</String>
+		<String Key="withdraw_item_failure_quantity_inventory">It seems as though you already have too many $ITEM.</String>
+		<String Key="withdraw_item_failure_quantity_inventory_diff">I can't give you that many $ITEM, you can only hold $QUANTITY more.</String>
+		<String Key="withdraw_item_failure_weight">It seems that your bags are a bit too full. Come back when you've lightened your load.</String>
+		<String Key="withdraw_item_failure_slot">It looks like you don't have enough room in your bag. Come back when you've cleared up some space.</String>
+		<String Key="deposit_item_success">I'll take your $ITEM, $QUANTITY of them. The fee is $COINS $REF.</String>
+		<String Key="withdraw_item_success">Here's your $ITEM, $QUANTITY of them.</String>
+		<String Key="repair_item_none">All of your items are already repaired.</String>
+		<String Key="repair_item">What needs to be repaired?</String>
+		<String Key="repair_item_nocost">That was too easy. Here is you $ITEM back.</String>
+		<String Key="repair_item_cost">I'll need $COINS coins to fix that. Ok?</String>
+		<String Key="repair_all_items_cost">Well... That will be $COINS gold coins. Do you still want to do it?</String>
+		<String Key="repair_item_fail">Come back when you have the money.</String>
+		<String Key="repair_all_items_success">Your items have been repaired.</String>
 	</Merchant>
 	<NpcSpeak />
 	<MonsterSpeak />

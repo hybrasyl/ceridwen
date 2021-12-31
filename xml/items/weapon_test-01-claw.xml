@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Test Claw</Name>
+  <Comment>Weapon - Claw</Comment>
+  <Properties>
+    <Appearance Sprite="1098" DisplaySprite="86"/>
+    <Stackable Max="1"/>
+    <Physical Value="2000" Weight="1" Durability="1000"/>
+    <Equipment Slot="Weapon" WeaponType="Claw"/>
+    <StatModifiers>
+      <Base Str="1" Hp="100" Mp="100"/>
+      <Combat Hit="1" Dmg="1" Ac="-1"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Smithable</Flags>
+    <Variants>
+      <Group>Smithable</Group>
+    </Variants>
+    <Vendor ShopTab="Claw"/>
+    <Damage>
+      <Small Min="50" Max="75"/>
+      <Large Min="40" Max="50"/>
+    </Damage>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Test Dagger</Name>
+  <Comment>Weapon - Dagger</Comment>
+  <Properties>
+    <Appearance Sprite="256" DisplaySprite="32"/>
+    <Stackable Max="1"/>
+    <Physical Value="5000" Weight="1" Durability="1000"/>
+    <Equipment Slot="Weapon" WeaponType="Dagger"/>
+    <Flags>Depositable Exchangeable Vendorable Smithable</Flags>
+    <Variants>
+      <Group>Smithable</Group>
+    </Variants>
+    <Vendor ShopTab="Thrown">
+      <Description>A dagger forged from the frozen blood of a dubhaimid</Description>
+    </Vendor>
+    <Damage>
+      <Small Min="170" Max="290"/>
+      <Large Min="90" Max="120"/>
+    </Damage>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

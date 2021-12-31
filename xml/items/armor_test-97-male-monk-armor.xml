@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Test Armor 97 Male Monk</Name>
+  <Comment>Armor - Male Monk 97</Comment>
+  <Properties>
+    <Appearance Sprite="795" DisplaySprite="139"/>
+    <Stackable Max="1"/>
+    <Physical Value="17000" Weight="1" Durability="1000"/>
+    <Equipment Slot="Armor"/>
+    <StatModifiers>
+      <Base Str="2" Con="2"/>
+      <Combat Ac="-59"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Tailorable</Flags>
+    <Variants>
+      <Group>Tailorable</Group>
+    </Variants>
+    <Vendor ShopTab="Armor-M"/>
+    <Restrictions>
+      <Level Min="97" Max="99"/>
+      <Gender>Male</Gender>
+      <SlotRestrictions>
+        <SlotRestriction Type="ItemProhibited" Slot="Boot" Message="monk_equip_fail"/>
+      </SlotRestrictions>
+    </Restrictions>
+  </Properties>
+</Item>

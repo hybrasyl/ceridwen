@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Test Staff 1</Name>
+  <Comment>Staff - Holy Religion</Comment>
+  <Properties>
+    <Appearance Sprite="554" DisplaySprite="66"/>
+    <CastModifiers>
+      <Match All="true">
+        <Subtract Amount="1"/>
+      </Match>
+    </CastModifiers>
+    <Stackable Max="1"/>
+    <Physical Value="2500" Weight="1" Durability="1000"/>
+    <Equipment Slot="Weapon" WeaponType="Staff"/>
+    <StatModifiers>
+      <Base Mp="1000"/>
+    </StatModifiers>
+    <Flags>Bound Depositable UniqueInventory</Flags>
+    <Vendor ShopTab="Staff"/>
+    <Damage>
+      <Small Min="2" Max="4"/>
+      <Large Min="6" Max="30"/>
+    </Damage>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

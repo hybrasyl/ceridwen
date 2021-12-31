@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Test Greaves</Name>
+  <Comment>Greaves</Comment>
+  <Properties>
+    <Appearance Sprite="240"/>
+    <Stackable Max="1"/>
+    <Physical Value="8500" Weight="1" Durability="1000"/>
+    <Equipment Slot="Leg"/>
+    <StatModifiers>
+      <Base Mp="-1250"/>
+      <Combat Ac="-8"/>
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Enchantable Consecratable</Flags>
+    <Variants>
+      <Group>Enchantable</Group>
+      <Group>Consecratable</Group>
+    </Variants>
+    <Vendor ShopTab="Greaves"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>
