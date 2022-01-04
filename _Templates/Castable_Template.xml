@@ -30,7 +30,7 @@
   <MaxLevel Monk="" Warrior="" Peasant="" Wizard="" Priest="" Rogue=""/>
   <Requirements>
     <Requirement Class="">
-      <Level Min="" Max=""/>
+      <MinLevel Min="" Max=""/>
       <Gold> </Gold>
       <Physical Str="" Int="" Wis="" Con="" Dex=""/>
       <AB Min="" Max=""/>
@@ -38,7 +38,7 @@
         <Item Quantity=""> </Item>
       </Items>
       <Prerequisites>
-        <Prerequisite Level=""></Prerequisite>
+        <Prerequisite MinLevel=""></Prerequisite>
       </Prerequisites>
     </Requirement>
   </Requirements>

@@ -22,7 +22,7 @@
   <MaxLevel Monk="60" Warrior="30" Peasant="20" Wizard="100" Priest="80" Rogue="40"/>
   <Requirements>
     <Requirement Class="Wizard">
-      <Level Min="5" Max=""/>
+      <MinLevel Min="5" Max=""/>
       <Gold>5000</Gold>
       <Physical Str="20" Int="8" Wis="3" Con="7" Dex="3"/>
       <Items>

@@ -8,7 +8,7 @@
       <Flags></Flags>
       <Physical Durability="" Weight="" Value=""/>
       <Restrictions>
-        <Level Min=""/>
+        <MinLevel Min=""/>
       </Restrictions>
       <StatModifiers>
         <Base Dex=""/>

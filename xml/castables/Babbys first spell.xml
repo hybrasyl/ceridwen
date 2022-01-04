@@ -31,7 +31,7 @@
   <MaxLevel Monk="60" Warrior="70" Peasant="80" Wizard="70" Priest="60" Rogue="40"/>
   <Requirements>
     <Requirement Class="Peasant">
-      <Level Min="1" Max="50"/>
+      <MinLevel Min="1" Max="50"/>
       <Gold>200</Gold>
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
       <Items>
@@ -41,7 +41,7 @@
         <Item Quantity="1">Spider Egg</Item>
       </Items>
       <Prerequisites>
-        <Prerequisite Level="100">srad tut</Prerequisite>
+        <Prerequisite MinLevel="100">srad tut</Prerequisite>
       </Prerequisites>
     </Requirement>
   </Requirements>

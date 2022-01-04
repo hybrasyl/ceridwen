@@ -56,7 +56,7 @@
       <Sound Id=""/>
     </Use>
     <Restrictions>
-      <Level Min="" Max=""/>
+      <MinLevel Min="" Max=""/>
       <Ab Min="" Max=""/>
       <Class></Class>
       <Gender></Gender>

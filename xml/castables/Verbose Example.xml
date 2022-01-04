@@ -42,7 +42,7 @@
   <MaxLevel Monk="Highest level skill can level to for monk" Warrior="Highest level skill can level to for warrior" Peasant="Highest level skill can level to for peasant" Wizard="Highest level skill can level to for wizard" Priest="Highest level skill can level to for priest" Rogue="Highest level skill can level to for rogue"/>
   <Requirements>
     <Requirement Class="Name of class(es) that use these requirements to train spell">
-      <Level Min="min level to learn from trainer" Max="max level to learn from trainer"/>
+      <MinLevel Min="min level to learn from trainer" Max="max level to learn from trainer"/>
       <Gold>cost in gold</Gold>
       <Physical Str="str required" Int="int required" Wis="wis required" Con="con required" Dex="dex required"/>
       <AB Min="min ab to learn from trainer" Max="max ab to learn from trainer"/>
@@ -53,12 +53,12 @@
         <Item Quantity="how many">item required to learn</Item>
       </Items>
       <Prerequisites>
-        <Prerequisite Level="what level">spell needed to learn</Prerequisite>
-        <Prerequisite Level="what level">spell needed to learn</Prerequisite>
+        <Prerequisite MinLevel="what level">spell needed to learn</Prerequisite>
+        <Prerequisite MinLevel="what level">spell needed to learn</Prerequisite>
       </Prerequisites>
     </Requirement>
     <Requirement Class="second class requirements">
-      <Level Min="min level to learn" Max="max level to learn"/>
+      <MinLevel Min="min level to learn" Max="max level to learn"/>
       <Gold>cost in gold</Gold>
       <Physical Str="str needed" Int="int needed" Wis="wis needed" Con="con needed" Dex="dex needed"/>
       <AB Min="min ab to learn" Max="max ab to learn"/>
@@ -69,8 +69,8 @@
         <Item Quantity="how many">item needed to learn</Item>
       </Items>
       <Prerequisites>
-        <Prerequisite Level="what level">spell needed to learn</Prerequisite>
-        <Prerequisite Level="what level">spell needed to learn</Prerequisite>
+        <Prerequisite MinLevel="what level">spell needed to learn</Prerequisite>
+        <Prerequisite MinLevel="what level">spell needed to learn</Prerequisite>
       </Prerequisites>
     </Requirement>
   </Requirements>
