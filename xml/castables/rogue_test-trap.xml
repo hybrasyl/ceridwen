@@ -33,7 +33,7 @@
   <Effects>
     <Reactors>
       <!-- Drop a trap (reactor) on the ground, directly underneath the caster -->
-      <Reactor RelativeX="0" RelativeY="0" Sprite="55" Expiration="300" Script="rogue_test-trap"/>
+      <Reactor RelativeX="0" RelativeY="0" Sprite="55" Expiration="30" Script="rogue_test-trap"/>
     </Reactors>
   </Effects>
 </Castable>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="92" Book="PrimarySkill" Element="None" Class="Rogue" Cooldown="0" IsAssail="false" Reflectable="false">
+  <Name>Test Trap Multi</Name>
+  <Descriptions>
+    <Description Class="Rogue">Construct several traps where you're currently standing</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Skill</Category>
+    <Category>Trap</Category>
+    <Category>Damage</Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="5"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" Flags="Self">
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="65" Warrior="50" Peasant="20" Wizard="70" Priest="60" Rogue="100"/>
+  <Requirements>
+    <Requirement Class="Rogue">
+      <Level Min="1" Max="99"/>
+      <Gold>510</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <Items>
+        <Item Quantity="1">Dirk</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Mastery Uses="500" Tiered="false"/>
+  <Effects>
+    <Reactors>
+
+      <!--
+	  Drop reactors (x) in the follwing pattern around the caster
+           x
+	 x x x
+           x
+      -->
+
+      <Reactor RelativeX="0" RelativeY="0" Sprite="12192" Expiration="300" Uses="2" Script="rogue_test-trap"/>
+      <Reactor RelativeX="0" RelativeY="1" Sprite="12192" Expiration="300" Script="rogue_test-trap"/>
+      <Reactor RelativeX="1" RelativeY="0" Sprite="12192" Expiration="300" Script="rogue_test-trap"/>
+      <Reactor RelativeX="-1" RelativeY="0" Sprite="12192" Expiration="300" Script="rogue_test-trap"/>
+      <Reactor RelativeX="0" RelativeY="-1" Sprite="12192" Expiration="300" Script="rogue_test-trap"/>
+    </Reactors>
+  </Effects>
+</Castable>
