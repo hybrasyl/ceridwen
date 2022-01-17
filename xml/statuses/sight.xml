@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Sight" Icon="12" Duration="10" Tick="1">
+  <Category>Test</Category>
+  <ProhibitedMessage>You can't do that right now</ProhibitedMessage>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="12" Speed="100"/>
+      </Animations>
+      <Sound Id="155"/>
+      <Messages>
+        <Target>Fuck I can't see!</Target>
+      </Messages>
+      <Conditions>
+        <Set>Sight</Set>
+      </Conditions>
+    </OnApply>
+    <OnRemove>
+      <Conditions>
+        <Remove>Sight</Remove>
+      </Conditions>
+    </OnRemove>
+    <OnExpire>
+      <Conditions>
+        <Remove>Sight</Remove>
+      </Conditions>
+    </OnExpire>
+  </Effects>
+</Status>

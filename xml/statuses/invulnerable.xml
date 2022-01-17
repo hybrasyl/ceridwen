@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Invulnerable" Icon="" Duration="" Tick="">
+  <ProhibitedMessage>You can't do that right now</ProhibitedMessage>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="12" Speed="100"/>
+      </Animations>
+      <Sound Id="155"/>
+      <Messages>
+        <Target>Fuck I'm immune!</Target>
+      </Messages>
+      <Conditions>
+        <Set>Invulnerable</Set>
+      </Conditions>
+    </OnApply>
+    <OnRemove>
+      <Conditions>
+        <Remove>Invulnerable</Remove>
+      </Conditions>
+    </OnRemove>
+    <OnExpire>
+      <Conditions>
+        <Remove>Invulnerable</Remove>
+      </Conditions>
+    </OnExpire>
+  </Effects>
+</Status>
