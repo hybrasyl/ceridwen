@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="ProhibitSpeech" Icon="" Duration="" Tick="">
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="ProhibitSpeech" Icon="24" Duration="10" Tick="1">
   <ProhibitedMessage>You can't do that right now</ProhibitedMessage>
   <Effects>
     <OnApply>
