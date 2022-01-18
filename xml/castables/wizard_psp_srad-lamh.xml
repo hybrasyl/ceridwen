@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="60" Book="PrimarySpell" Element="Fire" Class="Wizard" Cooldown="0" IsAssail="false" Reflectable="false">
+  <Name>srad lamh</Name>
+  <Descriptions>
+    <Description Class="Wizard">Attacks all enemies with fire.</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Spell</Category>
+    <Category>Wizard</Category>
+    <Category>Fire</Category>
+    <Category>AOE</Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="320"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="40" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="60" Warrior="30" Peasant="20" Wizard="100" Priest="80" Rogue="40"/>
+  <Requirements>
+    <Requirement Class="Wizard">
+      <Level Min="5" Max=""/>
+      <Gold>5000</Gold>
+      <Physical Str="20" Int="8" Wis="3" Con="7" Dex="3"/>
+      <Items>
+        <Item Quantity="1">Centipede Gland</Item>
+        <Item Quantity="1">Bee Sting</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+        <Target Id="12" Speed="100"/>
+      </OnCast>
+    </Animations>
+    <Sound Id="155"/>
+    <Damage Type="Elemental">
+      <Formula>(320*2.5) + ([RAND_5]*7)</Formula>
+    </Damage>
+  </Effects>
+  <Mastery Uses="20"/>
+</Castable>

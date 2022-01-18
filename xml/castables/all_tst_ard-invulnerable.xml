@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="" Book="PrimarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" Cooldown="0" IsAssail="false" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="16" Book="PrimarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" Cooldown="0" IsAssail="false" Reflectable="false">
   <Name>ard invulnerable</Name>
   <Descriptions>
     <Description Class="Monk">Invulnerable</Description>
@@ -13,39 +13,15 @@
     <Category>Spell</Category>
     <Category>Test</Category>
   </Categories>
-  <CastCosts>
-    <CastCost>
-      <Stat Mp="1"/>
-    </CastCost>
-  </CastCosts>
   <Intents>
-    <Intent UseType="Target" MaxTargets="1">
+    <Intent UseType="Target" MaxTargets="1" Flags="Friendly Hostile Pvp">
     </Intent>
   </Intents>
   <MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/>
   <Requirements>
-    <Requirement Class="Monk Priest Peasant Rogue Warrior Wizard">
+    <Requirement Class="Peasant">
       <Level Min="1" Max=""/>
       <Physical Str="1" Int="1" Wis="1" Con="1" Dex="1"/>
     </Requirement>
   </Requirements>
-  <Effects>
-    <Animations>
-      <OnCast>
-        <Player>
-          <Motion Class="Peasant" Id="6" Speed="40"/>
-          <Motion Class="Warrior" Id="6" Speed="40"/>
-          <Motion Class="Wizard" Id="136" Speed="20"/>
-          <Motion Class="Priest" Id="128" Speed="20"/>
-          <Motion Class="Rogue" Id="6" Speed="40"/>
-          <Motion Class="Monk" Id="6" Speed="40"/>
-        </Player>
-        <Target Id="21" Speed="100"/>
-      </OnCast>
-    </Animations>
-    <Sound Id="155"/>
-    <Statuses>
-      <Add>Invulnerable</Add>
-    </Statuses>
-  </Effects>
 </Castable>

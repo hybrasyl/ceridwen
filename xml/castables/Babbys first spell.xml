@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="1" Book="PrimarySpell" Element="None" Class="Peasant" Cooldown="0" IsAssail="N" Reflectable="N">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="1" Book="PrimarySpell" Element="None" Class="Peasant" Cooldown="0" IsAssail="false" Reflectable="false">
   <Name>Babby's First Spell</Name>
   <Descriptions>
     <Description Class="Peasant">Peasants can see this</Description>
@@ -24,14 +24,14 @@
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="Target" MaxTargets="1" Flags="None">
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
       <Map/>
     </Intent>
   </Intents>
   <MaxLevel Monk="60" Warrior="70" Peasant="80" Wizard="70" Priest="60" Rogue="40"/>
   <Requirements>
     <Requirement Class="Peasant">
-      <MinLevel Min="1" Max="50"/>
+      <Level Min="1" Max="50"/>
       <Gold>200</Gold>
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
       <Items>
@@ -41,7 +41,7 @@
         <Item Quantity="1">Spider Egg</Item>
       </Items>
       <Prerequisites>
-        <Prerequisite MinLevel="100">srad tut</Prerequisite>
+        <Prerequisite Level="100">srad tut</Prerequisite>
       </Prerequisites>
     </Requirement>
   </Requirements>
