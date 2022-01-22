@@ -20,7 +20,7 @@
       <Level Min="97" Max="99"/>
       <Gender>Male</Gender>
       <SlotRestrictions>
-        <SlotRestriction Type="ItemProhibited" Slot="Boot" Message="monk_equip_fail"/>
+        <SlotRestriction Type="ItemProhibited" Slot="Foot" Message="monk_equip_fail"/>
       </SlotRestrictions>
     </Restrictions>
   </Properties>
