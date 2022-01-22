@@ -1,0 +1,704 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Dye</Name>
+  <Variant>
+    <Name>Violet (Dye)</Name>
+    <Modifier>Violet</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="None"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Black (Dye)</Name>
+    <Modifier>Black</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Black"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Red (Dye)</Name>
+    <Modifier>Red</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Red"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Auburn (Dye)</Name>
+    <Modifier>Auburn</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Auburn"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Butter (Dye)</Name>
+    <Modifier>Butter</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Butter"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Aqua (Dye)</Name>
+    <Modifier>Aqua</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Aqua"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Blue (Dye)</Name>
+    <Modifier>Blue</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Blue"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Plum (Dye)</Name>
+    <Modifier>Plum</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Plum"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Forest (Dye)</Name>
+    <Modifier>Forest</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Forest"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Green (Dye)</Name>
+    <Modifier>Green</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Green"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Sienna (Dye)</Name>
+    <Modifier>Sienna</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Sienna"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Brown (Dye)</Name>
+    <Modifier>Brown</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Brown"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Charcoal (Dye)</Name>
+    <Modifier>Charcoal</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Charcoal"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Navy (Dye)</Name>
+    <Modifier>Navy</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Navy"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Acorn (Dye)</Name>
+    <Modifier>Acorn</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Acorn"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>White (Dye)</Name>
+    <Modifier>White</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="White"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Pink (Dye)</Name>
+    <Modifier>Pink</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Pink"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Honeydew (Dye)</Name>
+    <Modifier>Honeydew</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Honeydew"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Orange (Dye)</Name>
+    <Modifier>Orange</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Orange"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Platinum (Dye)</Name>
+    <Modifier>Platinum</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Platinum"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Midnight (Dye)</Name>
+    <Modifier>Midnight</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Midnight"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Orchid (Dye)</Name>
+    <Modifier>Orchid</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Orchid"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Lavender (Dye)</Name>
+    <Modifier>Lavender</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Lavender"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Fuschia (Dye)</Name>
+    <Modifier>Fuschia</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Fuschia"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Cerise (Dye)</Name>
+    <Modifier>Cerise</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Cerise"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Ocean (Dye)</Name>
+    <Modifier>Ocean</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Ocean"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Hot Pink (Dye)</Name>
+    <Modifier>Hot Pink</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="HotPink"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Seafoam (Dye)</Name>
+    <Modifier>Seafoam</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Seafoam"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Amethyst (Dye)</Name>
+    <Modifier>Amethyst</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Amethyst"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Peach (Dye)</Name>
+    <Modifier>Peach</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Peach"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Sky (Dye)</Name>
+    <Modifier>Sky</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Sky"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Lime (Dye)</Name>
+    <Modifier>Lime</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Lime"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Jade (Dye)</Name>
+    <Modifier>Jade</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Jade"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Honey (Dye)</Name>
+    <Modifier>Honey</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Honey"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Cobalt (Dye)</Name>
+    <Modifier>Cobalt</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Cobalt"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Cocoa (Dye)</Name>
+    <Modifier>Cocoa</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Cocoa"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Wine (Dye)</Name>
+    <Modifier>Wine</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Wine"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Kelp (Dye)</Name>
+    <Modifier>Kelp</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Kelp"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Teal (Dye)</Name>
+    <Modifier>Teal</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Teal"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Copper (Dye)</Name>
+    <Modifier>Copper</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Copper"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Curry (Dye)</Name>
+    <Modifier>Curry</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Curry"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Moss (Dye)</Name>
+    <Modifier>Moss</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Moss"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Grass (Dye)</Name>
+    <Modifier>Grass</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Grass"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Lapis (Dye)</Name>
+    <Modifier>Lapis</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Lapis"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Maroon (Dye)</Name>
+    <Modifier>Maroon</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Maroon"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Aquamarine (Dye)</Name>
+    <Modifier>Aquamarine</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Aquamarine"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Leaf (Dye)</Name>
+    <Modifier>Leaf</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Leaf"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Purple (Dye)</Name>
+    <Modifier>Purple</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Purple"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Scarlet (Dye)</Name>
+    <Modifier>Scarlet</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Scarlet"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Lemon (Dye)</Name>
+    <Modifier>Lemon</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Lemon"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Puce (Dye)</Name>
+    <Modifier>Puce</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Puce"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Coral (Dye)</Name>
+    <Modifier>Coral</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Coral"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Crimson (Dye)</Name>
+    <Modifier>Crimson</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Crimson"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Gold (Dye)</Name>
+    <Modifier>Gold</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Gold"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Silver (Dye)</Name>
+    <Modifier>Silver</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Silver"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Stormy (Dye)</Name>
+    <Modifier>Stormy</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Stormy"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Fire (Dye)</Name>
+    <Modifier>Fire</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Fire"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Cherry (Dye)</Name>
+    <Modifier>Cherry</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Cherry"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Mint (Dye)</Name>
+    <Modifier>Mint</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Mint"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Cerulean (Dye)</Name>
+    <Modifier>Cerulean</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Cerulean"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Twilight (Dye)</Name>
+    <Modifier>Twilight</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Twilight"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Quartz (Dye)</Name>
+    <Modifier>Quartz</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Quartz"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Turquoise (Dye)</Name>
+    <Modifier>Turquoise</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Turquoise"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Peridot (Dye)</Name>
+    <Modifier>Peridot</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Peridot"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Bubblegum (Dye)</Name>
+    <Modifier>Bubblegum</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Bubblegum"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Cyan (Dye)</Name>
+    <Modifier>Cyan</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Cyan"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Sable (Dye)</Name>
+    <Modifier>Sable</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Sable"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Mauve (Dye)</Name>
+    <Modifier>Mauve</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Mauve"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Dusk (Dye)</Name>
+    <Modifier>Dusk</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Dusk"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Nebula (Dye)</Name>
+    <Modifier>Nebula</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+      <Physical Value="100" Weight="100" Durability="100"/>
+      <Appearance Color="Nebula"/>
+      <Script>DyeHair</Script>
+    </Properties>
+  </Variant>
+</VariantGroup>

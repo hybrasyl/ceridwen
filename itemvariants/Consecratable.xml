@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Consecratable</Name>
+  <Variant>
+    <Name>Fiosachd</Name>
+    <Modifier>Fiosachd</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Durability="100" Weight="100" Value="400"/>
+      <Restrictions>
+        <Level Min="5"/>
+      </Restrictions>
+      <StatModifiers>
+        <Base Dex="1"/>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Cail</Name>
+    <Modifier>Cail</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Durability="100" Weight="100" Value="400"/>
+      <Restrictions>
+        <Level Min="5"/>
+      </Restrictions>
+      <StatModifiers>
+        <Base Con="1"/>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Glioca</Name>
+    <Modifier>Glioca</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Durability="100" Weight="100" Value="400"/>
+      <Restrictions>
+        <Level Min="5"/>
+      </Restrictions>
+      <StatModifiers>
+        <Base Wis="1"/>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Luathas</Name>
+    <Modifier>Luathas</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Durability="100" Weight="100" Value="400"/>
+      <Restrictions>
+        <Level Min="5"/>
+      </Restrictions>
+      <StatModifiers>
+        <Base Int="1"/>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Ceannlaidir</Name>
+    <Modifier>Ceannlaidir</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Durability="100" Weight="100" Value="400"/>
+      <StatModifiers>
+        <Base Str="1"/>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Gramail</Name>
+    <Modifier>Gramail</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Durability="100" Weight="100" Value="400"/>
+      <Restrictions>
+        <Level Min="5"/>
+      </Restrictions>
+      <StatModifiers>
+        <Combat Mr="10"/>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Deoch</Name>
+    <Modifier>Deoch</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Durability="100" Weight="100" Value="400"/>
+      <Restrictions>
+        <Level Min="5"/>
+      </Restrictions>
+      <StatModifiers>
+        <Combat Regen="10"/>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Sgrios</Name>
+    <Modifier>Sgrios</Modifier>
+    <Properties>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Value="150" Weight="25" Durability="400"/>
+      <Restrictions>
+        <Level Min="5"/>
+      </Restrictions>
+      <StatModifiers/>
+    </Properties>
+  </Variant>
+</VariantGroup>
