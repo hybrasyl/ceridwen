@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="1" Book="PrimarySpell" Element="None" Class="Peasant" Cooldown="0" IsAssail="false" Reflectable="false">
+  <Name>Babby's First Spell</Name>
+  <Descriptions>
+    <Description Class="Peasant">Peasants can see this</Description>
+    <Description Class="Priest">Priests can see this.</Description>
+    <Description Class="Wizard">Wizards can see this</Description>
+    <Description Class="Monk">Monks can see this</Description>
+    <Description Class="Warrior">Warriors can see this</Description>
+    <Description Class="Rogue">Rogues can see this</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Spell</Category>
+    <Category>Babby</Category>
+    <Category>Example</Category>
+    <Category>Do not use</Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Hp="5"/>
+      <Stat Mp="10"/>
+      <Gold>50</Gold>
+      <Item Quantity="1">Spider Egg</Item>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+      <Map/>
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="60" Warrior="70" Peasant="80" Wizard="70" Priest="60" Rogue="40"/>
+  <Requirements>
+    <Requirement Class="Peasant">
+      <Level Min="1" Max="50"/>
+      <Gold>200</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <Items>
+        <Item Quantity="1">Spider Eye</Item>
+        <Item Quantity="1">Spider Silk</Item>
+        <Item Quantity="1">Spider Leg</Item>
+        <Item Quantity="1">Spider Egg</Item>
+      </Items>
+      <Prerequisites>
+        <Prerequisite Level="100">srad tut</Prerequisite>
+      </Prerequisites>
+    </Requirement>
+  </Requirements>
+  <Restrictions>
+    <Item Slot="Weapon" Type="Dagger"/>
+    <Item Slot="Armor">Ragged Shirt</Item>
+  </Restrictions>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+        <Target Id="2" Speed="100"/>
+      </OnCast>
+    </Animations>
+    <Sound Id="155"/>
+    <Damage Type="Direct">
+      <Flags>Threat</Flags>
+      <Simple>50</Simple>
+    </Damage>
+  </Effects>
+  <Mastery Uses="10"/>
+</Castable>

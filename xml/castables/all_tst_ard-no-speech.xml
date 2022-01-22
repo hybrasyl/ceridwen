@@ -20,7 +20,7 @@
   <MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/>
   <Requirements>
     <Requirement Class="Peasant">
-      <Level Min="1" Max=""/>
+      <Level Min="1" Max="99"/>
       <Physical Str="1" Int="1" Wis="1" Con="1" Dex="1"/>
     </Requirement>
   </Requirements>
