@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Smithable</Name>
+  <Variant>
+    <Name>Good (Weapon)</Name>
+    <Modifier>Good</Modifier>
+    <Properties>
+      <Damage>
+        <Small Min="120" Max="120"/>
+        <Large Min="120" Max="120"/>
+      </Damage>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Value="100" Weight="80" Durability="100"/>
+      <Restrictions>
+        <Level Min="1"/>
+      </Restrictions>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Fine (Weapon)</Name>
+    <Modifier>Fine</Modifier>
+    <Properties>
+      <Damage>
+        <Small Min="140" Max="140"/>
+        <Large Min="140" Max="140"/>
+      </Damage>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Value="200" Weight="60" Durability="200"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Great (Weapon)</Name>
+    <Modifier>Great</Modifier>
+    <Properties>
+      <Damage>
+        <Small Min="160" Max="160"/>
+        <Large Min="160" Max="160"/>
+      </Damage>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Value="300" Weight="40" Durability="300"/>
+      <Restrictions>
+        <Level Min="3"/>
+      </Restrictions>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Grand (Weapon)</Name>
+    <Modifier>Grand</Modifier>
+    <Properties>
+      <Damage>
+        <Small Min="180" Max="180"/>
+        <Large Min="180" Max="180"/>
+      </Damage>
+      <Flags>Depositable Exchangeable Vendorable</Flags>
+      <Physical Value="400" Weight="20" Durability="400"/>
+      <Restrictions>
+        <Level Min="4"/>
+      </Restrictions>
+    </Properties>
+  </Variant>
+</VariantGroup>
