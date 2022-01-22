@@ -1,0 +1,967 @@
+[05:00:51 INF] Configuration file /root/Hybrasyl/config.xml loaded
+[05:00:51 INF] Hybrasyl log begin
+[05:00:51 INF] Welcome to Project Hybrasyl: this is Hybrasyl server 0.8.0.0
+
+
+[05:00:51 INF] Hybrasyl 0.8.0.0 (commit 25ddfbb starting.
+[05:00:51 INF] (C) ERISCO LLC - this program is licensed under the GNU AGPL, version 3.
+[05:00:52 INF] Sentry: exception reporting disabled
+[05:00:52 INF] LobbyConstructor: port is 2610
+[05:00:52 INF] LoginConstructor: port is 2611
+[05:00:52 INF] showcookies registered
+[05:00:52 INF] clearcookie registered
+[05:00:52 INF] clearsessioncookie registered
+[05:00:52 INF] dumpmetadata registered
+[05:00:52 INF] setcookie registered
+[05:00:52 INF] immortal registered
+[05:00:52 INF] showephemeral registered
+[05:00:52 INF] setephemeral registered
+[05:00:52 INF] clearephemeral registered
+[05:00:52 WRN] SetSessionCookie: could not be loaded - System.ArgumentException: An item with the same key has already been added. Key: setcookie
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at Hybrasyl.ChatCommands.ChatCommandHandler..ctor() in /Users/baughj/personal/server/hybrasyl/ChatCommands/ChatCommandHandler.cs:line 72
+[05:00:52 INF] deletesessioncookie registered
+[05:00:52 INF] deletecookie registered
+[05:00:52 INF] summon registered
+[05:00:52 INF] kick registered
+[05:00:52 INF] gcm registered
+[05:00:52 INF] mute registered
+[05:00:52 INF] unmute registered
+[05:00:52 INF] reload registered
+[05:00:52 INF] walls registered
+[05:00:52 INF] shutdown registered
+[05:00:52 INF] scripting registered
+[05:00:52 INF] reloadnpc registered
+[05:00:52 INF] teleport registered
+[05:00:52 INF] queuedepth registered
+[05:00:52 INF] resurrect registered
+[05:00:52 INF] return registered
+[05:00:52 INF] debug registered
+[05:00:52 INF] listmob registered
+[05:00:52 INF] spawn registered
+[05:00:52 INF] reloadxml registered
+[05:00:52 INF] loadxml registered
+[05:00:52 INF] generate registered
+[05:00:52 INF] cleardialog registered
+[05:00:52 INF] mapdebug registered
+[05:00:52 INF] mapspawntoggle registered
+[05:00:52 INF] spawntoggle registered
+[05:00:52 INF] motion registered
+[05:00:52 INF] hairstyle registered
+[05:00:52 INF] effect registered
+[05:00:52 INF] sound registered
+[05:00:52 INF] music registered
+[05:00:52 INF] item registered
+[05:00:52 INF] itemlist registered
+[05:00:52 INF] mapmsg registered
+[05:00:52 INF] worldmsg registered
+[05:00:52 INF] group registered
+[05:00:52 INF] ungroup registered
+[05:00:52 INF] maplist registered
+[05:00:52 INF] version registered
+[05:00:52 INF] recentkills registered
+[05:00:52 INF] help registered
+[05:00:52 INF] legend registered
+[05:00:52 INF] title registered
+[05:00:52 INF] legendclear registered
+[05:00:52 INF] legendcolors registered
+[05:00:52 INF] announcemass registered
+[05:00:52 INF] announceclass registered
+[05:00:52 INF] beginmass registered
+[05:00:52 INF] beginclass registered
+[05:00:52 INF] voice registered
+[05:00:52 INF] unvoice registered
+[05:00:52 INF] endmass registered
+[05:00:52 INF] endclass registered
+[05:00:52 INF] hp registered
+[05:00:52 INF] basehp registered
+[05:00:52 INF] mp registered
+[05:00:52 INF] basemp registered
+[05:00:52 INF] attr registered
+[05:00:52 INF] gold registered
+[05:00:52 INF] damage registered
+[05:00:52 INF] exp registered
+[05:00:52 INF] expreset registered
+[05:00:52 INF] nation registered
+[05:00:52 INF] class registered
+[05:00:52 INF] level registered
+[05:00:52 INF] forget registered
+[05:00:52 INF] clevel registered
+[05:00:52 INF] skill registered
+[05:00:52 INF] spell registered
+[05:00:52 INF] master registered
+[05:00:52 INF] dura registered
+[05:00:52 INF] status registered
+[05:00:52 INF] clearstatus registered
+[05:00:52 INF] clearflags registered
+[05:00:52 INF] condition registered
+[05:00:52 INF] statuses registered
+[05:00:52 INF] time registered
+[05:00:52 INF] timeconvert registered
+[05:00:52 INF] Loading script: /castable/rogue_test-trap.lua
+[05:00:52 INF] Loading script: /npc/Resurrector.lua
+[05:00:52 INF] Loading script: /reactor/Mileth/CowPenTeleportOut.lua
+[05:00:52 INF] Loading script: /reactor/Mileth/VaughanTrainingGold.lua
+[05:00:52 INF] Loading script: /reactor/Mileth/CowPenTeleportIn.lua
+[05:00:52 INF] Loading script: /reactor/Mileth/Trashcan.lua
+[05:00:52 INF] Loading script: /reactor/Mileth/VaughanTrainingLure.lua
+[05:00:52 INF] Loading script: /npc/Mileth/Vaughan.lua
+[05:00:52 INF] Loading script: /npc/Mileth/Devlin.lua
+[05:00:52 INF] ItemObject variants: 0 variant sets loaded
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/shield_test-01-shield.xml: System.Collections.Generic.KeyNotFoundException: The given key 'enchantable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-41-female-armor.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/weapon_test-01-dagger.xml: System.Collections.Generic.KeyNotFoundException: The given key 'smithable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/weapon_test-01-two-hand.xml: System.Collections.Generic.KeyNotFoundException: The given key 'smithable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-01-male-armor1.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-71-female-armor.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-41-male-monk-armor.xml: System.InvalidOperationException: There is an error in XML document (23, 48).
+ ---> System.InvalidOperationException: Instance validation error: 'Boot' is not a valid value for EquipmentSlot.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read12_EquipmentSlot(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read36_SlotRestriction(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read37_ItemRestrictions(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read39_ItemProperties(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read40_Item(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read41_Item()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Item.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 175
+   at Hybrasyl.Xml.Item.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 273
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 494
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-41-male-armor.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-01-female-armor.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-11-female-monk-armor.xml: System.InvalidOperationException: There is an error in XML document (23, 48).
+ ---> System.InvalidOperationException: Instance validation error: 'Boot' is not a valid value for EquipmentSlot.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read12_EquipmentSlot(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read36_SlotRestriction(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read37_ItemRestrictions(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read39_ItemProperties(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read40_Item(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read41_Item()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Item.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 175
+   at Hybrasyl.Xml.Item.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 273
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 494
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-97-female-armor.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-71-female-monk-armor.xml: System.InvalidOperationException: There is an error in XML document (23, 48).
+ ---> System.InvalidOperationException: Instance validation error: 'Boot' is not a valid value for EquipmentSlot.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read12_EquipmentSlot(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read36_SlotRestriction(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read37_ItemRestrictions(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read39_ItemProperties(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read40_Item(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read41_Item()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Item.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 175
+   at Hybrasyl.Xml.Item.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 273
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 494
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-97-female-monk-armor.xml: System.InvalidOperationException: There is an error in XML document (23, 48).
+ ---> System.InvalidOperationException: Instance validation error: 'Boot' is not a valid value for EquipmentSlot.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read12_EquipmentSlot(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read36_SlotRestriction(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read37_ItemRestrictions(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read39_ItemProperties(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read40_Item(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read41_Item()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Item.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 175
+   at Hybrasyl.Xml.Item.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 273
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 494
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-11-male-monk-armor.xml: System.InvalidOperationException: There is an error in XML document (23, 48).
+ ---> System.InvalidOperationException: Instance validation error: 'Boot' is not a valid value for EquipmentSlot.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read12_EquipmentSlot(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read36_SlotRestriction(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read37_ItemRestrictions(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read39_ItemProperties(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read40_Item(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read41_Item()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Item.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 175
+   at Hybrasyl.Xml.Item.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 273
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 494
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/gauntlet_test-01-gauntlet.xml: System.Collections.Generic.KeyNotFoundException: The given key 'enchantable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/necklace_test-01-necklace.xml: System.Collections.Generic.KeyNotFoundException: The given key 'elemental' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-11-female-armor.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/boots_test-01-boot.xml: System.Collections.Generic.KeyNotFoundException: The given key 'enchantable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-01-male-monk-armor.xml: System.InvalidOperationException: There is an error in XML document (22, 48).
+ ---> System.InvalidOperationException: Instance validation error: 'Boot' is not a valid value for EquipmentSlot.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read12_EquipmentSlot(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read36_SlotRestriction(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read37_ItemRestrictions(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read39_ItemProperties(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read40_Item(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read41_Item()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Item.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 175
+   at Hybrasyl.Xml.Item.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 273
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 494
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-11-male-armor.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-41-female-monk-armor.xml: System.InvalidOperationException: There is an error in XML document (23, 48).
+ ---> System.InvalidOperationException: Instance validation error: 'Boot' is not a valid value for EquipmentSlot.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read12_EquipmentSlot(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read36_SlotRestriction(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read37_ItemRestrictions(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read39_ItemProperties(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read40_Item(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read41_Item()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Item.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 175
+   at Hybrasyl.Xml.Item.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 273
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 494
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/ring_test-01-ring.xml: System.Collections.Generic.KeyNotFoundException: The given key 'consecratable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-97-male-armor.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/weapon_test-01-claw.xml: System.Collections.Generic.KeyNotFoundException: The given key 'smithable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-01-female-monk-armor.xml: System.InvalidOperationException: There is an error in XML document (22, 48).
+ ---> System.InvalidOperationException: Instance validation error: 'Boot' is not a valid value for EquipmentSlot.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read12_EquipmentSlot(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read36_SlotRestriction(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read37_ItemRestrictions(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read39_ItemProperties(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read40_Item(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read41_Item()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Item.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 175
+   at Hybrasyl.Xml.Item.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 273
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 494
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/weapon_test-01-one-hand.xml: System.Collections.Generic.KeyNotFoundException: The given key 'smithable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-97-male-monk-armor.xml: System.InvalidOperationException: There is an error in XML document (23, 48).
+ ---> System.InvalidOperationException: Instance validation error: 'Boot' is not a valid value for EquipmentSlot.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read12_EquipmentSlot(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read36_SlotRestriction(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read37_ItemRestrictions(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read39_ItemProperties(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read40_Item(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read41_Item()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Item.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 175
+   at Hybrasyl.Xml.Item.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 273
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 494
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/greaves_test-01-greaves.xml: System.Collections.Generic.KeyNotFoundException: The given key 'enchantable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-71-male-monk-armor.xml: System.InvalidOperationException: There is an error in XML document (23, 48).
+ ---> System.InvalidOperationException: Instance validation error: 'Boot' is not a valid value for EquipmentSlot.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read12_EquipmentSlot(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read36_SlotRestriction(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read37_ItemRestrictions(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read39_ItemProperties(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read40_Item(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderItem.Read41_Item()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Item.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 175
+   at Hybrasyl.Xml.Item.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Item.cs:line 273
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 494
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/earring_test-01-earring.xml: System.Collections.Generic.KeyNotFoundException: The given key 'enchantable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-01-male-armor.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-71-male-armor.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 ERR] Error parsing /HybrasylData/world/xml/items/armor_test-01-female-armor1.xml: System.Collections.Generic.KeyNotFoundException: The given key 'tailorable' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 502
+[05:00:52 INF] Maps: Loaded MilethInnCorridor1.xml (Mileth Inn Corridor 1)
+[05:00:52 INF] Maps: Loaded XUnitRealm.xml (XUnit Test Realm - With Casting)
+[05:00:53 INF] Board: loaded MilethChurchBoard
+[05:00:53 INF] Inserted signpost Mileth Church@3,24
+[05:00:53 INF] Maps: Loaded MilethChurch.xml (Mileth Church)
+[05:00:53 INF] Maps: Loaded MilethInnCorridor2.xml (Mileth Inn Corridor 2)
+[05:00:53 INF] Maps: Loaded MilethInnRoom7.xml (Mileth Inn Room 7)
+[05:00:53 INF] Maps: Loaded MilethSpecialSkills.xml (Mileth Special Skills)
+[05:00:53 INF] Maps: Loaded RucesionInnRoom8.xml (Rucesion Inn Room 8)
+[05:00:53 INF] Maps: Loaded RucesionInnRoom9.xml (Rucesion Inn Room 9)
+[05:00:53 INF] Maps: Loaded RucesionInnRoom3.xml (Rucesion Inn Room 3)
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/maps/ChiefWarriorHall.xml: System.Collections.Generic.KeyNotFoundException: The given key 'neal' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.Map..ctor(Map newMap, World theWorld) in /Users/baughj/personal/server/hybrasyl/Map.cs:line 148
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 557
+[05:00:53 INF] Maps: Loaded RucesionPortThresh.xml (Rucesion Port Threshold)
+[05:00:53 INF] Maps: Loaded MilethArmorShop.xml (Mileth Armor Shop)
+[05:00:53 INF] Board: loaded RucJudgBoard
+[05:00:53 INF] Inserted signpost Rucesion Justice Hall@1,12
+[05:00:53 INF] Board: loaded RucJustBoard
+[05:00:53 INF] Inserted signpost Rucesion Justice Hall@1,16
+[05:00:53 INF] Maps: Loaded RucesionJusticeHall.xml (Rucesion Justice Hall)
+[05:00:53 INF] Maps: Loaded MilethThresh.xml (Mileth Threshold)
+[05:00:53 INF] Maps: Loaded RucesionThresh.xml (Rucesion Threshold)
+[05:00:53 INF] Maps: Loaded MilethInnRoom1.xml (Mileth Inn Room 1)
+[05:00:53 INF] Board: loaded HisDiscBoard
+[05:00:53 INF] Inserted signpost Mileth History@10,1
+[05:00:53 INF] Maps: Loaded MilethHistory.xml (Mileth History)
+[05:00:53 INF] Maps: Loaded RucesionInnCorridor1.xml (Rucesion Inn Corridor 1)
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/maps/RucesionStorage.xml: System.Collections.Generic.KeyNotFoundException: The given key 'angelo' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.Map..ctor(Map newMap, World theWorld) in /Users/baughj/personal/server/hybrasyl/Map.cs:line 148
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 557
+[05:00:53 INF] Inserted signpost Rucesion Village Way@18,0
+[05:00:53 INF] Maps: Loaded RucesionVillageWay.xml (Rucesion Village Way)
+[05:00:53 INF] Maps: Loaded MilethInnRoom0.xml (Mileth Inn Room 0)
+[05:00:53 INF] Board: loaded RucDemaBoard
+[05:00:53 INF] Inserted signpost Rucesion Town Hall@7,1
+[05:00:53 INF] Maps: Loaded RucesionTownHall.xml (Rucesion Town Hall)
+[05:00:53 INF] Maps: Loaded RucesionChurch.xml (Rucesion Church)
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/maps/ChiefWizardHall.xml: System.Collections.Generic.KeyNotFoundException: The given key 'logan' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.Map..ctor(Map newMap, World theWorld) in /Users/baughj/personal/server/hybrasyl/Map.cs:line 148
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 557
+[05:00:53 INF] Board: loaded MilMercBoard
+[05:00:53 INF] Inserted signpost Mileth Storage@1,8
+[05:00:53 INF] Maps: Loaded MilethStorage.xml (Mileth Storage)
+[05:00:53 INF] Maps: Loaded RucesionGoodsShop.xml (Rucesion Goods Shop)
+[05:00:53 INF] Maps: Loaded PathTemple6.xml (Path Temple 6)
+[05:00:53 INF] Maps: Loaded MilethInn.xml (Mileth Inn)
+[05:00:53 INF] Maps: Loaded RucesionInnRoom2.xml (Rucesion Inn Room 2)
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/maps/MilethTavern.xml: System.Collections.Generic.KeyNotFoundException: The given key 'roibeard' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.Map..ctor(Map newMap, World theWorld) in /Users/baughj/personal/server/hybrasyl/Map.cs:line 148
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 557
+[05:00:53 INF] Maps: Loaded MilethTailor.xml (Mileth Tailor)
+[05:00:53 INF] Maps: Loaded MilethInnRoom4.xml (Mileth Inn Room 4)
+[05:00:53 INF] Board: loaded LorDiscBoard
+[05:00:53 INF] Inserted signpost Mileth Lore@10,1
+[05:00:53 INF] Maps: Loaded MilethLore.xml (Mileth Lore)
+[05:00:53 INF] Maps: Loaded MilethMessenger.xml (Mileth Messenger)
+[05:00:53 INF] Maps: Loaded DevlinsWhiteMagic.xml (Devlin's White Magic)
+[05:00:53 INF] Maps: Loaded RucesionInnRoom5.xml (Rucesion Inn Room 5)
+[05:00:53 INF] Board: loaded RucLawsBoard
+[05:00:53 INF] Inserted signpost Rucesion Village@23,35
+[05:00:53 INF] Board: loaded RucCommBoard
+[05:00:53 INF] Inserted signpost Rucesion Village@19,3
+[05:00:53 INF] Maps: Loaded RucesionVillage.xml (Rucesion Village)
+[05:00:53 INF] Board: loaded PhiDiscBoard
+[05:00:53 INF] Inserted signpost Mileth Philosophy@1,3
+[05:00:53 INF] Maps: Loaded MilethPhilosophy.xml (Mileth Philosophy)
+[05:00:53 INF] Maps: Loaded PathTemple4.xml (Path Temple 4)
+[05:00:53 INF] Maps: Loaded MilethInnRoom8.xml (Mileth Inn Room 8)
+[05:00:53 INF] Maps: Loaded DarsBlackMagic.xml (Dar's Black Magic)
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/maps/ChiefRogueHall.xml: System.Collections.Generic.KeyNotFoundException: The given key 'keefe' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.Map..ctor(Map newMap, World theWorld) in /Users/baughj/personal/server/hybrasyl/Map.cs:line 148
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 557
+[05:00:53 INF] Maps: Loaded MilethInnRoom6.xml (Mileth Inn Room 6)
+[05:00:53 INF] Maps: Loaded PathTemple7.xml (Path Temple 7)
+[05:00:53 INF] Maps: Loaded MilethAlchemist.xml (Mileth Alchemist)
+[05:00:53 INF] Maps: Loaded RucesionInn.xml (Rucesion Inn)
+[05:00:53 INF] Board: loaded LitDiscBoard
+[05:00:53 INF] Inserted signpost Mileth Literature@1,3
+[05:00:53 INF] Maps: Loaded MilethLiterature.xml (Mileth Literature)
+[05:00:53 INF] Maps: Loaded NiamhsHairBoutique.xml (Niamh's Hair Boutique)
+[05:00:53 INF] Maps: Loaded MilethCombatTrainer.xml (Mileth Combat Trainer)
+[05:00:53 INF] Maps: Loaded CryptVestibule.xml (Crypt Vestibule)
+[05:00:53 INF] Maps: Loaded MilethInnRoom2.xml (Mileth Inn Room 2)
+[05:00:53 INF] Maps: Loaded PathTemple5.xml (Path Temple 5)
+[05:00:53 INF] Maps: Loaded MilethWeaponShop.xml (Mileth Weapon Shop)
+[05:00:53 INF] Maps: Loaded RucesionSpecialSkillM.xml (Rucesion Special Skill M)
+[05:00:53 INF] Maps: Loaded MilethInnRoom3.xml (Mileth Inn Room 3)
+[05:00:53 INF] Maps: Loaded RucesionInnRoom6.xml (Rucesion Inn Room 6)
+[05:00:53 INF] Maps: Loaded PathTemple3.xml (Path Temple 3)
+[05:00:53 INF] Maps: Loaded MilethRestaurant.xml (Mileth Restaurant)
+[05:00:53 INF] Maps: Loaded MilethInnRoom9.xml (Mileth Inn Room 9)
+[05:00:53 INF] Maps: Loaded MilethInnRoom5.xml (Mileth Inn Room 5)
+[05:00:53 INF] Maps: Loaded RucesionInnCorridor2.xml (Rucesion Inn Corridor 2)
+[05:00:53 INF] Maps: Loaded PathTemple8.xml (Path Temple 8)
+[05:00:53 INF] Inserted signpost Mileth College@7,10
+[05:00:53 INF] Inserted signpost Mileth College@15,12
+[05:00:53 INF] Inserted signpost Mileth College@11,20
+[05:00:53 INF] Inserted signpost Mileth College@3,24
+[05:00:53 INF] Inserted signpost Mileth College@23,9
+[05:00:53 INF] Inserted signpost Mileth College@24,21
+[05:00:53 INF] Board: loaded ColDiscBoard
+[05:00:53 INF] Inserted signpost Mileth College@11,10
+[05:00:53 INF] Maps: Loaded MilethCollege.xml (Mileth College)
+[05:00:53 INF] Maps: Loaded RucesionInnRoom10.xml (Rucesion Inn Room 10)
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/maps/ChiefMonkHall.xml: System.Collections.Generic.KeyNotFoundException: The given key 'donnan' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.Map..ctor(Map newMap, World theWorld) in /Users/baughj/personal/server/hybrasyl/Map.cs:line 148
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 557
+[05:00:53 INF] Maps: Loaded XUnitRealmNoCasting.xml (XUnit Test Realm - No Casting)
+[05:00:53 INF] Inserted signpost Mileth Commons@3,9
+[05:00:53 INF] Inserted signpost Mileth Commons@25,10
+[05:00:53 INF] Board: loaded MilethPoliticsDiscourse
+[05:00:53 INF] Inserted signpost Mileth Commons@8,7
+[05:00:53 INF] Maps: Loaded MilethCommons.xml (Mileth Commons)
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/maps/MilethLibrary.xml: System.Collections.Generic.KeyNotFoundException: The given key 'uistean' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.Map..ctor(Map newMap, World theWorld) in /Users/baughj/personal/server/hybrasyl/Map.cs:line 148
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 557
+[05:00:53 INF] Board: loaded RucDiscBoard
+[05:00:53 INF] Inserted signpost Rucesion Commons@7,6
+[05:00:53 INF] Inserted signpost Rucesion Commons@2,6
+[05:00:53 INF] Maps: Loaded RucesionCommons.xml (Rucesion Commons)
+[05:00:53 INF] Maps: Loaded MilethInnRoom10.xml (Mileth Inn Room 10)
+[05:00:53 INF] Maps: Loaded RucesionWeaponShop.xml (Rucesion Weapon Shop)
+[05:00:53 INF] Maps: Loaded RucesionArmorShop.xml (Rucesion Armor Shop)
+[05:00:53 INF] Maps: Loaded RucesionInnRoom1.xml (Rucesion Inn Room 1)
+[05:00:53 INF] Board: loaded MilDemaBoard
+[05:00:53 INF] Inserted signpost Mileth Town Hall@7,1
+[05:00:53 INF] Maps: Loaded MilethTownHall.xml (Mileth Town Hall)
+[05:00:53 INF] Board: loaded GliocaBoard
+[05:00:53 INF] Inserted signpost Mileth Village Way@8,15
+[05:00:53 INF] Inserted signpost Mileth Village Way@2,10
+[05:00:53 INF] Inserted signpost Mileth Village Way@15,15
+[05:00:53 INF] Board: loaded MilethLawBoard
+[05:00:53 INF] Inserted signpost Mileth Village Way@2,3
+[05:00:53 INF] Maps: Loaded MilethVillageWay.xml (Mileth Village Way)
+[05:00:53 INF] Maps: Loaded PathTemple2.xml (Path Temple 2)
+[05:00:53 INF] Maps: Loaded RucesionInnRoom4.xml (Rucesion Inn Room 4)
+[05:00:53 INF] Board: loaded MilJudgBoard
+[05:00:53 INF] Inserted signpost Mileth Justice Hall@1,12
+[05:00:53 INF] Board: loaded MilJustBoard
+[05:00:53 INF] Inserted signpost Mileth Justice Hall@1,16
+[05:00:53 INF] Maps: Loaded MilethJusticeHall.xml (Mileth Justice Hall)
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/maps/PathSittingRoom.xml: System.Collections.Generic.KeyNotFoundException: The given key 'dee' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.Map..ctor(Map newMap, World theWorld) in /Users/baughj/personal/server/hybrasyl/Map.cs:line 148
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 557
+[05:00:53 INF] Maps: Loaded RucesionInnRoom7.xml (Rucesion Inn Room 7)
+[05:00:53 INF] Maps: Loaded RucesionEmptyRoom1.xml (Rucesion Empty Room 1)
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/maps/ChiefPriestHall.xml: System.Collections.Generic.KeyNotFoundException: The given key 'erin' was not present in the dictionary.
+   at System.Collections.Concurrent.ConcurrentDictionary`2.ThrowKeyNotFoundException(TKey key)
+   at CallSite.Target(Closure , CallSite , ConcurrentDictionary`2 , Object )
+   at Hybrasyl.WorldDataStore.Get[T](Object key) in /Users/baughj/personal/server/hybrasyl/WorldDataStore.cs:line 410
+   at Hybrasyl.Map..ctor(Map newMap, World theWorld) in /Users/baughj/personal/server/hybrasyl/Map.cs:line 148
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 557
+[05:00:53 INF] Maps: Loaded PathTemple1.xml (Path Temple 1)
+[05:00:53 INF] Board: loaded MilethVillage
+[05:00:53 INF] Inserted signpost Mileth Village@66,16
+[05:00:53 INF] Inserted signpost Mileth Village@13,43
+[05:00:53 INF] Inserted signpost Mileth Village@16,71
+[05:00:53 INF] Inserted signpost Mileth Village@21,64
+[05:00:53 INF] Inserted signpost Mileth Village@21,87
+[05:00:53 INF] Inserted signpost Mileth Village@22,24
+[05:00:53 INF] Inserted signpost Mileth Village@25,19
+[05:00:53 INF] Inserted signpost Mileth Village@25,45
+[05:00:53 INF] Inserted signpost Mileth Village@34,40
+[05:00:53 INF] Inserted signpost Mileth Village@34,85
+[05:00:53 INF] Inserted signpost Mileth Village@38,78
+[05:00:53 INF] Inserted signpost Mileth Village@45,61
+[05:00:53 INF] Inserted signpost Mileth Village@52,72
+[05:00:53 INF] Inserted signpost Mileth Village@60,64
+[05:00:53 INF] Inserted signpost Mileth Village@63,83
+[05:00:53 INF] Inserted signpost Mileth Village@71,57
+[05:00:53 INF] Inserted signpost Mileth Village@71,82
+[05:00:53 INF] Inserted signpost Mileth Village@84,76
+[05:00:53 INF] Inserted signpost Mileth Village@89,58
+[05:00:53 INF] Inserted signpost Mileth Village@86,15
+[05:00:53 INF] Maps: Loaded MilethVillage.xml (Mileth Village)
+[05:00:53 INF] Maps: Loaded MilethContestHall.xml (Mileth Contest Hall)
+[05:00:53 INF] Maps: 76 maps loaded
+[05:00:53 INF] National data: 2 nations loaded
+[05:00:53 INF] Creatures: Bee loaded, with 1 subtypes
+[05:00:53 INF] Creatures: Bee loaded, with 1 subtypes
+[05:00:53 INF] Creatures: 2 creatures loaded
+[05:00:53 INF] Loot Sets: 0 loot sets loaded
+[05:00:53 INF] Point: 228578805, to Mileth
+[05:00:53 INF] Point: 307061808, to Rucesion
+[05:00:53 INF] World Maps: Loaded Master Map Set
+[05:00:53 INF] World Maps: 1 world maps loaded
+[05:00:53 WRN] Statuses: loaded Sight, id -158574100
+[05:00:53 WRN] Statuses: loaded IncreaseDamage, id 200465699
+[05:00:53 WRN] Statuses: loaded Invisible, id -1511068719
+[05:00:53 WRN] Statuses: loaded PhysicalReflect, id 393831735
+[05:00:53 WRN] Statuses: loaded Charm, id 417257842
+[05:00:53 WRN] Statuses: loaded Mute, id 1103950369
+[05:00:53 WRN] Statuses: loaded ProhibitSpeech, id 1656310648
+[05:00:53 WRN] Statuses: loaded ProhibitItemUse, id 302243187
+[05:00:53 WRN] Statuses: loaded AbsorbSpell, id 313439420
+[05:00:53 WRN] Statuses: loaded ProhibitWhisper, id -1728643853
+[05:00:53 WRN] Statuses: loaded ProhibitShout, id -1025937866
+[05:00:53 WRN] Statuses: loaded ReduceDamage, id -863080082
+[05:00:53 WRN] Statuses: loaded ProhibitEquipChange, id 1645216663
+[05:00:53 WRN] Statuses: loaded Invulnerable, id -385442619
+[05:00:53 WRN] Statuses: loaded MagicalReflect, id 2025540585
+[05:00:53 INF] Statuses: 15 statuses loaded
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-no-items-for-you.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-no-equip-change.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: loaded beag srad lamh, id -1798649605
+[05:00:53 INF] Castables: loaded athar nadur, id 1786319154
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-reducedamage.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: loaded leasaich srad, id -877749372
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/Babbys first spell.xml: System.InvalidOperationException: There is an error in XML document (2, 147).
+ ---> System.FormatException: The string 'N' is not a valid Boolean value.
+   at System.Xml.XmlConvert.ToBoolean(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-phys-reflect.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/wizard_beag-srad.xml: System.InvalidOperationException: There is an error in XML document (18, 45).
+ ---> System.InvalidOperationException: Instance validation error: 'None' is not a valid value for IntentFlags.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read17_IntentFlags(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read18_CastableIntent(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: loaded srad gar, id 799216827
+[05:00:53 INF] Castables: loaded mor leasaich srad, id 1200986988
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-sight.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: loaded srad meall, id 1944921330
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-invulnerable.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/Verbose Example.xml: System.InvalidOperationException: There is an error in XML document (2, 64).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-no-whisper.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: loaded ard athar nadur, id -1889509777
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/wizard_mor-srad.xml: System.InvalidOperationException: There is an error in XML document (18, 45).
+ ---> System.InvalidOperationException: Instance validation error: 'None' is not a valid value for IntentFlags.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read17_IntentFlags(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read18_CastableIntent(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: loaded ard leasaich srad, id 1823427743
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-no-shout.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-invisible.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: loaded beag leasaich srad, id 281079328
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/wizard_ard-srad.xml: System.InvalidOperationException: There is an error in XML document (18, 45).
+ ---> System.InvalidOperationException: Instance validation error: 'None' is not a valid value for IntentFlags.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read17_IntentFlags(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read18_CastableIntent(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: loaded Test Trap, id 1746916491
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-no-speech.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-charm.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-increasedamage.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: loaded Test Trap Multi, id -1155755160
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-mag-reflect.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-shut-up.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/wizard_srad.xml: System.InvalidOperationException: There is an error in XML document (18, 45).
+ ---> System.InvalidOperationException: Instance validation error: 'None' is not a valid value for IntentFlags.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read17_IntentFlags(String s)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read18_CastableIntent(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: loaded mor athar nadur, id -1214667585
+[05:00:53 INF] Castables: loaded srad lamh, id -52097995
+[05:00:53 ERR] Error parsing /HybrasylData/world/xml/castables/all_tst_ard-absorbspell.xml: System.InvalidOperationException: There is an error in XML document (2, 74).
+ ---> System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read46_Castable(Boolean isNullable, Boolean checkType)
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderCastable.Read47_Castable()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at Hybrasyl.Xml.Castable.Deserialize(String input) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 398
+   at Hybrasyl.Xml.Castable.LoadFromFile(String fileName) in /Users/baughj/personal/server/XML/XSD/Objects/Castable.cs:line 496
+   at Hybrasyl.World.LoadData() in /Users/baughj/personal/server/hybrasyl/World.cs:line 700
+[05:00:53 INF] Castables: 13 castables loaded
+[05:00:53 INF] ElementTable: loaded element None, target None, multiplier 0.58
+[05:00:53 INF] ElementTable: loaded element None, target Wind, multiplier 0.37
+[05:00:53 INF] ElementTable: loaded element None, target Water, multiplier 0.37
+[05:00:53 INF] ElementTable: loaded element None, target Earth, multiplier 0.37
+[05:00:53 INF] ElementTable: loaded element None, target Fire, multiplier 0.37
+[05:00:53 INF] ElementTable: loaded element None, target Dark, multiplier 0.37
+[05:00:53 INF] ElementTable: loaded element None, target Light, multiplier 0.37
+[05:00:53 INF] ElementTable: loaded element None, target Metal, multiplier 0.37
+[05:00:53 INF] ElementTable: loaded element None, target Wood, multiplier 0.37
+[05:00:53 INF] ElementTable: loaded element None, target Undead, multiplier 0.37
+[05:00:53 INF] ElementTable: loaded element Earth, target None, multiplier 2.32
+[05:00:53 INF] ElementTable: loaded element Earth, target Fire, multiplier 1.03
+[05:00:53 INF] ElementTable: loaded element Earth, target Wind, multiplier 0.66
+[05:00:53 INF] ElementTable: loaded element Earth, target Earth, multiplier 0.58
+[05:00:53 INF] ElementTable: loaded element Earth, target Water, multiplier 1.74
+[05:00:53 INF] ElementTable: loaded element Earth, target Light, multiplier 0.93
+[05:00:53 INF] ElementTable: loaded element Earth, target Dark, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Earth, target Metal, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Earth, target Wood, multiplier 0.5
+[05:00:53 INF] ElementTable: loaded element Earth, target Undead, multiplier 0.25
+[05:00:53 INF] ElementTable: loaded element Fire, target None, multiplier 2.32
+[05:00:53 INF] ElementTable: loaded element Fire, target Fire, multiplier 0.58
+[05:00:53 INF] ElementTable: loaded element Fire, target Wind, multiplier 1.74
+[05:00:53 INF] ElementTable: loaded element Fire, target Earth, multiplier 1.03
+[05:00:53 INF] ElementTable: loaded element Fire, target Water, multiplier 0.66
+[05:00:53 INF] ElementTable: loaded element Fire, target Light, multiplier 0.93
+[05:00:53 INF] ElementTable: loaded element Fire, target Dark, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Fire, target Metal, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Fire, target Wood, multiplier 1.88
+[05:00:53 INF] ElementTable: loaded element Fire, target Undead, multiplier 0.25
+[05:00:53 INF] ElementTable: loaded element Wind, target None, multiplier 2.32
+[05:00:53 INF] ElementTable: loaded element Wind, target Fire, multiplier 0.66
+[05:00:53 INF] ElementTable: loaded element Wind, target Wind, multiplier 0.58
+[05:00:53 INF] ElementTable: loaded element Wind, target Earth, multiplier 1.74
+[05:00:53 INF] ElementTable: loaded element Wind, target Water, multiplier 1.03
+[05:00:53 INF] ElementTable: loaded element Wind, target Light, multiplier 0.93
+[05:00:53 INF] ElementTable: loaded element Wind, target Dark, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Wind, target Metal, multiplier 0.5
+[05:00:53 INF] ElementTable: loaded element Wind, target Wood, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Wind, target Undead, multiplier 0.25
+[05:00:53 INF] ElementTable: loaded element Water, target None, multiplier 2.32
+[05:00:53 INF] ElementTable: loaded element Water, target Fire, multiplier 1.74
+[05:00:53 INF] ElementTable: loaded element Water, target Wind, multiplier 1.03
+[05:00:53 INF] ElementTable: loaded element Water, target Earth, multiplier 0.66
+[05:00:53 INF] ElementTable: loaded element Water, target Water, multiplier 0.58
+[05:00:53 INF] ElementTable: loaded element Water, target Light, multiplier 0.93
+[05:00:53 INF] ElementTable: loaded element Water, target Dark, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Water, target Metal, multiplier 1.88
+[05:00:53 INF] ElementTable: loaded element Water, target Wood, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Water, target Undead, multiplier 0.25
+[05:00:53 INF] ElementTable: loaded element Dark, target None, multiplier 2.32
+[05:00:53 INF] ElementTable: loaded element Dark, target Fire, multiplier 1.25
+[05:00:53 INF] ElementTable: loaded element Dark, target Wind, multiplier 1.25
+[05:00:53 INF] ElementTable: loaded element Dark, target Earth, multiplier 1.25
+[05:00:53 INF] ElementTable: loaded element Dark, target Water, multiplier 1.25
+[05:00:53 INF] ElementTable: loaded element Dark, target Light, multiplier 1.48
+[05:00:53 INF] ElementTable: loaded element Dark, target Dark, multiplier 0.58
+[05:00:53 INF] ElementTable: loaded element Dark, target Metal, multiplier 1.25
+[05:00:53 INF] ElementTable: loaded element Dark, target Wood, multiplier 1.25
+[05:00:53 INF] ElementTable: loaded element Dark, target Undead, multiplier 0.5
+[05:00:53 INF] ElementTable: loaded element Light, target None, multiplier 2.32
+[05:00:53 INF] ElementTable: loaded element Light, target Fire, multiplier 0.76
+[05:00:53 INF] ElementTable: loaded element Light, target Wind, multiplier 0.76
+[05:00:53 INF] ElementTable: loaded element Light, target Earth, multiplier 0.76
+[05:00:53 INF] ElementTable: loaded element Light, target Water, multiplier 0.76
+[05:00:53 INF] ElementTable: loaded element Light, target Light, multiplier 0.58
+[05:00:53 INF] ElementTable: loaded element Light, target Dark, multiplier 1.48
+[05:00:53 INF] ElementTable: loaded element Light, target Metal, multiplier 0.76
+[05:00:53 INF] ElementTable: loaded element Light, target Wood, multiplier 0.76
+[05:00:53 INF] ElementTable: loaded element Light, target Undead, multiplier 0.6
+[05:00:53 INF] ElementTable: loaded element Wood, target None, multiplier 2.32
+[05:00:53 INF] ElementTable: loaded element Wood, target Fire, multiplier 0.5
+[05:00:53 INF] ElementTable: loaded element Wood, target Wind, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Wood, target Earth, multiplier 1.88
+[05:00:53 INF] ElementTable: loaded element Wood, target Water, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Wood, target Light, multiplier 0.93
+[05:00:53 INF] ElementTable: loaded element Wood, target Dark, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Wood, target Metal, multiplier 1.25
+[05:00:53 INF] ElementTable: loaded element Wood, target Wood, multiplier 0.58
+[05:00:53 INF] ElementTable: loaded element Wood, target Undead, multiplier 0.4
+[05:00:53 INF] ElementTable: loaded element Metal, target None, multiplier 2.32
+[05:00:53 INF] ElementTable: loaded element Metal, target Fire, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Metal, target Wind, multiplier 1.88
+[05:00:53 INF] ElementTable: loaded element Metal, target Earth, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Metal, target Water, multiplier 0.5
+[05:00:53 INF] ElementTable: loaded element Metal, target Light, multiplier 0.93
+[05:00:53 INF] ElementTable: loaded element Metal, target Dark, multiplier 0.83
+[05:00:53 INF] ElementTable: loaded element Metal, target Metal, multiplier 0.58
+[05:00:53 INF] ElementTable: loaded element Metal, target Wood, multiplier 1.25
+[05:00:53 INF] ElementTable: loaded element Metal, target Undead, multiplier 0.4
+[05:00:53 INF] ElementTable: loaded element Undead, target None, multiplier 2.32
+[05:00:53 INF] ElementTable: loaded element Undead, target Fire, multiplier 1.5
+[05:00:53 INF] ElementTable: loaded element Undead, target Wind, multiplier 1.5
+[05:00:53 INF] ElementTable: loaded element Undead, target Earth, multiplier 1.5
+[05:00:53 INF] ElementTable: loaded element Undead, target Water, multiplier 1.5
+[05:00:53 INF] ElementTable: loaded element Undead, target Light, multiplier 1.5
+[05:00:53 INF] ElementTable: loaded element Undead, target Dark, multiplier 1.5
+[05:00:53 INF] ElementTable: loaded element Undead, target Metal, multiplier 1.5
+[05:00:53 INF] ElementTable: loaded element Undead, target Wood, multiplier 1.5
+[05:00:53 INF] ElementTable: loaded element Undead, target Undead, multiplier 0.58
+[05:00:53 INF] Board: loaded board
+[05:00:53 INF] Boards: Global board board initialized
+[05:00:53 INF] Hybrasyl server ready
+[05:00:53 INF] Hybrasyl: timer loaded for job AutoSnoreJob: interval 10000
+[05:00:53 INF] Hybrasyl: timer loaded for job ByteHeartbeatJob: interval 60000
+[05:00:53 INF] Hybrasyl: timer loaded for job CheckpointerJob: interval 300000
+[05:00:53 INF] Hybrasyl: timer loaded for job HeartbeatReaperJob: interval 5000
+[05:00:53 INF] Hybrasyl: timer loaded for job IdleDetectionJob: interval 60000
+[05:00:53 INF] Hybrasyl: timer loaded for job MailboxCleanupJob: interval 3600000
+[05:00:53 INF] Hybrasyl: timer loaded for job MerchantInventoryRefreshJob: interval 60000
+[05:00:53 INF] Hybrasyl: timer loaded for job MetricsJob: interval 20000
+[05:00:53 INF] Hybrasyl: timer loaded for job RegenerationJob: interval 25000
+[05:00:53 INF] Hybrasyl: timer loaded for job ShutdownJob: interval 10000
+[05:00:53 INF] Hybrasyl: timer loaded for job StatusTickJob: interval 1000
+[05:00:53 INF] Hybrasyl: timer loaded for job TickHeartbeatJob: interval 60000
+[05:00:53 ERR] Job class <>c has no Execute method! Job will not be scheduled.
+[05:00:53 ERR] Job class <>c has no Execute method! Job will not be scheduled.
+[05:00:53 INF] Consumer thread: started
+[05:00:53 INF] Control consumer thread: started
+[05:00:53 INF] Starting TcpListener: 0.0.0.0:2610
+[05:00:53 INF] Starting TcpListener: 0.0.0.0:2611
+[05:00:53 INF] Starting TcpListener: 0.0.0.0:2612
+[05:00:54 WRN] THIS VERSION OF HYBRASYL IS OUT OF DATE
+[05:00:54 WRN] You have 25ddfbb but 96db1a9 is available as of Sun Jan 16 21:50:18 PST 2022
+[05:00:54 WRN] You can download the new version at https://www.hybrasyl.com/builds/ .
