@@ -17,6 +17,7 @@
   </CastCosts>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="40" Flags="Hostile Pvp">
+      <Map/>
     </Intent>
   </Intents>
   <MaxLevel Monk="60" Warrior="30" Peasant="20" Wizard="100" Priest="80" Rogue="40"/>
