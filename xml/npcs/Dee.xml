@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Dee</Name>
+  <!-- Location: TOC Guide2 -->
+  <DisplayName>Dee</DisplayName>
+  <Appearance Sprite="61" Portrait="shaman.spf"/>
+  <AllowDead>false</AllowDead>
+  <Strings>
+        <String Key="greeting">This is the other side, beyond the veil. The world of sorrow and despair. Travel through the circles, and you shall determine your path.</String>
+  </Strings>
+</Npc>

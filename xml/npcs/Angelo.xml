@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Angelo</Name>
+  <!-- Location: Rucesion Messenger -->
+  <DisplayName>Angelo</DisplayName>
+  <Appearance Sprite="56" Portrait="bank.spf"/>
+  <AllowDead>false</AllowDead>
+  <Roles>
+    <Post Nation="Rucesion">
+      <Surcharge Nation="Mileth" Percent="20"/>
+      <Surcharge Nation="Oren" Percent="10"/>
+    </Post>
+  </Roles>
+</Npc>
