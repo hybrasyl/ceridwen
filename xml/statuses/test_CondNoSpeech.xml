@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
-<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="ProhibitSpeech" Icon="24" Duration="10" Tick="1">
-  <ProhibitedMessage>You can't do that right now</ProhibitedMessage>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="CondNoSpeech" Icon="70" Duration="5">
+  <Category>Test</Category>
   <Effects>
     <OnApply>
       <Animations>
-        <Target Id="12" Speed="100"/>
+        <Target Id="70" Speed="100"/>
       </Animations>
-      <Sound Id="155"/>
       <Messages>
-        <Target>Fuck I can't speech!</Target>
+        <Shout></Shout>
       </Messages>
       <Conditions>
         <Set>ProhibitSpeech</Set>

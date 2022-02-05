@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
-<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Charm" Icon="18" Duration="10" Tick="1">
-  <ProhibitedMessage>You can't do that right now</ProhibitedMessage>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="CondCharm" Icon="67" Duration="5">
+  <Category>Test</Category>
   <Effects>
     <OnApply>
       <Animations>
-        <Target Id="12" Speed="100"/>
+        <Target Id="67" Speed="100"/>
       </Animations>
-      <Sound Id="155"/>
       <Messages>
-        <Target>Fuck I'm charmed!</Target>
+        <Shout></Shout>
       </Messages>
       <Conditions>
         <Set>Charm</Set>

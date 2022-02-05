@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="CondFreeze" Icon="57" Duration="5">
+  <Category>Test</Category>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="57" Speed="100"/>
+      </Animations>
+      <Messages>
+        <Shout></Shout>
+      </Messages>
+      <Conditions>
+        <Set>Freeze</Set>
+      </Conditions>
+    </OnApply>
+    <OnRemove>
+      <Conditions>
+        <Remove>Freeze</Remove>
+      </Conditions>
+    </OnRemove>
+    <OnExpire>
+      <Conditions>
+        <Remove>Freeze</Remove>
+      </Conditions>
+    </OnExpire>
+  </Effects>
+</Status>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="PlusInboundDmg" Icon="20" Duration="5">
+  <Category>Test</Category>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="20" Speed="100"/>
+      </Animations>
+      <Messages>
+        <Shout></Shout>
+      </Messages>
+      <StatModifiers BonusInboundDamageModifier="1"/>
+    </OnApply>
+    <OnRemove>
+      <StatModifiers BonusInboundDamageModifier="-1"/>
+    </OnRemove>
+    <OnExpire>
+      <StatModifiers BonusInboundDamageModifier="-1"/>
+    </OnExpire>
+  </Effects>
+</Status>

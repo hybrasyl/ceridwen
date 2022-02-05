@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="PlusHp" Icon="6" Duration="5">
+  <Category>Test</Category>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="6" Speed="100"/>
+      </Animations>
+      <Messages>
+        <Shout></Shout>
+      </Messages>
+      <StatModifiers BonusHp="50"/>
+    </OnApply>
+    <OnRemove>
+      <StatModifiers BonusHp="-50"/>
+    </OnRemove>
+    <OnExpire>
+      <StatModifiers BonusHp="-50"/>
+    </OnExpire>
+  </Effects>
+</Status>

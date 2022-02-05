@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="CondComa" Icon="61" Duration="5">
+  <Category>Test</Category>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="61" Speed="100"/>
+      </Animations>
+      <Messages>
+        <Shout></Shout>
+      </Messages>
+      <Conditions>
+        <Set>Coma</Set>
+      </Conditions>
+    </OnApply>
+    <OnRemove>
+      <Conditions>
+        <Remove>Coma</Remove>
+      </Conditions>
+    </OnRemove>
+    <OnExpire>
+      <Conditions>
+        <Remove>Coma</Remove>
+      </Conditions>
+    </OnExpire>
+  </Effects>
+</Status>

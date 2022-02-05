@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="OverOffEle" Icon="16" Duration="5">
+  <Category>Test</Category>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="16" Speed="100"/>
+      </Animations>
+      <Messages>
+        <Shout></Shout>
+      </Messages>
+      <StatModifiers BaseDefensiveElement="Undead"/>
+    </OnApply>
+    <OnRemove>
+      <StatModifiers BaseDefensiveElement="Undead"/>
+    </OnRemove>
+    <OnExpire>
+      <StatModifiers BaseDefensiveElement="Undead"/>
+    </OnExpire>
+  </Effects>
+</Status>

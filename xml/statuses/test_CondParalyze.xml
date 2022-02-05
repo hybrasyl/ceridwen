@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="CondParalyze" Icon="59" Duration="5">
+  <Category>Test</Category>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="59" Speed="100"/>
+      </Animations>
+      <Messages>
+        <Shout></Shout>
+      </Messages>
+      <Conditions>
+        <Set>Paralyze</Set>
+      </Conditions>
+    </OnApply>
+    <OnRemove>
+      <Conditions>
+        <Remove>Paralyze</Remove>
+      </Conditions>
+    </OnRemove>
+    <OnExpire>
+      <Conditions>
+        <Remove>Paralyze</Remove>
+      </Conditions>
+    </OnExpire>
+  </Effects>
+</Status>
