@@ -5,57 +5,48 @@
     <Name>Abundance</Name>
     <Modifier>Abundance</Modifier>
     <Properties>
-      <Flags>Depositable Exchangeable Vendorable</Flags>
-      <Physical Durability="100" Weight="100" Value="200"/>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="100" Value="100" Durability="200"/>
       <Restrictions>
         <Level Min="2"/>
-        <Ab Min="0"/>
       </Restrictions>
-      <StatModifiers>
-        <Combat Dmg="1"/>
-      </StatModifiers>
+      <StatModifiers BonusDmg="1"/>
     </Properties>
   </Variant>
   <Variant>
     <Name>Blessed</Name>
     <Modifier>Blessed</Modifier>
     <Properties>
-      <Flags>Depositable Exchangeable Vendorable</Flags>
-      <Physical Durability="100" Weight="100" Value="200"/>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="100" Value="200" Durability="100"/>
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers>
-        <Combat Hit="5"/>
-      </StatModifiers>
+      <StatModifiers BonusHit="1"/>
     </Properties>
   </Variant>
   <Variant>
     <Name>Might</Name>
     <Modifier>Might</Modifier>
     <Properties>
-      <Flags>Depositable Exchangeable Vendorable Perishable</Flags>
-      <Physical Durability="100" Weight="100" Value="200"/>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="100" Value="200" Durability="100"/>
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers>
-        <Base Hp="100"/>
-      </StatModifiers>
+      <StatModifiers BonusHp="100"/>
     </Properties>
   </Variant>
   <Variant>
     <Name>Magic</Name>
     <Modifier>Magic</Modifier>
     <Properties>
-      <Flags>Depositable Exchangeable Vendorable</Flags>
-      <Physical Durability="100" Value="200" Weight="50"/>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="100" Value="200" Durability="100"/>
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers>
-        <Base Mp="50"/>
-      </StatModifiers>
+      <StatModifiers BonusMp="100"/>
     </Properties>
   </Variant>
 </VariantGroup>

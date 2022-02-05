@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Elemental</Name>
+  <Variant>
+    <Name>Fire</Name>
+    <Modifier>Fire</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="100" Value="500" Durability="100"/>
+      <StatModifiers BaseOffensiveElement="Fire" BaseDefensiveElement="Fire"/>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Water</Name>
+    <Modifier>Water</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="100" Value="500" Durability="100"/>
+      <StatModifiers BaseOffensiveElement="Water" BaseDefensiveElement="Water"/>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Earth</Name>
+    <Modifier>Earth</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="100" Value="500" Durability="100"/>
+      <StatModifiers BaseOffensiveElement="Earth" BaseDefensiveElement="Earth"/>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Wind</Name>
+    <Modifier>Wind</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="100" Value="500" Durability="100"/>
+      <StatModifiers BaseOffensiveElement="Wind" BaseDefensiveElement="Wind"/>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Light</Name>
+    <Modifier>Light</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="100" Value="500" Durability="100"/>
+      <StatModifiers BaseOffensiveElement="Light" BaseDefensiveElement="Light"/>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Dark</Name>
+    <Modifier>Dark</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="100" Value="500" Durability="100"/>
+      <StatModifiers BaseOffensiveElement="Dark" BaseDefensiveElement="Dark"/>
+    </Properties>
+  </Variant>
+</VariantGroup>
