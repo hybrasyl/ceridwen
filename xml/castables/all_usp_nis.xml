@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="19" Book="UtilitySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" Cooldown="" IsAssail="N" Reflectable="N">
+  <Name>nis</Name>
+  <Descriptions>
+    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Tells you the time & date in Temuairan Time</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Spell</Category>
+    <Category>Utility</Category>
+    <Category>Time</Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="30"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget">
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/>
+  <Requirements>
+    <Requirement Class="Monk Priest Peasant Rogue Warrior Wizard">
+      <Level Min="1" Max="99"/>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <Items>
+        <Item Quantity="1">Raw Wax</Item>
+        <Item Quantity="1">Stick</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="6" Speed="40"/>
+          <Motion Class="Priest" Id="6" Speed="40"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+  <Script>SpellNis</Script>
+  <Mastery Uses="5" Tiered="false"/>
+</Castable>

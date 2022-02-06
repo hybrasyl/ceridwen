@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="54" Book="PrimarySpell" Element="None" Class="Warrior" Cooldown="" IsAssail="N" Reflectable="N">
+  <Name>asgall faileas</Name>
+  <Descriptions>
+    <Description Class="Warrior">The user reflects 70% of physical damage for the duration</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Spell</Category>
+    <Category>Primary</Category>
+    <Category>Physical Reflect</Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="310"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" Flags="Self">
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="60" Warrior="100" Peasant="20" Wizard="40" Priest="40" Rogue="80"/>
+  <Requirements>
+    <Requirement Class="Warrior">
+      <Level Min="99" Max="99"/>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="6" Speed="40"/>
+          <Motion Class="Priest" Id="6" Speed="40"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+        <Target Id="12" Speed="100"/>
+      </OnCast>
+    </Animations>
+  </Effects>
+  <Script>SpellAsgallFaileas</Script>
+  <Mastery Uses="20" Tiered="false"/>
+</Castable>
