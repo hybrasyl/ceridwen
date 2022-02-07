@@ -10,17 +10,17 @@
         <Shout></Shout>
       </Messages>
       <Conditions>
-        <Set>Invisibility</Set>
+        <Set>Invisible</Set>
       </Conditions>
     </OnApply>
     <OnRemove>
       <Conditions>
-        <Remove>Invisibility</Remove>
+        <Remove>Invisible</Remove>
       </Conditions>
     </OnRemove>
     <OnExpire>
       <Conditions>
-        <Remove>Invisibility</Remove>
+        <Remove>Invisible</Remove>
       </Conditions>
     </OnExpire>
   </Effects>

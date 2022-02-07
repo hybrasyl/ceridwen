@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="14" Book="PrimarySpell" Element="None" Class="Warrior" Cooldown="">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="14" Book="PrimarySpell" Element="None" Class="Warrior">
   <Name>Spit</Name>
   <Descriptions>
     <Description Class="Warrior">Deals minor damage in an attempt to attract the enemy.</Description>
