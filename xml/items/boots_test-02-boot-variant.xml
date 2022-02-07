@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Test Boots 2</Name>
-  <Comment>Boots, now with more testing</Comment>
+  <Comment>Boots, now with more testing!</Comment>
   <Properties>
     <Appearance Sprite="76" DisplaySprite="1" Color="Navy"/>
     <Stackable Max="1"/>

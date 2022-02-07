@@ -2,8 +2,8 @@
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>TestGroup</Name>
   <Variant>
-    <Name>Test</Name>
-    <Modifier>Test</Modifier>
+    <Name>Variant</Name>
+    <Modifier>Variant</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
       <Damage>
