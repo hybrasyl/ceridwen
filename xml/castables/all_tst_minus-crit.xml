@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="20" Book="PrimarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" Cooldown="0" IsAssail="N" Reflectable="N">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="20" Book="PrimarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" Cooldown="0">
   <Name>Minus Crit</Name>
   <Descriptions>
     <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Inflicts Minus Crit</Description>

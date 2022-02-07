@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="1" Book="PrimarySkill" Element="None" Class="Peasant" Cooldown="1" IsAssail="Y" Reflectable="Y">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="1" Book="PrimarySkill" Element="None" Class="Peasant" Cooldown="1" IsAssail="true" Reflectable="true">
   <Name>filled test</Name>
   <Descriptions>
     <Description Class="Description1 Class">Description1</Description>

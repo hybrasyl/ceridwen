@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="14" Book="PrimarySpell" Element="None" Class="Warrior" Cooldown="" IsAssail="N" Reflectable="N">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="14" Book="PrimarySpell" Element="None" Class="Warrior" Cooldown="">
   <Name>Insult</Name>
   <Descriptions>
     <Description Class="Warrior">Deals minor damage in an attempt to attract the enemy.</Description>
