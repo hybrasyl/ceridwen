@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="40" Book="PrimarySpell" Element="Fire" Class="Wizard" Cooldown="0" IsAssail="false" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="40" Book="PrimarySpell" Element="Fire" Class="Wizard" Cooldown="0">
   <Name>beag srad</Name>
   <Descriptions>
-    <Description Class="Wizard">Attacks the enemy with weak fire.</Description>
+    <Description Class="Wizard">Fire damage on a target</Description>
   </Descriptions>
   <Categories>
     <Category>Spell</Category>
-    <Category>Wizard</Category>
     <Category>Fire</Category>
+    <Category>ElementST</Category>
   </Categories>
   <CastCosts>
     <CastCost>
@@ -18,12 +18,12 @@
     <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
     </Intent>
   </Intents>
-  <MaxLevel Monk="60" Warrior="30" Peasant="20" Wizard="100" Priest="80" Rogue="40"/>
+  <MaxLevel Monk="40" Warrior="40" Peasant="20" Wizard="100" Priest="60" Rogue="40"/>
   <Requirements>
     <Requirement Class="Wizard">
       <Level Min="1" Max="99"/>
-      <Gold>1000</Gold>
-      <Physical Str="6" Int="4" Wis="3" Con="3" Dex="3"/>
+      <Gold>585</Gold>
+      <Physical Str="4" Int="4" Wis="3" Con="3" Dex="3"/>
       <Items>
         <Item Quantity="1">Centipede Gland</Item>
       </Items>
@@ -43,10 +43,10 @@
         <Target Id="12" Speed="100"/>
       </OnCast>
     </Animations>
-    <Sound Id="155"/>
+    <Sound Id="79"/>
     <Damage Type="Elemental">
-      <Formula>(20*5) + ([RAND_5]*7)</Formula>
+      <Formula>(([SOURCEINT]*5)+([SOURCESTR]*5)+([SOURCEDMG]*20)+([RAND_100]))</Formula>
     </Damage>
   </Effects>
-  <Mastery Uses="10"/>
+  <Mastery Uses="500" Tiered="false"/>
 </Castable>

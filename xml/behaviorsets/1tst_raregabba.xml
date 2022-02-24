@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="RareGabba">
+  <!-- Comment: Testing the Gabbaghoul -->
+  <StatAlloc>Str Str Dex Con Int Wis</StatAlloc>
+  <Castables Auto="true" SkillCategories="Assails" SpellCategories="ElementST">
+    <Castable>Devastation</Castable>
+    <Castable>Paralyze</Castable>
+    <Castable>Wind Blade</Castable>
+    <Castable>mor athar gar</Castable>
+    <Castable>mor athar lamh</Castable>
+    <Castable>mor athar meall</Castable>
+    <Castable>mor creag gar</Castable>
+    <Castable>slan</Castable>
+    <Castable>puinsein</Castable>
+  </Castables>
+  <Behavior>
+    <Casting>
+      <Offense Interval="10" Priority="HighThreat" Categories="ElementSt" Random="true">
+        <Castable>Wind Blade</Castable>
+        <Castable>Devastation</Castable>
+        <Castable>Paralyze</Castable>
+      </Offense>
+      <Defense Interval="20" Priority="AttackingCaster" Random="true">
+        <Castable>puinsein</Castable>
+      </Defense>
+      <OnDeath Priority="HighThreat" Random="true">
+        <Castable>mor creag gar</Castable>
+      </OnDeath>
+      <NearDeath Interval="10" Priority="AttackingHealer" HealthPercentage="5" Random="true">
+        <Castable>mor athar gar</Castable>
+        <Castable>mor athar meall</Castable>
+        <Castable>mor athar lamh</Castable>
+      </NearDeath>
+    </Casting>
+    <Assail Interval="6" Priority="Attacker">
+        <Castable>Assail</Castable>
+        <Castable>Assault</Castable>
+        <Castable>Clobber</Castable>
+    </Assail>
+  </Behavior>
+</BehaviorSet>

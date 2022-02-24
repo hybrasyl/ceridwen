@@ -1,34 +1,36 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="41" Book="PrimarySpell" Element="Fire" Class="Wizard" Cooldown="0">
-  <Name>mor srad</Name>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="59" Book="PrimarySpell" Element="Earth" Class="Wizard" Cooldown="0">
+  <Name>mor creag gar</Name>
   <Descriptions>
-    <Description Class="Wizard">Fire damage on a target</Description>
+    <Description Class="Wizard">Earth damage on all hostile targets</Description>
   </Descriptions>
   <Categories>
     <Category>Spell</Category>
-    <Category>Fire</Category>
-    <Category>ElementST</Category>
+    <Category>Earth</Category>
+    <Category>Gar</Category>
   </Categories>
   <CastCosts>
     <CastCost>
-      <Stat Mp="200"/>
+      <Stat Mp="600"/>
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    <Intent UseType="NoTarget" MaxTargets="36" Flags="Hostile Pvp">
+      <Square Side="11"/>
     </Intent>
   </Intents>
   <MaxLevel Monk="40" Warrior="40" Peasant="20" Wizard="100" Priest="60" Rogue="40"/>
   <Requirements>
     <Requirement Class="Wizard">
-      <Level Min="30" Max="99"/>
-      <Gold>2325</Gold>
-      <Physical Str="18" Int="25" Wis="10" Con="10" Dex="10"/>
+      <Level Min="71" Max="99"/>
+      <Gold>4785</Gold>
+      <Physical Str="25" Int="46" Wis="25" Con="33" Dex="25"/>
       <Items>
-        <Item Quantity="1">Goblin Skull</Item>
+        <Item Quantity="6">Finished Talos Crystal</Item>
       </Items>
       <Prerequisites>
-        <Prerequisite Level="30">srad</Prerequisite>
+        <Prerequisite Level="30">mor creag</Prerequisite>
+        <Prerequisite Level="15">creag gar</Prerequisite>
       </Prerequisites>
     </Requirement>
   </Requirements>
@@ -43,13 +45,13 @@
           <Motion Class="Rogue" Id="6" Speed="40"/>
           <Motion Class="Monk" Id="6" Speed="40"/>
         </Player>
-        <Target Id="13" Speed="100"/>
+        <Target Id="31" Speed="100"/>
       </OnCast>
     </Animations>
-    <Sound Id="79"/>
+    <Sound Id="76"/>
     <Damage Type="Elemental">
-      <Formula>(([SOURCEINT]*15)+([SOURCESTR]*15)+([SOURCEDMG]*40)+([RAND_100]*10))</Formula>
+      <Formula>(([SOURCEINT]*30)+([SOURCECON]*30)+([SOURCEDMG]*60)+([RAND_100]*30))</Formula>
     </Damage>
   </Effects>
-  <Mastery Uses="750" Tiered="false"/>
+  <Mastery Uses="2000" Tiered="false"/>
 </Castable>

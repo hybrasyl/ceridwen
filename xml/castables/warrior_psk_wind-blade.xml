@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="15" Book="PrimarySkill" Element="None" Class="Warrior" Cooldown="7">
+  <Name>Wind Blade</Name>
+  <Descriptions>
+    <Description Class="Warrior">Fling a powerful wind blade at an enemy</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Skill</Category>
+    <Category>MonWarr</Category>
+  </Categories>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
+      <Line Length="4" Direction="Front"/>
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="60" Warrior="100" Peasant="30" Wizard="40" Priest="40" Rogue="60"/>
+  <Requirements>
+    <Requirement Class="Warrior">
+      <Level Min="7" Max="99"/>
+      <Gold>950</Gold>
+      <Physical Str="7" Int="3" Wis="3" Con="6" Dex="8"/>
+      <Items>
+        <Item Quantity="1">Mantis Eye</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="1" Speed="20"/>
+          <Motion Class="Warrior" Id="1" Speed="20"/>
+          <Motion Class="Wizard" Id="1" Speed="20"/>
+          <Motion Class="Priest" Id="1" Speed="20"/>
+          <Motion Class="Rogue" Id="1" Speed="20"/>
+          <Motion Class="Monk" Id="1" Speed="20"/>
+        </Player>
+        <Target Id="166" Speed="100"/>
+      </OnCast>
+    </Animations>
+    <Sound Id="18"/>
+    <Damage Type="Physical">
+      <Formula>(([SOURCESTR]*5)+([SOURCEDMG]*10)+([SOURCEWEAPONSMALLDAMAGE]*2)+([RAND_100]))</Formula>
+    </Damage>
+  </Effects>
+  <Mastery Uses="395" Tiered="false"/>
+</Castable>

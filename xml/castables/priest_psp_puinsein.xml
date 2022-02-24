@@ -1,34 +1,35 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="41" Book="PrimarySpell" Element="Fire" Class="Wizard" Cooldown="0">
-  <Name>mor srad</Name>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="35" Book="PrimarySpell" Element="None" Class="Priest" Cooldown="0" Reflectable="false">
+  <Name>puinsein</Name>
   <Descriptions>
-    <Description Class="Wizard">Fire damage on a target</Description>
+    <Description Class="Priest">Poison</Description>
   </Descriptions>
   <Categories>
     <Category>Spell</Category>
-    <Category>Fire</Category>
-    <Category>ElementST</Category>
+    <Category>Poison</Category>
+    <Category>MonPriest</Category>
   </Categories>
   <CastCosts>
     <CastCost>
-      <Stat Mp="200"/>
+      <Stat Mp="160"/>
     </CastCost>
   </CastCosts>
   <Intents>
     <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
     </Intent>
   </Intents>
-  <MaxLevel Monk="40" Warrior="40" Peasant="20" Wizard="100" Priest="60" Rogue="40"/>
+  <MaxLevel Monk="60" Warrior="40" Peasant="20" Wizard="70" Priest="100" Rogue="60"/>
   <Requirements>
-    <Requirement Class="Wizard">
-      <Level Min="30" Max="99"/>
-      <Gold>2325</Gold>
-      <Physical Str="18" Int="25" Wis="10" Con="10" Dex="10"/>
+    <Requirement Class="Priest">
+      <Level Min="32" Max="99"/>
+      <Gold>2170</Gold>
+      <Physical Str="10" Int="20" Wis="20" Con="15" Dex="16"/>
       <Items>
-        <Item Quantity="1">Goblin Skull</Item>
+        <Item Quantity="1">Scorpion Sting</Item>
+        <Item Quantity="1">Wolf Lock</Item>
       </Items>
       <Prerequisites>
-        <Prerequisite Level="30">srad</Prerequisite>
+        <Prerequisite Level="20">beag puinsein</Prerequisite>
       </Prerequisites>
     </Requirement>
   </Requirements>
@@ -43,13 +44,11 @@
           <Motion Class="Rogue" Id="6" Speed="40"/>
           <Motion Class="Monk" Id="6" Speed="40"/>
         </Player>
-        <Target Id="13" Speed="100"/>
       </OnCast>
     </Animations>
-    <Sound Id="79"/>
-    <Damage Type="Elemental">
-      <Formula>(([SOURCEINT]*15)+([SOURCESTR]*15)+([SOURCEDMG]*40)+([RAND_100]*10))</Formula>
-    </Damage>
+    <Statuses>
+      <Add Duration="40" Intensity="1">Puinsein</Add>
+    </Statuses>
   </Effects>
   <Mastery Uses="750" Tiered="false"/>
 </Castable>

@@ -1,29 +1,29 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="40" Book="PrimarySpell" Element="Fire" Class="Wizard" Cooldown="0" IsAssail="false" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="40" Book="PrimarySpell" Element="Fire" Class="Wizard" Cooldown="0">
   <Name>srad</Name>
   <Descriptions>
-    <Description Class="Wizard">Attacks the enemy with fire.</Description>
+    <Description Class="Wizard">Fire damage on a target</Description>
   </Descriptions>
   <Categories>
     <Category>Spell</Category>
-    <Category>Wizard</Category>
     <Category>Fire</Category>
+    <Category>ElementST</Category>
   </Categories>
   <CastCosts>
     <CastCost>
-      <Stat Mp="200"/>
+      <Stat Mp="60"/>
     </CastCost>
   </CastCosts>
   <Intents>
     <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
     </Intent>
   </Intents>
-  <MaxLevel Monk="60" Warrior="30" Peasant="20" Wizard="100" Priest="80" Rogue="40"/>
+  <MaxLevel Monk="40" Warrior="40" Peasant="20" Wizard="100" Priest="60" Rogue="40"/>
   <Requirements>
     <Requirement Class="Wizard">
-      <Level Min="4" Max="99"/>
-      <Gold>5000</Gold>
-      <Physical Str="17" Int="7" Wis="3" Con="6" Dex="3"/>
+      <Level Min="14" Max="99"/>
+      <Gold>1365</Gold>
+      <Physical Str="10" Int="10" Wis="7" Con="7" Dex="7"/>
       <Items>
         <Item Quantity="1">Centipede Gland</Item>
         <Item Quantity="1">Bee Sting</Item>
@@ -47,10 +47,10 @@
         <Target Id="12" Speed="100"/>
       </OnCast>
     </Animations>
-    <Sound Id="155"/>
+    <Sound Id="79"/>
     <Damage Type="Elemental">
-      <Formula>(200*5) + ([RAND_5]*7)</Formula>
+      <Formula>(([SOURCEINT]*10)+([SOURCESTR]*10)+([SOURCEDMG]*30)+([RAND_100]*3))</Formula>
     </Damage>
   </Effects>
-  <Mastery Uses="20"/>
+  <Mastery Uses="750" Tiered="false"/>
 </Castable>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="1" Book="PrimarySkill" Element="None" Class="Warrior" Cooldown="0" IsAssail="true" Reflectable="false">
+  <Name>Assault</Name>
+  <Descriptions>
+    <Description Class="Warrior">Assault the target</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Skill</Category>
+    <Category>Assails</Category>
+  </Categories>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
+      <Tile Direction="Front"/>
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="80" Warrior="100" Peasant="20" Wizard="40" Priest="40" Rogue="60"/>
+  <Requirements>
+    <Requirement Class="Warrior">
+      <Level Min="9" Max="99"/>
+      <Gold>1100</Gold>
+      <Physical Str="10" Int="3" Wis="3" Con="6" Dex="10"/>
+      <Items>
+        <Item Quantity="1">Bat Wing</Item>
+        <Item Quantity="1">Centipede Gland</Item>
+      </Items>
+      <Prerequisites>
+        <Prerequisite Level="5">Assail</Prerequisite>
+      </Prerequisites>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="1" Speed="20"/>
+          <Motion Class="Warrior" Id="1" Speed="20"/>
+          <Motion Class="Wizard" Id="1" Speed="20"/>
+          <Motion Class="Priest" Id="1" Speed="20"/>
+          <Motion Class="Rogue" Id="1" Speed="20"/>
+          <Motion Class="Monk" Id="132" Speed="20"/>
+        </Player>
+      </OnCast>
+    </Animations>
+    <Sound Id="1"/>
+    <Damage Type="Physical">
+      <Formula>(([SOURCESTR]*2)+([SOURCEDMG]*4)+([SOURCEWEAPONSMALLDAMAGE]*2)+([RAND_100]*2))</Formula>
+    </Damage>
+  </Effects>
+  <Mastery Uses="2000" Tiered="false"/>
+</Castable>
