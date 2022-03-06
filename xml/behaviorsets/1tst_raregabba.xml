@@ -15,7 +15,7 @@
     <Castable>beag ioc</Castable>
   </Castables>
   <Behavior>
-    <CastableSets>
+    <CastingSets>
       <CastingSet Type="Offense" Interval="6" Priority="HighThreat" Categories="ElementST" Random="true">
         <Castable TargetPriority="HighThreat" Interval="8">Wind Blade</Castable>
         <Castable TargetPriority="AttackingCaster" Interval="10">puinsein</Castable>
@@ -37,6 +37,6 @@
         <Castable>Assault</Castable>
         <Castable>Clobber</Castable>
       </CastingSet>
-    </CastableSets>
+    </CastingSets>
   </Behavior>
 </BehaviorSet>
