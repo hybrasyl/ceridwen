@@ -12,30 +12,30 @@
     <Castable>mor creag gar</Castable>
     <Castable>slan</Castable>
     <Castable>puinsein</Castable>
+    <Castable>beag ioc</Castable>
   </Castables>
   <Behavior>
-    <Casting>
-      <Offense Interval="10" Priority="HighThreat" Categories="ElementSt" Random="true">
-        <Castable>Wind Blade</Castable>
-        <Castable>Devastation</Castable>
-        <Castable>Paralyze</Castable>
-      </Offense>
-      <Defense Interval="20" Priority="AttackingCaster" Random="true">
-        <Castable>puinsein</Castable>
-      </Defense>
-      <OnDeath Priority="HighThreat" Random="true">
-        <Castable>mor creag gar</Castable>
-      </OnDeath>
-      <NearDeath Interval="10" Priority="AttackingHealer" HealthPercentage="5" Random="true">
+    <CastableSets>
+      <CastingSet Type="Offense" Interval="Offense" Priority="HighThreat" Categories="ElementST" Random="true">
+        <Castable TargetPriority="HighThreat" Interval="8">Wind Blade</Castable>
+        <Castable TargetPriority="AttackingCaster" Interval="10">puinsein</Castable>
+        <Castable TargetPriority="HighThreat">Paralyze</Castable>
+      </CastingSet>
+      <CastingSet Type="Defense" Interval="Defense" Priority="Self">
+        <Castable>slan</Castable>
+      </CastingSet>
+      <CastingSet Type="OnDeath" Priority="RandomAttacker">
+        <Castable UseOnce="true">mor creag gar</Castable>
+      </CastingSet>
+      <CastingSet Type="NearDeath" Interval="NearDeath" Priority="AttackingHealer" HealthPercentage="5" Random="true">
         <Castable>mor athar gar</Castable>
         <Castable>mor athar meall</Castable>
         <Castable>mor athar lamh</Castable>
-      </NearDeath>
-    </Casting>
-    <Assail Interval="6" Priority="Attacker">
+      </CastingSet>
+      <CastingSet Type="Assail" Interval="Assail" Priority="Attacker">
         <Castable>Assail</Castable>
         <Castable>Assault</Castable>
         <Castable>Clobber</Castable>
-    </Assail>
+      </CastingSet>
   </Behavior>
 </BehaviorSet>
