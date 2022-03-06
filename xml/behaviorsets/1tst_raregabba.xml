@@ -19,7 +19,7 @@
       <CastingSet Type="Offense" Interval="6" Priority="HighThreat" Categories="ElementST" Random="true">
         <Castable TargetPriority="HighThreat" Interval="8">Wind Blade</Castable>
         <Castable TargetPriority="AttackingCaster" Interval="10">puinsein</Castable>
-        <Castable TargetPriority="HighThreat">Paralyze</Castable>
+        <Castable TargetPriority="HighThreat" Interval="15">Paralyze</Castable>
       </CastingSet>
       <CastingSet Type="Defense" Interval="20" Priority="Self">
         <Castable>slan</Castable>
