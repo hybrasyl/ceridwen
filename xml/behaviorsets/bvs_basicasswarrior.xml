@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="BasicAssWarrior">
+  <!-- Comment: Base template for Warriors -->
+  <StatAlloc>Str Str Dex Con Int Wis</StatAlloc>
+  <Castables Auto="true" SkillCategories="MonWarr">
+    <Castable>Assail</Castable>
+    <Castable>Wind Blade</Castable>
+  </Castables>
+  <Behavior>
+    <CastableSets>
+      <CastableSet Type="Offense" Interval="30" Priority="HighThreat" Categories="MonWarr" Random="false">
+        <Castable>Wind Blade</Castable>
+      </CastableSet>
+      <CastableSet Type="Assail" Interval="3" Priority="HighThreat" Random="false">
+        <Castable>Assail</Castable>
+      </CastableSet>
+    </CastableSets>
+  </Behavior>
+</BehaviorSet>

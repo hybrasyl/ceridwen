@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="BasicAssMonk">
+  <!-- Comment: Base template for Monks -->
+  <StatAlloc>Con Con Str Dex Int Wis</StatAlloc>
+  <Castables Auto="true" SkillCategories="MonMonk">
+    <Castable>Assail</Castable>
+  </Castables>
+  <Behavior>
+    <CastableSets>
+      <CastableSet Type="Offense" Interval="30" Priority="HighThreat" Categories="MonMonk"/>
+      <CastableSet Type="Assail" Interval="3" Priority="HighThreat" Random="false">
+        <Castable>Assail</Castable>
+      </CastableSet>
+    </CastableSets>
+  </Behavior>
+</BehaviorSet>

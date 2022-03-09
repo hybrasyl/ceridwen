@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="BasicAssRogue">
+  <!-- Comment: Base template for Rogues -->
+  <StatAlloc>Dex Dex Str Con Int Wis</StatAlloc>
+  <Castables Auto="true" SkillCategories="MonRogue">
+    <Castable>Assail</Castable>
+  </Castables>
+  <Behavior>
+    <CastableSets>
+      <CastableSet Type="Offense" Interval="25" Priority="HighThreat" Categories="MonRogue" Random="false"/>
+      <CastableSet Type="Assail" Interval="2" Priority="HighThreat" Random="false">
+        <Castable>Assail</Castable>
+      </CastableSet>
+    </CastableSets>
+  </Behavior>
+</BehaviorSet>
