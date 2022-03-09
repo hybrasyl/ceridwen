@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="44" Book="PrimarySpell" Element="Wind" Class="Wizard" Cooldown="0">
+  <Name>mor athar</Name>
+  <Descriptions>
+    <Description Class="Wizard">Wind damage on a target</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Spell</Category>
+    <Category>Wind</Category>
+    <Category>ElementST</Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="200"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="40" Warrior="40" Peasant="20" Wizard="100" Priest="60" Rogue="40"/>
+  <Requirements>
+    <Requirement Class="Wizard">
+      <Level Min="30" Max="99"/>
+      <Gold>2325</Gold>
+      <Physical Str="10" Int="25" Wis="10" Con="10" Dex="18"/>
+      <Items>
+        <Item Quantity="1">Great Bat Wing</Item>
+      </Items>
+      <Prerequisites>
+        <Prerequisite Level="30">athar</Prerequisite>
+      </Prerequisites>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+        <Target Id="16" Speed="100"/>
+      </OnCast>
+    </Animations>
+    <Sound Id="25"/>
+    <Damage Type="Elemental">
+      <Formula>(([SOURCEINT]*15)+([SOURCEDEX]*15)+([SOURCEDMG]*40)+([RAND_100]*10))</Formula>
+    </Damage>
+  </Effects>
+  <Mastery Uses="750" Tiered="false"/>
+</Castable>

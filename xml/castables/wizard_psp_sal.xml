@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="46" Book="PrimarySpell" Element="Water" Class="Wizard" Cooldown="0">
+  <Name>sal</Name>
+  <Descriptions>
+    <Description Class="Wizard">Water damage on a target</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Spell</Category>
+    <Category>Water</Category>
+    <Category>ElementST</Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="60"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="40" Warrior="40" Peasant="20" Wizard="100" Priest="60" Rogue="40"/>
+  <Requirements>
+    <Requirement Class="Wizard">
+      <Level Min="14" Max="99"/>
+      <Gold>1365</Gold>
+      <Physical Str="7" Int="10" Wis="10" Con="7" Dex="7"/>
+      <Items>
+        <Item Quantity="1">Raw Honey</Item>
+        <Item Quantity="1">Spider Silk</Item>
+      </Items>
+      <Prerequisites>
+        <Prerequisite Level="30">beag sal</Prerequisite>
+      </Prerequisites>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+        <Target Id="9" Speed="100"/>
+      </OnCast>
+    </Animations>
+    <Sound Id="24"/>
+    <Damage Type="Elemental">
+      <Formula>(([SOURCEINT]*10)+([SOURCEWIS]*10)+([SOURCEDMG]*30)+([RAND_100]*3))</Formula>
+    </Damage>
+  </Effects>
+  <Mastery Uses="750" Tiered="false"/>
+</Castable>

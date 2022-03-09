@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="36" Book="PrimarySpell" Element="Earth" Class="Wizard" Cooldown="0">
+  <Name>ard creag</Name>
+  <Descriptions>
+    <Description Class="Wizard">Earth damage on a target</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Spell</Category>
+    <Category>Earth</Category>
+    <Category>ElementST</Category>
+  </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="400"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <MaxLevel Monk="40" Warrior="40" Peasant="20" Wizard="100" Priest="60" Rogue="40"/>
+  <Requirements>
+    <Requirement Class="Wizard">
+      <Level Min="50" Max="99"/>
+      <Gold>3525</Gold>
+      <Physical Str="17" Int="35" Wis="17" Con="27" Dex="17"/>
+      <Items>
+        <Item Quantity="3">Finished Beryl</Item>
+        <Item Quantity="3">Finished Ruby</Item>
+        <Item Quantity="1">Coral Earrings</Item>
+      </Items>
+      <Prerequisites>
+        <Prerequisite Level="30">mor creag</Prerequisite>
+      </Prerequisites>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+        <Target Id="30" Speed="100"/>
+      </OnCast>
+    </Animations>
+    <Sound Id="76"/>
+    <Damage Type="Elemental">
+      <Formula>(([SOURCEINT]*20)+([SOURCECON]*20)+([SOURCEDMG]*50)+([RAND_100]*20))</Formula>
+    </Damage>
+  </Effects>
+  <Mastery Uses="1250" Tiered="false"/>
+</Castable>
