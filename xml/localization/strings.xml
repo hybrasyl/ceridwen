@@ -94,4 +94,7 @@
   </Merchant>
   <NpcSpeak />
   <MonsterSpeak />
+  <NpcResponses>
+    <Response Call="What is your name?">My name is $NAME.</Response>
+  </NpcResponses>
 </Strings>
