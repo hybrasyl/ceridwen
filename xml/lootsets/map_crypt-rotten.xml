@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Crypt-Rotten">
+  <Table Rolls="2" Chance="0.25">
+    <Items Rolls="4" Chance="0.25">
+      <Item Max="1" Unique="false" Always="false">Rotten Vegetable</Item>
+      <Item Max="1" Unique="false" Always="false">Rotten Tomato</Item>
+      <Item Max="1" Unique="false" Always="false">Rotten Cherries</Item>
+      <Item Max="1" Unique="false" Always="false">Rotten Grapes</Item>
+      <Item Max="1" Unique="false" Always="false">Rotten Apple</Item>
+      <Item Max="1" Unique="false" Always="false">Rotten Sausages</Item>
+      <Item Max="1" Unique="false" Always="false">Mold</Item>
+      <Item Max="1" Unique="false" Always="false">Moldy Baguette</Item>
+      <Item Max="1" Unique="false" Always="false">Moldy Bread Slice</Item>
+    </Items>
+  </Table>
+</LootSet>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Cheese</Name>
+  <Comment>Food</Comment>
+  <Properties>
+    <Appearance Sprite="1658"/>
+    <Stackable Max="30"/>
+    <Physical Value="155" Weight="1" Durability="0"/>
+    <Equipment Slot="None"/>
+    <StatModifiers
+       CurrentMp="10"
+      
+    />
+    <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+    <Vendor ShopTab="Food"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

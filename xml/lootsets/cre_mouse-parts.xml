@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mouse Parts">
+  <Table Rolls="2" Chance="0.25">
+    <Items Rolls="2" Chance="0.25">
+      <Item Max="1" Unique="false" Always="false">Cheese</Item>
+      <Item Max="1" Unique="false" Always="false">Mouse Tail</Item>
+    </Items>
+  </Table>
+</LootSet>

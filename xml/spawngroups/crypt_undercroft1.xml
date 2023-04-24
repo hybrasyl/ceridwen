@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<SpawnGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Crypt1" BaseLevel="2" Disabled="false">
+    <Loot>
+      <Set Name="Crypt-Rotten"/>
+    </Loot>
+  <Spawns>
+    <Spawn Name="Mouse" Flags="Active">
+      <Damage MinDmg="3" MaxDmg="7" Elements="None"/>
+      <Defense Ac="-10" Mr="5" Elements="None"/>
+      <Spec MinCount="1" MaxCount="10" MaxPerInterval="2" Interval="30" Limit="10" Disabled="false"/>
+      <Base Level="2" WeakChance="10" StrongChance="10"/>
+      <Hostility>
+      </Hostility>
+    </Spawn>
+    <Spawn Name="Cellar Spider" Flags="Active">
+      <Damage MinDmg="4" MaxDmg="8" Elements="None"/>
+      <Defense Ac="-10" Mr="5" Elements="None"/>
+      <Spec MinCount="1" MaxCount="10" MaxPerInterval="2" Interval="30" Limit="10" Disabled="false"/>
+      <Base Level="3" WeakChance="10" StrongChance="10"/>
+      <Hostility>
+      </Hostility>
+    </Spawn>
+    <Spawn Name="Centipede" Flags="Active">
+      <Damage MinDmg="5" MaxDmg="9" Elements="None"/>
+      <Defense Ac="-10" Mr="5" Elements="None"/>
+      <Spec MinCount="1" MaxCount="10" MaxPerInterval="2" Interval="30" Disabled="false"/>
+      <Base Level="4" WeakChance="10" StrongChance="10"/>
+      <Hostility>
+        <Player/>
+      </Hostility>
+    </Spawn>
+  </Spawns>
+</SpawnGroup>

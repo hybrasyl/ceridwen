@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Rotten Vegetable</Name>
+  <Comment>Reagent</Comment>
+  <Properties>
+    <Appearance Sprite="43"/>
+    <Stackable Max="30"/>
+    <Physical Value="25" Weight="1" Durability="0"/>
+    <Equipment Slot="None"/>
+    <StatModifiers
+       CurrentHp="-20"
+      
+    />
+    <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+    <Vendor ShopTab="Reagent"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>
