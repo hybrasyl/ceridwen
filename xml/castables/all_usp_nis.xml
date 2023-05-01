@@ -2,7 +2,7 @@
 <Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="19" Book="UtilitySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard">
   <Name>nis</Name>
   <Descriptions>
-    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Tells you the time & date in Temuairan Time</Description>
+    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Tells you the time &amp; date in Temuairan Time</Description>
   </Descriptions>
   <Categories>
     <Category>Spell</Category>

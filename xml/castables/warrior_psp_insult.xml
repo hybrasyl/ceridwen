@@ -41,7 +41,6 @@
       </OnCast>
     </Animations>
     <Damage Type="Direct">
-      <Flags>Threat</Flags>
       <Simple>10</Simple>
     </Damage>
   </Effects>
