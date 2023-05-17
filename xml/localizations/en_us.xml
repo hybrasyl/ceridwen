@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Strings xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+<Localization xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Locale="en_us">
   <Common>
     <String Key="item_equip_wrong_gender">You conclude this garment would look much better on someone else.</String>
     <String Key="item_equip_wrong_class">Your path has forbidden itself from using such vulgar implements.</String>
@@ -97,4 +97,4 @@
   <NpcResponses>
     <Response Call="What is your name?">My name is $NAME.</Response>
   </NpcResponses>
-</Strings>
+</Localization>

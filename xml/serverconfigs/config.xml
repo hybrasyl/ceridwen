@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<ServerConfig xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Motd>Welcome to Hybrasyl, using Ceridwen default data!</Motd>
+  <Logging>
+    <Log Type="Scripting" Destination="scripting.log" Level="Info"/>
+    <Log Type="Spawn" Destination="spawn.log" Level="Warn"/>
+    <Log Type="WorldData" Destination="worlddata.log" Level="Debug"/>
+  </Logging>
+  <DataStore Host="127.0.0.1"><Username /><Password /></DataStore>
+  <Network>
+    <Lobby Port="2610" />
+    <Login Port="2611" />
+    <World Port="2612" />
+  </Network>
+  <Access>
+    <Privileged>YourNameHere</Privileged>
+    <Reserved>Danaan Chadul Deoch Glioca Cail Luathas Gramail Fiosachd Ceannlaidir Sgrios Belenus</Reserved>
+  </Access>
+  <Boards>
+    <Board Name="discuss" DisplayName="GeneralDiscussion">
+      <AccessList>
+	<Read>*</Read>
+	<Write>*</Write>
+	<Moderate>YourNameHere</Moderate>
+      </AccessList>
+    </Board>
+  </Boards>
+  <Time>
+    <Ages>
+      <Age Name="Danaan" StartDate="1639-01-03T01:00:00Z" EndDate="2020-09-08T14:26:00Z"/>
+      <Age Name="Deoch" StartDate="2020-09-09T14:27:00Z" StartYear="1"/>
+    </Ages>
+    <ServerStart>2020-09-09T14:26:00Z</ServerStart>
+  </Time>
+  <Handlers>
+    <Death Active="true" Perishable="true" GroupNotify="true">
+      <Map X="5" Y="5">Chaotic Threshold</Map>
+      <Coma Timeout="30" Effect="24">Coma</Coma>
+      <Penalty Xp="0.02" Hp="0.02" />
+      <LegendMark Increment="true">Sgrios's Scar</LegendMark>
+    </Death>
+    <NewPlayer>
+      <StartMaps>
+        <StartMap X="2" Y="3">Mileth Inn Room 1</StartMap>
+        <StartMap X="2" Y="3">Mileth Inn Room 2</StartMap>
+        <StartMap X="2" Y="3">Mileth Inn Room 3</StartMap>
+        <StartMap X="2" Y="3">Mileth Inn Room 4</StartMap>
+      </StartMaps>
+    </NewPlayer>
+  </Handlers>
+</ServerConfig>
