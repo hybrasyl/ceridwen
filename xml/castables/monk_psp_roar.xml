@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="97" Book="PrimarySpell" Element="" Class="Monk">
+  <!--<Comment>Kelberoth</Comment>-->
+  <Name>Roar</Name>
+  <Descriptions>
+    <Description Class="Monk">Stuns enemies surrounding you. Doesn't work on many things.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="100"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="56" Flags="Hostile">
+      <Square Side="8"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="1" Max="99"/>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

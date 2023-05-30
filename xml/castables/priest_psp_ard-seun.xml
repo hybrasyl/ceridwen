@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="88" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Piet, Priestess</Comment>-->
+  <Name>ard seun</Name>
+  <Descriptions>
+    <Description Class="Priest">Makes low level creatures fight for you. Doesn't work on many things..</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="400"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="40" Max="99"/>
+      <Physical Str="8" Int="18" Wis="50" Con="8" Dex="8"/>
+      <Items>
+        <Item Quantity="1">Royal Wax</Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="40">mor seun</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

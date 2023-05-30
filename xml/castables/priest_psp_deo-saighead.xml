@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="3" Icon="71" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Suomi Wizard</Comment>-->
+  <Name>deo saighead</Name>
+  <Descriptions>
+    <Description Class="Priest">Attacks the enemy with light.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="240"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="28" Max="99"/>
+      <Gold>12000</Gold>
+      <Physical Str="3" Int="40" Wis="50" Con="3" Dex="3"/>
+      <Items>
+        <Item Quantity="1">Goblin's Skull </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="45">ioc</Prerequisite>
+        <Prerequisite Level="5"> beag ioc comlha</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

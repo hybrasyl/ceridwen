@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="24" Book="PrimarySpell" Element="" Class="Priest_Monk">
+  <!--<Comment>Mileth Priestess</Comment>-->
+  <Name>ao puinsein</Name>
+  <Descriptions>
+    <Description Class="Priest">Removes poison effects.</Description>
+    <Description Class="Monk">Removes poison effects.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="30"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Friendly Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Priest">
+      <Level Min="4" Max="99"/>
+      <Gold>5000</Gold>
+      <Physical Str="3" Int="8" Wis="11" Con="4" Dex="3"/>
+    </Requirement>
+    <Requirement Class="Monk">
+      <Level Min="5" Max="99"/>
+      <Gold>5000</Gold>
+      <Physical Str="5" Int="10" Wis="5" Con="13" Dex="3"/>
+      <Items>
+        <Item Quantity="1">Bee's Sting </Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

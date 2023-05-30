@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="146" Book="PrimarySpell" Element="" Class="Priest">
+  <Name>Regeneration 5</Name>
+  <Descriptions>
+    <Description Class="Priest">Heals a playert for 45,000 over 30 seconds. (1500hps)</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="3420"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Friendly Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="99" Max="99"/>
+      <Gold>8000000</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="60" Max="99"/>
+      <Items>
+        <Item Quantity="10">Veltain Ore </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="100">Regeneration 4</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

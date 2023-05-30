@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="32" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Mileth Priestess</Comment>-->
+  <Name>beag ioc comlha</Name>
+  <Descriptions>
+    <Description Class="Priest">Heals your group for a tiny amount.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="70"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="12" Flags="Group Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="8" Max="99"/>
+      <Gold>2500</Gold>
+      <Physical Str="3" Int="14" Wis="22" Con="3" Dex="3"/>
+      <!-- <Prerequisites>
+        <Prerequisite Level="30">beag ioc</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

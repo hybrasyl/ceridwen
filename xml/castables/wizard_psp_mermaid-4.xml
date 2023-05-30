@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="155" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>04.1</Comment>-->
+  <Name>Mermaid 4</Name>
+  <Descriptions>
+    <Description Class="Wizard">Attacks the target with Water damage.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="2700"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="99" Max="99"/>
+      <Gold>3000000</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="18" Max="99"/>
+      <Items>
+        <Item Quantity="3">Red Hitonic </Item>
+        <Item Quantity="2">Wind Stone </Item>
+        <Item Quantity="2">Andor Enchanted Earring </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="100">Mermaid 3</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

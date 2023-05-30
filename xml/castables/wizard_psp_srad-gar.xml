@@ -1,38 +1,33 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="62" Book="PrimarySpell" Element="Fire" Class="Wizard" Cooldown="0" IsAssail="false" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="62" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>Undine Wizard</Comment>-->
   <Name>srad gar</Name>
   <Descriptions>
     <Description Class="Wizard">Attacks all enemies with strong fire.</Description>
   </Descriptions>
-  <Categories>
-    <Category>Spell</Category>
-    <Category>Wizard</Category>
-    <Category>Fire</Category>
-    <Category>AOE</Category>
-  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="8160"/>
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="NoTarget" MaxTargets="40" Flags="Hostile Pvp">
-      <Map/>
+    <Intent UseType="NoTarget" MaxTargets="128" Flags="Hostile Pvp">
+      <Square Side="16"/>
     </Intent>
   </Intents>
-  <MaxLevel Monk="60" Warrior="30" Peasant="20" Wizard="100" Priest="80" Rogue="40"/>
-  <Requirements>
-    <Requirement Class="Wizard">
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
       <Level Min="30" Max="99"/>
       <Gold>500000</Gold>
       <Physical Str="72" Int="34" Wis="14" Con="21" Dex="14"/>
       <Items>
-        <Item Quantity="10">Finished Beryl</Item>
-        <Item Quantity="5">Finished Ruby</Item>
-        <Item Quantity="2">Coral Earrings</Item>
+        <Item Quantity="10">Finished Beryl </Item>
+        <Item Quantity="5">Finished Ruby </Item>
+        <Item Quantity="2">Coral Earrings </Item>
       </Items>
-    </Requirement>
-  </Requirements>
+      <!-- <Prerequisites>
+        <Prerequisite Level="60">ard srad</Prerequisite>
+        <Prerequisite Level="90"> srad meall</Prerequisite>
+      </Prerequisites> -->
   <Effects>
     <Animations>
       <OnCast>
@@ -44,13 +39,7 @@
           <Motion Class="Rogue" Id="6" Speed="40"/>
           <Motion Class="Monk" Id="6" Speed="40"/>
         </Player>
-        <Target Id="14" Speed="100"/>
       </OnCast>
     </Animations>
-    <Sound Id="155"/>
-    <Damage Type="Elemental">
-      <Formula>(8160*2.5) + ([RAND_5]*7)</Formula>
-    </Damage>
   </Effects>
-  <Mastery Uses="40"/>
 </Castable>

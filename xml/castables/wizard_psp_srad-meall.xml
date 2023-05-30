@@ -1,15 +1,10 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="61" Book="PrimarySpell" Element="Fire" Class="Wizard" Cooldown="0" IsAssail="false" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="61" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>Suomi Wizard</Comment>-->
   <Name>srad meall</Name>
   <Descriptions>
     <Description Class="Wizard">Attacks a cluster of enemies with stronger fire.</Description>
   </Descriptions>
-  <Categories>
-    <Category>Spell</Category>
-    <Category>Wizard</Category>
-    <Category>Fire</Category>
-    <Category>AOE</Category>
-  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2400"/>
@@ -17,20 +12,20 @@
   </CastCosts>
   <Intents>
     <Intent UseType="Target" MaxTargets="5" Flags="Hostile Pvp">
-      <Cross Radius="1"/>
+      <Cross Direction="1" VisualEffect="AllTiles"/>
     </Intent>
   </Intents>
-  <MaxLevel Monk="60" Warrior="30" Peasant="20" Wizard="100" Priest="80" Rogue="40"/>
-  <Requirements>
-    <Requirement Class="Wizard">
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
       <Level Min="25" Max="99"/>
       <Gold>12000</Gold>
       <Physical Str="40" Int="19" Wis="9" Con="15" Dex="9"/>
       <Items>
-        <Item Quantity="2">Goblin Skull</Item>
+        <Item Quantity="2">Goblin's Skull </Item>
       </Items>
-    </Requirement>
-  </Requirements>
+      <!-- <Prerequisites>
+        <Prerequisite Level="45">mor srad</Prerequisite>
+        <Prerequisite Level="75"> srad lamh</Prerequisite>
+      </Prerequisites> -->
   <Effects>
     <Animations>
       <OnCast>
@@ -42,13 +37,7 @@
           <Motion Class="Rogue" Id="6" Speed="40"/>
           <Motion Class="Monk" Id="6" Speed="40"/>
         </Player>
-        <Target Id="13" Speed="100"/>
       </OnCast>
     </Animations>
-    <Sound Id="155"/>
-    <Damage Type="Elemental">
-      <Formula>(2400*2.5) + ([RAND_5]*7)</Formula>
-    </Damage>
   </Effects>
-  <Mastery Uses="30"/>
 </Castable>

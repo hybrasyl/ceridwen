@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="153" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>13.1</Comment>-->
+  <Name>Keeter 13</Name>
+  <Descriptions>
+    <Description Class="Wizard">Attacks a large cluster of enemies with Wind Damage. (1 Tile)</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="3000"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="99" Max="99"/>
+      <Gold>9000000</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="80" Max="99"/>
+      <Items>
+        <Item Quantity="1">Dragon Infused Staff </Item>
+        <Item Quantity="25">Wind Baem Missives </Item>
+        <Item Quantity="25">Silver Baem Egg </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="100">Keeter 12</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

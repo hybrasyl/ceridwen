@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="78" Book="PrimarySpell" Element="" Class="Priest">
+  <Name>ard ioc comlha</Name>
+  <Descriptions>
+    <Description Class="Priest">Heals your group for a large amount. (Heals 2x more than mor ioc comhla)., You must choose between Darker Seal and ard ioc comlha, but can switch as you please by visiting Aman Jungle.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="1720"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="12" Flags="Group Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="99" Max="99"/>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="40" Max="99"/>
+      <Items>
+        <Item Quantity="1">Gold Bar</Item>
+      </Items>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

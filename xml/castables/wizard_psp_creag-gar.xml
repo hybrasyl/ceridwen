@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="59" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>Undine Wizard</Comment>-->
+  <Name>creag gar</Name>
+  <Descriptions>
+    <Description Class="Wizard">Attacks all enemies with strong earth.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="8160"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="128" Flags="Hostile Pvp">
+      <Square Side="16"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="30" Max="99"/>
+      <Gold>500000</Gold>
+      <Physical Str="25" Int="34" Wis="15" Con="84" Dex="15"/>
+      <Items>
+        <Item Quantity="10">Finished Beryl </Item>
+        <Item Quantity="5">Finished Ruby </Item>
+        <Item Quantity="2">Coral Earrings </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="60">ard creag</Prerequisite>
+        <Prerequisite Level="90">creag meall</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

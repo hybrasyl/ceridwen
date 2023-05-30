@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="7" Book="PrimarySpell" Element="" Class="Rogue">
+  <!--<Comment>Piet Priestess</Comment>-->
+  <Name>eisd creutair</Name>
+  <Descriptions>
+    <Description Class="Rogue">Allows the caster to see Invisible players.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="120"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="31" Max="99"/>
+      <Gold>50000</Gold>
+      <Physical Str="3" Int="30" Wis="24" Con="3" Dex="3"/>
+      <Items>
+        <Item Quantity="10">Uncut Beryl</Item>
+        <Item Quantity="5">Uncut Ruby</Item>
+        <Item Quantity="2">Coral Earrings</Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="30">Hide</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="3" Icon="54" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Piet Priestess</Comment>-->
+  <Name>deireas faileas</Name>
+  <Descriptions>
+    <Description Class="Priest">Gives the user a 70% chance to reflect spells for the duration.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="980"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="69" Max="99"/>
+      <Gold>500000</Gold>
+      <Physical Str="5" Int="70" Wis="80" Con="33" Dex="15"/>
+      <Items>
+        <Item Quantity="13">Uncut Beryl </Item>
+        <Item Quantity="8">Uncut Ruby </Item>
+        <Item Quantity="4">Coral Earrings </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="90">mor dion</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

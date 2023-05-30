@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="5" Icon="124" Book="PrimarySpell" Element="" Class="Monk">
+  <!--<Comment>Sapphire Stream</Comment>-->
+  <!--<Comment>Yellow Dugon</Comment>-->
+  <Name>Cat's Hearing</Name>
+  <Descriptions>
+    <Description Class="Monk">Allows the caster to see Invisible players.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="120"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="44" Max="99"/>
+      <Physical Str="3" Int="15" Wis="3" Con="3" Dex="3"/>
+      <Items>
+        <Item Quantity="1">Gruesomefly Antenna</Item>
+        <Item Quantity="1">Wolf's Fur</Item>
+      </Items>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

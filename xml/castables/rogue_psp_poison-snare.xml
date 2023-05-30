@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="35" Book="PrimarySpell" Element="" Class="Rogue">
+  <!--<Comment>Pravat Goblin</Comment>-->
+  <Name>Poison Snare</Name>
+  <Descriptions>
+    <Description Class="Rogue">Drops a trap that poisons the enemy that steps on it. Medium Duration</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="50"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="7" Max="99"/>
+      <Gold>5000</Gold>
+      <Physical Str="8" Int="8" Wis="7" Con="10" Dex="13"/>
+      <Items>
+        <Item Quantity="4">Centipede's Gland </Item>
+      </Items>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="159" Book="PrimarySpell" Element="" Class="Rogue">
+  <Name>Star Arrow 3</Name>
+  <Descriptions>
+    <Description Class="Rogue">Attacks a cluster of enemies with Light damage. (13 Tiles)</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="600"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="16" Flags="Hostile Pvp">
+      <Square Side="4"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="99" Max="99"/>
+      <Gold>3500000</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="30" Max="99"/>
+      <Items>
+        <Item Quantity="5">Green Hitonic </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="100">Star Arrow 2</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

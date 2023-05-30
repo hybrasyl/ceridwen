@@ -1,35 +1,30 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="60" Book="PrimarySpell" Element="Fire" Class="Wizard" Cooldown="0" IsAssail="false" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="60" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>Mileth Wizard</Comment>-->
   <Name>beag srad lamh</Name>
   <Descriptions>
     <Description Class="Wizard">Attacks all enemies with weak fire.</Description>
   </Descriptions>
-  <Categories>
-    <Category>Spell</Category>
-    <Category>Wizard</Category>
-    <Category>Fire</Category>
-    <Category>AOE</Category>
-  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="60"/>
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="NoTarget" MaxTargets="40" Flags="Hostile Pvp">
+    <Intent UseType="NoTarget" MaxTargets="5" Flags="Hostile Pvp">
+      <Cross Direction="1" VisualEffect="AllTiles"/>
     </Intent>
   </Intents>
-  <MaxLevel Monk="60" Warrior="30" Peasant="20" Wizard="100" Priest="80" Rogue="40"/>
-  <Requirements>
-    <Requirement Class="Wizard">
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
       <Level Min="2" Max="99"/>
       <Gold>1000</Gold>
       <Physical Str="11" Int="5" Wis="3" Con="4" Dex="3"/>
       <Items>
-        <Item Quantity="1">Centipede Gland</Item>
+        <Item Quantity="1">Centipede's Gland </Item>
       </Items>
-    </Requirement>
-  </Requirements>
+      <!-- <Prerequisites>
+        <Prerequisite Level="10">beag srad</Prerequisite>
+      </Prerequisites> -->
   <Effects>
     <Animations>
       <OnCast>
@@ -41,13 +36,7 @@
           <Motion Class="Rogue" Id="6" Speed="40"/>
           <Motion Class="Monk" Id="6" Speed="40"/>
         </Player>
-        <Target Id="12" Speed="100"/>
       </OnCast>
     </Animations>
-    <Sound Id="155"/>
-    <Damage Type="Elemental">
-      <Formula>(60*2.5) + ([RAND_5]*7)</Formula>
-    </Damage>
   </Effects>
-  <Mastery Uses="10"/>
 </Castable>

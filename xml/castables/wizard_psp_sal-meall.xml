@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="64" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>Suomi Wizard</Comment>-->
+  <Name>sal meall</Name>
+  <Descriptions>
+    <Description Class="Wizard">Attacks a cluster of enemies with stronger water.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="2400"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="5" Flags="Hostile Pvp">
+      <Cross Direction="1" VisualEffect="AllTiles"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="25" Max="99"/>
+      <Gold>12000</Gold>
+      <Physical Str="11" Int="19" Wis="60" Con="11" Dex="26"/>
+      <Items>
+        <Item Quantity="1">Wolf's Lock </Item>
+        <Item Quantity="1">Amethyst Ring </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="45">mor sal</Prerequisite>
+        <Prerequisite Level="75"> sal lamh</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

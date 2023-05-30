@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="77" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Piet Priestess</Comment>-->
+  <Name>nuadhaich</Name>
+  <Descriptions>
+    <Description Class="Priest">Heals the target for an extremely large amount.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="1260"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Friendly Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="65" Max="99"/>
+      <Gold>500000</Gold>
+      <Physical Str="10" Int="55" Wis="120" Con="10" Dex="10"/>
+      <Items>
+        <Item Quantity="12">Uncut Beryl </Item>
+        <Item Quantity="6">Uncut Ruby </Item>
+        <Item Quantity="3">Coral Earrings </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="90">ard ioc</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

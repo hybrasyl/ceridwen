@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="10" Book="PrimarySpell" Element="" Class="Rogue">
+  <!--<Comment>Suomi Rogue</Comment>-->
+  <Name>Hide</Name>
+  <Descriptions>
+    <Description Class="Rogue">Temporarily makes the caster Invisible.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="200"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="10" Max="99"/>
+      <Gold>5000</Gold>
+      <Physical Str="6" Int="12" Wis="10" Con="6" Dex="28"/>
+      <Items>
+        <Item Quantity="1">Bat's Wing</Item>
+        <Item Quantity="1">Kobold's Skull</Item>
+        <Item Quantity="1">Scorpion's Sting</Item>
+      </Items>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

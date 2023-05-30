@@ -1,36 +1,29 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="93" Book="PrimarySpell" Element="None" Class="Wizard" Cooldown="0" IsAssail="false" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="93" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>Pravat Goblin</Comment>-->
   <Name>ard athar nadur</Name>
   <Descriptions>
-    <Description Class="Wizard">Change the defence element of the enemy to wind.</Description>
+    <Description Class="Wizard">Changes the defence element of the enemy to wind.</Description>
   </Descriptions>
-  <Categories>
-    <Category>Spell</Category>
-    <Category>Wizard</Category>
-    <Category>Fire</Category>
-    <Category>Defense Change</Category>
-  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="5"/>
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
-      <Line Length="1" Direction="Front"/>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
     </Intent>
   </Intents>
-  <MaxLevel Monk="60" Warrior="30" Peasant="20" Wizard="100" Priest="80" Rogue="40"/>
-  <Requirements>
-    <Requirement Class="Wizard">
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
       <Level Min="30" Max="99"/>
       <Gold>250000</Gold>
       <Physical Str="38" Int="22" Wis="8" Con="13" Dex="8"/>
       <Items>
-        <Item Quantity="10">fior athar</Item>
+        <Item Quantity="10">fior athar </Item>
       </Items>
-    </Requirement>
-  </Requirements>
+      <!-- <Prerequisites>
+        <Prerequisite Level="50">mor srad</Prerequisite>
+      </Prerequisites> -->
   <Effects>
     <Animations>
       <OnCast>
@@ -42,11 +35,7 @@
           <Motion Class="Rogue" Id="6" Speed="40"/>
           <Motion Class="Monk" Id="6" Speed="40"/>
         </Player>
-        <Target Id="21" Speed="100"/>
       </OnCast>
     </Animations>
-    <Sound Id="155"/>
   </Effects>
-  <Script>ArdAtharNadur</Script>
-  <Mastery Uses="40"/>
 </Castable>

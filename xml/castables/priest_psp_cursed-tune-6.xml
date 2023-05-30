@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="55" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Pure Bard</Comment>-->
+  <Name>Cursed Tune 6</Name>
+  <Descriptions>
+    <Description Class="Priest">Drains 40% of the enemy'stotal health over 40 seconds. 5 second cooldown.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="4560"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="99" Max="99"/>
+      <Gold>9500000</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="1" Max="99"/>
+      <Items>
+        <Item Quantity="50">Stunned Fire Worm </Item>
+        <Item Quantity="30">Grime's Skin </Item>
+        <Item Quantity="20">Assassin Wolf Locks </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="100">Cursed Tune 5</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

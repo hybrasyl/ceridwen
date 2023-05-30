@@ -1,45 +1,35 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="54" Book="PrimarySpell" Element="None" Class="Warrior">
-  <Name>asgall faileas</Name>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="54" Book="PrimarySpell" Element="" Class="Warrior">
+  <!--<Comment>Oren Skill Master</Comment>-->
+  <!--<Comment>Pure Gladiator</Comment>-->
+  <Name>Asgall Faileas</Name>
   <Descriptions>
-    <Description Class="Warrior">The user reflects 70% of physical damage for the duration</Description>
+    <Description Class="Warrior">Gives the user a 70% chance to reflect physical attacks for the duration.</Description>
   </Descriptions>
-  <Categories>
-    <Category>Spell</Category>
-    <Category>Primary</Category>
-    <Category>Physical Reflect</Category>
-  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="310"/>
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="NoTarget" Flags="Self">
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>
   </Intents>
-  <MaxLevel Monk="60" Warrior="100" Peasant="20" Wizard="40" Priest="40" Rogue="80"/>
-  <Requirements>
-    <Requirement Class="Warrior">
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
       <Level Min="99" Max="99"/>
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
-    </Requirement>
-  </Requirements>
   <Effects>
     <Animations>
       <OnCast>
         <Player>
           <Motion Class="Peasant" Id="6" Speed="40"/>
           <Motion Class="Warrior" Id="6" Speed="40"/>
-          <Motion Class="Wizard" Id="6" Speed="40"/>
-          <Motion Class="Priest" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
           <Motion Class="Rogue" Id="6" Speed="40"/>
           <Motion Class="Monk" Id="6" Speed="40"/>
         </Player>
-        <Target Id="12" Speed="100"/>
       </OnCast>
     </Animations>
   </Effects>
-  <Script>SpellAsgallFaileas</Script>
-  <Mastery Uses="20" Tiered="false"/>
 </Castable>

@@ -1,37 +1,29 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="47" Book="PrimarySpell" Element="Water" Class="Wizard" Cooldown="0">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="47" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>Suomi Wizard</Comment>-->
   <Name>mor sal</Name>
   <Descriptions>
-    <Description Class="Wizard">Water damage on a target</Description>
+    <Description Class="Wizard">Attacks the enemy with stronger water.</Description>
   </Descriptions>
-  <Categories>
-    <Category>Spell</Category>
-    <Category>Water</Category>
-    <Category>ElementST</Category>
-  </Categories>
   <CastCosts>
     <CastCost>
-      <Stat Mp="200"/>
+      <Stat Mp="800"/>
     </CastCost>
   </CastCosts>
   <Intents>
     <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
     </Intent>
   </Intents>
-  <MaxLevel Monk="40" Warrior="40" Peasant="20" Wizard="100" Priest="60" Rogue="40"/>
-  <Requirements>
-    <Requirement Class="Wizard">
-      <Level Min="30" Max="99"/>
-      <Gold>2325</Gold>
-      <Physical Str="10" Int="25" Wis="18" Con="10" Dex="10"/>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="20" Max="99"/>
+      <Gold>12000</Gold>
+      <Physical Str="13" Int="14" Wis="52" Con="10" Dex="24"/>
       <Items>
-        <Item Quantity="1">Wolf Lock</Item>
+        <Item Quantity="">Wolf's Lock </Item>
       </Items>
-      <Prerequisites>
-        <Prerequisite Level="30">sal</Prerequisite>
-      </Prerequisites>
-    </Requirement>
-  </Requirements>
+      <!-- <Prerequisites>
+        <Prerequisite Level="60">sal</Prerequisite>
+      </Prerequisites> -->
   <Effects>
     <Animations>
       <OnCast>
@@ -43,13 +35,7 @@
           <Motion Class="Rogue" Id="6" Speed="40"/>
           <Motion Class="Monk" Id="6" Speed="40"/>
         </Player>
-        <Target Id="10" Speed="100"/>
       </OnCast>
     </Animations>
-    <Sound Id="24"/>
-    <Damage Type="Elemental">
-      <Formula>(([SOURCEINT]*15)+([SOURCEWIS]*15)+([SOURCEDMG]*40)+([RAND_100]*10))</Formula>
-    </Damage>
   </Effects>
-  <Mastery Uses="750" Tiered="false"/>
 </Castable>

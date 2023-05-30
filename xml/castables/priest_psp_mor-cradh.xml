@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="3" Icon="83" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Undine Wizard</Comment>-->
+  <Name>mor cradh</Name>
+  <Descriptions>
+    <Description Class="Priest">Curses the enemy, increasing their armor class by 50 and reducing their magic resistance by 20%</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="120"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Friendly Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="42" Max="99"/>
+      <Gold>50000</Gold>
+      <Physical Str="6" Int="22" Wis="86" Con="13" Dex="6"/>
+      <Items>
+        <Item Quantity="4">Finished Beryl </Item>
+        <Item Quantity="2">Finished Ruby </Item>
+        <Item Quantity=""> Beryl Earrings </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="75">cradh</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

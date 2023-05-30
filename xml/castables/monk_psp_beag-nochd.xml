@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="5" Icon="27" Book="PrimarySpell" Element="" Class="Monk">
+  <!--<Comment>Undine Wizard</Comment>-->
+  <Name>beag nochd</Name>
+  <Descriptions>
+    <Description Class="Monk">Attacks the enemy with wind.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="720"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Friendly Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="30" Max="99"/>
+      <Gold>50000</Gold>
+      <Physical Str="13" Int="36" Wis="28" Con="13" Dex="23"/>
+      <Items>
+        <Item Quantity="6">Finished Beryl </Item>
+        <Item Quantity="3">Finished Ruby </Item>
+        <Item Quantity="2">Beryl Earrings </Item>
+      </Items>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

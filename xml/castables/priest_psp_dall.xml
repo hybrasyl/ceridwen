@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="3" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Undine Wizard</Comment>-->
+  <Name>dall</Name>
+  <Descriptions>
+    <Description Class="Priest">Blinds the enemy. Short duration.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="220"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="40" Max="99"/>
+      <Gold>50000</Gold>
+      <Physical Str="3" Int="57" Wis="46" Con="6" Dex="33"/>
+      <Items>
+        <Item Quantity="2">Finished Beryl </Item>
+        <Item Quantity="1">Finished Ruby </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="75">breisleich</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

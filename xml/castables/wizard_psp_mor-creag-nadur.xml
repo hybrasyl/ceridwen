@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="93" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>Astrid Kobold</Comment>-->
+  <Name>mor creag nadur</Name>
+  <Descriptions>
+    <Description Class="Wizard">Changes the defence element of the enemy to earth.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="25"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="16" Max="99"/>
+      <Gold>50000</Gold>
+      <Physical Str="6" Int="10" Wis="10" Con="6" Dex="29"/>
+      <Items>
+        <Item Quantity="5">fior creag </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="50">athar</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

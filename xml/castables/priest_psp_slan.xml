@@ -1,34 +1,29 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="26" Book="PrimarySpell" Element="None" Class="Priest" Cooldown="0" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="26" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Piet Priestess</Comment>-->
   <Name>slan</Name>
   <Descriptions>
-    <Description Class="Priest">Focus, improving your vitality</Description>
+    <Description Class="Priest">Increases health regeneration (7.14%). Medium Duration</Description>
   </Descriptions>
-  <Categories>
-    <Category>Spell</Category>
-    <Category>Regen</Category>
-    <Category>Self</Category>
-  </Categories>
   <CastCosts>
     <CastCost>
-      <Stat Mp="100"/>
+      <Stat Mp="350"/>
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    <Intent UseType="Target" MaxTargets="1" Flags="Friendly Hostile Pvp">
     </Intent>
   </Intents>
-  <MaxLevel Monk="50" Warrior="40" Peasant="10" Wizard="70" Priest="100" Rogue="40"/>
-  <Requirements>
-    <Requirement Class="Priest">
-      <Level Min="18" Max="99"/>
-      <Gold>1400</Gold>
-      <Physical Str="7" Int="7" Wis="20" Con="12" Dex="3"/>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="15" Max="99"/>
+      <Gold>10000</Gold>
+      <Physical Str="8" Int="8" Wis="32" Con="16" Dex="3"/>
       <Items>
-        <Item Quantity="1">Wolf Fur</Item>
+        <Item Quantity="1">Wolf's Fur </Item>
       </Items>
-    </Requirement>
-  </Requirements>
+      <!-- <Prerequisites>
+        <Prerequisite Level="10">beag slan</Prerequisite>
+      </Prerequisites> -->
   <Effects>
     <Animations>
       <OnCast>
@@ -42,9 +37,5 @@
         </Player>
       </OnCast>
     </Animations>
-    <Statuses>
-      <Add Duration="300" Intensity="0.75">Slan</Add>
-    </Statuses>
   </Effects>
-  <Mastery Uses="750" Tiered="false"/>
 </Castable>

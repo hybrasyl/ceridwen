@@ -1,38 +1,30 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="35" Book="PrimarySpell" Element="None" Class="Priest" Cooldown="0" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="3" Icon="35" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Suomi Wizard</Comment>-->
   <Name>puinsein</Name>
   <Descriptions>
-    <Description Class="Priest">Poison</Description>
+    <Description Class="Priest">Poisons the enemy. Long duration.</Description>
   </Descriptions>
-  <Categories>
-    <Category>Spell</Category>
-    <Category>Poison</Category>
-    <Category>MonPriest</Category>
-  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="160"/>
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    <Intent UseType="Target" MaxTargets="1" Flags="Friendly Hostile Pvp">
     </Intent>
   </Intents>
-  <MaxLevel Monk="60" Warrior="40" Peasant="20" Wizard="70" Priest="100" Rogue="60"/>
-  <Requirements>
-    <Requirement Class="Priest">
-      <Level Min="32" Max="99"/>
-      <Gold>2170</Gold>
-      <Physical Str="10" Int="20" Wis="20" Con="15" Dex="16"/>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="30" Max="99"/>
+      <Gold>20000</Gold>
+      <Physical Str="10" Int="30" Wis="24" Con="30" Dex="24"/>
       <Items>
-        <Item Quantity="1">Scorpion Sting</Item>
-        <Item Quantity="1">Wolf Lock</Item>
+        <Item Quantity="1">Scorpion's Sting </Item>
+        <Item Quantity="1">Wolf's Lock </Item>
       </Items>
-      <Prerequisites>
-        <Prerequisite Level="20">beag puinsein</Prerequisite>
-      </Prerequisites>
-    </Requirement>
-  </Requirements>
+      <!-- <Prerequisites>
+        <Prerequisite Level="10">beag puinsein</Prerequisite>
+      </Prerequisites> -->
   <Effects>
     <Animations>
       <OnCast>
@@ -46,9 +38,5 @@
         </Player>
       </OnCast>
     </Animations>
-    <Statuses>
-      <Add Duration="40" Intensity="1">Puinsein</Add>
-    </Statuses>
   </Effects>
-  <Mastery Uses="750" Tiered="false"/>
 </Castable>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="154" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>02</Comment>-->
+  <Name>Torch 2</Name>
+  <Descriptions>
+    <Description Class="Wizard">Attacks a small cluster of enemies with Fire Damage. (5 Tiles)</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="2650"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="5" Flags="Hostile Pvp">
+      <Cross Direction="1" VisualEffect="AllTiles"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="99" Max="99"/>
+      <Gold>1500000</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="6" Max="99"/>
+      <Items>
+        <Item Quantity="3">Borim </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="100">Torch 1</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

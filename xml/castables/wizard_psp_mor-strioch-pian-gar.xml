@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="75" Book="PrimarySpell" Element="" Class="Wizard">
+  <!--<Comment>Astrid Kobold</Comment>-->
+  <Name>mor strioch pian gar</Name>
+  <Descriptions>
+    <Description Class="Wizard">Attacks everything in sight with your necklaces element. Requires at least 400 Mana.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="SOURCECURRENTMP*0.95"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="128" Flags="Hostile Pvp">
+      <Square Side="16"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="56" Max="99"/>
+      <Gold>5000000</Gold>
+      <Physical Str="40" Int="40" Wis="40" Con="40" Dex="40"/>
+      <Items>
+        <Item Quantity="6">Finished Coral </Item>
+        <Item Quantity="6">Finished Ruby </Item>
+        <Item Quantity="6">Finished Talos </Item>
+      </Items>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

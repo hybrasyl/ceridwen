@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="34" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Piet Priestess</Comment>-->
+  <Name>mor ioc comlha</Name>
+  <Descriptions>
+    <Description Class="Priest">Heals your group for a large amount.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="1100"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="12" Flags="Group Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="46" Max="99"/>
+      <Gold>50000</Gold>
+      <Physical Str="3" Int="87" Wis="68" Con="3" Dex="3"/>
+      <Items>
+        <Item Quantity="6">Uncut Beryl </Item>
+        <Item Quantity="3">Uncut Ruby </Item>
+        <Item Quantity="2">Beryl Earrings </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="75">ioc comlha</Prerequisite>
+        <Prerequisite Level="60"> ard ioc</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

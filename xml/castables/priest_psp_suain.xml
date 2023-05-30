@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="50" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Undine Wizard</Comment>-->
+  <Name>suain</Name>
+  <Descriptions>
+    <Description Class="Priest">Freezes the enemy. Short duration.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="330"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Friendly Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="44" Max="99"/>
+      <Gold>50000</Gold>
+      <Physical Str="23" Int="58" Wis="56" Con="23" Dex="3"/>
+      <Items>
+        <Item Quantity="8">Finished Beryl </Item>
+        <Item Quantity="4">Finished Ruby </Item>
+        <Item Quantity="1">Coral Earrings </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="70">dall</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

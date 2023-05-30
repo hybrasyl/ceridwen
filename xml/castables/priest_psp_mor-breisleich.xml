@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="20" Book="PrimarySpell" Element="" Class="Priest">
+  <!--<Comment>Suomi Wizard</Comment>-->
+  <Name>mor breisleich</Name>
+  <Descriptions>
+    <Description Class="Priest">Confuses the target into forgetting who hit them last.</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="110"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+      <Level Min="14" Max="99"/>
+      <Gold>5000</Gold>
+      <Physical Str="3" Int="19" Wis="20" Con="3" Dex="8"/>
+      <Items>
+        <Item Quantity="1">Wolf's Fur </Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="20">breisleich</Prerequisite>
+      </Prerequisites> -->
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>
