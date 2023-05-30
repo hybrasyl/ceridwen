@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="60" Book="PrimarySkill" Element="None" Class="Monk" Cooldown="32">
+  <!--<Comment>Sapphire Stream</Comment>-->
+  <!--<Comment>Red Dugon</Comment>-->
+  <Name>Wolf Fang Fist</Name>
+  <Descriptions>
+    <Description Class="Monk">Puts the enemy to sleep for 8 seconds. The skill/spell that breaks it deals double damage.</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile">
+      <Tile Direction="Front"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Monk">
+      <Level Min="77" Max="99"/>
+      <Physical Str="58" Int="3" Wis="3" Con="3" Dex="25"/>
+      <Items>
+        <Item Quantity="1">Faerie's Wing</Item>
+        <Item Quantity="1">Polyp Sac</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="1" Speed="20"/>
+          <Motion Class="Warrior" Id="1" Speed="20"/>
+          <Motion Class="Wizard" Id="1" Speed="20"/>
+          <Motion Class="Priest" Id="1" Speed="20"/>
+          <Motion Class="Rogue" Id="1" Speed="20"/>
+          <Motion Class="Monk" Id="1" Speed="20"/>
+        </Player>
+      </OnCast>
+    </Animations>
+    <Statuses>
+      <Add>Stun</Add>
+    </Statuses>
+  </Effects>
+</Castable>

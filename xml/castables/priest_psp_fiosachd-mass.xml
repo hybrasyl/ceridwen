@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="8" Book="PrimarySpell" Element="" Class="Priest">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="8" Book="PrimarySpell" Element="None" Class="Priest">
   <!--<Comment>Religion</Comment>-->
   <Name>Fiosachd Mass</Name>
   <Descriptions>
@@ -34,4 +34,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>MassFio</Script>
 </Castable>

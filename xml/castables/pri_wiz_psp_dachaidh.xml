@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="15" Book="PrimarySpell" Element="" Class="Priest_Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="15" Book="PrimarySpell" Element="None" Class="Priest Wizard">
   <Name>dachaidh</Name>
   <Descriptions>
     <Description Class="Priest">Teleports the user to their home.</Description>
@@ -41,4 +41,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>Hearth</Script>
 </Castable>

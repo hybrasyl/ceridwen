@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="57" Book="PrimarySpell" Element="" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="57" Book="PrimarySpell" Element="None" Class="Wizard">
   <!--<Comment>Undine Wizard</Comment>-->
   <Name>leasaich creag</Name>
   <Descriptions>
@@ -38,4 +38,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>ConvertEarth</Script>
 </Castable>

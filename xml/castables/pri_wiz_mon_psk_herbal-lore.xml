@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="27" Book="PrimarySkill" Element="None" Class="Priest Wizard Monk" Cooldown="36">
+  <!--<Comment>Suomi Priestess</Comment>-->
+  <Name>Herbal Lore</Name>
+  <Descriptions>
+    <Description Class="Priest Wizard Monk">Required for Crafting: Herbalism.</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Priest Wizard">
+      <Level Min="8" Max="99"/>
+      <Gold>5000</Gold>
+      <Physical Str="5" Int="23" Wis="23" Con="10" Dex="5"/>
+      <Items>
+        <Item Quantity="1">Wine</Item>
+        <Item Quantity="1">Royal Wax </Item>
+        <Item Quantity="5">beothaich deum</Item>
+      </Items>
+    </Requirement>
+    <Requirement Class="Monk">
+      <Level Min="1" Max="99"/>
+      <Gold>25000</Gold>
+      <Physical Str="3" Int="5" Wis="5" Con="3" Dex="3"/>
+      <Items>
+        <Item Quantity="1">Wine</Item>
+        <Item Quantity="1">Raw Wax</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Script>LoreHerbs</Script>
+</Castable>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="151" Book="PrimarySpell" Element="" Class="Rogue">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="151" Book="PrimarySpell" Element="None" Class="Rogue">
   <Name>Frost Arrow 2</Name>
   <Descriptions>
     <Description Class="Rogue">Slows the enemy's attack and movement speed by a factor of 2 for 4 seconds.</Description>
@@ -37,5 +37,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>RogSlow</Add>
+    </Statuses>
   </Effects>
 </Castable>

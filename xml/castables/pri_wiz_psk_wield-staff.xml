@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="14" Book="PrimarySkill" Element="None" Class="Priest Wizard">
+  <!--<Comment>Suomi Wizard</Comment>-->
+  <Name>Wield Staff</Name>
+  <Descriptions>
+    <Description Class="Priest Wizard">Currently does nothing.</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Wizard">
+      <Level Min="5" Max="99"/>
+      <Gold>5000</Gold>
+      <Physical Str="5" Int="12" Wis="3" Con="5" Dex="3"/>
+      <Items>
+        <Item Quantity="5">Beryl Earrings</Item>
+      </Items>
+    </Requirement>
+    <Requirement Class="Priest">
+      <Level Min="5" Max="99"/>
+      <Gold>5000</Gold>
+      <Physical Str="5" Int="8" Wis="10" Con="5" Dex="3"/>
+      <Items>
+        <Item Quantity="5">Beryl Earrings</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+</Castable>

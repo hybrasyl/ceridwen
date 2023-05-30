@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="65" Book="PrimarySpell" Element="" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="65" Book="PrimarySpell" Element="Water" Class="Wizard">
   <!--<Comment>Undine Wizard</Comment>-->
   <Name>sal gar</Name>
   <Descriptions>

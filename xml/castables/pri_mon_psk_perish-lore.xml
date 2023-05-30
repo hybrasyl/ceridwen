@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="27" Book="PrimarySkill" Element="None" Class="Priest Monk" Cooldown="12">
+  <!--<Comment>Undine Wizard for Priest, Suomi Rogue for Monk</Comment>-->
+  <Name>Perish Lore</Name>
+  <Descriptions>
+    <Description Class="Priest Monk">Identifies the Item in your first Inventory slot.</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Priest">
+      <Level Min="4" Max="99"/>
+      <Gold>1000</Gold>
+      <Physical Str="3" Int="13" Wis="15" Con="7" Dex="3"/>
+      <Items>
+        <Item Quantity="1">beothaich deum</Item>
+      </Items>
+    </Requirement>
+    <Requirement Class="Monk">
+      <Level Min="20" Max="99"/>
+      <Gold>12000</Gold>
+      <Physical Str="3" Int="13" Wis="13" Con="3" Dex="3"/>
+    </Requirement>
+  </Requirements>
+  <Script>LorePerish</Script>
+</Castable>

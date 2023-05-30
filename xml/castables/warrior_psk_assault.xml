@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="1" Book="PrimarySkill" Element="Current" Class="Warrior">
+  <!--<Comment>Mileth Fighter</Comment>-->
+  <Name>Assault</Name>
+  <Descriptions>
+    <Description Class="Warrior">Seccond Assail. Makes your spacebar deal additional physical damage</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
+      <Tile Direction="Front"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Warrior">
+      <Level Min="2" Max="99"/>
+      <Gold>500</Gold>
+      <Physical Str="5" Int="3" Wis="3" Con="9" Dex="4"/>
+      <Items>
+        <Item Quantity="1">Centipede's Gland</Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="1">Assail 1</Prerequisite>
+      </Prerequisites> -->
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="1" Speed="20"/>
+          <Motion Class="Warrior" Id="1" Speed="20"/>
+          <Motion Class="Wizard" Id="1" Speed="20"/>
+          <Motion Class="Priest" Id="1" Speed="20"/>
+          <Motion Class="Rogue" Id="1" Speed="20"/>
+          <Motion Class="Monk" Id="1" Speed="20"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="27" Book="PrimarySkill" Element="None" Class="Wizard" Cooldown="12" BreakStealth="false">
+  <!--<Comment>Undine Wizard</Comment>-->
+  <Name>Magic Lore</Name>
+  <Descriptions>
+    <Description Class="Wizard">Identifies the Item in your first Inventory slot.</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Wizard">
+      <Level Min="3" Max="99"/>
+      <Gold>10000</Gold>
+      <Physical Str="3" Int="14" Wis="3" Con="3" Dex="3"/>
+      <Items>
+        <Item Quantity="3">Beryl Earrings</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="1" Speed="20"/>
+          <Motion Class="Warrior" Id="1" Speed="20"/>
+          <Motion Class="Wizard" Id="1" Speed="20"/>
+          <Motion Class="Priest" Id="1" Speed="20"/>
+          <Motion Class="Rogue" Id="1" Speed="20"/>
+          <Motion Class="Monk" Id="1" Speed="20"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+  <Script>LoreMagic</Script>
+</Castable>

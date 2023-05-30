@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="25" Book="PrimarySpell" Element="" Class="Priest_Monk" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="25" Book="PrimarySpell" Element="None" Class="Priest Monk" Reflectable="false">
   <Name>ao dall</Name>
   <Descriptions>
     <Description Class="Priest">Removes blind effects.</Description>
@@ -44,5 +44,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Remove>Blind</Remove>
+    </Statuses>
   </Effects>
 </Castable>

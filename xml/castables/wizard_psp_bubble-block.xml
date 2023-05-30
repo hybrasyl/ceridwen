@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="178" Book="PrimarySpell" Element="" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="178" Book="PrimarySpell" Element="None" Class="Wizard">
   <Name>Bubble Block</Name>
   <Descriptions>
     <Description Class="Wizard">Summons four bubbles around you, Preventing monsters from reaching you for 20 seconds.</Description>
@@ -36,4 +36,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>BubbleBlock</Script>
 </Castable>

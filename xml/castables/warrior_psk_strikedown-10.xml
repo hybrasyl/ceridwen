@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="73" Book="PrimarySkill" Element="Current" Class="Warrior" Cooldown="7">
+  <Name>Strikedown 10</Name>
+  <Descriptions>
+    <Description Class="Warrior">Deals moderate damage to enemies infront of you. (3 tile range)</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="3" Flags="Hostile Pvp">
+      <Line Length="3" Direction="Front"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Warrior">
+      <Level Min="99" Max="99"/>
+      <Gold>25000000</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="95" Max="99"/>
+      <Items>
+        <Item Quantity="2">Hellreavers Blade</Item>
+        <Item Quantity="50">Silver Baem Egg</Item>
+        <Item Quantity="2">Band of Gales</Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="100">Strikedown 9</Prerequisite>
+      </Prerequisites> -->
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="1" Speed="20"/>
+          <Motion Class="Warrior" Id="1" Speed="20"/>
+          <Motion Class="Wizard" Id="1" Speed="20"/>
+          <Motion Class="Priest" Id="1" Speed="20"/>
+          <Motion Class="Rogue" Id="1" Speed="20"/>
+          <Motion Class="Monk" Id="1" Speed="20"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

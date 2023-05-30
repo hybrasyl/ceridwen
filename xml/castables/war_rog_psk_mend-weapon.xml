@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="32" Book="PrimarySkill" Element="None" Class="Warrior Rogue" Cooldown="225">
+  <!--<Comment>Abel Armory</Comment>-->
+  <Name>Mend Weapon</Name>
+  <Descriptions>
+    <Description Class="Warrior Rogue">Repairs the Weapon in your first inventory slot.</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Warrior">
+      <Level Min="11" Max="99"/>
+      <Gold>2500</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <Items>
+        <Item Quantity="1">Good Claidheamh</Item>
+      </Items>
+    </Requirement>
+    <Requirement Class="Rogue">
+      <Level Min="2" Max="99"/>
+      <Gold>2500</Gold>
+      <Physical Str="4" Int="5" Wis="3" Con="3" Dex="9"/>
+      <Items>
+        <Item Quantity="1">Good Dirk</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Script>RepairWeapon</Script>
+</Castable>

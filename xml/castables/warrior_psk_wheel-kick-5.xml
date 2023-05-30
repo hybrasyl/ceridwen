@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="75" Book="PrimarySkill" Element="Current" Class="Warrior" Cooldown="28">
+  <Name>Wheel Kick 5</Name>
+  <Descriptions>
+    <Description Class="Warrior">Deals heavy damage to nearby enemies. (1 tile in each direction)</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="4" Flags="Hostile Pvp">
+      <Cross Direction="1"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Warrior">
+      <Level Min="99" Max="99"/>
+      <Gold>9500000</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="60" Max="99"/>
+      <Items>
+        <Item Quantity="20">Blue Extonic</Item>
+        <Item Quantity="2">Andor Saber</Item>
+        <Item Quantity="40">Stunned Fire Worm</Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="100">Wheel Kick 4</Prerequisite>
+      </Prerequisites> -->
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="1" Speed="20"/>
+          <Motion Class="Warrior" Id="1" Speed="20"/>
+          <Motion Class="Wizard" Id="1" Speed="20"/>
+          <Motion Class="Priest" Id="1" Speed="20"/>
+          <Motion Class="Rogue" Id="1" Speed="20"/>
+          <Motion Class="Monk" Id="1" Speed="20"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

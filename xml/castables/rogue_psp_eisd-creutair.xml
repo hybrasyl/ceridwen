@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="7" Book="PrimarySpell" Element="" Class="Rogue">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="7" Book="PrimarySpell" Element="None" Class="Rogue">
   <!--<Comment>Piet Priestess</Comment>-->
   <Name>eisd creutair</Name>
   <Descriptions>
@@ -39,5 +39,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>RogSight</Add>
+    </Statuses>
   </Effects>
 </Castable>

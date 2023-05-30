@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="3" Icon="52" Book="PrimarySpell" Element="" Class="Rogue">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="3" Icon="52" Book="PrimarySpell" Element="None" Class="Rogue">
   <!--<Comment>Suomi Rogue</Comment>-->
   <Name>Bolt Trap</Name>
   <Descriptions>
@@ -35,4 +35,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>TrapDamage</Script>
 </Castable>

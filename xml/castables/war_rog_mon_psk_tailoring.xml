@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="32" Book="PrimarySkill" Element="None" Class="Warrior Monk Rogue" Cooldown="475">
+  <!--<Comment>Abel Tailor</Comment>-->
+  <Name>Tailoring</Name>
+  <Descriptions>
+    <Description Class="Warrior Monk Rogue">Repairs the Item in your first Inventory slot. ,Required for Profession: Tailoring</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Warrior Monk">
+      <Level Min="11" Max="99"/>
+      <Gold>5000</Gold>
+      <Physical Str="15" Int="8" Wis="3" Con="3" Dex="10"/>
+      <Items>
+        <Item Quantity="1">Shirt</Item>
+        <Item Quantity="1">Blouse</Item>
+      </Items>
+    </Requirement>
+    <Requirement Class="Rogue">
+      <Level Min="3" Max="99"/>
+      <Gold>1000</Gold>
+      <Physical Str="5" Int="8" Wis="3" Con="3" Dex="12"/>
+      <Items>
+        <Item Quantity="1">Shirt</Item>
+        <Item Quantity="1">Blouse</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Script>RepairArmor</Script>
+</Castable>

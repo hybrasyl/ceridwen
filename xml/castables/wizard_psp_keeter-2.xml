@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="153" Book="PrimarySpell" Element="" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="153" Book="PrimarySpell" Element="Wind" Class="Wizard">
   <!--<Comment>02.1</Comment>-->
   <Name>Keeter 2</Name>
   <Descriptions>

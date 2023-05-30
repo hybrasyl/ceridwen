@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="170" Book="PrimarySpell" Element="" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="170" Book="PrimarySpell" Element="None" Class="Wizard">
   <Name>Cyclone</Name>
   <Descriptions>
     <Description Class="Wizard">Summons a Cyclone that will travel forward and attack enemies in it's path.</Description>

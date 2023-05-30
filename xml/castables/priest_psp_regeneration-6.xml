@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="146" Book="PrimarySpell" Element="" Class="Priest">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="146" Book="PrimarySpell" Element="None" Class="Priest">
   <Name>Regeneration 6</Name>
   <Descriptions>
     <Description Class="Priest">Heals a player for 54,000 over 30 seconds. (1800hps)</Description>
@@ -39,5 +39,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>PriHot</Add>
+    </Statuses>
   </Effects>
 </Castable>

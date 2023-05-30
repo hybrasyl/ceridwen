@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="43" Book="PrimarySpell" Element="" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="43" Book="PrimarySpell" Element="None" Class="Wizard">
   <!--<Comment>Astrid Kobold</Comment>-->
   <Name>ard leasaich athar</Name>
   <Descriptions>
@@ -38,4 +38,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>ConvertAir</Script>
 </Castable>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="1" Book="SecondarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" BreakStealth="false" IncludeInMetafile="false">
+  <Name>TestTrapSingle</Name>
+  <Descriptions>
+    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test single trap</Description>
+  </Descriptions>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="5"/>
+    </CastCost>
+  </CastCosts>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Monk Priest Peasant Rogue Warrior Wizard">
+      <Level Min="1" Max="99"/>
+      <Gold>1234</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Reactors>
+      <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="0" Sprite="55" Expiration="30"/>
+    </Reactors>
+  </Effects>
+</Castable>

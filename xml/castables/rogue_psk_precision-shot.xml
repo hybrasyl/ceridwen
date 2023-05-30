@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="80" Book="PrimarySkill" Element="Current" Class="Rogue" Cooldown="3">
+  <Name>Precision Shot</Name>
+  <Descriptions>
+    <Description Class="Rogue">Deals health based damage to enemies infront of you. ignores Spells and pierces dion. (3 tile range) You must choose between Precision Shot and Supernova Shot, but can switch as you please by visiting Aman Jungle.</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="3" Flags="Hostile Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Rogue">
+      <Level Min="99" Max="99"/>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="60" Max="99"/>
+      <Items>
+        <Item Quantity="1">Gold Bar</Item>
+      </Items>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="1" Speed="20"/>
+          <Motion Class="Warrior" Id="1" Speed="20"/>
+          <Motion Class="Wizard" Id="1" Speed="20"/>
+          <Motion Class="Priest" Id="1" Speed="20"/>
+          <Motion Class="Rogue" Id="1" Speed="20"/>
+          <Motion Class="Monk" Id="1" Speed="20"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+  <Script>PrecisionShot</Script>
+</Castable>

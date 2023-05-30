@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="7" Icon="3" Book="UtilitySpell" Element="" Class="Rogue" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="7" Icon="3" Book="UtilitySpell" Element="None" Class="Rogue" Reflectable="false">
   <Name>Trap Lecture</Name>
   <Descriptions>
     <Description Class="Rogue">Trap knowledge</Description>
@@ -33,4 +33,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>LectureTrap</Script>
 </Castable>

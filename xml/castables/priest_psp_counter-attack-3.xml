@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="150" Book="PrimarySpell" Element="" Class="Priest">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="150" Book="PrimarySpell" Element="None" Class="Priest">
   <Name>Counter Attack 3</Name>
   <Descriptions>
     <Description Class="Priest">Buffs the player, causing them to deal 9,000 damage to enemies who assail them.</Description>
@@ -37,5 +37,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>PriRetaliate</Add>
+    </Statuses>
   </Effects>
 </Castable>

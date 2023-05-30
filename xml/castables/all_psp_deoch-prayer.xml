@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="8" Book="PrimarySpell" Element="" Class="Monk Priest Peasant Rogue Warrior Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="8" Book="PrimarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard">
   <!--<Comment>Religion</Comment>-->
   <Name>Deoch Prayer</Name>
   <Descriptions>
@@ -34,4 +34,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>PrayerDeoch</Script>
 </Castable>

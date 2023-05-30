@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="173" Book="PrimarySpell" Element="" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="173" Book="PrimarySpell" Element="None" Class="Wizard">
   <Name>Mud Fortress</Name>
   <Descriptions>
     <Description Class="Wizard">Summons two rows of mud infront of you, possibly preventing monsters from reaching you., You must choose between Bubble Shield and Mud Fortress, but can switch as you please by visiting Aman Jungle.</Description>
@@ -34,4 +34,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>MudWall</Script>
 </Castable>

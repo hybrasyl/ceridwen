@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="58" Book="PrimarySpell" Element="" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="58" Book="PrimarySpell" Element="Earth" Class="Wizard">
   <!--<Comment>Suomi Wizard</Comment>-->
   <Name>mor creag</Name>
   <Descriptions>
@@ -37,5 +37,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>WaterDefense</Add>
+    </Statuses>
   </Effects>
 </Castable>

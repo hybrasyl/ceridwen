@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="46" Book="PrimarySpell" Element="" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="46" Book="PrimarySpell" Element="None" Class="Wizard">
   <!--<Comment>Mehadi Mukul</Comment>-->
   <Name>mor leasaich sal</Name>
   <Descriptions>
@@ -38,4 +38,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>ConvertWater</Script>
 </Castable>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="20" Book="PrimarySpell" Element="" Class="Priest_Rogue" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="20" Book="PrimarySpell" Element="None" Class="Priest Rogue" Reflectable="false">
   <Name>breisleich</Name>
   <Descriptions>
     <Description Class="Priest">Confuses the target into forgetting who hit them last.</Description>
@@ -48,5 +48,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>Confuse</Add>
+    </Statuses>
   </Effects>
 </Castable>

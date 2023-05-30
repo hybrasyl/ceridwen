@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="93" Book="PrimarySkill" Element="Current" Class="Monk" Cooldown="13">
+  <Name>Beak Pierce 2</Name>
+  <Descriptions>
+    <Description Class="Monk">Deals minor damage and blinds the enemy infront of you for 10 seconds.</Description>
+  </Descriptions>
+  <Intents>
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
+      <Tile Direction="Front"/>
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Monk">
+      <Level Min="99" Max="99"/>
+      <Gold>3000000</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+      <AB Min="20" Max="99"/>
+      <Items>
+        <Item Quantity="5">Green Tonic</Item>
+        <Item Quantity="3">Aqua Stone</Item>
+      </Items>
+      <!-- <Prerequisites>
+        <Prerequisite Level="100">Beak Pierce 1</Prerequisite>
+      </Prerequisites> -->
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="1" Speed="20"/>
+          <Motion Class="Warrior" Id="1" Speed="20"/>
+          <Motion Class="Wizard" Id="1" Speed="20"/>
+          <Motion Class="Priest" Id="1" Speed="20"/>
+          <Motion Class="Rogue" Id="1" Speed="20"/>
+          <Motion Class="Monk" Id="1" Speed="20"/>
+        </Player>
+      </OnCast>
+    </Animations>
+  </Effects>
+</Castable>

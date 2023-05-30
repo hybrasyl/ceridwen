@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="16" Book="PrimarySpell" Element="" Class="Priest">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="16" Book="PrimarySpell" Element="None" Class="Priest">
   <!--<Comment>Mileth Priestess</Comment>-->
   <Name>beannaich</Name>
   <Descriptions>
@@ -31,5 +31,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>PriPlusHit</Add>
+    </Statuses>
   </Effects>
 </Castable>

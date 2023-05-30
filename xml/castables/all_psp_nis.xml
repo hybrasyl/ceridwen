@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="19" Book="PrimarySpell" Element="" Class="Monk Priest Peasant Rogue Warrior Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="19" Book="PrimarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard">
   <!--<Comment>Rucession Rogue</Comment>-->
-  <Name>Nis</Name>
+  <Name>nis</Name>
   <Descriptions>
     <Description Class="Monk Priest Wizard Warrior Rogue Peasant">Tells you the time & date in Temuairan Time</Description>
   </Descriptions>
@@ -35,4 +35,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>nis</Script>
 </Castable>

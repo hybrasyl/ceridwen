@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="35" Book="PrimarySpell" Element="" Class="Priest">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="35" Book="PrimarySpell" Element="None" Class="Priest">
   <!--<Comment>Suomi Wizard</Comment>-->
   <Name>beag puinsein</Name>
   <Descriptions>
@@ -34,5 +34,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>Poison</Add>
+    </Statuses>
   </Effects>
 </Castable>

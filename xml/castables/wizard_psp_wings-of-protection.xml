@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="53" Book="PrimarySpell" Element="" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="53" Book="PrimarySpell" Element="None" Class="Wizard">
   <!--<Comment>Shinewood Forest 11</Comment>-->
   <!--<Comment>Pure Wizard</Comment>-->
   <Name>Wings of Protection</Name>
@@ -35,5 +35,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>Invulnerable</Add>
+    </Statuses>
   </Effects>
 </Castable>

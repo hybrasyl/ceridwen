@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="73" Book="PrimarySpell" Element="" Class="Priest">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="73" Book="PrimarySpell" Element="Light" Class="Priest">
   <!--<Comment>Shinewood 11</Comment>-->
   <Name>deo lamh</Name>
   <Descriptions>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="88" Book="PrimarySpell" Element="" Class="Priest">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="88" Book="PrimarySpell" Element="None" Class="Priest">
   <!--<Comment>Piet, Priestess</Comment>-->
   <Name>ard seun</Name>
   <Descriptions>
@@ -36,5 +36,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>Charm</Add>
+    </Statuses>
   </Effects>
 </Castable>

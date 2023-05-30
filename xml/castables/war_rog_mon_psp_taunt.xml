@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="14" Book="PrimarySpell" Element="" Class="Warrior_Monk_Rogue">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="14" Book="PrimarySpell" Element="None" Class="Warrior Monk Rogue">
   <Name>Taunt</Name>
   <Descriptions>
     <Description Class="Warrior">Deals minor damage in an attempt to attract the enemy.</Description>
@@ -48,4 +48,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>Taunt</Script>
 </Castable>
