@@ -39,5 +39,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>ArdCradh</Add>
+    </Statuses>
   </Effects>
 </Castable>

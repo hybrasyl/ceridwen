@@ -34,5 +34,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add>BeagCradh</Add>
+    </Statuses>
   </Effects>
 </Castable>

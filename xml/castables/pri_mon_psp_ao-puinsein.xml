@@ -45,7 +45,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Remove>Puinsein</Remove>
+      <Remove>Poison</Remove>
     </Statuses>
   </Effects>
 </Castable>

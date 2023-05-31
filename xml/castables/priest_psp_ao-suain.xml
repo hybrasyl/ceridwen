@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Remove>Suain</Remove>
+      <Remove>Stun</Remove>
     </Statuses>
   </Effects>
 </Castable>

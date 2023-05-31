@@ -35,6 +35,7 @@
       </OnCast>
     </Animations>
     <Statuses>
+      <Add>Clawfist</Add>
     </Statuses>
   </Effects>
   <Script>Clawfist</Script>
