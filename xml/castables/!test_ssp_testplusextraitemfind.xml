@@ -40,7 +40,7 @@
     </Animations>
     <Sound Id="154"/>
     <Statuses>
-      <Add Duration="5" Intensity="100" Speed="1">StstPlusExtraItemFind</Add>
+      <Add Duration="5" Intensity="1" Speed="1">StstPlusExtraItemFind</Add>
     </Statuses>
   </Effects>
 </Castable>

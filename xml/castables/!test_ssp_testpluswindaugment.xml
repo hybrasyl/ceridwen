@@ -35,7 +35,7 @@
     </Animations>
     <Sound Id="154"/>
     <Statuses>
-      <Add>StstPlusWindAugment</Add>
+      <Add Duration="5" Intensity="1" Speed="1">StstPlusWindAugment</Add>
     </Statuses>
   </Effects>
 </Castable>

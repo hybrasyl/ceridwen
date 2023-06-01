@@ -35,7 +35,7 @@
     </Animations>
     <Sound Id="154"/>
     <Statuses>
-      <Add>StstMinusEarthAugment</Add>
+      <Add Duration="5" Intensity="1" Speed="1">StstMinusEarthAugment</Add>
     </Statuses>
   </Effects>
 </Castable>

@@ -35,7 +35,7 @@
     </Animations>
     <Sound Id="154"/>
     <Statuses>
-      <Add>StstPlusWoodResistance</Add>
+      <Add Duration="5" Intensity="1" Speed="1">StstPlusWoodResistance</Add>
     </Statuses>
   </Effects>
 </Castable>

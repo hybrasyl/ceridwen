@@ -35,7 +35,7 @@
     </Animations>
     <Sound Id="163"/>
     <Statuses>
-      <Add Duration="5" Intensity="100" Speed="1">StstSetUndeadOffense</Add>
+      <Add Duration="5" Intensity="1" Speed="1">StstSetUndeadOffense</Add>
     </Statuses>
   </Effects>
 </Castable>

@@ -35,7 +35,7 @@
     </Animations>
     <Sound Id="155"/>
     <Statuses>
-      <Add Duration="5" Intensity="100" Speed="1">StstSetEarthOffense</Add>
+      <Add Duration="5" Intensity="1" Speed="1">StstSetEarthOffense</Add>
     </Statuses>
   </Effects>
 </Castable>

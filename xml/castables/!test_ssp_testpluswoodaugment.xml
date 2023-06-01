@@ -35,7 +35,7 @@
     </Animations>
     <Sound Id="154"/>
     <Statuses>
-      <Add>StstPlusWoodAugment</Add>
+      <Add Duration="5" Intensity="1" Speed="1">StstPlusWoodAugment</Add>
     </Statuses>
   </Effects>
 </Castable>

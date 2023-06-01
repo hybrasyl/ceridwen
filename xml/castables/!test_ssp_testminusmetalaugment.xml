@@ -35,7 +35,7 @@
     </Animations>
     <Sound Id="154"/>
     <Statuses>
-      <Add>StstMinusMetalAugment</Add>
+      <Add Duration="5" Intensity="1" Speed="1">StstMinusMetalAugment</Add>
     </Statuses>
   </Effects>
 </Castable>

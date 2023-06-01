@@ -35,7 +35,7 @@
     </Animations>
     <Sound Id="162"/>
     <Statuses>
-      <Add Duration="5" Intensity="100" Speed="1">StstSetWoodOffense</Add>
+      <Add Duration="5" Intensity="1" Speed="1">StstSetWoodOffense</Add>
     </Statuses>
   </Effects>
 </Castable>
