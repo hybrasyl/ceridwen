@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="StstSetMetalDef" Icon="103" Duration="1" Tick="1" RemoveOnDeath="false">
+  <Categories>
+    <Category>Test</Category>
+  </Categories>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+      <StatModifiers DefensiveElementOverride="Metal">
+      </StatModifiers>
+    </OnApply>
+      <StatModifiers DefensiveElementOverride="Metal">
+      </StatModifiers>
+    <OnRemove>
+      <StatModifiers DefensiveElementOverride="Metal">
+      </StatModifiers>
+    </OnRemove>
+    <OnExpire>
+      <StatModifiers DefensiveElementOverride="Metal">
+      </StatModifiers>
+    </OnExpire>
+  </Effects>
+</Status>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="StstSetEarthOff" Icon="91" Duration="1" Tick="1" RemoveOnDeath="false">
+  <Categories>
+    <Category>Test</Category>
+  </Categories>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+      <StatModifiers OffensiveElementOverride="Earth">
+      </StatModifiers>
+    </OnApply>
+      <StatModifiers OffensiveElementOverride="Earth">
+      </StatModifiers>
+    <OnRemove>
+      <StatModifiers OffensiveElementOverride="Earth">
+      </StatModifiers>
+    </OnRemove>
+    <OnExpire>
+      <StatModifiers OffensiveElementOverride="Earth">
+      </StatModifiers>
+    </OnExpire>
+  </Effects>
+</Status>

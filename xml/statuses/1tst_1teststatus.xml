@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="1TestStatus" Icon="icon" Duration="duration" Tick="tick" RemoveOnDeath="false">
+  <Categories>
+    <Category>category1</Category>
+    <Category>category2</Category>
+    <Category>category3</Category>
+    <Category>categor4</Category>
+    <Category>category5</Category>
+    <Category>category6</Category>
+  </Categories>
+  <CastRestrictions>
+    <CastRestriction Use="Heal" Receive="Damage"/>
+    <CastRestriction Use="Bacon" Receive="Ham"/>
+    <CastRestriction Use="Fruit" Receive="Vegetable"/>
+    <CastRestriction Use="Orange" Receive="Pineapple"/>
+  </CastRestrictions>
+  <ProhibitedMessage>You can't do that right now</ProhibitedMessage>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="targetid" Speed="targetspeed"/>
+        <SpellEffect Id="effectid" Speed="effectspeed"/>
+      </Animations>
+      <Sound Id="sound id"/>
+      <Messages>
+        <Target>target say</Target>
+        <Source>source say</Source>
+        <Group>group say</Group>
+        <Say>say say</Say>
+        <Shout>target say</Shout>
+      </Messages>
+      <Heal>
+        <Simple>simpleheal</Simple>
+        <Formula>formulaheal</Formula>
+      </Heal>
+      <Damage>
+        <Flags>dam flag</Flags>
+        <Simple>dam simple</Simple>
+        <Formula>dam forumla</Formula>
+      </Damage>
+      <StatModifiers BaseStr="1" BaseInt="2" BaseWis="3" BaseCon="4" BaseDex="5" BaseHp="6">
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="ResistHam" Modifier="1.2"/>
+          <ElementalModifier Type="Augment" Element="ResistBacon" Modifier="0.6"/>
+          <ElementalModifier Type="Augment" Element="ResistBeef" Modifier="0.1"/>
+          <ElementalModifier Type="Resistance" Element="ResistPork" Modifier="1.8"/>
+          <ElementalModifier Type="Resistance" Element="ResistGoat" Modifier="2.45"/>
+          <ElementalModifier Type="Resistance" Element="ResistLamb" Modifier="0.15"/>
+        </ElementalModifiers>
+      </StatModifiers>
+      <Conditions>
+        <Set>set cnd1</Set>
+        <Set>set cnd2</Set>
+        <Set>set cnd3</Set>
+        <Set>set cnd 4</Set>
+        <Remove>rem cnd1</Remove>
+        <Remove>rem cnd2</Remove>
+        <Remove>rem cnd3</Remove>
+        <Remove>rem cnd4</Remove>
+      </Conditions>
+      <Handler>
+        <Function>set function</Function>
+        <ScriptSource>set script</ScriptSource>
+      </Handler>
+    </OnApply>
+    <OnTick>
+      <Animations>
+        <Target Id="tck target" Speed="tck speed"/>
+        <SpellEffect Id="tck effect id" Speed="tck effect speed"/>
+      </Animations>
+      <Sound Id="tck sound"/>
+      <Messages>
+        <Target>tck tar say</Target>
+        <Source>tck source say</Source>
+        <Group>tck group say</Group>
+        <Say>tck say say</Say>
+        <Shout>tck tar say</Shout>
+      </Messages>
+      <Heal>
+        <Simple>tck simpleheal</Simple>
+        <Formula>tck formulaheal</Formula>
+      </Heal>
+      <Damage>
+        <Flags>tck dam flag</Flags>
+        <Simple>tck dam simple</Simple>
+        <Formula>tck dam forumla</Formula>
+      </Damage>
+      <StatModifiers BaseStr="1" BaseInt="2" BaseWis="3" BaseCon="4" BaseDex="5" BaseHp="6">
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="TckResistPork" Modifier="1"/>
+          <ElementalModifier Type="Augment" Element="TckResistPork2" Modifier="2"/>
+          <ElementalModifier Type="Augment" Element="TckResistHam3" Modifier="3"/>
+          <ElementalModifier Type="Resistance" Element="TckResistHam4" Modifier="4"/>
+          <ElementalModifier Type="Resistance" Element="TckResistHam5" Modifier="5"/>
+          <ElementalModifier Type="Resistance" Element="TckResistHam6" Modifier="6"/>
+        </ElementalModifiers>
+      </StatModifiers>
+      <Conditions>
+        <Set>set cnd1 tck</Set>
+        <Set>set cnd2 tck</Set>
+        <Set>set cnd3 tck</Set>
+        <Set>set cnd 4 tck</Set>
+        <Remove>rem cnd1 tck</Remove>
+        <Remove>rem cnd2 tck</Remove>
+        <Remove>rem cnd3 tck</Remove>
+        <Remove>rem cnd4 tck</Remove>
+      </Conditions>
+      <Handler>
+        <Function>set function tck</Function>
+        <ScriptSource>set script tck</ScriptSource>
+      </Handler>
+    </OnTick>
+    <OnRemove>
+      <Animations>
+        <Target Id="ani tar id rem" Speed="ani tar exp rem"/>
+        <SpellEffect Id="ani effect id rem" Speed="ani effect exp rem"/>
+      </Animations>
+      <Sound Id="sound id rem"/>
+      <Messages>
+        <Target>target say rem</Target>
+        <Source>source say rem</Source>
+        <Group>group say rem</Group>
+        <Say>say say rem</Say>
+        <Shout>target say rem</Shout>
+      </Messages>
+      <Heal>
+        <Simple>simpleheal rem</Simple>
+        <Formula>formulaheal rem</Formula>
+      </Heal>
+      <Damage>
+        <Flags>dam flag rem</Flags>
+        <Simple>dam simple rem</Simple>
+        <Formula>dam forumla rem</Formula>
+      </Damage>
+      <StatModifiers BaseStr="-1" BaseInt="-2" BaseWis="-3" BaseCon="-4" BaseDex="-5" BaseHp="-6">
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="ResistHam" Modifier="-1.2"/>
+          <ElementalModifier Type="Augment" Element="ResistBacon" Modifier="-0.6"/>
+          <ElementalModifier Type="Augment" Element="ResistBeef" Modifier="-0.1"/>
+          <ElementalModifier Type="Resistance" Element="ResistPork" Modifier="-1.8"/>
+          <ElementalModifier Type="Resistance" Element="ResistGoat" Modifier="-2.45"/>
+          <ElementalModifier Type="Resistance" Element="ResistLamb" Modifier="-0.15"/>
+        </ElementalModifiers>
+      </StatModifiers>
+      <Conditions>
+        <Set>set cnd1 rem</Set>
+        <Set>set cnd2 rem</Set>
+        <Set>set cnd3 rem</Set>
+        <Set>set cnd 4 rem</Set>
+        <Remove>set cnd1</Remove>
+        <Remove>set cnd2</Remove>
+        <Remove>set cnd3</Remove>
+        <Remove>set cnd 4</Remove>
+      </Conditions>
+      <Handler>
+        <Function>set function rem</Function>
+        <ScriptSource>set script rem</ScriptSource>
+      </Handler>
+    </OnRemove>
+    <OnExpire>
+      <Animations>
+        <Target Id="exp ani tar id" Speed="exp ani tar exp"/>
+        <SpellEffect Id="exp ani eff id" Speed="exp ani eff exp"/>
+      </Animations>
+      <Sound Id="sound id exp"/>
+      <Messages>
+        <Target>target say exp</Target>
+        <Source>source say exp</Source>
+        <Group>group say exp</Group>
+        <Say>say say exp</Say>
+        <Shout>target say exp</Shout>
+      </Messages>
+      <Heal>
+        <Simple>simpleheal exp</Simple>
+        <Formula>formulaheal exp</Formula>
+      </Heal>
+      <Damage>
+        <Flags>dam flag exp</Flags>
+        <Simple>dam simple exp</Simple>
+        <Formula>dam forumla exp</Formula>
+      </Damage>
+      <StatModifiers BaseStr="-1" BaseInt="-2" BaseWis="-3" BaseCon="-4" BaseDex="-5" BaseHp="-6">
+        <Resistances>
+          <Resistance Type="ResistHam" Modifier="-1.2"/>
+          <Resistance Type="ResistBacon" Modifier="-0.6"/>
+          <Resistance Type="ResistBeef" Modifier="-0.1"/>
+          <Resistance Type="ResistPork" Modifier="-1.8"/>
+          <Resistance Type="ResistGoat" Modifier="-2.45"/>
+          <Resistance Type="ResistLamb" Modifier="-0.15"/>
+        </Resistances>
+      </StatModifiers>
+      <Conditions>
+        <Set>set cnd1 Exp</Set>
+        <Set>set cnd2 Exp</Set>
+        <Set>set cnd3 Exp</Set>
+        <Set>set cnd 4 Exp</Set>
+        <Remove>set cnd1</Remove>
+        <Remove>set cnd2</Remove>
+        <Remove>set cnd3</Remove>
+        <Remove>set cnd 4</Remove>
+      </Conditions>
+      <Handler>
+        <Function>set function exp</Function>
+        <ScriptSource>set script exp</ScriptSource>
+      </Handler>
+    </OnExpire>
+  </Effects>
+</Status>

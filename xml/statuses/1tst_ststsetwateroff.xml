@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="StstSetWaterOff" Icon="96" Duration="1" Tick="1" RemoveOnDeath="false">
+  <Categories>
+    <Category>Test</Category>
+  </Categories>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+      <StatModifiers OffensiveElementOverride="Water">
+      </StatModifiers>
+    </OnApply>
+      <StatModifiers OffensiveElementOverride="Water">
+      </StatModifiers>
+    <OnRemove>
+      <StatModifiers OffensiveElementOverride="Water">
+      </StatModifiers>
+    </OnRemove>
+    <OnExpire>
+      <StatModifiers OffensiveElementOverride="Water">
+      </StatModifiers>
+    </OnExpire>
+  </Effects>
+</Status>

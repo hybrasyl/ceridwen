@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="31" Icon="203" Book="SecondarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" BreakStealth="false" IncludeInMetafile="false">
+  <Name>TestMinusWindRes</Name>
+  <Descriptions>
+    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test to minus wind res</Description>
+  </Descriptions>
+  <Categories>
+    <Category>Test</Category>
+  </Categories>
+  <Intents>
+    <Intent UseType="Target" MaxTargets="1" Flags="Hostile Friendly Pvp">
+    </Intent>
+  </Intents>
+  <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Monk Priest Peasant Rogue Warrior Wizard">
+      <Level Min="1" Max="99"/>
+      <Gold>1234</Gold>
+      <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
+    </Requirement>
+  </Requirements>
+  <Effects>
+    <Animations>
+      <OnCast>
+        <Player>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
+        </Player>
+        <Target Id="22" Speed="100"/>
+      </OnCast>
+    </Animations>
+    <Sound Id="154"/>
+    <Statuses>
+      <Add>StstMinusWindRes</Add>
+    </Statuses>
+  </Effects>
+</Castable>

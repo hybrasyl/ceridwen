@@ -1,9 +1,12 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="1" Book="SecondarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" BreakStealth="false" IncludeInMetafile="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="203" Book="SecondarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" BreakStealth="false" IncludeInMetafile="false">
   <Name>TestTrapMulti</Name>
   <Descriptions>
     <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test multi trap</Description>
   </Descriptions>
+  <Categories>
+    <Category>Test</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="5"/>
@@ -25,15 +28,17 @@
     <Animations>
       <OnCast>
         <Player>
-          <Motion Class="Peasant" Id="1" Speed="20"/>
-          <Motion Class="Warrior" Id="1" Speed="20"/>
-          <Motion Class="Wizard" Id="1" Speed="20"/>
-          <Motion Class="Priest" Id="1" Speed="20"/>
-          <Motion Class="Rogue" Id="1" Speed="20"/>
-          <Motion Class="Monk" Id="1" Speed="20"/>
+          <Motion Class="Peasant" Id="6" Speed="40"/>
+          <Motion Class="Warrior" Id="6" Speed="40"/>
+          <Motion Class="Wizard" Id="136" Speed="20"/>
+          <Motion Class="Priest" Id="128" Speed="20"/>
+          <Motion Class="Rogue" Id="6" Speed="40"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
         </Player>
+        <Target Id="22" Speed="100"/>
       </OnCast>
     </Animations>
+    <Sound Id="154"/>
     <Reactors>
       <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="0" Sprite="12192" Expiration="300" Uses="2"/>
       <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="1" Sprite="12192" Expiration="300"/>

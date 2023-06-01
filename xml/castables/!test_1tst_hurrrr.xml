@@ -89,7 +89,7 @@
           <Motion Class="Wizard" Id="136" Speed="20"/>
           <Motion Class="Priest" Id="128" Speed="20"/>
           <Motion Class="Rogue" Id="1" Speed="20"/>
-          <Motion Class="Monk" Id="1" Speed="20"/>
+          <Motion Class="Monk" Id="6" Speed="40"/>
         </Player>
         <Target Id="123" Speed="100"/>
       </OnCast>

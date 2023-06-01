@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="StstSetDarkDef" Icon="99" Duration="1" Tick="1" RemoveOnDeath="false">
+  <Categories>
+    <Category>Test</Category>
+  </Categories>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+      <StatModifiers DefensiveElementOverride="Dark">
+      </StatModifiers>
+    </OnApply>
+      <StatModifiers DefensiveElementOverride="Dark">
+      </StatModifiers>
+    <OnRemove>
+      <StatModifiers DefensiveElementOverride="Dark">
+      </StatModifiers>
+    </OnRemove>
+    <OnExpire>
+      <StatModifiers DefensiveElementOverride="Dark">
+      </StatModifiers>
+    </OnExpire>
+  </Effects>
+</Status>

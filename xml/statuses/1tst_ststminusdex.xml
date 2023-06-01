@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="StstMinusDex" Icon="21" Duration="1" Tick="1" RemoveOnDeath="false">
+  <Categories>
+    <Category>Test</Category>
+  </Categories>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+      <StatModifiers BonusDex="-10">
+      </StatModifiers>
+    </OnApply>
+      <StatModifiers BonusDex="-10">
+      </StatModifiers>
+    <OnRemove>
+      <StatModifiers BonusDex="10">
+      </StatModifiers>
+    </OnRemove>
+    <OnExpire>
+      <StatModifiers BonusDex="10">
+      </StatModifiers>
+    </OnExpire>
+  </Effects>
+</Status>
