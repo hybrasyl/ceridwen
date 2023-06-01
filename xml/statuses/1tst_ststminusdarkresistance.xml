@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="StstMinusDarkResistance" Icon="142" Duration="1" Tick="1" RemoveOnDeath="false">
+  <Categories>
+    <Category>Test</Category>
+  </Categories>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+        <ElementalModifiers>
+          <ElementalModifier Type="Resistance" Element="Dark" Modifier="-10"/>
+          <ElementalModifier/>
+          <ElementalModifier/>
+          <ElementalModifier/>
+          <ElementalModifier/>
+          <ElementalModifier/>
+        </ElementalModifiers>
+    </OnApply>
+    <OnRemove>
+        <ElementalModifiers>
+          <ElementalModifier Type="Resistance" Element="Dark" Modifier="10"/>
+          <ElementalModifier Type="n" Element="n" Modifier="n"/>
+          <ElementalModifier Type="n" Element="n" Modifier="n"/>
+          <ElementalModifier Type="n" Element="n" Modifier="n"/>
+          <ElementalModifier Type="n" Element="n" Modifier="n"/>
+          <ElementalModifier Type="n" Element="n" Modifier="n"/>
+        </ElementalModifiers>
+    </OnRemove>
+    <OnExpire>
+        <Resistances>
+          <Resistance Type="Dark" Modifier="10"/>
+          <Resistance Type="n" Modifier="n"/>
+          <Resistance Type="n" Modifier="n"/>
+          <Resistance Type="n" Modifier="n"/>
+          <Resistance Type="n" Modifier="n"/>
+          <Resistance Type="n" Modifier="n"/>
+        </Resistances>
+    </OnExpire>
+  </Effects>
+</Status>

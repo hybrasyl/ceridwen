@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="StstSetFireDefense" Icon="101" Duration="1" Tick="1" RemoveOnDeath="false">
+  <Categories>
+    <Category>Test</Category>
+  </Categories>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+      <StatModifiers DefensiveElementOverride="Fire">
+      </StatModifiers>
+    </OnApply>
+      <StatModifiers DefensiveElementOverride="Fire">
+      </StatModifiers>
+    <OnRemove>
+      <StatModifiers DefensiveElementOverride="Fire">
+      </StatModifiers>
+    </OnRemove>
+    <OnExpire>
+      <StatModifiers DefensiveElementOverride="Fire">
+      </StatModifiers>
+    </OnExpire>
+  </Effects>
+</Status>
