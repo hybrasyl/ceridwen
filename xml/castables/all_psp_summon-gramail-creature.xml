@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="8" Book="PrimarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="8" Book="PrimarySpell" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard">
   <!--<Comment>Religion</Comment>-->
   <Name>Summon Gramail Creature</Name>
   <Descriptions>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="39" Book="PrimarySkill" Element="None" Class="Warrior" Cooldown="7">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="39" Book="PrimarySkill" Elements="None" Class="Warrior" Cooldown="7">
   <!--<Comment>Vendor: Mileth Rogue</Comment>-->
   <Name>ao beag suain</Name>
   <Descriptions>

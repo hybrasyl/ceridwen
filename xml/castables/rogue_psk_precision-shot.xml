@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="80" Book="PrimarySkill" Element="Current" Class="Rogue" Cooldown="3">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="80" Book="PrimarySkill" Elements="Current" Class="Rogue" Cooldown="3">
   <Name>Precision Shot</Name>
   <Descriptions>
     <Description Class="Rogue">Deals health based damage to enemies infront of you. ignores Spells and pierces dion. (3 tile range) You must choose between Precision Shot and Supernova Shot, but can switch as you please by visiting Aman Jungle.</Description>

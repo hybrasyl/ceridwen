@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="130" Book="PrimarySpell" Element="Light" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="130" Book="PrimarySpell" Elements="Light" Class="Wizard">
   <Name>Unholy Explosion</Name>
   <Descriptions>
     <Description Class="Wizard">Blast the target with massive Light damage., You must choose between mor pian na dion and Unholy Explosion, but can switch as you please by visiting Aman Jungle.</Description>

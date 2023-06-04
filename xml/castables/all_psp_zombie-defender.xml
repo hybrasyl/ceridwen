@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="89" Book="PrimarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="89" Book="PrimarySpell" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard">
   <!--<Comment>Event: Zombie Slayer</Comment>-->
   <Name>Zombie Defender</Name>
   <Descriptions>

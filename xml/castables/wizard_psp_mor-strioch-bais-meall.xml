@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="74" Book="PrimarySpell" Element="Dark" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="74" Book="PrimarySpell" Elements="Dark" Class="Wizard">
   <!--<Comment>Astrid Kobold</Comment>-->
   <Name>mor strioch bais meall</Name>
   <Descriptions>

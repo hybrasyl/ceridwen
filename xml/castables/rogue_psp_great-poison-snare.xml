@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="35" Book="PrimarySpell" Element="None" Class="Rogue">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="35" Book="PrimarySpell" Elements="None" Class="Rogue">
   <!--<Comment>Pravat Goblin</Comment>-->
   <Name>Great Poison Snare</Name>
   <Descriptions>

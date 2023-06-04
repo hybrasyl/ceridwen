@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="32" Book="PrimarySkill" Element="None" Class="Priest Wizard" Cooldown="225" BreakStealth="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="32" Book="PrimarySkill" Elements="None" Class="Priest Wizard" Cooldown="225" BreakStealth="false">
   <!--<Comment>Rucesion Rogue</Comment>-->
   <Name>Mend Staff</Name>
   <Descriptions>

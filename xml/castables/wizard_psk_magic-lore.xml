@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="27" Book="PrimarySkill" Element="None" Class="Wizard" Cooldown="12" BreakStealth="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="27" Book="PrimarySkill" Elements="None" Class="Wizard" Cooldown="12" BreakStealth="false">
   <!--<Comment>Undine Wizard</Comment>-->
   <Name>Magic Lore</Name>
   <Descriptions>

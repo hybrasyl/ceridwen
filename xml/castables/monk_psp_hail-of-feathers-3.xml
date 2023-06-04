@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="170" Book="PrimarySpell" Element="Wind" Class="Monk">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="170" Book="PrimarySpell" Elements="Wind" Class="Monk">
   <Name>Hail of Feathers 3</Name>
   <Descriptions>
     <Description Class="Monk">Attacks a cluster of targets with wind damage. (13 Tiles)</Description>

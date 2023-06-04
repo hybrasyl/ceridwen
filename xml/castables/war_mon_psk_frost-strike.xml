@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="56" Book="PrimarySkill" Element="Current" Class="Warrior Monk" Cooldown="3">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="56" Book="PrimarySkill" Elements="Current" Class="Warrior Monk" Cooldown="3">
   <Name>Frost Strike</Name>
   <Descriptions>
     <Description Class="Warrior Monk">Slows the target Monster's attack, movement, and regeneration speeds by a factor of 2 for 2 seconds. You must choose between Auto Hemloch and Frost Strike, but can switch as you please by visiting Aman Jungle.</Description>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="58" Book="PrimarySpell" Element="None" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="58" Book="PrimarySpell" Elements="None" Class="Wizard">
   <Name>Mud Wall</Name>
   <Descriptions>
     <Description Class="Wizard">Summons four walls of mud around the creature you are facing, Trapping them for 20 seconds.</Description>

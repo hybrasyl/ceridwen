@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="203" Book="SecondarySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" IncludeInMetafile="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="203" Book="SecondarySpell" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard" IncludeInMetafile="false">
   <Name>TestAddSleep</Name>
   <Descriptions>
     <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test to add sleep.</Description>

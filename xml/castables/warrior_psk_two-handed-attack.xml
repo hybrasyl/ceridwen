@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="17" Book="PrimarySkill" Element="None" Class="Warrior">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="17" Book="PrimarySkill" Elements="None" Class="Warrior">
   <!--<Comment>Suomi Fighter</Comment>-->
   <Name>Two-handed Attack</Name>
   <Descriptions>

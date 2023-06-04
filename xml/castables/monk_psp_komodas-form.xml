@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="185" Book="PrimarySpell" Element="None" Class="Monk">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="185" Book="PrimarySpell" Elements="None" Class="Monk">
   <Name>Komodas Form</Name>
   <Descriptions>
     <Description Class="Monk">Transform into a Lizard, Increasing Damage by 2% and Health by 4,000</Description>

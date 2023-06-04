@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="19" Book="PrimarySkill" Element="None" Class="Rogue Monk" Cooldown="45" BreakStealth="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="19" Book="PrimarySkill" Elements="None" Class="Rogue Monk" Cooldown="45" BreakStealth="false">
   <!--<Comment>Abel Fighter</Comment>-->
   <Name>Throw</Name>
   <Descriptions>

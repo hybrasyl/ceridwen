@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="79" Book="PrimarySkill" Element="Current" Class="Rogue" IsAssail="true">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="79" Book="PrimarySkill" Elements="Current" Class="Rogue" IsAssail="true">
   <Name>Arrow Shot 12</Name>
   <Descriptions>
     <Description Class="Rogue">Ranged Assail. Requires a Bow to be equipped.</Description>

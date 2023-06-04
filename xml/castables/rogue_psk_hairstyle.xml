@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="38" Book="PrimarySkill" Element="None" Class="Rogue" BreakStealth="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="38" Book="PrimarySkill" Elements="None" Class="Rogue" BreakStealth="false">
   <!--<Comment>Mileth Bank</Comment>-->
   <Name>Hairstyle</Name>
   <Descriptions>

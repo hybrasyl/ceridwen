@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="60" Book="PrimarySkill" Element="None" Class="Monk" Cooldown="32">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="60" Book="PrimarySkill" Elements="None" Class="Monk" Cooldown="32">
   <!--<Comment>Sapphire Stream</Comment>-->
   <!--<Comment>Red Dugon</Comment>-->
   <Name>Wolf Fang Fist</Name>

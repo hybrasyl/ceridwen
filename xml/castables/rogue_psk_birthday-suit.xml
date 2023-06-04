@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="46" Book="PrimarySkill" Element="None" Class="Rogue" Cooldown="6">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="46" Book="PrimarySkill" Elements="None" Class="Rogue" Cooldown="6">
   <Name>Birthday Suit</Name>
   <Descriptions>
     <Description Class="Rogue">Temporarily removes a player's armor. You must choose between Birthday Suit and Incapacitate, but can switch as you please by visiting Aman Jungle.</Description>

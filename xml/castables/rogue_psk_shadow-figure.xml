@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="8" Book="PrimarySkill" Element="Current" Class="Rogue">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="8" Book="PrimarySkill" Elements="Current" Class="Rogue">
   <!--<Comment>Oren Skill Master</Comment>-->
   <!--<Comment>Pure Rogue</Comment>-->
   <Name>Shadow Figure</Name>

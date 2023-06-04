@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="8" Icon="119" Book="PrimarySpell" Element="None" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="8" Icon="119" Book="PrimarySpell" Elements="None" Class="Wizard">
   <Name>ard fas nadur</Name>
   <Descriptions>
     <Description Class="Wizard">Amplifies elemental effects on the target by 300%, You must choose between ard fas nadur and Prevent Affliction, but can switch as you please by visiting Aman Jungle.</Description>

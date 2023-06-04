@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="84" Book="PrimarySkill" Element="Current" Class="Warrior Monk" Cooldown="3">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="84" Book="PrimarySkill" Elements="Current" Class="Warrior Monk" Cooldown="3">
   <Name>Spinning Kelberoth Strike</Name>
   <Descriptions>
     <Description Class="Warrior Monk">Deals 1/3 of your health in damage to surrounding enemies. Ignores spells and pierces dion. costs 2/3 of your health. You must choose between Cyclone Kick and Spinning Kelberoth Strike, but can switch as you please by visiting Aman Jungle.</Description>

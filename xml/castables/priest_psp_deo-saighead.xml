@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="3" Icon="71" Book="PrimarySpell" Element="Light" Class="Priest">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="3" Icon="71" Book="PrimarySpell" Elements="Light" Class="Priest">
   <!--<Comment>Suomi Wizard</Comment>-->
   <Name>deo saighead</Name>
   <Descriptions>

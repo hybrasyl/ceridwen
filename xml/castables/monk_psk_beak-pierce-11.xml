@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="93" Book="PrimarySkill" Element="Current" Class="Monk" Cooldown="13">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="93" Book="PrimarySkill" Elements="Current" Class="Monk" Cooldown="13">
   <Name>Beak Pierce 11</Name>
   <Descriptions>
     <Description Class="Monk">Deals minor damage and blinds the enemy infront of you for 10 seconds.</Description>

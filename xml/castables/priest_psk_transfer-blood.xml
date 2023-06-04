@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="45" Book="PrimarySkill" Element="None" Class="Priest" Cooldown="2" BreakStealth="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="45" Book="PrimarySkill" Elements="None" Class="Priest" Cooldown="2" BreakStealth="false">
   <!--<Comment>Mileth Rogue</Comment>-->
   <Name>Transfer Blood</Name>
   <Descriptions>

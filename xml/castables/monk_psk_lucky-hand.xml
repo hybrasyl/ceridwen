@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="62" Book="PrimarySkill" Element="None" Class="Monk" Cooldown="75" BreakStealth="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="62" Book="PrimarySkill" Elements="None" Class="Monk" Cooldown="75" BreakStealth="false">
   <!--<Comment>Sapphire Stream</Comment>-->
   <!--<Comment>Brown Dugon</Comment>-->
   <Name>Lucky Hand</Name>

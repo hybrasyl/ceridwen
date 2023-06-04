@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="154" Book="PrimarySpell" Element="Fire" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="154" Book="PrimarySpell" Elements="Fire" Class="Wizard">
   <!--<Comment>03</Comment>-->
   <Name>Torch 3</Name>
   <Descriptions>

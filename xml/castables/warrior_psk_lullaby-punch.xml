@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="4" Book="PrimarySkill" Element="None" Class="Warrior" Cooldown="2">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="4" Book="PrimarySkill" Elements="None" Class="Warrior" Cooldown="2">
   <Name>Lullaby Punch</Name>
   <Descriptions>
     <Description Class="Warrior">Puts the enemy to sleep for 8 seconds. The skill/spell that breaks it deals double damage. You must choose between Ground Stomp and Lullaby Punch, but can switch as you please by visiting Aman Jungle.</Description>

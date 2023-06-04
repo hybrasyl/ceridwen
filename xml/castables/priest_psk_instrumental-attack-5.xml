@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="98" Book="PrimarySkill" Element="Current" Class="Priest" Cooldown="12">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="98" Book="PrimarySkill" Elements="Current" Class="Priest" Cooldown="12">
   <Name>Instrumental Attack 5</Name>
   <Descriptions>
     <Description Class="Priest">Deals mana-based damage to enemies infront of you. (3 tiles)</Description>

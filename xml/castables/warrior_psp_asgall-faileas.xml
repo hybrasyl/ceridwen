@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="54" Book="PrimarySpell" Element="None" Class="Warrior">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="54" Book="PrimarySpell" Elements="None" Class="Warrior">
   <!--<Comment>Oren Skill Master</Comment>-->
   <!--<Comment>Pure Gladiator</Comment>-->
   <Name>Asgall Faileas</Name>

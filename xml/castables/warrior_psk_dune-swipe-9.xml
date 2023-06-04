@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="74" Book="PrimarySkill" Element="Current" Class="Warrior" Cooldown="12">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="74" Book="PrimarySkill" Elements="Current" Class="Warrior" Cooldown="12">
   <Name>Dune Swipe 9</Name>
   <Descriptions>
     <Description Class="Warrior">Deals moderate damage to nearby enemies. (1 tile in each direction)</Description>

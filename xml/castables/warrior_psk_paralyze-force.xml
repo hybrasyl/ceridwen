@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="52" Book="PrimarySkill" Element="None" Class="Warrior" Cooldown="24">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="52" Book="PrimarySkill" Elements="None" Class="Warrior" Cooldown="24">
   <!--<Comment>Warrior Training Grounds</Comment>-->
   <!--<Comment>Pure Warrior</Comment>-->
   <Name>Paralyze Force</Name>

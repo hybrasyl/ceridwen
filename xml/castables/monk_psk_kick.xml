@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="2" Book="PrimarySkill" Element="Current" Class="Monk" Cooldown="9">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="2" Book="PrimarySkill" Elements="Current" Class="Monk" Cooldown="9">
   <!--<Comment>Mileth Fighter</Comment>-->
   <Name>Kick</Name>
   <Descriptions>

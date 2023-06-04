@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="178" Book="PrimarySpell" Element="None" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="178" Book="PrimarySpell" Elements="None" Class="Wizard">
   <Name>Bubble Shield</Name>
   <Descriptions>
     <Description Class="Wizard">Summons eight bubbles around you, Preventing monsters from reaching you for 20 secs., You must choose between Bubble Shield and Mud Fortress, but can switch as you please by visiting Aman Jungle.</Description>

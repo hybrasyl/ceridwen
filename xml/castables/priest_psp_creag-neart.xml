@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="13" Book="PrimarySpell" Element="Earth" Class="Priest">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="13" Book="PrimarySpell" Elements="Earth" Class="Priest">
   <!--<Comment>Shinewood 11</Comment>-->
   <Name>creag neart</Name>
   <Descriptions>

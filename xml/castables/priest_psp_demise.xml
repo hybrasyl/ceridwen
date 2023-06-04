@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="6" Icon="133" Book="PrimarySpell" Element="None" Class="Priest">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="6" Icon="133" Book="PrimarySpell" Elements="None" Class="Priest">
   <Name>Demise</Name>
   <Descriptions>
     <Description Class="Priest">Curses the enemy, increasing their armor class by 95 and reducing their magic resistance by 40%.</Description>

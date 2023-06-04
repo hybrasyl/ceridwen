@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="7" Icon="3" Book="UtilitySpell" Element="None" Class="Monk Priest Peasant Rogue Warrior Wizard" Reflectable="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="7" Icon="3" Book="UtilitySpell" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard" Reflectable="false">
   <Name>Woods Lecture</Name>
   <Descriptions>
     <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Woods knowledge</Description>

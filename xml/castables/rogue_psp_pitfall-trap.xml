@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="7" Icon="139" Book="PrimarySpell" Element="None" Class="Rogue">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="7" Icon="139" Book="PrimarySpell" Elements="None" Class="Rogue">
   <Name>Pitfall Trap</Name>
   <Descriptions>
     <Description Class="Rogue">Drops a trap that damages the enemy that steps on it. Deals 45,000 damage to creatures or 12,000 to players., You must choose between Shadow Strike and Pitfall Trap, but can switch as you please by visiting Aman Jungle.</Description>

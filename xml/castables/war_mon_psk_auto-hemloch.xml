@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="109" Book="PrimarySkill" Element="None" Class="Warrior Monk" Cooldown="45">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="109" Book="PrimarySkill" Elements="None" Class="Warrior Monk" Cooldown="45">
   <Name>Auto Hemloch</Name>
   <Descriptions>
     <Description Class="Warrior Monk">Reduces your current Health to 1. (Perfect for Crasher) You must choose between Auto Hemloch and Frost Strike, but can switch as you please by visiting Aman Jungle.</Description>

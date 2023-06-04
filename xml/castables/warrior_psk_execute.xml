@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="21" Book="PrimarySkill" Element="Current" Class="Warrior" Cooldown="28">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="21" Book="PrimarySkill" Elements="Current" Class="Warrior" Cooldown="28">
   <!--<Comment>Decoded Baem Missives</Comment>-->
   <Name>Execute</Name>
   <Descriptions>

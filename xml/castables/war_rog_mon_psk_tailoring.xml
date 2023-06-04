@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="32" Book="PrimarySkill" Element="None" Class="Warrior Monk Rogue" Cooldown="475">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="32" Book="PrimarySkill" Elements="None" Class="Warrior Monk Rogue" Cooldown="475">
   <!--<Comment>Abel Tailor</Comment>-->
   <Name>Tailoring</Name>
   <Descriptions>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="27" Book="PrimarySkill" Element="None" Class="Priest Wizard Monk" Cooldown="36">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="27" Book="PrimarySkill" Elements="None" Class="Priest Wizard Monk" Cooldown="36">
   <!--<Comment>Suomi Priestess</Comment>-->
   <Name>Herbal Lore</Name>
   <Descriptions>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="184" Book="PrimarySpell" Element="None" Class="Monk">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="184" Book="PrimarySpell" Elements="None" Class="Monk">
   <Name>Master Karura Form</Name>
   <Descriptions>
     <Description Class="Monk">Transform into a Bird, Increasing Damage by 12% and Health by 8,500. Lasts 2 Minutes 35 Seconds.</Description>

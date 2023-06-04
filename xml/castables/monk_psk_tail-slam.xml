@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="94" Book="PrimarySkill" Element="Current" Class="Monk" Cooldown="2">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="94" Book="PrimarySkill" Elements="Current" Class="Monk" Cooldown="2">
   <Name>Tail Slam</Name>
   <Descriptions>
     <Description Class="Monk">Deals Damage to the enemy equal to 200 * (your ability). Moves the enemy 2 tiles. Pierces dion effects.</Description>

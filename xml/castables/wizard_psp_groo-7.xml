@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="156" Book="PrimarySpell" Element="Earth" Class="Wizard">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="2" Icon="156" Book="PrimarySpell" Elements="Earth" Class="Wizard">
   <!--<Comment>07.1</Comment>-->
   <Name>Groo 7</Name>
   <Descriptions>

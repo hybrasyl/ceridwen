@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="67" Book="PrimarySkill" Element="Current" Class="Monk" Cooldown="33">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="67" Book="PrimarySkill" Elements="Current" Class="Monk" Cooldown="33">
   <Name>Raging Attack</Name>
   <Descriptions>
     <Description Class="Monk">Deals massive damage to surrounding enemies. You must choose between Raging Attack and Spinning Kelberoth Strike, but can switch as you please by visiting Aman Jungle.</Description>

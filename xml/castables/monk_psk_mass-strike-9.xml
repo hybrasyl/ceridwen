@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="85" Book="PrimarySkill" Element="Current" Class="Monk" Cooldown="16">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="85" Book="PrimarySkill" Elements="Current" Class="Monk" Cooldown="16">
   <Name>Mass Strike 9</Name>
   <Descriptions>
     <Description Class="Monk">Deals heavy damage to an enemy infront of you.</Description>

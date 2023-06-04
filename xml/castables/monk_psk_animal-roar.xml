@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="51" Book="PrimarySkill" Element="Current" Class="Monk" Cooldown="27">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="51" Book="PrimarySkill" Elements="Current" Class="Monk" Cooldown="27">
   <Name>Animal Roar</Name>
   <Descriptions>
     <Description Class="Monk">Stuns everything in sight for 26 seconds. You must choose between Animal Roar and Animal Feast, but can switch as you please by visiting Aman Jungle.</Description>

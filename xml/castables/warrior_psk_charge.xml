@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="49" Book="PrimarySkill" Element="Current" Class="Warrior" Cooldown="15">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="49" Book="PrimarySkill" Elements="Current" Class="Warrior" Cooldown="15">
   <!--<Comment>Temple of Choosing</Comment>-->
   <Name>Charge</Name>
   <Descriptions>

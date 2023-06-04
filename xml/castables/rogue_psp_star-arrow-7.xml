@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="159" Book="PrimarySpell" Element="Light" Class="Rogue">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="0" Icon="159" Book="PrimarySpell" Elements="Light" Class="Rogue">
   <Name>Star Arrow 7</Name>
   <Descriptions>
     <Description Class="Rogue">Attacks a large cluster of enemies with Light damage. (25 Tiles)</Description>

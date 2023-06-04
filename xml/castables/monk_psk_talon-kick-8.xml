@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="94" Book="PrimarySkill" Element="Current" Class="Monk" Cooldown="5">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="94" Book="PrimarySkill" Elements="Current" Class="Monk" Cooldown="5">
   <Name>Talon Kick 8</Name>
   <Descriptions>
     <Description Class="Monk">Deals decent damage to nearby enemies. (2 tiles in each direction)</Description>

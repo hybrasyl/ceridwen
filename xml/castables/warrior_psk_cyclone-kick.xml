@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="67" Book="PrimarySkill" Element="Current" Class="Warrior" Cooldown="15">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="67" Book="PrimarySkill" Elements="Current" Class="Warrior" Cooldown="15">
   <Name>Cyclone Kick</Name>
   <Descriptions>
     <Description Class="Warrior">Deals Massive damage to surrounding enemies. You must choose between Cyclone Kick and Spinning Kelberoth Strike, but can switch as you please by visiting Aman Jungle.</Description>
