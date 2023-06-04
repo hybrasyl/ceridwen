@@ -19,7 +19,7 @@
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
       <AB Min="30" Max="99"/>
       <Items>
-        <Item Quantity="">Gold Bar</Item>
+        <Item Quantity="1">Gold Bar</Item>
       </Items>
   <Effects>
     <Animations>

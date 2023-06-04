@@ -3,7 +3,7 @@
   <!--<Comment>Rucession Rogue</Comment>-->
   <Name>nis</Name>
   <Descriptions>
-    <Description Class="Monk Priest Wizard Warrior Rogue Peasant">Tells you the time & date in Temuairan Time</Description>
+    <Description Class="Monk Priest Wizard Warrior Rogue Peasant">Tells you the time &amp; date in Temuairan Time</Description>
   </Descriptions>
   <CastCosts>
     <CastCost>
@@ -18,8 +18,8 @@
       <Level Min="1" Max="99"/>
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
       <Items>
-        <Item Quantity="">Raw Wax </Item>
-        <Item Quantity="">Stick</Item>
+        <Item Quantity="1">Raw Wax </Item>
+        <Item Quantity="1">Stick</Item>
       </Items>
   <Effects>
     <Animations>

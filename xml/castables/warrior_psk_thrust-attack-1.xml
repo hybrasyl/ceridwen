@@ -17,7 +17,7 @@
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
       <AB Min="1" Max="99"/>
       <Items>
-        <Item Quantity="">Thrust Attack Book</Item>
+        <Item Quantity="1">Thrust Attack Book</Item>
       </Items>
     </Requirement>
   </Requirements>

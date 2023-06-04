@@ -18,7 +18,7 @@
       <Physical Str="3" Int="17" Wis="3" Con="30" Dex="3"/>
       <Items>
         <Item Quantity="1">Wolf's Teeth</Item>
-        <Item Quantity="">Gruesomefly Wing</Item>
+        <Item Quantity="1">Gruesomefly Wing</Item>
       </Items>
     </Requirement>
   </Requirements>

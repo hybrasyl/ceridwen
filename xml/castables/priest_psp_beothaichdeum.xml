@@ -3,7 +3,7 @@
   <!--<Comment>Piet Priestess</Comment>-->
   <Name>beothaichdeum</Name>
   <Descriptions>
-    <Description Class="Priest">Creates red potions from Cherries & Grapes.</Description>
+    <Description Class="Priest">Creates red potions from Cherries &amp; Grapes.</Description>
   </Descriptions>
   <CastCosts>
     <CastCost>

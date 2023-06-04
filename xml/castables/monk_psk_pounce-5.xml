@@ -19,7 +19,7 @@
       <Items>
         <Item Quantity="10">Hwarone Helmet Upgrade Plan</Item>
         <Item Quantity="75">Rogue's Skull</Item>
-        <Item Quantity="">Hwarone Weapon Upgrade Plan</Item>
+        <Item Quantity="1">Hwarone Weapon Upgrade Plan</Item>
       </Items>
       <!-- <Prerequisites>
         <Prerequisite Level="100">Pounce 4</Prerequisite>

@@ -19,7 +19,7 @@
       <Gold>12000</Gold>
       <Physical Str="13" Int="14" Wis="52" Con="10" Dex="24"/>
       <Items>
-        <Item Quantity="">Wolf's Lock </Item>
+        <Item Quantity="1">Wolf's Lock </Item>
       </Items>
       <!-- <Prerequisites>
         <Prerequisite Level="60">sal</Prerequisite>

@@ -19,7 +19,7 @@
       <Items>
         <Item Quantity="5">Hwarone Weapon Upgrade Plan</Item>
         <Item Quantity="50">Priest's Skull</Item>
-        <Item Quantity="">Hwarone Armor Upgrade Plan</Item>
+        <Item Quantity="1">Hwarone Armor Upgrade Plan</Item>
       </Items>
       <!-- <Prerequisites>
         <Prerequisite Level="100">Pounce 3</Prerequisite>
