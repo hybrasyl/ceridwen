@@ -15,12 +15,16 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Rogue">
       <Level Min="14" Max="99"/>
       <Gold>25000</Gold>
       <Physical Str="10" Int="10" Wis="7" Con="20" Dex="30"/>
       <Items>
         <Item Quantity="6">Centipede's Gland </Item>
       </Items>
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

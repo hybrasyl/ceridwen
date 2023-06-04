@@ -15,6 +15,8 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Priest">
       <Level Min="30" Max="99"/>
       <Gold>20000</Gold>
       <Physical Str="10" Int="30" Wis="24" Con="30" Dex="24"/>
@@ -25,6 +27,8 @@
       <!-- <Prerequisites>
         <Prerequisite Level="10">beag puinsein</Prerequisite>
       </Prerequisites> -->
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

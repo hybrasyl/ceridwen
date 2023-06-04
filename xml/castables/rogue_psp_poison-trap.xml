@@ -15,6 +15,8 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Rogue">
       <Level Min="9" Max="99"/>
       <Gold>1000</Gold>
       <Physical Str="6" Int="7" Wis="6" Con="8" Dex="12"/>
@@ -22,6 +24,8 @@
         <Item Quantity="2">Centipede's Gland</Item>
         <Item Quantity="4">Viper's Gland</Item>
       </Items>
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

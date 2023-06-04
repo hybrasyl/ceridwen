@@ -15,6 +15,8 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Priest">
       <Level Min="20" Max="99"/>
       <Gold>12000</Gold>
       <Physical Str="10" Int="25" Wis="20" Con="10" Dex="10"/>
@@ -24,6 +26,8 @@
       <!-- <Prerequisites>
         <Prerequisite Level="30">beag cradh</Prerequisite>
       </Prerequisites> -->
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

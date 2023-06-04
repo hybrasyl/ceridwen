@@ -15,6 +15,8 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Monk">
       <Level Min="30" Max="99"/>
       <Gold>50000</Gold>
       <Physical Str="13" Int="36" Wis="28" Con="13" Dex="23"/>
@@ -23,6 +25,8 @@
         <Item Quantity="3">Finished Ruby </Item>
         <Item Quantity="2">Beryl Earrings </Item>
       </Items>
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

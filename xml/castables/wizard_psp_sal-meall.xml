@@ -16,6 +16,8 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Wizard">
       <Level Min="25" Max="99"/>
       <Gold>12000</Gold>
       <Physical Str="11" Int="19" Wis="60" Con="11" Dex="26"/>
@@ -27,6 +29,8 @@
         <Prerequisite Level="45">mor sal</Prerequisite>
         <Prerequisite Level="75"> sal lamh</Prerequisite>
       </Prerequisites> -->
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

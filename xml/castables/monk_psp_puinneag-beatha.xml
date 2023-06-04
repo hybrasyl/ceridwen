@@ -16,11 +16,15 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Monk">
       <Level Min="22" Max="99"/>
       <Physical Str="3" Int="22" Wis="22" Con="18" Dex="18"/>
       <Items>
         <Item Quantity="1">Scorpion's Sting </Item>
       </Items>
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

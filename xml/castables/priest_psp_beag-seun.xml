@@ -15,9 +15,13 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Priest">
       <Level Min="6" Max="99"/>
       <Gold>5000</Gold>
       <Physical Str="3" Int="5" Wis="17" Con="3" Dex="3"/>
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

@@ -16,12 +16,16 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Monk">
       <Level Min="44" Max="99"/>
       <Physical Str="3" Int="15" Wis="3" Con="3" Dex="3"/>
       <Items>
         <Item Quantity="1">Gruesomefly Antenna</Item>
         <Item Quantity="1">Wolf's Fur</Item>
       </Items>
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

@@ -17,12 +17,16 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Monk">
       <Level Min="77" Max="99"/>
       <Physical Str="68" Int="3" Wis="3" Con="3" Dex="20"/>
       <Items>
         <Item Quantity="1">Spore Sac </Item>
         <Item Quantity="1">Frog's Leg</Item>
       </Items>
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

@@ -15,6 +15,8 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Rogue">
       <Level Min="10" Max="99"/>
       <Gold>5000</Gold>
       <Physical Str="6" Int="12" Wis="10" Con="6" Dex="28"/>
@@ -23,6 +25,8 @@
         <Item Quantity="1">Kobold's Skull</Item>
         <Item Quantity="1">Scorpion's Sting</Item>
       </Items>
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

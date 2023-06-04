@@ -11,7 +11,7 @@
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
   <Requirements>
-    <Requirement Class="Rogue_Monk">
+    <Requirement Class="Rogue Monk">
       <Level Min="3" Max="99"/>
       <Gold>2500</Gold>
       <Physical Str="10" Int="3" Wis="3" Con="10" Dex="10"/>

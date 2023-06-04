@@ -15,12 +15,16 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Rogue">
       <Level Min="7" Max="99"/>
       <Gold>5000</Gold>
       <Physical Str="6" Int="10" Wis="6" Con="3" Dex="12"/>
       <Items>
         <Item Quantity="1">Bat's Wing</Item>
       </Items>
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

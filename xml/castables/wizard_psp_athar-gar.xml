@@ -16,6 +16,8 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Wizard">
       <Level Min="30" Max="99"/>
       <Gold>500000</Gold>
       <Physical Str="14" Int="34" Wis="31" Con="14" Dex="78"/>
@@ -28,6 +30,8 @@
         <Prerequisite Level="60">ard athar</Prerequisite>
         <Prerequisite Level="90">athar meall</Prerequisite>
       </Prerequisites> -->
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

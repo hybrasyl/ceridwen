@@ -15,12 +15,16 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Priest">
       <Level Min="10" Max="99"/>
       <Gold>5000</Gold>
       <Physical Str="3" Int="13" Wis="14" Con="3" Dex="3"/>
       <!-- <Prerequisites>
         <Prerequisite Level="30">beag ioc</Prerequisite>
       </Prerequisites> -->
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>

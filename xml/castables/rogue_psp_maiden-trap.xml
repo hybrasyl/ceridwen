@@ -15,12 +15,16 @@
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
+  <Requirements>
+    <Requirement Class="Rogue">
       <Level Min="25" Max="99"/>
       <Gold>10000</Gold>
       <Physical Str="35" Int="12" Wis="5" Con="18" Dex="45"/>
       <Items>
         <Item Quantity="2">Fine Light Dagger</Item>
       </Items>
+    </Requirement>
+  </Requirements>
   <Effects>
     <Animations>
       <OnCast>
