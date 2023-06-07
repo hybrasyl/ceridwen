@@ -21,7 +21,7 @@
       <AB Min="90" Max="99"/>
       <Items>
         <Item Quantity="3">Gold Bar</Item>
-        <Item Quantity="">Decoded Baem Missives</Item>
+        <Item Quantity="1">Decoded Baem Missives</Item>
       </Items>
     </Requirement>
   </Requirements>
