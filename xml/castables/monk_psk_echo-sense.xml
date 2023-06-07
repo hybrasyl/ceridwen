@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Monk">Identifies the attributes of the monster infront of you.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillMonkST</Category>
+    <Category>AnalyzeCreature</Category>
+    <Category>WhiteBat</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Line Length="3" Direction="Front"/>

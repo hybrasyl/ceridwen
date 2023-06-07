@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Monk">Allows the caster to see Invisible players.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Sight</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="120"/>

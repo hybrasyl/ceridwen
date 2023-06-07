@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Rogue">Temporarily makes the caster Invisible.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellRogueST</Category>
+    <Category>Invisible</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="200"/>

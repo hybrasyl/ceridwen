@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks all enemies with weak wind.</Description>
   </Descriptions>
+  <Categories>
+    <Category>ElementMT</Category>
+    <Category>Wind</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="60"/>
@@ -43,5 +47,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCEDEX) * 1</Formula>
+    </Damage>
   </Effects>
 </Castable>

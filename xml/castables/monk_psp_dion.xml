@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk">Makes the caster invincible for 8 seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonk</Category>
+    <Category>Invulnerable</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="600"/>

@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Priest">Drains 10,000 Mana from the enemy infront and gives it to you.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillBardST</Category>
+    <Category>ManaDrain</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

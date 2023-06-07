@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk Priest Wizard Warrior Rogue Peasant">Allows you to summon creatures relevant to your religion. Monster strength increases with Faith level.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Religion</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

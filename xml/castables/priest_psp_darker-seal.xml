@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Priest">Curses the enemy, increasing their armor class by 85 and reducing their magic resistance by 40%, You must choose between Darker Seal and ard ioc comlha, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardST</Category>
+    <Category>DebuffAc</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="450"/>

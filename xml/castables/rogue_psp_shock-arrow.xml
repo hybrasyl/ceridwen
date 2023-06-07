@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Rogue">Deals damage to the enemy equal to 1% of the their current Health</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellArcherST</Category>
+    <Category>RelativeHp</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="0.04"/>
@@ -38,5 +42,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Direct">
+      <Formula>TARGETMAXIMUMHP*.01</Formula>
+    </Damage>
   </Effects>
 </Castable>

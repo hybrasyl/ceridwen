@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Rogue">Ranged Assail. Requires a Bow to be equipped.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillArcherST</Category>
+    <Category>RangedAssail</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Line Length="8" Direction="Front"/>

@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Warrior">Stuns everything in sight for 26 seconds. You must choose between Ground Stomp and Lullaby Punch, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillGladiatorMT</Category>
+    <Category>Freeze</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

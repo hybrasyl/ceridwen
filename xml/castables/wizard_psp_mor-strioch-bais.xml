@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Wizard">Attacks the enemy with stronger darkness. Requires at least 10,000 Mana.</Description>
   </Descriptions>
+  <Categories>
+    <Category>ElementST</Category>
+    <Category>Dark</Category>
+    <Category>ElementST</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="SOURCECURRENTMP*0.95"/>
@@ -40,5 +45,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCECURRENTMP*.95)*3</Formula>
+    </Damage>
   </Effects>
 </Castable>

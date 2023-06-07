@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Warrior">Temporarily makes the caster immune to spell damage for 14 secs. Requires 500 Mana.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillWarriorST</Category>
+    <Category>MagicImmune</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

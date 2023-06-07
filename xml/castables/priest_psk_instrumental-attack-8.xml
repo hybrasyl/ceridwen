@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Priest">Deals mana-based damage to enemies infront of you. (3 tiles)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillBardST</Category>
+    <Category>MpToDmg</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="3" Flags="Hostile Pvp">
       <Line Length="3" Direction="Front"/>

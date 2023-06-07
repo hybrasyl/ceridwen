@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Access political functions of your town.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Politics</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

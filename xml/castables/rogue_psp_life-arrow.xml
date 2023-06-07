@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Rogue">Revives a skulling player., 3 min cooldown.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellArcherST</Category>
+    <Category>Coma</Category>
+    <Category>RemoveDebuff</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1500"/>

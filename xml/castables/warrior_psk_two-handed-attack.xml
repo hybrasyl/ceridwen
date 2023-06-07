@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Warrior">Required to equip Two-handed weapons.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillGladiatorST</Category>
+    <Category>EquipAllow</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

@@ -5,6 +5,9 @@
   <Descriptions>
     <Description Class="Monk">Third Assail. Makes your spacebar deal additional physical damage.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Assails</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>
@@ -30,5 +33,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="">
+      <Formula>(SOURCESTR + SOURCESMALLWEAPONDAMAGE)*2</Formula>
+    </Damage>
   </Effects>
 </Castable>

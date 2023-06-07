@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Rogue">Required for Profession: Lockpicking. Requires Lockpicks.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Profession</Category>
+    <Category>Lockpicking</Category>
+  </Categories>
   <Intents>
     <Intent UseType="Unusable">
     </Intent>

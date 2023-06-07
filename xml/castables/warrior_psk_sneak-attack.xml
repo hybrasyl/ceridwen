@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Warrior">Deals minor damage and teleports you to the other side of your enemy.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillWarriorST</Category>
+    <Category>Movement</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Rogue">Required for Gem Polishing.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Profession</Category>
+    <Category>Jewelcrafting</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="10"/>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Rogue">Drops a trap that damages the enemy that steps on it.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellRogueTrap</Category>
+    <Category>FlatHp</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="100"/>

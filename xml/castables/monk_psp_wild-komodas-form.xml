@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Monk">Transform into a Lizard, Increasing Damage by 4% and Health by 8,000</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellDruidST</Category>
+    <Category>Stance</Category>
+    <Category>Karura</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="360"/>

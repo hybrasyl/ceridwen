@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk">Attacks the enemy with wind.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonkST</Category>
+    <Category>Wind</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="720"/>
@@ -40,5 +44,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCEDEX) * 8</Formula>
+    </Damage>
   </Effects>
 </Castable>

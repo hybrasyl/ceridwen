@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Wizard">Elements knowledge</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Lecture</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

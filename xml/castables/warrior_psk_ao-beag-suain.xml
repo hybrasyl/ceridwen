@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Warrior">Removes paralyze effects from yourself. Requires 1 Mana.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWarriorST</Category>
+    <Category>Freeze</Category>
+    <Category>RemoveDebuff</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1"/>

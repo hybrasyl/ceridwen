@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Rogue">Required for Profession: Hairstyle</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Profession</Category>
+    <Category>Hairstyle</Category>
+  </Categories>
   <Intents>
     <Intent UseType="Unusable">
     </Intent>

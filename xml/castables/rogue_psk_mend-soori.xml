@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Rogue">Repairs the Soori in your first inventory slot.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Repair</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Rogue">Drops a trap that blinds the enemy that steps on it. Short Duration</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellRogueTrap</Category>
+    <Category>Blind</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1"/>

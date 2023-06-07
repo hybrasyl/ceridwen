@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Creates red potions from Cherries &amp; Grapes.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>CreateReds</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="100"/>

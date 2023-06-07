@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Rogue Monk">Moves the player infront of you 1 tile.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Movement</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

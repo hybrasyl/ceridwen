@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Wizard">Summons a Fiery Defender that will attack anything that harms the caster. Lasts 6 minutes.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Summon</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="3000"/>

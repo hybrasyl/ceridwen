@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Monk">Heals players surrounding you.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonkMT</Category>
+    <Category>Heal</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="360"/>
@@ -41,5 +45,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Heal Type="Formula">
+      <Formula>110 + (SOURCEINT + SOURCEWIS) *17</Formula>
+    </Heal>
   </Effects>
 </Castable>

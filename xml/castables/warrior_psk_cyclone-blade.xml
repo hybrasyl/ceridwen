@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Warrior">Deals minor damage to surrounding enemies.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillWarriorMT</Category>
+    <Category>FlatHp</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="4" Flags="Hostile Pvp">
       <Cross Direction="1"/>

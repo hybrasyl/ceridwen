@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Halves damage that the player takes. Medium Duration</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>BuffDamageReduction</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="200"/>

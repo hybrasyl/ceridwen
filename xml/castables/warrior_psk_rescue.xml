@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Warrior">Causes the target creature attack you. If performed on a skulling player it will prevent penalties upon death.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillWarriorST</Category>
+    <Category>Taunt</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Friendly Hostile Pvp">
       <Tile Direction="Front"/>

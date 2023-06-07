@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Transfers 10% of your current health to the player infront.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillPriestST</Category>
+    <Category>HpTransfer</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Hp="SOURCECURRENTHP*0.1"/>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks the target with Wind damage.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Wind</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2600"/>
@@ -43,5 +47,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEDEX + SOURCEINT) *19</Formula>
+    </Damage>
   </Effects>
 </Castable>

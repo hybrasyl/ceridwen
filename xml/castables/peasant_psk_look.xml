@@ -5,6 +5,9 @@
   <Descriptions>
     <Description Class="Peasant">Can be used to read map names or view the names of a Player's Armor and Weapon.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

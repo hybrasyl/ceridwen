@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Rogue">Blinds all enemies in sight for 7 seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Blind</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

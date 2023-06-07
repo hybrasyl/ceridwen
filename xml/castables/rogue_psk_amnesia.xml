@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Rogue">Confuses the nearest enemy infront of you (2-3 tile range)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillRogueST</Category>
+    <Category>ThreatClear</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Line Length="3" Direction="Front"/>

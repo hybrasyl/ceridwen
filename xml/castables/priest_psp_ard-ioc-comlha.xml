@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Priest">Heals your group for a large amount. (Heals 2x more than mor ioc comhla)., You must choose between Darker Seal and ard ioc comlha, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestMT</Category>
+    <Category>Heal</Category>
+    <Category>Group</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1720"/>
@@ -37,5 +42,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Heal Type="Formula">
+      <Formula>1800 + (SOURCEINT+SOURCEWIS)*100</Formula>
+    </Heal>
   </Effects>
 </Castable>

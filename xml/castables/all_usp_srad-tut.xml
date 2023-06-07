@@ -4,6 +4,9 @@
   <Descriptions>
     <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Attacks with weak fire</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="10"/>
@@ -33,5 +36,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCESTR) * 1</Formula>
+    </Damage>
   </Effects>
 </Castable>

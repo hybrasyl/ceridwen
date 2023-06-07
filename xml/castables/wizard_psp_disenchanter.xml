@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Summons a Disenchanter that will periodically remove pramh, dark seal, cradh, poison, dall and suain. Lasts 6 minutes.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Summon</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="3000"/>

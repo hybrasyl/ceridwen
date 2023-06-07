@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Warrior">Stuns everything in sight for 25 seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillWarriorMT</Category>
+    <Category>Paralyze</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Curses the enemy, increasing their armor class by 35 and reducing their magic resistance by 10%</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardST</Category>
+    <Category>DebuffAc</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="90"/>

@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Monk">Puts the enemy to sleep for 8 seconds. The skill/spell that breaks it deals double damage.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillMonkST</Category>
+    <Category>Freeze</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile">
       <Tile Direction="Front"/>

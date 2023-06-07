@@ -5,6 +5,10 @@
     <Description Class="Priest">Steals half of the group member's mana.</Description>
     <Description Class="Wizard">Steals half of the group member's mana.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellST</Category>
+    <Category>ManaDrain</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="350"/>

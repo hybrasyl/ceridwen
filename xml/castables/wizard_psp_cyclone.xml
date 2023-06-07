@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Wizard">Summons a Cyclone that will travel forward and attack enemies in it's path.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Summon</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1200"/>

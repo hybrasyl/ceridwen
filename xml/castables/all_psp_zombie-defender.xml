@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk Priest Wizard Warrior Rogue Peasant">Summons a Zombie that will deal 7,500 Damage per second do anything that attacks you.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Religion</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="3000"/>

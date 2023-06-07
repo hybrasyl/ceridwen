@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Rogue">Attacks a very large cluster of enemies with Light damage. (29 Tiles)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellArcherMT</Category>
+    <Category>Light</Category>
+    <Category>ElementMT</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2200"/>
@@ -44,5 +49,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEWIS + SOURCEINT) *18</Formula>
+    </Damage>
   </Effects>
 </Castable>

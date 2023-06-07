@@ -5,6 +5,9 @@
   <Descriptions>
     <Description Class="Peasant">Allows you to swim during Paradise events.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+  </Categories>
   <Intents>
     <Intent UseType="Unusable">
     </Intent>

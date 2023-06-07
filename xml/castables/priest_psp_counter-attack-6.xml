@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Priest">Buffs the player, causing them to deal 18,000 damage to enemies who assail them.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardST</Category>
+    <Category>BuffPhysicalReflect</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="3520"/>

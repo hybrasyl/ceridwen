@@ -6,6 +6,10 @@
     <Description Class="Monk">Deals minor damage in an attempt to attract the enemy.</Description>
     <Description Class="Rogue">Deals minor damage in an attempt to attract the enemy.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWarriorST</Category>
+    <Category>Taunt</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1"/>
@@ -47,6 +51,9 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Direct">
+      <Simple>1</Simple>
+    </Damage>
   </Effects>
   <Script>Taunt</Script>
 </Castable>

@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Monk">Deals health-based damage when below 2% Health. You must choose between Animal Roar and Animal Feast, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillDruidST</Category>
+    <Category>HPtoDMG</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

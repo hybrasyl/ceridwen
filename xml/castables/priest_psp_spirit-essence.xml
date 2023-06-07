@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Fully heals the target player. , This Spell is borrowed and will disappear after two days.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardST</Category>
+    <Category>Heal</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="6000"/>
@@ -38,5 +42,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Heal Type="Formula">
+      <Formula>TARGETMAXIMUMHP</Formula>
+    </Heal>
   </Effects>
 </Castable>

@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Monk">Increases the casters str by 3.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonkST</Category>
+    <Category>BuffStr</Category>
+    <Category>Kelberoth</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

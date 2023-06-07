@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Monk">Deals moderate damage to enemies infront of you. (5 tile range)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillDruidMT</Category>
+    <Category>FlatHp</Category>
+    <Category>Feral</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="5" Flags="Hostile Pvp">
       <Line Length="5" Direction="Front"/>

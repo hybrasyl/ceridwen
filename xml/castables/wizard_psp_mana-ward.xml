@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Summons a ward that grants mana to all nearby party within a 13 tile radius. Mana is equal to 5x the Summoner's ability (Double for the Summoner). Lasts 60 seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Summon</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="700"/>

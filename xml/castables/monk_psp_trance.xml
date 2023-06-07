@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Monk">Makes low level creatures fight for you. Doesn't work on many things.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonkMT</Category>
+    <Category>Charm</Category>
+    <Category>Scorpion</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="25"/>

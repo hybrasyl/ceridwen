@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Wizard">Amplifies elemental effects on the target by 300%, You must choose between ard fas nadur and Prevent Affliction, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWizardST</Category>
+    <Category>EnhanceEleDiff</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1000"/>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks a small cluster of enemies with Earth Damage. (5 Tiles)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerMT</Category>
+    <Category>Earth</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2650"/>
@@ -43,5 +47,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCECON + SOURCEINT) *14</Formula>
+    </Damage>
   </Effects>
 </Castable>

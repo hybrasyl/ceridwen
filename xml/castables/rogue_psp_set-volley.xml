@@ -5,6 +5,9 @@
   <Descriptions>
     <Description Class="Rogue">Allows you to change the Arrow that will be cast by Volley.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellArcherST</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="100"/>

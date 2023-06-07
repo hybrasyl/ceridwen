@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Monk">Temporarily makes the caster Invisible.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonkST</Category>
+    <Category>Invisible</Category>
+    <Category>WhiteBat</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="25"/>

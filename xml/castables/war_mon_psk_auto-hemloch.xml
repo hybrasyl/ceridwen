@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Warrior Monk">Reduces your current Health to 1. (Perfect for Crasher) You must choose between Auto Hemloch and Frost Strike, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>NearDeath</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

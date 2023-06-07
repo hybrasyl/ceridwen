@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Wizard">Required to use an Empowered Serpant Sphere</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillSummonerST</Category>
+    <Category>EquipAllow</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

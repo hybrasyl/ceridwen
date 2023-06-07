@@ -4,6 +4,12 @@
   <Descriptions>
     <Description Class="Monk">Deals Damage to the enemy equal to 200 * (your ability). Moves the enemy 2 tiles. Pierces dion effects.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillDruidST</Category>
+    <Category>ScaleHp</Category>
+    <Category>Komodas</Category>
+    <Category>Knockback</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

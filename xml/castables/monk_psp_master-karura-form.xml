@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Monk">Transform into a Bird, Increasing Damage by 12% and Health by 8,500. Lasts 2 Minutes 35 Seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellDruidST</Category>
+    <Category>Stance</Category>
+    <Category>Karura</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="360"/>

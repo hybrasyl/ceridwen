@@ -5,6 +5,9 @@
   <Descriptions>
     <Description Class="Monk">Second Assail. Makes your spacebar deal additional physical damage.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Assails</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>
@@ -34,5 +37,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="">
+      <Formula>(SOURCESTR + SOURCESMALLWEAPONDAMAGE)*2.25</Formula>
+    </Damage>
   </Effects>
 </Castable>

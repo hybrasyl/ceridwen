@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Priest Wizard Monk">Required for Crafting: Herbalism.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Identify</Category>
+    <Category>Herbalism</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

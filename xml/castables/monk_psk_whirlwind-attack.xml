@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Monk">Deals health based damage to surrounding enemies.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillMonkMT</Category>
+    <Category>HPtoDMG</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Hp="SOURCECURRENTHP*0.45"/>

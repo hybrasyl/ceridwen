@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Wizard">Prevents the afflicted target from casting any form of cradh or seal for it's duration., You must choose between ard fas nadur and Prevent Affliction, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>DirectHp</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="220"/>

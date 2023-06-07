@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Rogue">Attacks the target with strong Light damage. Weaker than Star Arrow 8., 8 sec cooldown., You must choose between Precision Shot and Supernova Shot, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellArcherST</Category>
+    <Category>Light</Category>
+    <Category>ElementST</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="500"/>
@@ -37,5 +42,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEWIS + SOURCEINT) *16</Formula>
+    </Damage>
   </Effects>
 </Castable>

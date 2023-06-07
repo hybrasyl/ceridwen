@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks a cluster of enemies with stronger wind.</Description>
   </Descriptions>
+  <Categories>
+    <Category>ElementMT</Category>
+    <Category>Wind</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2400"/>
@@ -43,5 +47,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCEDEX) * 6</Formula>
+    </Damage>
   </Effects>
 </Castable>

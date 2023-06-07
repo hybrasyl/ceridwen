@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Rogue">Slows the enemy's attack and movement speed by a factor of 2 for 3 seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellRogueST</Category>
+    <Category>Slow</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="600"/>

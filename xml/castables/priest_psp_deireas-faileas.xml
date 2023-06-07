@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Gives the user a 70% chance to reflect spells for the duration.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>SelfReflectMagical</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="980"/>

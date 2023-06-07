@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Priest">Attacks nearby enemies with weak light.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestMT</Category>
+    <Category>Light</Category>
+    <Category>ElementMT</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="320"/>
@@ -35,5 +40,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCEWIS)*3</Formula>
+    </Damage>
   </Effects>
 </Castable>

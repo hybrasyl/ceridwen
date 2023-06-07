@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Warrior">Reduces armor class by 17 for 30 minutes.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWarriorST</Category>
+    <Category>BuffAc</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="5000"/>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks surrounding enemies with water.</Description>
   </Descriptions>
+  <Categories>
+    <Category>ElementMT</Category>
+    <Category>Water</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="320"/>
@@ -44,5 +48,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCEWIS) * 3</Formula>
+    </Damage>
   </Effects>
 </Castable>

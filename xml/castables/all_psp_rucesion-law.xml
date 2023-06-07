@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk Priest Wizard Warrior Rogue Peasant">Allows you to access your Law commands outside of the Commons.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Politics</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

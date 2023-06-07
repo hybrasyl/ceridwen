@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Monk">Deals decent damage to nearby enemies. (2 tiles in each direction)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillDruidMT</Category>
+    <Category>FlatHp</Category>
+    <Category>Karura</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="8" Flags="Hostile Pvp">
       <Cross Direction="2"/>

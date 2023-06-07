@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Increases health regeneration. Long duration</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>SelfRegen</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="500"/>

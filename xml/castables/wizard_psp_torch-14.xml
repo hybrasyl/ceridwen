@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks a large cluster of enemies with Fire Damage. (5 Tiles)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerMT</Category>
+    <Category>Fire</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="3025"/>
@@ -45,5 +49,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCESTR + SOURCEINT) *26</Formula>
+    </Damage>
   </Effects>
 </Castable>

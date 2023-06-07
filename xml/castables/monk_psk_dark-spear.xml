@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Monk">Deals minor damage and blinds the monster infront of you.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillMonkST</Category>
+    <Category>Blind</Category>
+    <Category>WhiteBat</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

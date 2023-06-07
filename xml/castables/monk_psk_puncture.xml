@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Monk">Deals damage to the target equal to 100*(your ability). Has a chance to make the enemy bleed for 1% of their total HP per second for 10 seconds. Pierces dion effects.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillDruidST</Category>
+    <Category>ScaleHp</Category>
+    <Category>Komodas</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

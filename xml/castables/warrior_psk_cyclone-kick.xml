@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Warrior">Deals Massive damage to surrounding enemies. You must choose between Cyclone Kick and Spinning Kelberoth Strike, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillGladiatorMT</Category>
+    <Category>FlatHp</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="4" Flags="Hostile Pvp">
       <Cross Direction="1"/>

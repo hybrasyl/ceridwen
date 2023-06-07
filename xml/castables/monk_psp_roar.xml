@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk">Stuns enemies surrounding you. Doesn't work on many things.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonkMT</Category>
+    <Category>Freeze</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="100"/>

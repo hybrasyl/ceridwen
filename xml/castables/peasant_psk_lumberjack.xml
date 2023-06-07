@@ -5,6 +5,9 @@
   <Descriptions>
     <Description Class="Peasant">Allows you to chop down trees during the Suomi Inn events.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+  </Categories>
   <Intents>
     <Intent UseType="Unusable">
     </Intent>

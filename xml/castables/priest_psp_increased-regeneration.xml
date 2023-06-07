@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Priest">Heals the target for 120,000 over 30 sec. (4000/sec), You must choose between Reflection and Increased Regeneration, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardST</Category>
+    <Category>HoT</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="5100"/>

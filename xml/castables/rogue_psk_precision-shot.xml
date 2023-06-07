@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Rogue">Deals health based damage to enemies infront of you. ignores Spells and pierces dion. (3 tile range) You must choose between Precision Shot and Supernova Shot, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillArcherMT</Category>
+    <Category>HPtoDMG</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="3" Flags="Hostile Pvp">
     </Intent>

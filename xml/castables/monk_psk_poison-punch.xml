@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk">Deals minor damage and poisons the enemy infront of you.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillMonkST</Category>
+    <Category>Poison</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

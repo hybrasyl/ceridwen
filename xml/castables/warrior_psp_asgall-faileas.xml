@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Warrior">Gives the user a 70% chance to reflect physical attacks for the duration.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWarriorST</Category>
+    <Category>ReflectPhysical</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="310"/>

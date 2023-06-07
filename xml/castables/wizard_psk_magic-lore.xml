@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Identifies the Item in your first Inventory slot.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Identify</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

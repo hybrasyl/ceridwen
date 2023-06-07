@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Absorbs mana from fior sal.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWizardST</Category>
+    <Category>AbsorbFior</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2"/>

@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Rogue">Required to use a Jenwir Bow</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillArcherST</Category>
+    <Category>EquipAllow</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Line Length="8" Direction="Front"/>

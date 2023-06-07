@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Wizard">Gives all of your current Mana to the target.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>GiveMana</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1"/>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Increases the players Dmg by 2.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>BuffDmg</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

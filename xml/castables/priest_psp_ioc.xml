@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Heals the target.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Heal</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="200"/>
@@ -38,5 +42,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Heal Type="Formula">
+      <Formula>110 + (SOURCEINT + SOURCEWIS) *17</Formula>
+    </Heal>
   </Effects>
 </Castable>

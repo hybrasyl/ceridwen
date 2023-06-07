@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Increases the player's str by 3.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>BuffStr</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Monk">Deals 1/3 of your health in damage to the enemy. Ignores spells and pierces dion. costs 2/3 of your health.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillMonkST</Category>
+    <Category>HPtoDMG</Category>
+    <Category>Kelberoth</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Hp="SOURCECURRENTHP*0.33"/>

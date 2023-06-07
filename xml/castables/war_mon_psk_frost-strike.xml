@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Warrior Monk">Slows the target Monster's attack, movement, and regeneration speeds by a factor of 2 for 2 seconds. You must choose between Auto Hemloch and Frost Strike, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillMedeniaST</Category>
+    <Category>Slow</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

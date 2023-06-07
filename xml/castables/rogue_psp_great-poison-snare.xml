@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Rogue">Drops a trap that poisons the enemy that steps on it. Longest Duration</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellRogueTrap</Category>
+    <Category>Poison</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="50"/>

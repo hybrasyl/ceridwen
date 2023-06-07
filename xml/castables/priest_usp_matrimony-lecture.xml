@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Priest">Matrimony knowledge</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Lecture</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

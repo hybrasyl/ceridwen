@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Monk">Deals Moderate damage to surrounding enemies.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillMonkST</Category>
+    <Category>FlatHp</Category>
+    <Category>Draco</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="4" Flags="Hostile Pvp">
       <Cross Direction="1"/>

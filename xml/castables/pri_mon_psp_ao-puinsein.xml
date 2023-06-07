@@ -6,6 +6,11 @@
     <Description Class="Priest">Removes poison effects.</Description>
     <Description Class="Monk">Removes poison effects.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Poison</Category>
+    <Category>RemoveDebuff</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

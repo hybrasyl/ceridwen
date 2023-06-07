@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Priest">Attempts to cast deireas faileas (spell reflect) on your group. Very high fail chance even when maxed., You must choose between Reflection and Increased Regeneration, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardMT</Category>
+    <Category>ReflectMagical</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1000"/>

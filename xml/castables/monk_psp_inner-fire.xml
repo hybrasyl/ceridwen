@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Monk">Increases health regeneration (8.33%). Medium duration</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonk</Category>
+    <Category>SelfRegen</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="360"/>

@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Priest">Attacks with weak fire</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Lecture</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

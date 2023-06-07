@@ -5,6 +5,9 @@
   <Descriptions>
     <Description Class="Monk Priest Wizard Warrior Rogue Peasant">Teleports the user to their home.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

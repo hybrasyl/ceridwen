@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Priest">Attacks the target with massive Dark? Damage.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardST</Category>
+    <Category>Dark</Category>
+    <Category>ElementST</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="6000"/>
@@ -20,7 +25,7 @@
       <Level Min="99" Max="99"/>
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
       <AB Min="90" Max="99"/>
-        <Item Quantity="">Decoded Baem Missives</Item>
+        <Item Quantity="1">Decoded Baem Missives</Item>
     </Requirement>
   </Requirements>
   <Effects>
@@ -36,5 +41,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCEWIS)*20</Formula>
+    </Damage>
   </Effects>
 </Castable>

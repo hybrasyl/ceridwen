@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Warrior">Deals moderate damage to nearby enemies. (1 tile in each direction)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillGladiatorMT</Category>
+    <Category>FlatHp</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="4" Flags="Hostile Pvp">
       <Cross Direction="1"/>

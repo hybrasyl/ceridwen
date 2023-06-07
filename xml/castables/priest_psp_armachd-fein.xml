@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Lowers the caster's armor class by 10.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>SelfBuffAc</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

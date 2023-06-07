@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Freezes the enemy. Short duration.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Freeze</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="330"/>

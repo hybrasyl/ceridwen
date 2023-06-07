@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Drains 40% of the enemy'stotal health over 40 seconds. 5 second cooldown.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardST</Category>
+    <Category>DoT</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="4560"/>

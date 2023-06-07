@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Amplifies elemental effects on the enemy by 120%</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWizardST</Category>
+    <Category>EnhanceEleDiff</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="25"/>

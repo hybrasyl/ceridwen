@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk Warrior Wizard Priest Rogue">Makes the caster invincible for 8 seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillAll</Category>
+    <Category>Invulnerable</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1200"/>

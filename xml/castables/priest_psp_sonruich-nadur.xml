@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Changes the defence element of the enemy to random.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>ChangeElement</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="450"/>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Allows you to hold Mass outside of the Religious Temples.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Religion</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

@@ -5,6 +5,10 @@
     <Description Class="Priest">Confuses the target into forgetting who hit them last.</Description>
     <Description Class="Rogue">Confuses the target into forgetting who hit them last.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellST</Category>
+    <Category>Confuse</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="60"/>

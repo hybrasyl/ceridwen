@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Summons undead monsters.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWizardST</Category>
+    <Category>Summon</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1000"/>

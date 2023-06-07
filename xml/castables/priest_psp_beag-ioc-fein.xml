@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Priest">Heals the caster for a tiny amount.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Heal</Category>
+    <Category>Self</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="40"/>
@@ -35,5 +40,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Heal Type="Formula">
+      <Formula>36 + (SOURCEINT + SOURCEWIS) *2</Formula>
+    </Heal>
   </Effects>
 </Castable>

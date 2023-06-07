@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Summons a weak spider.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Summon</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2800"/>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Warrior">Deals damage equal to 150% of your maximum health. Requires less than 2% health to use.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillWarriorST</Category>
+    <Category>HPtoDMG</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk Priest Wizard Warrior Rogue Peasant">Allows you to give thanks to your god and allows you to supplicate.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Religion</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

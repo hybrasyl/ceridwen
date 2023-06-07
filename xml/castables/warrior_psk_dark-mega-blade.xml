@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Warrior">Deals Massive damage (130% the damage of Cyclone Kick) to surrounding enemies. This Skill is borrowed and will disappear after two days.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillGladiatorMT</Category>
+    <Category>FlatHp</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

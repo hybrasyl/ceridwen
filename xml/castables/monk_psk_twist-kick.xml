@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk">Deals a sad amount of damage (about the same as Draco Tail Kick) to surrounding enemies. This Skill is borrowed and will disappear after two days. My disappointment is immeasurable, and my day is ruined.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillDruidMT</Category>
+    <Category>FlatHp</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="4" Flags="Hostile Pvp">
       <Cross Direction="1"/>

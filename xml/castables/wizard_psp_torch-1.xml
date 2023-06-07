@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks the target with Fire damage.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Fire</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2600"/>
@@ -39,5 +43,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCESTR + SOURCEINT) *13</Formula>
+    </Damage>
   </Effects>
 </Castable>

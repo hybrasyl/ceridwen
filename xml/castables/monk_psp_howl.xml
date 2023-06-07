@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Monk">Deals minor damage in an attempt to attract all nearby enemies.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonkMT</Category>
+    <Category>Taunt</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="360"/>

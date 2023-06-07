@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks all enemies with fire.</Description>
   </Descriptions>
+  <Categories>
+    <Category>ElementMT</Category>
+    <Category>Fire</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="320"/>
@@ -44,5 +48,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCESTR) * 3</Formula>
+    </Damage>
   </Effects>
 </Castable>

@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Monk Warrior Wizard Priest Rogue">Used to learn Medenian Skills and Spells</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Medenia</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="0"/>

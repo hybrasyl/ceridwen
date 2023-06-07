@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Deals 1/3 of mana in damage to the player and restores 100% mana.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWizardST</Category>
+    <Category>HpToMp</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="0"/>

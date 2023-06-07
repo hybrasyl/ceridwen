@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Wizard">Attacks the target with massive Dark Damage.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Dark</Category>
+    <Category>ElementST</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="18000"/>
@@ -38,5 +43,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEWIS + SOURCEINT) *25</Formula>
+    </Damage>
   </Effects>
 </Castable>

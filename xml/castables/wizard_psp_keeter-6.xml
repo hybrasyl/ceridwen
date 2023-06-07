@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks a large cluster of enemies with Wind Damage. (13 Tiles)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerMT</Category>
+    <Category>Wind</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2775"/>
@@ -43,5 +47,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEDEX + SOURCEINT) *18</Formula>
+    </Damage>
   </Effects>
 </Castable>

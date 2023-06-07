@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Priest">Heals a playert for 45,000 over 30 seconds. (1500hps)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardMT</Category>
+    <Category>HoT</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="3420"/>

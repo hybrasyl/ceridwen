@@ -6,6 +6,8 @@
   </Descriptions>
   <Categories>
     <Category>Test</Category>
+    <Category>Mute</Category>
+    <Category>RemoveDebuff</Category>
   </Categories>
   <CastCosts>
     <CastCost>

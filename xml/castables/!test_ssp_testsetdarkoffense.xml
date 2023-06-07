@@ -6,6 +6,8 @@
   </Descriptions>
   <Categories>
     <Category>Test</Category>
+    <Category>ChangeElement</Category>
+    <Category>Dark</Category>
   </Categories>
   <Intents>
     <Intent UseType="Target" MaxTargets="1" Flags="Hostile Friendly Pvp">

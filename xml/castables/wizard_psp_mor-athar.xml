@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks the enemy with stronger wind.</Description>
   </Descriptions>
+  <Categories>
+    <Category>ElementST</Category>
+    <Category>Water</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="800"/>
@@ -41,5 +45,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCEDEX) * 8</Formula>
+    </Damage>
   </Effects>
 </Castable>

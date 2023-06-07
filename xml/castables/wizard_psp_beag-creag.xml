@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks the enemy with weak earth.</Description>
   </Descriptions>
+  <Categories>
+    <Category>ElementST</Category>
+    <Category>Earth</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="20"/>
@@ -38,5 +42,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCECON) * 2</Formula>
+    </Damage>
   </Effects>
 </Castable>

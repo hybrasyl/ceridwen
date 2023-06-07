@@ -1,10 +1,14 @@
 <?xml version="1.0"?>
 <Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="3" Icon="16" Book="PrimarySpell" Elements="None" Class="Rogue">
   <!--<Comment>Mileth Rogue</Comment>-->
-  <Name>Stiletto trap</Name>
+  <Name>Stiletto Trap</Name>
   <Descriptions>
     <Description Class="Rogue">Drops a trap that damages the enemy that steps on it.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellRogueTrap</Category>
+    <Category>FlatHp</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="50"/>

@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Wizard">Makes the caster invincible for 16 seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Invulnerable</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="900"/>

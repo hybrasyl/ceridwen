@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Monk">Deals moderate damage to an enemy infront of you. All Claw Slash ranks require a 65, 80 or 95 weapon to work.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillDruidST</Category>
+    <Category>FlatHp</Category>
+    <Category>Komodas</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Wizard">Summons four walls of mud around the creature you are facing, Trapping them for 20 seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Summon</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="700"/>

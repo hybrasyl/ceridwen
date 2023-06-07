@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Monk">Transform into a Bird, Increasing Damage by 10% and Health by 6,500</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonkST</Category>
+    <Category>Stance</Category>
+    <Category>Karura</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="360"/>

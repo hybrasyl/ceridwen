@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Monk">Deals heavy damage to surrounding enemies. (1 tile in each direction)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillDruidMT</Category>
+    <Category>FlatHp</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="4" Flags="Hostile Pvp">
       <Cross Direction="1"/>

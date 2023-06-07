@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Warrior">Forces the enemies standing around you to face the opposite direction.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillGladiatorMT</Category>
+    <Category>Movement</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

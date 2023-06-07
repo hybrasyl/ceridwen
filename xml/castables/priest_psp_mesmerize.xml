@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Puts the enemy to sleep for 20 Seconds. The skill/spell that breaks it deals double damage.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardST</Category>
+    <Category>Sleep</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="800"/>

@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Wizard">Blast the target with massive Light damage., You must choose between mor pian na dion and Unholy Explosion, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Light</Category>
+    <Category>ElementST</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="5500"/>
@@ -37,5 +42,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEWIS + SOURCEINT) *25</Formula>
+    </Damage>
   </Effects>
 </Castable>

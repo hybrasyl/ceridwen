@@ -4,6 +4,9 @@
   <Descriptions>
     <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Woods knowledge</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Monk">Attacks a very large cluster of targets with wind damage. (29 Tiles)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellDruidMT</Category>
+    <Category>Wind</Category>
+    <Category>Karura</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2000"/>
@@ -44,5 +49,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCEDEX) * 20</Formula>
+    </Damage>
   </Effects>
 </Castable>

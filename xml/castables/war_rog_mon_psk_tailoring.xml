@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Warrior Monk Rogue">Repairs the Item in your first Inventory slot. ,Required for Profession: Tailoring</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>Profession</Category>
+    <Category>Tailoring</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

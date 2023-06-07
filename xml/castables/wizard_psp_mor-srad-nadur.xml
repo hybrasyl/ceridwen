@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Changes the defence element of the enemy to fire.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWizardST</Category>
+    <Category>ChangeElement</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="25"/>

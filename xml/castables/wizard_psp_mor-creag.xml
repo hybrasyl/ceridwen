@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks the enemy with stronger earth.</Description>
   </Descriptions>
+  <Categories>
+    <Category>ElementST</Category>
+    <Category>Earth</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="800"/>
@@ -41,6 +45,9 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCECON) * 8</Formula>
+    </Damage>
     <Statuses>
       <Add>WaterDefense</Add>
     </Statuses>

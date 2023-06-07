@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Monk">Transform into a Lizard, Increasing Damage by 8% and Health by 16,000. Lasts 2 Minutes 35 Seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellDruidST</Category>
+    <Category>Stance</Category>
+    <Category>Karura</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="360"/>

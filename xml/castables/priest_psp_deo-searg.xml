@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Priest">Attacks the enemy with strong light.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Light</Category>
+    <Category>ElementST</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1900"/>
@@ -34,5 +39,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCEWIS)*12</Formula>
+    </Damage>
   </Effects>
 </Castable>

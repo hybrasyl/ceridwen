@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk">Increases the casters chance to dodge attacks.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonk</Category>
+    <Category>Dodge</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="60"/>

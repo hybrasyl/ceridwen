@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Rogue">Attacks a cluster of enemies with Dark damage. (13 Tiles). Damage similar to Star Arrow 6 , This Spell is borrowed and will disappear after two days.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellArcherMT</Category>
+    <Category>Dark</Category>
+    <Category>ElementMT</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="900"/>
@@ -39,5 +44,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEWIS + SOURCEINT) *15</Formula>
+    </Damage>
   </Effects>
 </Castable>

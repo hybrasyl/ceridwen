@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Rogue">Deals minor damage and puts you behind the target.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillRogueST</Category>
+    <Category>Ambush</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Line Length="3" Direction="Front"/>

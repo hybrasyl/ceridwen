@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks a small cluster of enemies with Water Damage. (5 Tiles)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerMT</Category>
+    <Category>Water</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2650"/>
@@ -43,5 +47,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEWIS + SOURCEINT) *14</Formula>
+    </Damage>
   </Effects>
 </Castable>

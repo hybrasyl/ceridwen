@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Priest">Required to use a Wooden Harp</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>EquipAllow</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

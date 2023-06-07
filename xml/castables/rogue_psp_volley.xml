@@ -5,6 +5,9 @@
   <Descriptions>
     <Description Class="Rogue">Combine with your other Arrow abilities to perform a Volley of arrows. Hits each target 0-15 times within a 13 tile cluster. 10 sec cooldown.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellArcherMT</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="100"/>
@@ -41,4 +44,5 @@
       </OnCast>
     </Animations>
   </Effects>
+  <Script>Volley</Script>
 </Castable>

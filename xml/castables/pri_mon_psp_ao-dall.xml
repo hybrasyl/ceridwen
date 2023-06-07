@@ -5,6 +5,11 @@
     <Description Class="Priest">Removes blind effects.</Description>
     <Description Class="Monk">Removes blind effects.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Blind</Category>
+    <Category>RemoveDebuff</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

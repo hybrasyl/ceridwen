@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Sets all your party's mana to base. (As if they had no +mana Items.)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>BalanceMana</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1"/>

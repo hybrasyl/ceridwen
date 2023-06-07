@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Monk">Transform into a Wolf, Increasing Damage by 12% and Health by 2,000</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellDruidST</Category>
+    <Category>Stance</Category>
+    <Category>Feral</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="360"/>

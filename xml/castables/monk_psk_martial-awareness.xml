@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk">Identifies the attributes of the creature infront of you.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>AnalyzeCreature</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Line Length="3" Direction="Front"/>

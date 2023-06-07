@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Wizard">Attacks a cluster of enemies with darkness.</Description>
   </Descriptions>
+  <Categories>
+    <Category>ElementMT</Category>
+    <Category>Dark</Category>
+    <Category>ElementMT</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="SOURCECURRENTMP*0.95"/>
@@ -41,5 +46,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCECURRENTMP*.95)*4</Formula>
+    </Damage>
   </Effects>
 </Castable>

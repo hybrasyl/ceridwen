@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Fully heals the target player., 3 Minute Cooldown.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardMT</Category>
+    <Category>Heal</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1"/>
@@ -39,5 +43,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Heal Type="Formula">
+      <Formula>TARGETMAXIMUMHP</Formula>
+    </Heal>
   </Effects>
 </Castable>

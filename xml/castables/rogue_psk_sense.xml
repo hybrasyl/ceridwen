@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Rogue">Identifies Aisling Attributes.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>PlayerInspect</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Friendly">
       <Line Length="6" Direction="Front"/>

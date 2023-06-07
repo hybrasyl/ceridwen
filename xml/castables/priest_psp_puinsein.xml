@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Poisons the enemy. Long duration.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Poison</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="160"/>

@@ -4,6 +4,9 @@
   <Descriptions>
     <Description Class="Monk">Required to Learn your Wild Animal Form</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillDruidST</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

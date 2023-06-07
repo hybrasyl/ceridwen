@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Monk">Heals you for 500 * (your Ability) at a mana cost of 250 * (your Ability)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellDruidST</Category>
+    <Category>SelfHeal</Category>
+    <Category>Komodas</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="SOURCEAB*250"/>
@@ -39,5 +44,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Heal Type="Formula">
+      <Formula>SOURCEABILITY * 500</Formula>
+    </Heal>
   </Effects>
 </Castable>

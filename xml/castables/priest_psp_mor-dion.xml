@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Makes the caster invincible for 16 seconds.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Invulnerable</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1000"/>

@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Rogue">Temporarily removes a player's weapon. You must choose between Birthday Suit and Incapacitate, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillArcherST</Category>
+    <Category>Disarm</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

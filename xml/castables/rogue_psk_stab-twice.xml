@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Rogue">Deals decent damage to the enemy infront of you. Requires Rogue Weapon or Secret.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillRogueST</Category>
+    <Category>FlatHp</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

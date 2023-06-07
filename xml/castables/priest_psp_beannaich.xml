@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Increases the player's hit by 10.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>BuffHit</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

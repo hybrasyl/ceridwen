@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Deals damage to an enemy (about 20% more than mpnd) and is not modified by spells or armor class. , This Spell is borrowed and will disappear after two days.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellWizardST</Category>
+    <Category>DirectHp</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="3000"/>

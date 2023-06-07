@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Monk">Deals minor damage in an attempt to attract the enemy.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonkST</Category>
+    <Category>Taunt</Category>
+    <Category>Draco</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="1"/>
@@ -34,6 +39,9 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Direct">
+      <Simple>1</Simple>
+    </Damage>
   </Effects>
   <Script>Taunt</Script>
 </Castable>

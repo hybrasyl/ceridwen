@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Priest">Removes beag cradh.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Cradh</Category>
+    <Category>RemoveDebuff</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="30"/>

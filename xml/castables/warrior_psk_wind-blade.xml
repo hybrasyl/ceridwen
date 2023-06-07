@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Warrior">Deals minor damage to enemies infront of you. (3 tile range)</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillWarriorST</Category>
+    <Category>FlatHp</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="3" Flags="Hostile Pvp">
       <Line Length="3" Direction="Front"/>

@@ -4,6 +4,10 @@
   <Descriptions>
     <Description Class="Wizard">Required to use a Shaine Sphere</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillSummonerST</Category>
+    <Category>EquipAllow</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Tile Direction="Front"/>

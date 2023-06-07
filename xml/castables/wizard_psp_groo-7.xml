@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks the target with Earth damage.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Earth</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2600"/>
@@ -44,5 +48,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCECON + SOURCEINT) *19</Formula>
+    </Damage>
   </Effects>
 </Castable>

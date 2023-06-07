@@ -5,6 +5,11 @@
   <Descriptions>
     <Description Class="Priest">Heals your group for a tiny amount.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestMT</Category>
+    <Category>Heal</Category>
+    <Category>Group</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="70"/>
@@ -38,5 +43,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Heal Type="Formula">
+      <Formula>36 + (SOURCEINT + SOURCEWIS) *2</Formula>
+    </Heal>
   </Effects>
 </Castable>

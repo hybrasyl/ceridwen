@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Monk">Drains an enemies health. Doesn't work on many things.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellMonk</Category>
+    <Category>Lifedrain</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="320"/>

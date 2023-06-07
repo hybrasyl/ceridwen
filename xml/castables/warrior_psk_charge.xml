@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Warrior">Charges you forward 4 tiles and attacks the the first enemy you reach.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillWarriorST</Category>
+    <Category>Movement</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Line Length="4" Direction="Front"/>

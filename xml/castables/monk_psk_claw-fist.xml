@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Monk">Doubles all unarmed assail damage for it's duration.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillMonkST</Category>
+    <Category>BuffDmg</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

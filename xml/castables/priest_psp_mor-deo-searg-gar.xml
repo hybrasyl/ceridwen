@@ -4,6 +4,11 @@
   <Descriptions>
     <Description Class="Priest">Attacks all enemies with strong Light damage., You must choose between ard deo searg and mor deo searg gar, but can switch as you please by visiting Aman Jungle.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellBardMT</Category>
+    <Category>Light</Category>
+    <Category>ElementMT</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="12000"/>
@@ -38,5 +43,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEINT + SOURCEWIS)*16</Formula>
+    </Damage>
   </Effects>
 </Castable>

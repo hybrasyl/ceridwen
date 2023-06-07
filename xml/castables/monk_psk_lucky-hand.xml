@@ -6,6 +6,10 @@
   <Descriptions>
     <Description Class="Monk">Repairs the Item in your first inventory slot.</Description>
   </Descriptions>
+  <Categories>
+    <Category>Utility</Category>
+    <Category>AnalyzeCreature</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>

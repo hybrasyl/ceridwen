@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Priest">Makes low level creatures fight for you. Doesn't work on many things.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellPriestST</Category>
+    <Category>Charm</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="100"/>

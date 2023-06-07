@@ -6,6 +6,8 @@
   </Descriptions>
   <Categories>
     <Category>Test</Category>
+    <Category>OutboundHeal</Category>
+    <Category>Buff</Category>
   </Categories>
   <CastCosts>
     <CastCost>

@@ -5,6 +5,10 @@
   <Descriptions>
     <Description Class="Wizard">Attacks the target with Water damage.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SpellSummonerST</Category>
+    <Category>Water</Category>
+  </Categories>
   <CastCosts>
     <CastCost>
       <Stat Mp="2600"/>
@@ -39,5 +43,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Damage Type="Elemental">
+      <Formula>(SOURCEWIS + SOURCEINT) *13</Formula>
+    </Damage>
   </Effects>
 </Castable>

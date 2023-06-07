@@ -4,6 +4,9 @@
   <Descriptions>
     <Description Class="Rogue">Fires a Special Arrow from the first slot of your Inventory. Requires a Bow to be equipped.</Description>
   </Descriptions>
+  <Categories>
+    <Category>SkillArcherST</Category>
+  </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="1" Flags="Hostile Pvp">
       <Line Length="8" Direction="Front"/>
