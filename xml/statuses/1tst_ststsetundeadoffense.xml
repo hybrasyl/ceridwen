@@ -14,8 +14,6 @@
       <StatModifiers OffensiveElementOverride="Undead">
       </StatModifiers>
     </OnApply>
-      <StatModifiers OffensiveElementOverride="Undead">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers OffensiveElementOverride="Undead">
       </StatModifiers>

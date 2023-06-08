@@ -14,8 +14,6 @@
       <StatModifiers OffensiveElementOverride="Wood">
       </StatModifiers>
     </OnApply>
-      <StatModifiers OffensiveElementOverride="Wood">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers OffensiveElementOverride="Wood">
       </StatModifiers>

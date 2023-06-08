@@ -14,8 +14,6 @@
       <StatModifiers BonusManaSteal="-10">
       </StatModifiers>
     </OnApply>
-      <StatModifiers BonusManaSteal="-10">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers BonusManaSteal="10">
       </StatModifiers>

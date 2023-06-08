@@ -14,8 +14,6 @@
       <StatModifiers BonusExtraItemFind="-10">
       </StatModifiers>
     </OnApply>
-      <StatModifiers BonusExtraItemFind="-10">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers BonusExtraItemFind="10">
       </StatModifiers>

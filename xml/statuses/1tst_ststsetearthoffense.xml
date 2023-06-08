@@ -14,8 +14,6 @@
       <StatModifiers OffensiveElementOverride="Earth">
       </StatModifiers>
     </OnApply>
-      <StatModifiers OffensiveElementOverride="Earth">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers OffensiveElementOverride="Earth">
       </StatModifiers>

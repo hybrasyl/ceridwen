@@ -14,8 +14,6 @@
       <StatModifiers DefensiveElementOverride="Light">
       </StatModifiers>
     </OnApply>
-      <StatModifiers DefensiveElementOverride="Light">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers DefensiveElementOverride="Light">
       </StatModifiers>

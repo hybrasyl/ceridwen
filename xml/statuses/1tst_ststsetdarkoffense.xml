@@ -14,8 +14,6 @@
       <StatModifiers OffensiveElementOverride="Dark">
       </StatModifiers>
     </OnApply>
-      <StatModifiers OffensiveElementOverride="Dark">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers OffensiveElementOverride="Dark">
       </StatModifiers>

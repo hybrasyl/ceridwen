@@ -14,8 +14,6 @@
       <StatModifiers BonusMagicDodge="10">
       </StatModifiers>
     </OnApply>
-      <StatModifiers BonusMagicDodge="10">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers BonusMagicDodge="-10">
       </StatModifiers>

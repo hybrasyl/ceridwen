@@ -14,8 +14,6 @@
       <StatModifiers DamageType="Physical">
       </StatModifiers>
     </OnApply>
-      <StatModifiers DamageType="Physical">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers DamageType="Physical">
       </StatModifiers>

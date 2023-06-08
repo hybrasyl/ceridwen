@@ -14,8 +14,6 @@
       <StatModifiers OffensiveElementOverride="Water">
       </StatModifiers>
     </OnApply>
-      <StatModifiers OffensiveElementOverride="Water">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers OffensiveElementOverride="Water">
       </StatModifiers>

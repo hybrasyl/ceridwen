@@ -14,8 +14,6 @@
       <StatModifiers BonusReflectPhysical="10">
       </StatModifiers>
     </OnApply>
-      <StatModifiers BonusReflectPhysical="10">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers BonusReflectPhysical="-10">
       </StatModifiers>

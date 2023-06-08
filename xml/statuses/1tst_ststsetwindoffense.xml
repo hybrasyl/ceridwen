@@ -14,8 +14,6 @@
       <StatModifiers OffensiveElementOverride="Wind">
       </StatModifiers>
     </OnApply>
-      <StatModifiers OffensiveElementOverride="Wind">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers OffensiveElementOverride="Wind">
       </StatModifiers>

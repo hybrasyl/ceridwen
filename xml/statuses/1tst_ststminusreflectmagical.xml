@@ -14,8 +14,6 @@
       <StatModifiers BonusReflectMagical="-10">
       </StatModifiers>
     </OnApply>
-      <StatModifiers BonusReflectMagical="-10">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers BonusReflectMagical="10">
       </StatModifiers>

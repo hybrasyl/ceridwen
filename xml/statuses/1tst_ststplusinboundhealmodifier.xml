@@ -14,8 +14,6 @@
       <StatModifiers BonusInboundHealModifier="10">
       </StatModifiers>
     </OnApply>
-      <StatModifiers BonusInboundHealModifier="10">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers BonusInboundHealModifier="-10">
       </StatModifiers>

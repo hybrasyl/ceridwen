@@ -14,8 +14,6 @@
       <StatModifiers DefensiveElementOverride="Metal">
       </StatModifiers>
     </OnApply>
-      <StatModifiers DefensiveElementOverride="Metal">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers DefensiveElementOverride="Metal">
       </StatModifiers>

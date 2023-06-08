@@ -14,8 +14,6 @@
       <StatModifiers DefensiveElementOverride="Earth">
       </StatModifiers>
     </OnApply>
-      <StatModifiers DefensiveElementOverride="Earth">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers DefensiveElementOverride="Earth">
       </StatModifiers>

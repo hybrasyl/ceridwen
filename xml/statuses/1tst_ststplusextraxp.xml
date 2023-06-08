@@ -14,8 +14,6 @@
       <StatModifiers BonusExtraXp="10">
       </StatModifiers>
     </OnApply>
-      <StatModifiers BonusExtraXp="10">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers BonusExtraXp="-10">
       </StatModifiers>

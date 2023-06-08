@@ -13,32 +13,21 @@
       </Messages>
         <ElementalModifiers>
           <ElementalModifier Type="Resistance" Element="Water" Modifier="10"/>
-          <ElementalModifier/>
-          <ElementalModifier/>
-          <ElementalModifier/>
-          <ElementalModifier/>
-          <ElementalModifier/>
         </ElementalModifiers>
     </OnApply>
     <OnRemove>
+      <StatModifiers>
         <ElementalModifiers>
           <ElementalModifier Type="Resistance" Element="Water" Modifier="-10"/>
-          <ElementalModifier Type="n" Element="n" Modifier="n"/>
-          <ElementalModifier Type="n" Element="n" Modifier="n"/>
-          <ElementalModifier Type="n" Element="n" Modifier="n"/>
-          <ElementalModifier Type="n" Element="n" Modifier="n"/>
-          <ElementalModifier Type="n" Element="n" Modifier="n"/>
         </ElementalModifiers>
+      </StatModifiers>
     </OnRemove>
     <OnExpire>
-        <Resistances>
-          <Resistance Type="Water" Modifier="-10"/>
-          <Resistance Type="n" Modifier="n"/>
-          <Resistance Type="n" Modifier="n"/>
-          <Resistance Type="n" Modifier="n"/>
-          <Resistance Type="n" Modifier="n"/>
-          <Resistance Type="n" Modifier="n"/>
-        </Resistances>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Resistance" Element="Water" Modifier="-10"/>
+        </ElementalModifiers>
+      </StatModifiers>
     </OnExpire>
   </Effects>
 </Status>

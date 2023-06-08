@@ -14,8 +14,6 @@
       <StatModifiers BonusExtraGold="-10">
       </StatModifiers>
     </OnApply>
-      <StatModifiers BonusExtraGold="-10">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers BonusExtraGold="10">
       </StatModifiers>

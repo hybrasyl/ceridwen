@@ -14,8 +14,6 @@
       <StatModifiers OffensiveElementOverride="Fire">
       </StatModifiers>
     </OnApply>
-      <StatModifiers OffensiveElementOverride="Fire">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers OffensiveElementOverride="Fire">
       </StatModifiers>

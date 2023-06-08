@@ -14,8 +14,6 @@
       <StatModifiers BonusMr="10">
       </StatModifiers>
     </OnApply>
-      <StatModifiers BonusMr="10">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers BonusMr="-10">
       </StatModifiers>

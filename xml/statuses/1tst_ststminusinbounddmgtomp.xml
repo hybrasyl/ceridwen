@@ -14,8 +14,6 @@
       <StatModifiers BonusInboundDmgToMp="-10">
       </StatModifiers>
     </OnApply>
-      <StatModifiers BonusInboundDmgToMp="-10">
-      </StatModifiers>
     <OnRemove>
       <StatModifiers BonusInboundDmgToMp="10">
       </StatModifiers>
