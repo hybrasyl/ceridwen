@@ -15,7 +15,7 @@
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="NoTarget" MaxTargets="56" Flags="Hostile">
+    <Intent UseType="NoTarget" MaxTargets="56" Flags="Hostile Pvp">
       <Square Side="8"/>
     </Intent>
   </Intents>

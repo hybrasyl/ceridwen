@@ -10,7 +10,7 @@
     <Category>Blind</Category>
   </Categories>
   <Intents>
-    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self Hostile Friendly Pvp">
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->

@@ -14,7 +14,7 @@
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="NoTarget" MaxTargets="1" Flags="Friendly">
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self">
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->

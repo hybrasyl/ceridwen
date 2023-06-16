@@ -16,7 +16,7 @@
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="NoTarget" MaxTargets="5" Flags="Friendly Hostile Pvp">
+    <Intent UseType="NoTarget" MaxTargets="5" Flags="Self Friendly Hostile Pvp">
       <Cross Direction="1" VisualEffect="AllTiles"/>
     </Intent>
   </Intents>

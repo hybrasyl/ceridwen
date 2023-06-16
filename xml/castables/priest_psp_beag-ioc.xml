@@ -15,7 +15,7 @@
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="Target" MaxTargets="1" Flags="Friendly Hostile Pvp">
+    <Intent UseType="Target" MaxTargets="1" Flags="Self Friendly Hostile Pvp">
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
