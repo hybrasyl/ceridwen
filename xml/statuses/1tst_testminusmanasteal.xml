@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestMinusManaSteal" Icon="34" Duration="1" Tick="1" RemoveOnDeath="false">
+  <Categories>
+    <Category>Test</Category>
+  </Categories>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+      <StatModifiers BonusManaSteal="-10">
+      </StatModifiers>
+    </OnApply>
+    <OnRemove>
+      <StatModifiers BonusManaSteal="10">
+      </StatModifiers>
+    </OnRemove>
+    <OnExpire>
+      <StatModifiers BonusManaSteal="10">
+      </StatModifiers>
+    </OnExpire>
+  </Effects>
+</Status>

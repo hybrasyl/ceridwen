@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestRemParalyze" Icon="76" Duration="1" Tick="1" RemoveOnDeath="false">
+    <Category>Test</Category>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+      <Conditions>
+        <Remove>Paralyze</Remove>
+      </Conditions>
+    </OnApply>
+</Status>
