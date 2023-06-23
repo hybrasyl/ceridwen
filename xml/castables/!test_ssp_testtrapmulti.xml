@@ -40,7 +40,7 @@
     </Animations>
     <Sound Id="154"/>
     <Reactors>
-      <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="0" Sprite="12192" Expiration="300" Uses="2"/>
+      <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="0" Sprite="12192" Expiration="300" Uses="if([SOURCELEVEL] > 40,2,1)"/>
       <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="1" Sprite="12192" Expiration="300"/>
       <Reactor Script="rogue_test-trap" RelativeX="1" RelativeY="0" Sprite="12192" Expiration="300"/>
       <Reactor Script="rogue_test-trap" RelativeX="-1" RelativeY="0" Sprite="12192" Expiration="300"/>

@@ -5,11 +5,11 @@ function OnEntry()
   -- Variables come predefined here for usage:
   -- invoker - world object that activated the reactor
   -- source - the thing activated, in this case the reactor, represented by a HybrasylReactor C# shim
-  if not invoker.IsPlayer and not source.Expired then
-    invoker.Damage(25)
+  if not target.IsPlayer and not source.Expired then
+    target.Damage(25)
     source.Uses = source.Uses - 1
   else
-    invoker.SystemMessage("You notice a trap nearby.")
+    target.SystemMessage("You notice a trap nearby.")
   end   
 end
 
