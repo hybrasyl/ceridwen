@@ -42,7 +42,7 @@
     </Animations>
     <Sound Id="154"/>
     <Statuses>
-      <Add Duration="5" Speed="1">StstPlusAC</Add>
+      <Add Duration="5" Speed="1">TestPlusAc</Add>
     </Statuses>
   </Effects>
 </Castable>
