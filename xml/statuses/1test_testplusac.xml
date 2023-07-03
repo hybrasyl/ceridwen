@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="StstPlusAC" Icon="46" Duration="1" Tick="1" RemoveOnDeath="false">
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestPlusAc" Icon="46" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
   </Categories>
@@ -11,15 +11,15 @@
       <Sound Id="154"/>
       <Messages>
       </Messages>
-      <StatModifiers BonusAc="0.1">
+      <StatModifiers BonusAc="10">
       </StatModifiers>
     </OnApply>
     <OnRemove>
-      <StatModifiers BonusAc="-0.1">
+      <StatModifiers BonusAc="-10">
       </StatModifiers>
     </OnRemove>
     <OnExpire>
-      <StatModifiers BonusAc="-0.1">
+      <StatModifiers BonusAc="-10">
       </StatModifiers>
     </OnExpire>
   </Effects>
