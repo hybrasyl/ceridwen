@@ -12,20 +12,20 @@
       <Messages>
       </Messages>
         <ElementalModifiers>
-          <ElementalModifier Type="Resistance" Element="Earth" Modifier="-10"/>
+          <ElementalModifier Type="Resistance" Element="Earth" Modifier="-0.1"/>
         </ElementalModifiers>
     </OnApply>
     <OnRemove>
       <StatModifiers>
         <ElementalModifiers>
-          <ElementalModifier Type="Resistance" Element="Earth" Modifier="10"/>
+          <ElementalModifier Type="Resistance" Element="Earth" Modifier="0.1"/>
         </ElementalModifiers>
       </StatModifiers>
     </OnRemove>
     <OnExpire>
       <StatModifiers>
         <ElementalModifiers>
-          <ElementalModifier Type="Resistance" Element="Earth" Modifier="10"/>
+          <ElementalModifier Type="Resistance" Element="Earth" Modifier="0.1"/>
         </ElementalModifiers>
       </StatModifiers>
     </OnExpire>

@@ -12,20 +12,20 @@
       <Messages>
       </Messages>
         <ElementalModifiers>
-          <ElementalModifier Type="Augment" Element="Light" Modifier="-10"/>
+          <ElementalModifier Type="Augment" Element="Light" Modifier="-0.1"/>
         </ElementalModifiers>
     </OnApply>
     <OnRemove>
       <StatModifiers>
         <ElementalModifiers>
-          <ElementalModifier Type="Augment" Element="Light" Modifier="10"/>
+          <ElementalModifier Type="Augment" Element="Light" Modifier="0.1"/>
         </ElementalModifiers>
       </StatModifiers>
     </OnRemove>
     <OnExpire>
       <StatModifiers>
         <ElementalModifiers>
-          <ElementalModifier Type="Augment" Element="Light" Modifier="10"/>
+          <ElementalModifier Type="Augment" Element="Light" Modifier="0.1"/>
         </ElementalModifiers>
       </StatModifiers>
     </OnExpire>

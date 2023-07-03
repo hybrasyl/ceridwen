@@ -11,15 +11,15 @@
       <Sound Id="154"/>
       <Messages>
       </Messages>
-      <StatModifiers BonusInboundHealModifier="10">
+      <StatModifiers BonusInboundHealModifier="0.1">
       </StatModifiers>
     </OnApply>
     <OnRemove>
-      <StatModifiers BonusInboundHealModifier="-10">
+      <StatModifiers BonusInboundHealModifier="-0.1">
       </StatModifiers>
     </OnRemove>
     <OnExpire>
-      <StatModifiers BonusInboundHealModifier="-10">
+      <StatModifiers BonusInboundHealModifier="-0.1">
       </StatModifiers>
     </OnExpire>
   </Effects>
