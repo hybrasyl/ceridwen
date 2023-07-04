@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Described Trash</Name>
+  <Comment>Test for vend tab and description</Comment>
+  <Properties>
+    <Appearance Sprite="13411" EquipSprite="13411"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="0"/>
+    <Equipment Slot="None"/>
+    <Flags>Bound Depositable</Flags>
+    <Vendor ShopTab="Clutter">
+      <Description>Abashed the devil stood and felt how awful goodness is and saw Virtue in her shape how lovely: and pined his loss</Description>
+    </Vendor>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

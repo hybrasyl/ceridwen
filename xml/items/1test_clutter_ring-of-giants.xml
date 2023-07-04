@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Ring of Giants</Name>
+  <Comment>Test ring +30 str, -30 wis</Comment>
+  <Properties>
+    <Appearance Sprite="13373" Color="Dusk"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="Ring"/>
+    <StatModifiers BonusStr="30" BonusInt="-30">
+    </StatModifiers>
+    <Flags>Bound</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

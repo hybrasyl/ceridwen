@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Ring of Regrowth</Name>
+  <Comment>Test ring +16% regen, -16% dmg</Comment>
+  <Properties>
+    <Appearance Sprite="13373" Color="Nebula"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="Ring"/>
+    <StatModifiers BonusRegen="0.16" BonusDmg="0.16">
+    </StatModifiers>
+    <Flags>Bound</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

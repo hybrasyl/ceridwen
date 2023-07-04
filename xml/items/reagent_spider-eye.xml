@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Spider Eye</Name>
-  <Comment>Reagent</Comment>
   <Properties>
     <Appearance Sprite="335"/>
     <Stackable Max="30"/>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Smol Sword</Name>
+  <Comment>Test for small damage</Comment>
+  <Properties>
+    <Appearance Sprite="87" EquipSprite="87" DisplaySprite="2"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="Weapon" WeaponType="OneHand"/>
+    <Flags>Bound</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Damage SmallMin="100" SmallMax="200" LargeMin="1" LargeMax="2"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

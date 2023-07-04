@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Test Accessory</Name>
+  <Comment>Test for dumb shit accessories</Comment>
+  <Properties>
+    <Appearance Sprite="5072" DisplaySprite="25"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="FirstAcc"/>
+    <Flags>Depositable Exchangeable UniqueEquipped</Flags>
+    <Vendor ShopTab="Clutter">
+      <Description>Your anger is visible and terrifying</Description>
+    </Vendor>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

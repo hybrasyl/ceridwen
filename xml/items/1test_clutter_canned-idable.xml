@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Canned IDable</Name>
+  <UnidentifiedName>Can of Some Shit</UnidentifiedName>
+  <Comment>what is this?</Comment>
+  <Properties>
+    <Appearance Sprite="1070"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="0"/>
+    <Equipment Slot="None"/>
+    <Flags>Identifiable</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

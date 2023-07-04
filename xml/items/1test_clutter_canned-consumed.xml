@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Canned Consumed</Name>
+  <Comment>can it consumed? Nom nom</Comment>
+  <Properties>
+    <Appearance Sprite="1070"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="0"/>
+    <Equipment Slot="None"/>
+    <Flags>Consumable</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

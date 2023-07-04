@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Variant Single Belt</Name>
+  <Comment>Test for generating one variant in group</Comment>
+  <Properties>
+    <Appearance Sprite="13375" EquipSprite="13375" Color="Maroon"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="Waist"/>
+    <Flags>Bound</Flags>
+    <Variants>
+      <Group>Elemental</Group>
+      <Name>Light</Name>
+    </Variants>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

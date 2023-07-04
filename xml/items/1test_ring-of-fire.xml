@@ -9,8 +9,8 @@
     <Equipment Slot="Ring" WeaponType="None"/>
     <StatModifiers>
       <ElementalModifiers>
-        <ElementalModifier Type="Augment" Element="Fire" Modifier="8"/>
-        <ElementalModifier Type="Resistance" Element="Fire" Modifier="-8"/>
+        <ElementalModifier Type="Augment" Element="Fire" Modifier="0.8"/>
+        <ElementalModifier Type="Resistance" Element="Fire" Modifier="-0.8"/>
       </ElementalModifiers>
     </StatModifiers>
     <Flags>Bound Depositable Vendorable</Flags>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Testinium Helmet</Name>
+  <Comment>Test for helmet slot</Comment>
+  <Properties>
+    <Appearance Sprite="13350" EquipSprite="13350" DisplaySprite="123" Color="Wine"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="Helmet"/>
+    <Flags>Bound</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+      <Gender>Male</Gender>
+    </Restrictions>
+  </Properties>
+</Item>

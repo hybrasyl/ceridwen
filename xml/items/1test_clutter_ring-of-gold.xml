@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Ring of Gold</Name>
+  <Comment>Test for value</Comment>
+  <Properties>
+    <Appearance Sprite="3357" Color="Brown"/>
+    <Stackable Max="1"/>
+    <Physical Value="8888888" Weight="1" Durability="10"/>
+    <Equipment Slot="Ring"/>
+    <Flags>Bound</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

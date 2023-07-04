@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Prayer Book</Name>
+  <Properties>
+    <Appearance Sprite="611"/>
+    <Stackable Max="30"/>
+    <Physical Value="10" Weight="1" Durability="0"/>
+    <Equipment Slot="None"/>
+    <Flags>Depositable Exchangeable Vendorable</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Testinium Leg</Name>
+  <Comment>Test for leg slot</Comment>
+  <Properties>
+    <Appearance Sprite="13376" EquipSprite="13376" Color="Wine2"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="Leg"/>
+    <Flags>Bound</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

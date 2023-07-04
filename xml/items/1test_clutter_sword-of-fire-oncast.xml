@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Sword of Fire OnCast</Name>
+  <Comment>OnCast</Comment>
+  <Properties>
+    <Appearance Sprite="90" EquipSprite="90" DisplaySprite="10"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="Weapon" WeaponType="OneHand"/>
+    <Flags>Bound</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+    <Procs>
+      <Proc Type="OnCast" Castable="ard srad" Chance="1"/>
+    </Procs>
+  </Properties>
+</Item>

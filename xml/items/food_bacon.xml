@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Bacon</Name>
-  <Comment>Food</Comment>
   <Properties>
     <Appearance Sprite="2102"/>
     <Stackable Max="30"/>
     <Physical Value="75" Weight="1" Durability="0"/>
     <Equipment Slot="None"/>
-    <StatModifiers
-       CurrentHp="20" CurrentMp="20"
-      
-    />
+    <StatModifiers CurrentHp="80">
+    </StatModifiers>
     <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
     <Vendor ShopTab="Food"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
   </Properties>
 </Item>

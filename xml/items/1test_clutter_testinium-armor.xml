@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Testinium Armor</Name>
+  <Comment>Test for armor slot</Comment>
+  <Properties>
+    <Appearance Sprite="13346" EquipSprite="13346" DisplaySprite="335" Color="Kelp"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="Armor"/>
+    <Flags>Bound</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+      <Gender>Male</Gender>
+    </Restrictions>
+  </Properties>
+</Item>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Ring of Fire</Name>
+  <Comment>Adds +80% fire damage out and 80% fire damage in</Comment>
+  <Properties>
+    <Appearance Sprite="13379" Color="Fire"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="5" Durability="10"/>
+    <Equipment Slot="Ring" WeaponType="None"/>
+    <StatModifiers>
+      <ElementalModifiers>
+        <ElementalModifier Type="Augment" Element="Fire" Modifier="0.8"/>
+        <ElementalModifier Type="Resistance" Element="Fire" Modifier="-0.8"/>
+      </ElementalModifiers>
+    </StatModifiers>
+    <Flags>Bound Depositable</Flags>
+    <Vendor ShopTab="Clutter">
+      <Description>ancusa ceir will not save you from this.</Description>
+    </Vendor>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>
