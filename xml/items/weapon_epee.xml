@@ -10,7 +10,7 @@
     </StatModifiers>
     <Flags>Depositable Exchangeable Vendorable Smithable</Flags>
     <Variants>
-      <Group>Smithable</Group>
+      <Group>smithed</Group>
     </Variants>
     <Vendor ShopTab="W-Sword"/>
     <Damage SmallMin="7" SmallMax="22" LargeMin="10" LargeMax="25"/>

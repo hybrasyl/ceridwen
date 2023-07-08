@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Tailorable</Name>
+  <Name>tailored</Name>
   <Variant>
     <Name>Good</Name>
     <Modifier>Good</Modifier>

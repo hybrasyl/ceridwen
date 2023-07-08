@@ -8,10 +8,8 @@
     <Physical Value="1234567" Weight="1" Durability="10"/>
     <Equipment Slot="Waist"/>
     <Flags>Bound</Flags>
-    <Variants>
-      <Group>Elemental</Group>
       <Name>Light</Name>
-    </Variants>
+      <Name>Metal</Name>
     <Vendor ShopTab="Clutter"/>
     <Restrictions>
       <Level Min="1" Max="99"/>
