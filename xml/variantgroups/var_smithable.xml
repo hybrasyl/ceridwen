@@ -1,16 +1,18 @@
 <?xml version="1.0"?>
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Tailorable</Name>
+  <Name>Smithable</Name>
   <Variant>
     <Name>Good</Name>
     <Modifier>Good</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="80" Value="150" Durability="110"/>
+      <Damage>
+        <Small Min="1.2" Max="1.2"/>
+      </Damage>
+      <Physical Weight="0.8" Value="1.5" Durability="1.1"/>
       <Restrictions>
         <Level Min="1"/>
       </Restrictions>
-      <StatModifiers BonusAc="-1"/>
     </Properties>
   </Variant>
   <Variant>
@@ -18,11 +20,14 @@
     <Modifier>Fine</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="70" Value="200" Durability="120"/>
+      <Damage>
+        <Small Min="1.4" Max="1.4"/>
+        <Large Min="1.4" Max="1.4"/>
+      </Damage>
+      <Physical Weight="0.7" Value="2" Durability="1.2"/>
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers BonusAc="-2"/>
     </Properties>
   </Variant>
   <Variant>
@@ -30,11 +35,14 @@
     <Modifier>Great</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="60" Value="250" Durability="130"/>
+      <Damage>
+        <Small Min="1.6" Max="1.6"/>
+        <Large Min="1.6" Max="1.6"/>
+      </Damage>
+      <Physical Weight="0.6" Value="2.5" Durability="1.3"/>
       <Restrictions>
         <Level Min="3"/>
       </Restrictions>
-      <StatModifiers BonusAc="-3"/>
     </Properties>
   </Variant>
   <Variant>
@@ -42,23 +50,13 @@
     <Modifier>Grand</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="50" Value="300" Durability="140"/>
+      <Damage>
+        <Small Min="1.8" Max="1.8"/>
+      </Damage>
+      <Physical Weight="0.5" Value="3" Durability="1.4"/>
       <Restrictions>
         <Level Min="4"/>
       </Restrictions>
-      <StatModifiers BonusAc="-4"/>
-    </Properties>
-  </Variant>
-  <Variant>
-    <Name>Regal</Name>
-    <Modifier>Regal</Modifier>
-    <Properties>
-      <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="40" Value="350" Durability="150"/>
-      <Restrictions>
-        <Level Min="5"/>
-      </Restrictions>
-      <StatModifiers BonusAc="-5"/>
     </Properties>
   </Variant>
 </VariantGroup>

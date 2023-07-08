@@ -6,8 +6,12 @@
     <Modifier>Fire</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="500" Durability="100"/>
-      <StatModifiers BaseOffensiveElement="Fire" BaseDefensiveElement="Fire"/>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers DefensiveElementOverride="Fire">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -15,8 +19,12 @@
     <Modifier>Water</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="500" Durability="100"/>
-      <StatModifiers BaseOffensiveElement="Water" BaseDefensiveElement="Water"/>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers DefensiveElementOverride="Water">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -24,8 +32,12 @@
     <Modifier>Earth</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="500" Durability="100"/>
-      <StatModifiers BaseOffensiveElement="Earth" BaseDefensiveElement="Earth"/>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers DefensiveElementOverride="Earth">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -33,8 +45,12 @@
     <Modifier>Wind</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="500" Durability="100"/>
-      <StatModifiers BaseOffensiveElement="Wind" BaseDefensiveElement="Wind"/>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers DefensiveElementOverride="Wind">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -42,8 +58,12 @@
     <Modifier>Light</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="500" Durability="100"/>
-      <StatModifiers BaseOffensiveElement="Light" BaseDefensiveElement="Light"/>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers DefensiveElementOverride="Light">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -51,8 +71,12 @@
     <Modifier>Dark</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="500" Durability="100"/>
-      <StatModifiers BaseOffensiveElement="Dark" BaseDefensiveElement="Dark"/>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers DefensiveElementOverride="Dark">
+      </StatModifiers>
     </Properties>
   </Variant>
 </VariantGroup>

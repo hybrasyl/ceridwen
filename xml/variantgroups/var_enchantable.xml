@@ -6,11 +6,12 @@
     <Modifier>Abundance</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="100" Durability="200"/>
+      <Physical Value="1.2" Durability="1.5"/>
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers BonusDmg="1"/>
+      <StatModifiers BonusDmg="0.01">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -18,11 +19,12 @@
     <Modifier>Blessed</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="200" Durability="100"/>
+      <Physical Value="1.2" Durability="1.5"/>
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers BonusHit="1"/>
+      <StatModifiers BonusHit="0.01">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -30,11 +32,12 @@
     <Modifier>Might</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="200" Durability="100"/>
+      <Physical Value="1.2" Durability="1.5"/>
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers BonusHp="100"/>
+      <StatModifiers BonusHp="100">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -42,11 +45,12 @@
     <Modifier>Magic</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="200" Durability="100"/>
+      <Physical Value="1.2" Durability="1.5"/>
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers BonusMp="100"/>
+      <StatModifiers BonusMp="100">
+      </StatModifiers>
     </Properties>
   </Variant>
 </VariantGroup>

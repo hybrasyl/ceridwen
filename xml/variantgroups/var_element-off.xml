@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>element-off</Name>
+  <Variant>
+    <Name>Fire</Name>
+    <Modifier>Fire</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers OffensiveElementOverride="Fire">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Water</Name>
+    <Modifier>Water</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers OffensiveElementOverride="Water">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Earth</Name>
+    <Modifier>Earth</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers OffensiveElementOverride="Earth">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Wind</Name>
+    <Modifier>Wind</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers OffensiveElementOverride="Wind">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Light</Name>
+    <Modifier>Light</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers OffensiveElementOverride="Light">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Dark</Name>
+    <Modifier>Dark</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers OffensiveElementOverride="Dark">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+</VariantGroup>

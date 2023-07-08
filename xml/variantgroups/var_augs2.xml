@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>augs2</Name>
+  <Comment>extra elements</Comment>
+  <Variant>
+    <Name>MetalAugment</Name>
+    <Modifier>Jagged</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="Metal" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>WoodAugment</Name>
+    <Modifier>Living</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="Wood" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>UndeadAugment</Name>
+    <Modifier>Damned</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="Undead" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+</VariantGroup>

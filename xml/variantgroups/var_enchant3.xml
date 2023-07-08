@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>enchant3</Name>
+  <Variant>
+    <Name>Lifesteal</Name>
+    <Modifier>Hungering</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusLifesteal="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Manasteal</Name>
+    <Modifier>Thirsting</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusManaSteal="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>ReflectPhysical</Name>
+    <Modifier>Thorned</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusReflectPhysical="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>ReflectMagical</Name>
+    <Modifier>Mirrored</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusReflectMagical="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>BonusDodge</Name>
+    <Modifier>Nimble</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusDodge="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>MagicDodge</Name>
+    <Modifier>Grounded</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusMagicDodge="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>BonusCrit</Name>
+    <Modifier>Deadly</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusCrit="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>BonusMagicCrit</Name>
+    <Modifier>Surging</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusMagicCrit="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+</VariantGroup>

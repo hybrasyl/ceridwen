@@ -6,11 +6,12 @@
     <Modifier>Fiosachd</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="400" Durability="100"/>
+      <Physical Value="3" Durability="1.5"/>
       <Restrictions>
-        <Level Min="5"/>
+        <Level Min="4"/>
       </Restrictions>
-      <StatModifiers BonusDex="1"/>
+      <StatModifiers BonusDex="1">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -18,11 +19,12 @@
     <Modifier>Cail</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="400" Durability="100"/>
+      <Physical Value="3" Durability="1.5"/>
       <Restrictions>
         <Level Min="5"/>
       </Restrictions>
-      <StatModifiers BonusCon="1"/>
+      <StatModifiers BonusCon="1">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -30,23 +32,12 @@
     <Modifier>Glioca</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="400" Durability="100"/>
+      <Physical Value="3" Durability="1.5"/>
       <Restrictions>
         <Level Min="5"/>
       </Restrictions>
-      <StatModifiers BonusInboundHealModifier="1"/>
-    </Properties>
-  </Variant>
-  <Variant>
-    <Name>Luathas</Name>
-    <Modifier>Luathas</Modifier>
-    <Properties>
-      <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="400" Durability="100"/>
-      <Restrictions>
-        <Level Min="5"/>
-      </Restrictions>
-      <StatModifiers BonusInt="1"/>
+      <StatModifiers BonusWis="1">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -54,11 +45,12 @@
     <Modifier>Ceannlaidir</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="400" Durability="100"/>
+      <Physical Value="3" Durability="1.5"/>
       <Restrictions>
         <Level Min="5"/>
       </Restrictions>
-      <StatModifiers BonusStr="1"/>
+      <StatModifiers BonusStr="1">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -66,11 +58,12 @@
     <Modifier>Gramail</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="400" Durability="100"/>
+      <Physical Value="3" Durability="1.5"/>
       <Restrictions>
         <Level Min="5"/>
       </Restrictions>
-      <StatModifiers BonusWis="1"/>
+      <StatModifiers BonusMr="0.01">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -78,11 +71,12 @@
     <Modifier>Deoch</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="400" Durability="100"/>
+      <Physical Value="3" Durability="1.5"/>
       <Restrictions>
         <Level Min="5"/>
       </Restrictions>
-      <StatModifiers BonusReflectPhysical="1" BonusReflectMagical="1"/>
+      <StatModifiers BonusRegen="1">
+      </StatModifiers>
     </Properties>
   </Variant>
   <Variant>
@@ -90,11 +84,23 @@
     <Modifier>Sgrios</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
-      <Physical Weight="100" Value="400" Durability="100"/>
+      <Physical Weight="0.5" Value="3" Durability="4"/>
       <Restrictions>
         <Level Min="5"/>
       </Restrictions>
-      <StatModifiers BonusLifesteal="1"/>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Luathas</Name>
+    <Modifier>Luathas</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="3" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="5"/>
+      </Restrictions>
+      <StatModifiers BonusInt="1">
+      </StatModifiers>
     </Properties>
   </Variant>
 </VariantGroup>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>enchant2</Name>
+  <Variant>
+    <Name>BonusGold</Name>
+    <Modifier>Fortunate</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusExtraGold="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>BonusXp</Name>
+    <Modifier>Insightful</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusExtraXp="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>BonusItem</Name>
+    <Modifier>Perceptive</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusExtraItemFind="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>BonusAc</Name>
+    <Modifier>Reinforced</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusAc="-1">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>BonusValue</Name>
+    <Modifier>Gilded</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="4" Durability="0.75"/>
+      <Restrictions>
+        <Level Min="1"/>
+      </Restrictions>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>BonusWeight</Name>
+    <Modifier>Feathered</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Weight="0.5" Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>InboundDmgToMp</Name>
+    <Modifier>Adaptive</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers BonusInboundDmgToMp="0.01">
+      </StatModifiers>
+    </Properties>
+  </Variant>
+</VariantGroup>

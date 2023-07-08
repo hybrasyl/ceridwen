@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>resists1</Name>
+  <Comment>standard elements</Comment>
+  <Variant>
+    <Name>FireResist</Name>
+    <Modifier>Smoldering</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Resistance" Element="Fire" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>WaterResist</Name>
+    <Modifier>Absorbant</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Resistance" Element="Water" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>EarthResist</Name>
+    <Modifier>Sundering</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Resistance" Element="Earth" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>AirResist</Name>
+    <Modifier>Silent</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Resistance" Element="Wind" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>LightResist</Name>
+    <Modifier>Wicked</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Resistance" Element="Light" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>DarkResist</Name>
+    <Modifier>Martyred</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Resistance" Element="Dark" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+</VariantGroup>

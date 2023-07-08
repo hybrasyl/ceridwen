@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>augs1</Name>
+  <Comment>standard elements</Comment>
+  <Variant>
+    <Name>FireAugment</Name>
+    <Modifier>Burning</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="Fire" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>WaterResist</Name>
+    <Modifier>Turbulent</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="Water" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>EarthAugment</Name>
+    <Modifier>Quaking</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="Earth" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>AirAugment</Name>
+    <Modifier>Howling</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="Wind" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>LightAugment</Name>
+    <Modifier>Bright</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="Light" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>DarkAugment</Name>
+    <Modifier>Seeping</Modifier>
+    <Properties>
+      <Flags>Depositable Vendorable Exchangeable</Flags>
+      <Physical Value="1.2" Durability="1.5"/>
+      <Restrictions>
+        <Level Min="2"/>
+      </Restrictions>
+      <StatModifiers>
+        <ElementalModifiers>
+          <ElementalModifier Type="Augment" Element="Dark" Modifier="0.03"/>
+        </ElementalModifiers>
+      </StatModifiers>
+    </Properties>
+  </Variant>
+</VariantGroup>
