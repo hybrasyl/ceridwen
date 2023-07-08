@@ -7,7 +7,7 @@
     <Stackable Max="1"/>
     <Physical Value="1234567" Weight="1" Durability="10"/>
     <Equipment Slot="Ring"/>
-    <StatModifiers BonusExtraGold="0.3" BonusExtraGold="-0.3">
+    <StatModifiers BonusExtraGold="0.3" BonusExtraXp="-0.3">
     </StatModifiers>
     <Flags>Bound</Flags>
     <Vendor ShopTab="Clutter"/>

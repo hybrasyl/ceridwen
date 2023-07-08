@@ -3,7 +3,7 @@
   <Name>Variant All Belt</Name>
   <Comment>Test for generating variants</Comment>
   <Properties>
-    <Appearance Sprite="13375" EquipSprite="13375" Color="Kru"/>
+    <Appearance Sprite="13375" EquipSprite="13375" Color="TiNfOiL"/>
     <Stackable Max="1"/>
     <Physical Value="1234567" Weight="1" Durability="10"/>
     <Equipment Slot="Waist"/>

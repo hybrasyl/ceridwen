@@ -3,7 +3,7 @@
   <Name>Testinium Coat</Name>
   <Comment>Test for coat slot</Comment>
   <Properties>
-    <Appearance Sprite="133467" EquipSprite="133467" DisplaySprite="339"/>
+    <Appearance Sprite="13467" EquipSprite="133467" DisplaySprite="339"/>
     <Stackable Max="1"/>
     <Physical Value="1234567" Weight="1" Durability="10"/>
     <Equipment Slot="Coat"/>

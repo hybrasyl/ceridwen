@@ -3,7 +3,7 @@
   <Name>Testinium Foot</Name>
   <Comment>Test for foot slot</Comment>
   <Properties>
-    <Appearance Sprite="133402" EquipSprite="133402" Color="Teal"/>
+    <Appearance Sprite="13402" EquipSprite="133402" Color="Teal"/>
     <Stackable Max="1"/>
     <Physical Value="1234567" Weight="1" Durability="10"/>
     <Equipment Slot="Foot"/>

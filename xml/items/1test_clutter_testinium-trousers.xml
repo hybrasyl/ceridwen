@@ -3,7 +3,7 @@
   <Name>Testinium Trousers</Name>
   <Comment>Test for trousers slot</Comment>
   <Properties>
-    <Appearance Sprite="133466" EquipSprite="133466" DisplaySprite="339"/>
+    <Appearance Sprite="13466" EquipSprite="133466" DisplaySprite="339"/>
     <Stackable Max="1"/>
     <Physical Value="1234567" Weight="1" Durability="10"/>
     <Equipment Slot="Trousers"/>

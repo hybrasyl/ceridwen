@@ -3,7 +3,7 @@
   <Name>Testinium SecondAcc</Name>
   <Comment>Test for secondacc slot</Comment>
   <Properties>
-    <Appearance Sprite="133495" EquipSprite="133495" DisplaySprite="60"/>
+    <Appearance Sprite="13495" EquipSprite="133495" DisplaySprite="60"/>
     <Stackable Max="1"/>
     <Physical Value="1234567" Weight="1" Durability="0"/>
     <Equipment Slot="SecondAcc"/>
