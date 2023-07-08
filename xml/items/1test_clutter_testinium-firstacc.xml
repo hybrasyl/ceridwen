@@ -3,7 +3,7 @@
   <Name>Testinium FirstAcc</Name>
   <Comment>Test for firstacc slot</Comment>
   <Properties>
-    <Appearance Sprite="13494" EquipSprite="133494" DisplaySprite="2"/>
+    <Appearance Sprite="13494" EquipSprite="13494" DisplaySprite="2"/>
     <Stackable Max="1"/>
     <Physical Value="1234567" Weight="1" Durability="0"/>
     <Equipment Slot="FirstAcc"/>

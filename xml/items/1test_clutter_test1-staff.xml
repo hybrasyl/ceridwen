@@ -5,10 +5,14 @@
   <Properties>
     <Appearance Sprite="86" EquipSprite="86" DisplaySprite="1"/>
     <CastModifiers>
-      <Match All="false">
-        <Add Match="TestMinusAc" Amount="4"/>
-        <Subtract Match="TestPlusStr" Amount="2"/>
-        <Replace Match="TestPlusInt" Amount="3"/>
+      <Match Castable="TestMinusAc" All="false">
+        <Add Match="1" Amount="4"/>
+      </Match>
+      <Match Castable="TestPlusInt" All="false">
+        <Subtract Match="1" Amount="1"/>
+      </Match>
+      <Match Castable="TestPlusStr" All="false">
+        <Replace Match="1" Amount="3"/>
       </Match>
     </CastModifiers>
     <Stackable Max="1"/>
