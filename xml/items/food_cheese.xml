@@ -3,6 +3,9 @@
   <Name>Cheese</Name>
   <Properties>
     <Appearance Sprite="1658"/>
+    <Categories>
+      <Category>Food</Category>
+    </Categories>
     <Stackable Max="30"/>
     <Physical Value="155" Weight="1" Durability="0"/>
     <Equipment Slot="None"/>

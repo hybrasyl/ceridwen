@@ -3,6 +3,9 @@
   <Name>Spider Leg</Name>
   <Properties>
     <Appearance Sprite="560"/>
+    <Categories>
+      <Category>Reagent</Category>
+    </Categories>
     <Stackable Max="30"/>
     <Physical Value="40" Weight="1" Durability="0"/>
     <Equipment Slot="None"/>

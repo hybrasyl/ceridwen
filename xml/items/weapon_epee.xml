@@ -3,6 +3,9 @@
   <Name>Epee</Name>
   <Properties>
     <Appearance Sprite="87" EquipSprite="87" DisplaySprite="2"/>
+    <Categories>
+      <Category>Sword</Category>
+    </Categories>
     <Stackable Max="1"/>
     <Physical Value="500" Weight="2" Durability="4000"/>
     <Equipment Slot="Weapon" WeaponType="OneHand"/>

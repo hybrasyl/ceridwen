@@ -3,6 +3,9 @@
   <Name>Prayer Book</Name>
   <Properties>
     <Appearance Sprite="611"/>
+    <Categories>
+      <Category>Junk</Category>
+    </Categories>
     <Stackable Max="30"/>
     <Physical Value="10" Weight="1" Durability="0"/>
     <Equipment Slot="None"/>

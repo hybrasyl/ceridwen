@@ -3,6 +3,9 @@
   <Name>Mouse Tail</Name>
   <Properties>
     <Appearance Sprite="1554"/>
+    <Categories>
+      <Category>Reagent</Category>
+    </Categories>
     <Stackable Max="30"/>
     <Physical Value="80" Weight="1" Durability="0"/>
     <Equipment Slot="None"/>
