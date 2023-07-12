@@ -1,6 +1,7 @@
-<?xml version="1.0"?>
-<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="343" X="12" Y="12" Music="6">
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="343" Music="6" X="12" Y="12" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Path Temple 5</Name>
+  <Flags />
   <Warps>
     <Warp X="1" Y="7">
       <MapTarget X="10" Y="5">Chief Warrior Hall</MapTarget>
@@ -16,26 +17,70 @@
     </Warp>
   </Warps>
   <Reactors>
-    <Reactor X="4" Y="4"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="4" Y="5"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="4" Y="6"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="4" Y="7"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="5" Y="4"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="5" Y="5"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="5" Y="6"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="5" Y="7"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="5" Y="8"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="6" Y="4"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="6" Y="5"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="6" Y="6"><Script>PathTemple5</Script></Reactor>
-    <Reactor X="6" Y="7"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="6" Y="8"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="7" Y="5"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="7" Y="6"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="7" Y="7"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="7" Y="8"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="8" Y="5"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="8" Y="6"><Script>TempleReactor5</Script></Reactor>
-    <Reactor X="8" Y="7"><Script>TempleReactor5</Script></Reactor>
+    <Reactor X="4" Y="4">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="4" Y="5">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="4" Y="6">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="4" Y="7">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="5" Y="4">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="5" Y="5">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="5" Y="6">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="5" Y="7">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="5" Y="8">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="6" Y="4">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="6" Y="5">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="6" Y="6">
+      <Script>PathTemple5</Script>
+    </Reactor>
+    <Reactor X="6" Y="7">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="6" Y="8">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="7" Y="5">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="7" Y="6">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="7" Y="7">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="7" Y="8">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="8" Y="5">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="8" Y="6">
+      <Script>TempleReactor5</Script>
+    </Reactor>
+    <Reactor X="8" Y="7">
+      <Script>TempleReactor5</Script>
+    </Reactor>
   </Reactors>
+  <Npcs />
+  <Signs />
 </Map>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3992" X="18" Y="18" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3992" Music="15" X="18" Y="18" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Mileth Contest Hall</Name>
   <Flags />
   <Warps>

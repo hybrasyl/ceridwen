@@ -1,0 +1,190 @@
+2002	N Mileth
+2019	N Mileth Inn
+2031	N Mileth Bank
+2027	N Mileth Weapon Shop
+2026	N Mileth Armor Shop
+2022	N Mileth Potion Shop
+2003	W Mileth
+2020	W Mileth Inn
+2032	W Mileth Bank
+2028	W Mileth Weapon Shop
+2029	W Mileth Armor Shop
+2023	W Mileth Potion Shop
+2004	W Mileth Jewelry Shop
+500	Mileth
+132	Mileth Weapon Shop
+133	Mileth Armor Shop
+128	Mileth Parcel
+192	Mileth Church
+381	Mileth Empty Room
+301	Mileth Combat Master's House
+302	Mileth White Witch's Den
+129	Mileth Restaurant
+134	Mileth Bar
+135	Mileth Bank
+130	Mileth Recall Shop
+400	Mileth Special-technique Master's House
+136	Mileth Inn
+200	Mileth Inn Hall 1
+137	Mileth Inn Room 1
+139	Mileth Inn Room 2
+140	Mileth Inn Room 3
+141	Mileth Inn Room 4
+142	Mileth Inn Room 5
+201	Mileth Inn Hall 2
+143	Mileth Inn Room 6
+144	Mileth Inn Room 7
+145	Mileth Inn Room 8
+146	Mileth Inn Room 9
+138	Mileth Inn Room 10
+401	Mileth Black Witch's Den
+127	Mileth Potion Shop
+2001	E Mileth
+2030	E Mileth Bank
+2021	E Mileth Potion Shop
+2018	E Mileth Inn
+2024	E Mileth Weapon Shop
+2025	E Mileth Armor Shop
+504	Undine
+432	Undine Bank
+306	Undine Black Witch's Den
+164	Undine Recall Shop
+431	Undine Armor Shop
+430	Undine Weapon Shop
+434	Undine Bar
+433	Undine Restaurant
+663	Hoen
+1968	Hoen Bank
+1961	Hoen Inn
+1991	Hoen Recall Shop
+1969	Hoen Potion Shop
+2036	Hoen Blacksmith
+664	Loures
+1992	Loures Recall
+1962	Loures Inn
+1970	Loures Bank
+1971	Loures Potion Shop
+505	Rucesion
+422	Rucesion Bank
+421	Rucesion Armor Shop
+420	Rucesion Weapon Shop
+424	Rucesion Inn
+423	Rucesion Recall Shop
+303	Rucesion Combat Master's House
+2006	W Rucesion Port
+2007	S Rucesion Port
+2651	W Rucesion Port Bank
+2667	W Rucesion Port Potion Shop
+2652	W Rucesion Port Recall Shop
+2648	W Rucesion Port Inn
+2649	W Rucesion Port Weapon Shop
+2650	W Rucesion Port Armor Shop
+2008	E Rucesion
+496	Rucesion Inn Hall 1
+486	Rucesion Inn Room 1
+488	Rucesion Inn Room 2
+489	Rucesion Inn Room 3
+490	Rucesion Inn Room 4
+491	Rucesion Inn Room 5
+497	Rucesion Inn Hall 2
+492	Rucesion Inn Room 6
+493	Rucesion Inn Room 7
+494	Rucesion Inn Room 8
+495	Rucesion Inn Room 9
+487	Rucesion Inn Room 10
+666	Mine
+1998	Mine Weapon Shop
+1964	Mine Inn
+1974	Mine Bank
+1994	Mine Recall Shop
+1975	Mine Potion Shop
+501	Piet
+150	Piet Inn
+202	Piet Inn Hall 1
+151	Piet Inn Room 1
+153	Piet Inn Room 2
+154	Piet Inn Room 3
+155	Piet Inn Room 4
+156	Piet Inn Room 5
+157	Piet Inn Room 6
+158	Piet Inn Room 7
+159	Piet Inn Room 8
+160	Piet Inn Room 9
+152	Piet Inn Room 10
+165	Piet Weapon Shop
+163	Piet Armor Shop
+148	Piet Bank
+149	Piet Bar
+162	Piet Restaurant
+304	Piet White Witch's Den
+161	Piet Potion/Recall Shop
+503	Suomi
+415	Suomi Special-technique Master's House
+411	Suomi Armor Shop
+410	Suomi Weapon Shop
+382	Suomi Empty Room
+416	Suomi White Witch's Den
+414	Suomi Combat Master's House
+417	Suomi Black Witch's Den
+473	Suomi Inn
+484	Suomi Inn Hall 1
+474	Suomi Inn Room 1
+476	Suomi Inn Room 2
+477	Suomi Inn Room 3
+478	Suomi Inn Room 4
+479	Suomi Inn Room 5
+485	Suomi Inn Hall 2
+480	Suomi Inn Room 6
+481	Suomi Inn Room 7
+482	Suomi Inn Room 8
+483	Suomi Inn Room 9
+475	Suomi Inn Room 10
+412	Suomi Restaurant
+413	Suomi Bar
+665	Roton
+1972	Roton Bank
+1996	Roton Beauty Shop
+1963	Roton Inn
+1973	Roton Potion Shop
+2037	Roton Weapon Shop
+1993	Roton Recall Shop
+502	Abel
+183	Abel Recall Shop
+167	Abel Bank
+388	Abel Empty Room 1
+389	Abel Empty Room 2
+168	Abel Bar
+181	Abel Restaurant
+305	Abel Combat Master's House
+169	Abel Inn
+204	Abel Inn Hall 1
+170	Abel Inn Room 1
+172	Abel Inn Room 2
+173	Abel Inn Room 3
+174	Abel Inn Room 4
+175	Abel Inn Room 5
+205	Abel Inn Hall 2
+176	Abel Inn Room 6
+177	Abel Inn Room 7
+178	Abel Inn Room 8
+179	Abel Inn Room 9
+171	Abel Inn Room 10
+182	Abel Armor Shop
+184	Abel Weapon Shop
+180	Abel Potion Shop
+2012	East Abel
+1010	East Abel Bank
+1030	East Abel Potion Shop
+1004	East Abel Weapon Shop
+1007	East Abel Armor Shop
+2013	North Abel
+1014	North Abel Potion Shop
+1011	North Abel Bank
+1008	North Abel Armor Shop
+1005	North Abel Weapon Shop
+2011	West Abel
+1015	West Abel Potion Shop
+1009	West Abel Armor Shop
+1006	West Abel Weapon Shop
+2014	West Abel Jewelry Shop
+1012	West Abel Bank
