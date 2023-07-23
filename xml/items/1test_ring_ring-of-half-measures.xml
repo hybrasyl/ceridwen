@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Ring of Half Measures</Name>
+  <Comment>Test for half percents</Comment>
+  <Properties>
+    <Appearance Sprite="13373" Color="Sienna"/>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="Ring"/>
+    <StatModifiers BonusHit="0.005" BonusRegen="0.004" BonusDmg="0.003" BonusCrit="0.002" BonusMagicCrit="0.001">
+    </StatModifiers>
+    <Flags>Bound Depositable Exchangeable Vendorable</Flags>
+    <Vendor ShopTab="Ring"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>
