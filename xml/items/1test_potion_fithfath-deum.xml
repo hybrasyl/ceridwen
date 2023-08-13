@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>fithfath deum</Name>
+  <Comment>Test potion to make you invisible</Comment>
+  <Properties>
+    <Appearance Sprite="64"/>
+    <Stackable Max="50"/>
+    <Physical Value="50" Weight="1" Durability="0"/>
+    <Equipment Slot="None"/>
+    <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
+    <Vendor ShopTab="Potion"/>
+    <Use>
+      <Statuses>
+        <Remove>TestAddInvisible</Remove>
+      </Statuses>
+    </Use>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

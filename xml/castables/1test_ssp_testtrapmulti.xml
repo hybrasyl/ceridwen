@@ -39,13 +39,16 @@
       </OnCast>
     </Animations>
     <Sound Id="154"/>
+    <Damage Type="Elemental">
+      <Simple>100</Simple>
+    </Damage>
     <Reactors>
       <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="0" Sprite="12192" Expiration="300" Uses="if([SOURCELEVEL] > 40,2,1)"/>
-      <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="1" Sprite="12192" Expiration="300"/>
-      <Reactor Script="rogue_test-trap" RelativeX="1" RelativeY="0" Sprite="12192" Expiration="300"/>
-      <Reactor Script="rogue_test-trap" RelativeX="-1" RelativeY="0" Sprite="12192" Expiration="300"/>
-      <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="-1" Sprite="12192" Expiration="300"/>
-      <Reactor Script="rogue_test-trap" RelativeX="-1" RelativeY="-1" Sprite="12192" Expiration="300"/>
+      <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="1" Sprite="12192" Expiration="300" Uses="if([SOURCELEVEL] > 40,2,1)"/>
+      <Reactor Script="rogue_test-trap" RelativeX="1" RelativeY="0" Sprite="12192" Expiration="300" Uses="if([SOURCELEVEL] > 40,2,1)"/>
+      <Reactor Script="rogue_test-trap" RelativeX="-1" RelativeY="0" Sprite="12192" Expiration="300" Uses="if([SOURCELEVEL] > 40,2,1)"/>
+      <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="-1" Sprite="12192" Expiration="300" Uses="if([SOURCELEVEL] > 40,2,1)"/>
+      <Reactor Script="rogue_test-trap" RelativeX="-1" RelativeY="-1" Sprite="12192" Expiration="300" Uses="if([SOURCELEVEL] > 40,2,1)"/>
     </Reactors>
   </Effects>
 </Castable>

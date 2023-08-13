@@ -41,8 +41,11 @@
       </OnCast>
     </Animations>
     <Sound Id="154"/>
+    <Damage Type="Elemental">
+      <Simple>100</Simple>
+    </Damage>
     <Statuses>
-      <Add Duration="5" Intensity="1" Speed="1">TestPlusMagicDodge</Add>
+      <Add Duration="5" Intensity="1" Tick="1">TestPlusMagicDodge</Add>
     </Statuses>
   </Effects>
 </Castable>

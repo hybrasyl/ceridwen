@@ -39,6 +39,9 @@
       </OnCast>
     </Animations>
     <Sound Id="154"/>
+    <Damage Type="Elemental">
+      <Simple>100</Simple>
+    </Damage>
     <Reactors>
       <Reactor Script="rogue_test-trap" RelativeX="0" RelativeY="0" Sprite="55" Expiration="30"/>
     </Reactors>

@@ -41,6 +41,9 @@
       </OnCast>
     </Animations>
     <Sound Id="154"/>
+    <Damage Type="Elemental">
+      <Simple>100</Simple>
+    </Damage>
     <Statuses>
       <Remove>StstRemMute</Remove>
     </Statuses>

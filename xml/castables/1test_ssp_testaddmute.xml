@@ -41,8 +41,11 @@
       </OnCast>
     </Animations>
     <Sound Id="154"/>
+    <Damage Type="Elemental">
+      <Simple>100</Simple>
+    </Damage>
     <Statuses>
-      <Add Duration="5" Intensity="100" Speed="1">TestAddMute</Add>
+      <Add Duration="5" Intensity="100" Tick="1">TestAddMute</Add>
     </Statuses>
   </Effects>
 </Castable>

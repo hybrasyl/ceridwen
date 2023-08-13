@@ -11,7 +11,7 @@
     <Vendor ShopTab="Clutter"/>
     <Use>
       <Statuses>
-        <Add Duration="30" Intensity="20" Speed="1">TestPlusStr</Add>
+        <Add Duration="30" Intensity="20" Tick="1">TestPlusStr</Add>
       </Statuses>
     </Use>
     <Restrictions>

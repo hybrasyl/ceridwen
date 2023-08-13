@@ -9,6 +9,11 @@
     <Category>ChangeElement</Category>
     <Category>Dark</Category>
   </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="SOURCEBASEMP*0.05"/>
+    </CastCost>
+  </CastCosts>
   <Intents>
     <Intent UseType="Target" MaxTargets="1" Flags="Self Hostile Friendly Pvp">
     </Intent>
@@ -36,8 +41,11 @@
       </OnCast>
     </Animations>
     <Sound Id="160"/>
+    <Damage Type="Elemental">
+      <Simple>100</Simple>
+    </Damage>
     <Statuses>
-      <Add Duration="5" Intensity="1" Speed="1">TestSetDarkOffense</Add>
+      <Add Duration="5" Intensity="1" Tick="1">TestSetDarkOffense</Add>
     </Statuses>
   </Effects>
 </Castable>

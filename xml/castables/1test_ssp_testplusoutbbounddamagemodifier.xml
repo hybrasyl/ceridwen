@@ -41,8 +41,11 @@
       </OnCast>
     </Animations>
     <Sound Id="154"/>
+    <Damage Type="Elemental">
+      <Simple>100</Simple>
+    </Damage>
     <Statuses>
-      <Add Duration="5" Intensity="1" Speed="1">TestPlusOutboundDamageModifier</Add>
+      <Add Duration="5" Intensity="1" Tick="1">TestPlusOutboundDamageModifier</Add>
     </Statuses>
   </Effects>
 </Castable>

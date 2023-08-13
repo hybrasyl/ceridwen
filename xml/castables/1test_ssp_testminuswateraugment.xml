@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="14" Icon="203" Book="SecondarySpell" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard" BreakStealth="false" IncludeInMetafile="false">
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="203" Book="SecondarySpell" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard" BreakStealth="false" IncludeInMetafile="false">
   <Name>TestMinusWaterAugment</Name>
   <Descriptions>
     <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test to minus water aug</Description>
@@ -9,6 +9,11 @@
     <Category>Augment</Category>
     <Category>Debuff</Category>
   </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="SOURCEBASEMP*0.05"/>
+    </CastCost>
+  </CastCosts>
   <Intents>
     <Intent UseType="Target" MaxTargets="1" Flags="Self Hostile Friendly Pvp">
     </Intent>
@@ -36,8 +41,11 @@
       </OnCast>
     </Animations>
     <Sound Id="154"/>
+    <Damage Type="Elemental">
+      <Simple>100</Simple>
+    </Damage>
     <Statuses>
-      <Add Duration="5" Intensity="1" Speed="1">TestMinusWaterAugment</Add>
+      <Add Duration="5" Intensity="1" Tick="1">TestMinusWaterAugment</Add>
     </Statuses>
   </Effects>
 </Castable>
