@@ -9,8 +9,8 @@
     <Equipment Slot="Waist"/>
     <Flags>Bound</Flags>
     <Variants>
-      <Name>Light</Name>
-      <Name>Metal</Name>
+      <Name Group="element-def">Light</Name>
+      <Name Group="element2-def">Metal</Name>
     </Variants>
     <Vendor ShopTab="Clutter"/>
     <Restrictions>

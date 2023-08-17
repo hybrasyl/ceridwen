@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Undead Belt</Name>
+  <Comment>Test for BaseDefensiveElement</Comment>
+  <Properties>
+    <Appearance Sprite="13375" Color="Moss"/>
+    <Categories>
+      <Category>Belt</Category>
+    </Categories>
+    <Stackable Max="1"/>
+    <Physical Value="50" Weight="1" Durability="200"/>
+    <Equipment Slot="Waist"/>
+    <StatModifiers BaseDefensiveElement="Undead">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable</Flags>
+    <Vendor ShopTab="Clutter"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>
