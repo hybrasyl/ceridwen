@@ -10,7 +10,7 @@
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers DefensiveElementOverride="Fire">
+      <StatModifiers BaseDefensiveElement="Fire">
       </StatModifiers>
     </Properties>
   </Variant>
@@ -23,7 +23,7 @@
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers DefensiveElementOverride="Water">
+      <StatModifiers BaseDefensiveElement="Water">
       </StatModifiers>
     </Properties>
   </Variant>
@@ -36,7 +36,7 @@
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers DefensiveElementOverride="Earth">
+      <StatModifiers BaseDefensiveElement="Earth">
       </StatModifiers>
     </Properties>
   </Variant>
@@ -49,7 +49,7 @@
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers DefensiveElementOverride="Wind">
+      <StatModifiers BaseDefensiveElement="Wind">
       </StatModifiers>
     </Properties>
   </Variant>
@@ -62,7 +62,7 @@
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers DefensiveElementOverride="Light">
+      <StatModifiers BaseDefensiveElement="Light">
       </StatModifiers>
     </Properties>
   </Variant>
@@ -75,7 +75,7 @@
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers DefensiveElementOverride="Dark">
+      <StatModifiers BaseDefensiveElement="Dark">
       </StatModifiers>
     </Properties>
   </Variant>

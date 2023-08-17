@@ -10,7 +10,7 @@
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers DefensiveElementOverride="Metal">
+      <StatModifiers BaseDefensiveElement="Metal">
       </StatModifiers>
     </Properties>
   </Variant>
@@ -23,7 +23,7 @@
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers DefensiveElementOverride="Wood">
+      <StatModifiers BaseDefensiveElement="Wood">
       </StatModifiers>
     </Properties>
   </Variant>
@@ -36,7 +36,7 @@
       <Restrictions>
         <Level Min="2"/>
       </Restrictions>
-      <StatModifiers DefensiveElementOverride="Undead">
+      <StatModifiers BaseDefensiveElement="Undead">
       </StatModifiers>
     </Properties>
   </Variant>
