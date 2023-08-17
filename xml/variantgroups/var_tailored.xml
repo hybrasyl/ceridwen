@@ -2,7 +2,7 @@
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>tailored</Name>
   <Variant>
-    <Name>Good</Name>
+    <Name Group="tailored">Good</Name>
     <Modifier>Good</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -15,7 +15,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Fine</Name>
+    <Name Group="tailored">Fine</Name>
     <Modifier>Fine</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -28,7 +28,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Great</Name>
+    <Name Group="tailored">Great</Name>
     <Modifier>Great</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -41,7 +41,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Grand</Name>
+    <Name Group="tailored">Grand</Name>
     <Modifier>Grand</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -54,7 +54,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Regal</Name>
+    <Name Group="tailored">Regal</Name>
     <Modifier>Regal</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

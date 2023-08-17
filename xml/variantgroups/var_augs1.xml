@@ -3,7 +3,7 @@
   <Name>augs1</Name>
   <Comment>standard elements</Comment>
   <Variant>
-    <Name>FireAugment</Name>
+    <Name Group="augs1">FireAugment</Name>
     <Modifier>Burning</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -19,7 +19,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>WaterResist</Name>
+    <Name Group="augs1">WaterResist</Name>
     <Modifier>Turbulent</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -35,7 +35,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>EarthAugment</Name>
+    <Name Group="augs1">EarthAugment</Name>
     <Modifier>Quaking</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -51,7 +51,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>AirAugment</Name>
+    <Name Group="augs1">AirAugment</Name>
     <Modifier>Howling</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -67,7 +67,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>LightAugment</Name>
+    <Name Group="augs1">LightAugment</Name>
     <Modifier>Bright</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -83,7 +83,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>DarkAugment</Name>
+    <Name Group="augs1">DarkAugment</Name>
     <Modifier>Seeping</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

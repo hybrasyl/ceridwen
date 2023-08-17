@@ -2,7 +2,7 @@
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>enchant1</Name>
   <Variant>
-    <Name>Abundance</Name>
+    <Name Group="enchant1">Abundance</Name>
     <Modifier>Abundance</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -15,7 +15,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Blessed</Name>
+    <Name Group="enchant1">Blessed</Name>
     <Modifier>Blessed</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -28,7 +28,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Might</Name>
+    <Name Group="enchant1">Might</Name>
     <Modifier>Might</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -41,7 +41,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Magic</Name>
+    <Name Group="enchant1">Magic</Name>
     <Modifier>Magic</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

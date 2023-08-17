@@ -2,7 +2,7 @@
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>smithed</Name>
   <Variant>
-    <Name>Good</Name>
+    <Name Group="smithed">Good</Name>
     <Modifier>Good</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -16,7 +16,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Fine</Name>
+    <Name Group="smithed">Fine</Name>
     <Modifier>Fine</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -31,7 +31,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Great</Name>
+    <Name Group="smithed">Great</Name>
     <Modifier>Great</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -46,7 +46,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Grand</Name>
+    <Name Group="smithed">Grand</Name>
     <Modifier>Grand</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

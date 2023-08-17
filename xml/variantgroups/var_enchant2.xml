@@ -2,7 +2,7 @@
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>enchant2</Name>
   <Variant>
-    <Name>BonusGold</Name>
+    <Name Group="enchant2">BonusGold</Name>
     <Modifier>Fortunate</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -15,7 +15,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>BonusXp</Name>
+    <Name Group="enchant2">BonusXp</Name>
     <Modifier>Insightful</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -28,7 +28,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>BonusItem</Name>
+    <Name Group="enchant2">BonusItem</Name>
     <Modifier>Perceptive</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -41,7 +41,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>BonusAc</Name>
+    <Name Group="enchant2">BonusAc</Name>
     <Modifier>Reinforced</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -54,7 +54,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>BonusValue</Name>
+    <Name Group="enchant2">BonusValue</Name>
     <Modifier>Gilded</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -65,7 +65,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>BonusWeight</Name>
+    <Name Group="enchant2">BonusWeight</Name>
     <Modifier>Feathered</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -76,7 +76,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>InboundDmgToMp</Name>
+    <Name Group="enchant2">InboundDmgToMp</Name>
     <Modifier>Adaptive</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

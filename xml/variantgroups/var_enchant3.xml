@@ -2,7 +2,7 @@
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>enchant3</Name>
   <Variant>
-    <Name>Lifesteal</Name>
+    <Name Group="enchant3">Lifesteal</Name>
     <Modifier>Hungering</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -15,7 +15,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>Manasteal</Name>
+    <Name Group="enchant3">Manasteal</Name>
     <Modifier>Thirsting</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -28,7 +28,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>ReflectPhysical</Name>
+    <Name Group="enchant3">ReflectPhysical</Name>
     <Modifier>Thorned</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -41,7 +41,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>ReflectMagical</Name>
+    <Name Group="enchant3">ReflectMagical</Name>
     <Modifier>Mirrored</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -54,7 +54,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>BonusDodge</Name>
+    <Name Group="enchant3">BonusDodge</Name>
     <Modifier>Nimble</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -67,7 +67,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>MagicDodge</Name>
+    <Name Group="enchant3">MagicDodge</Name>
     <Modifier>Grounded</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -80,7 +80,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>BonusCrit</Name>
+    <Name Group="enchant3">BonusCrit</Name>
     <Modifier>Deadly</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -93,7 +93,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>BonusMagicCrit</Name>
+    <Name Group="enchant3">BonusMagicCrit</Name>
     <Modifier>Surging</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

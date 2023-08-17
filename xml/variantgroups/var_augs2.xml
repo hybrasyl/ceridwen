@@ -3,7 +3,7 @@
   <Name>augs2</Name>
   <Comment>extra elements</Comment>
   <Variant>
-    <Name>MetalAugment</Name>
+    <Name Group="augs2">MetalAugment</Name>
     <Modifier>Jagged</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -19,7 +19,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>WoodAugment</Name>
+    <Name Group="augs2">WoodAugment</Name>
     <Modifier>Living</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -35,7 +35,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name>UndeadAugment</Name>
+    <Name Group="augs2">UndeadAugment</Name>
     <Modifier>Damned</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
