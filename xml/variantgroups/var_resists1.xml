@@ -3,7 +3,7 @@
   <Name>resists1</Name>
   <Comment>standard elements</Comment>
   <Variant>
-    <Name Group="resists1">FireResist</Name>
+    <Name>FireResist</Name>
     <Modifier>Smoldering</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -19,8 +19,8 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="resists1">WaterResist</Name>
-    <Modifier>Absorbant</Modifier>
+    <Name>WaterResist</Name>
+    <Modifier>Turbulent</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
       <Physical Value="1.2" Durability="1.5"/>
@@ -35,7 +35,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="resists1">EarthResist</Name>
+    <Name>EarthResist</Name>
     <Modifier>Sundering</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -51,7 +51,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="resists1">AirResist</Name>
+    <Name>AirResist</Name>
     <Modifier>Silent</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -67,7 +67,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="resists1">LightResist</Name>
+    <Name>LightResist</Name>
     <Modifier>Wicked</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -83,7 +83,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="resists1">DarkResist</Name>
+    <Name>DarkResist</Name>
     <Modifier>Martyred</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

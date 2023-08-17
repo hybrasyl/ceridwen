@@ -2,7 +2,7 @@
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>enchant3</Name>
   <Variant>
-    <Name Group="enchant3">Lifesteal</Name>
+    <Name>Lifesteal</Name>
     <Modifier>Hungering</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -15,8 +15,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="enchant3">Manasteal</Name>
-    <Modifier>Thirsting</Modifier>
+    <Name>Manasteal</Name>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
       <Physical Value="1.2" Durability="1.5"/>
@@ -28,7 +27,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="enchant3">ReflectPhysical</Name>
+    <Name>ReflectPhysical</Name>
     <Modifier>Thorned</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -41,7 +40,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="enchant3">ReflectMagical</Name>
+    <Name>ReflectMagical</Name>
     <Modifier>Mirrored</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -54,7 +53,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="enchant3">BonusDodge</Name>
+    <Name>BonusDodge</Name>
     <Modifier>Nimble</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -67,7 +66,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="enchant3">MagicDodge</Name>
+    <Name>MagicDodge</Name>
     <Modifier>Grounded</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -80,7 +79,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="enchant3">BonusCrit</Name>
+    <Name>BonusCrit</Name>
     <Modifier>Deadly</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -93,7 +92,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="enchant3">BonusMagicCrit</Name>
+    <Name>BonusMagicCrit</Name>
     <Modifier>Surging</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

@@ -2,7 +2,7 @@
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>element2-def</Name>
   <Variant>
-    <Name Group="element2-def">Metal</Name>
+    <Name>Metal</Name>
     <Modifier>Metal</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -15,7 +15,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="element2-def">Wood</Name>
+    <Name>Wood</Name>
     <Modifier>Wood</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -28,7 +28,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="element2-def">Undead</Name>
+    <Name>Undead</Name>
     <Modifier>Undead</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

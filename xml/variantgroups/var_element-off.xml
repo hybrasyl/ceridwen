@@ -2,7 +2,7 @@
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>element-off</Name>
   <Variant>
-    <Name Group="element-off">Fire</Name>
+    <Name>Fire</Name>
     <Modifier>Fire</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -15,7 +15,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="element-off">Water</Name>
+    <Name>Water</Name>
     <Modifier>Water</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -28,7 +28,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="element-off">Earth</Name>
+    <Name>Earth</Name>
     <Modifier>Earth</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -41,7 +41,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="element-off">Wind</Name>
+    <Name>Wind</Name>
     <Modifier>Wind</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -54,7 +54,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="element-off">Light</Name>
+    <Name>Light</Name>
     <Modifier>Light</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -67,7 +67,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="element-off">Dark</Name>
+    <Name>Dark</Name>
     <Modifier>Dark</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

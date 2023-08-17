@@ -2,7 +2,7 @@
 <VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>consecrated</Name>
   <Variant>
-    <Name Group="consecrated">Fiosachd</Name>
+    <Name>Fiosachd</Name>
     <Modifier>Fiosachd</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -15,7 +15,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="consecrated">Cail</Name>
+    <Name>Cail</Name>
     <Modifier>Cail</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -28,7 +28,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="consecrated">Glioca</Name>
+    <Name>Glioca</Name>
     <Modifier>Glioca</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -41,7 +41,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="consecrated">Ceannlaidir</Name>
+    <Name>Ceannlaidir</Name>
     <Modifier>Ceannlaidir</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -54,7 +54,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="consecrated">Gramail</Name>
+    <Name>Gramail</Name>
     <Modifier>Gramail</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -67,7 +67,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="consecrated">Deoch</Name>
+    <Name>Deoch</Name>
     <Modifier>Deoch</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -80,7 +80,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="consecrated">Sgrios</Name>
+    <Name>Sgrios</Name>
     <Modifier>Sgrios</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -91,7 +91,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="consecrated">Luathas</Name>
+    <Name>Luathas</Name>
     <Modifier>Luathas</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>

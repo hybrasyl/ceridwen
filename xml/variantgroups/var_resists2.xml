@@ -3,7 +3,7 @@
   <Name>resists2</Name>
   <Comment>extra elements</Comment>
   <Variant>
-    <Name Group="resists2">MetalResist</Name>
+    <Name>MetalResist</Name>
     <Modifier>Braced</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
@@ -19,8 +19,8 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="resists2">WoodResist</Name>
-    <Modifier>Stout</Modifier>
+    <Name>WoodResist</Name>
+    <Modifier>Living</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
       <Physical Value="1.2" Durability="1.5"/>
@@ -35,7 +35,7 @@
     </Properties>
   </Variant>
   <Variant>
-    <Name Group="resists2">UndeadResist</Name>
+    <Name>UndeadResist</Name>
     <Modifier>Sacred</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
