@@ -4,7 +4,7 @@
     <Set Name="Mouse Parts"/>
   </Loot>
   <Hostility>
-    <Player/>
+    <Players/>
   </Hostility>
   <Types>
     <Type Name="Shrew" Sprite="625" BehaviorSet="CritterMouse">
