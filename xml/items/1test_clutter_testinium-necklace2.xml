@@ -1,14 +1,12 @@
 <?xml version="1.0"?>
 <Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
-  <Name>Ring of Conflict</Name>
-  <Comment>Test ring light offense, dark defense</Comment>
+  <Name>Testinium Necklace2</Name>
+  <Comment>Test for necklace slot</Comment>
   <Properties>
-    <Appearance Sprite="13373" Color="Stormy"/>
+    <Appearance Sprite="13377" EquipSprite="13377" Color="Grass"/>
     <Stackable Max="1"/>
     <Physical Value="1234567" Weight="1" Durability="10"/>
-    <Equipment Slot="Ring"/>
-    <StatModifiers OffensiveElementOverride="Light" DefensiveElementOverride="Dark">
-    </StatModifiers>
+    <Equipment Slot="Necklace"/>
     <Flags>Bound</Flags>
     <Vendor ShopTab="Clutter"/>
     <Restrictions>
