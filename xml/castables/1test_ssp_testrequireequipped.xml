@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="203" Book="SecondarySpell" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard" BreakStealth="false" IncludeInMetafile="false">
-  <Name>TestCarryNeck</Name>
+  <Name>TestRequireEquipped</Name>
   <Descriptions>
-    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test to require carry nadurra necklace</Description>
+    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test 09 - Slot Any, Equipped, specific item</Description>
   </Descriptions>
   <Categories>
     <Category>Test</Category>
@@ -14,7 +14,7 @@
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="Target" MaxTargets="1" Flags="Self Hostile Friendly Pvp">
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self Hostile Friendly Pvp">
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
@@ -26,7 +26,7 @@
     </Requirement>
   </Requirements>
   <Restrictions>
-    <Item>Testinium Necklace</Item>
+    <Item Slot="None" RestrictionType="Equipped" Message="err_require_equipped">Testinium Necklace</Item>
   </Restrictions>
   <Effects>
     <Animations>

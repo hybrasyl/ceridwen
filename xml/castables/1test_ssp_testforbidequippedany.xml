@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="203" Book="SecondarySpell" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard" BreakStealth="false" IncludeInMetafile="false">
-  <Name>TestRequireShieldAny</Name>
+  <Name>TestForbidEquippedAny</Name>
   <Descriptions>
-    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test to require any shield</Description>
+    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test 15 - Slot Any, NotEquipped, any item</Description>
   </Descriptions>
   <Categories>
     <Category>Test</Category>
@@ -14,7 +14,7 @@
     </CastCost>
   </CastCosts>
   <Intents>
-    <Intent UseType="Target" MaxTargets="1" Flags="Self Hostile Friendly Pvp">
+    <Intent UseType="NoTarget" MaxTargets="1" Flags="Self Hostile Friendly Pvp">
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
@@ -26,7 +26,7 @@
     </Requirement>
   </Requirements>
   <Restrictions>
-    <Item Slot="Shield"/>
+    <Item WeaponType="None" RestrictionType="NotEquipped" Message="err_forbid_equipped_any"/>
   </Restrictions>
   <Effects>
     <Animations>

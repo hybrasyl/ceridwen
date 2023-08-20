@@ -13,6 +13,26 @@
     <String Key="item_equip_missing_castable">You are missing some skill or spell requirements.</String>
     <String Key="item_equip_not_master">You are not a master of your craft.</String>
     <String Key="item_equip_slot_restriction">You cannot equip this now.</String>
+    <String Key="err_require_Item">err_require_Item</String>
+    <String Key="err_require_inventory">err_require_inventory</String>
+    <String Key="err_forbid_item">err_forbid_item</String>
+    <String Key="err_forbid_inventory">err_forbid_inventory</String>
+    <String Key="err_require_weapontype_any">err_require_weapontype_any</String>
+    <String Key="err_require_weapon_any">err_require_weapon_any</String>
+    <String Key="err_require_weapontype">err_require_weapontype</String>
+    <String Key="err_require_equipped_any">err_require_equipped_any</String>
+    <String Key="err_require_equipped">err_require_equipped</String>
+    <String Key="err_require_slot">err_require_slot</String>
+    <String Key="err_require_slot_any">err_require_slot_any</String>
+    <String Key="err_forbid_weapon_any">err_forbid_weapon_any</String>
+    <String Key="err_forbid_weapontype_any">err_forbid_weapontype_any</String>
+    <String Key="err_forbid_weapontype">err_forbid_weapontype</String>
+    <String Key="err_forbid_equipped_any">err_forbid_equipped_any</String>
+    <String Key="err_forbid_equipped">err_forbid_equipped</String>
+    <String Key="err_forbid_slot_any">err_forbid_slot_any</String>
+    <String Key="err_forbid_slot">err_forbid_slot</String>
+    <String Key="err_require_weapon">err_require_weapon</String>
+    <String Key="err_forbid_weapon">err_forbid_weapon</String>
   </Common>
   <Merchant>
     <String Key="greeting">Hello. What can I do for you?</String>
@@ -44,6 +64,8 @@
     <String Key="learn_skill_prereq_stats">You lack the physical requirements to learn $SKILLNAME. $STATS</String>
     <String Key="learn_skill_prereq_gold">Come back when you have the correct fee.</String>
     <String Key="learn_skill_prereq_item">Come back when you have the items that I seek.</String>
+    <String Key="learn_skill_book_full">You can't learn any more, I am afraid.</String>
+    <String Key="learn_spell_book_full">You can't learn any more, I am afraid.</String>
     <String Key="learn_error">An unknown error occurred. Please contact Hybrasyl support and/or open a ticket.</String>
     <String Key="learn_skill_success">If you use this skill for evil cause, I can always take it away from you.</String>
     <String Key="learn_spell_choice">$SPELLNAME, $SPELLDESC. Do you swear that you will use this secret for just good causes?</String>
@@ -61,6 +83,7 @@
     <String Key="send_parcel_success">You've given $FEE coins. It will be done.</String>
     <String Key="send_parcel_fail">I need $FEE coins for postage; $FEE coins you understand. Come back when you won't be wasting my time.</String>
     <String Key="send_parcel_mailbox_message">$SENDER has sent you $ITEM. You can pick it up whenever you like.</String>
+    <String Key="send_parcel_mailbox_subject">A package is waiting for you.</String>
     <String Key="receive_parcel">Let me see... ah yes, here it is.</String>
     <String Key="deposit_gold">Lessee... I've got $COINS $REF of yours. How much more you going to put in today?</String>
     <String Key="withdraw_gold">You have $COINS $REF. How much will you be taking out?</String>
@@ -92,9 +115,12 @@
     <String Key="repair_item_fail">Come back when you have the money.</String>
     <String Key="repair_all_items_success">Your items have been repaired.</String>
   </Merchant>
-  <NpcSpeak />
-  <MonsterSpeak />
+  
+  
+  <MonsterSpeak>
+    <String Key="kobold_alarm">CAROUN! CAROUN IS AT HAND!</String>
+  </MonsterSpeak>
   <NpcResponses>
     <Response Call="What is your name?">My name is $NAME.</Response>
   </NpcResponses>
-</Localization>
+</Localizations>
