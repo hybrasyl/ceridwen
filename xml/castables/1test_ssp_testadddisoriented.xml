@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Add Duration="5" Intensity="10" Tick="1">TestAddDisoriented</Add>
+      <Add Duration="5" Intensity="1" Tick="1">TestAddDisoriented</Add>
     </Statuses>
   </Effects>
 </Castable>
