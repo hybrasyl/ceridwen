@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Add Duration="5" Intensity="100" Tick="1">TestAddProhibitEquipChange</Add>
+      <Add Duration="5" Intensity="10" Tick="1">TestAddProhibitEquipChange</Add>
     </Statuses>
   </Effects>
 </Castable>
