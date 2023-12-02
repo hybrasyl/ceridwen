@@ -1,16 +1,18 @@
 <?xml version="1.0"?>
 <BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="BasicAssWizard">
   <!-- Comment: Base template for Wizizards -->
+  <!-- Index: 6 -->
   <StatAlloc>Int Int Wis Dex Con Str</StatAlloc>
-  <Castables Auto="true" SpellCategories="ElementST Cradh">
+  <Castables Auto="false" SpellCategories="ElementST Cradh">
     <Castable>Assail</Castable>
   </Castables>
   <Behavior>
-    <CastableSets>
-      <CastableSet Type="Offense" Interval="20" Priority="HighThreat" Categories="ElementST Curse" Random="false"/>
-      <CastableSet Type="Assail" Interval="4" Priority="HighThreat" Random="false">
+    <CastingSets>
+      <CastingSet Type="Offense" Interval="20" TargetPriority="HighThreat" Categories="ElementST Curse" Random="true">
+      </CastingSet>
+      <CastingSet Type="Assail" Interval="6" TargetPriority="HighThreat">
         <Castable>Assail</Castable>
-      </CastableSet>
-    </CastableSets>
+      </CastingSet>
+    </CastingSets>
   </Behavior>
 </BehaviorSet>

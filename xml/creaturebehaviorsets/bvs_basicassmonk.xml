@@ -1,16 +1,18 @@
 <?xml version="1.0"?>
 <BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="BasicAssMonk">
   <!-- Comment: Base template for Monks -->
+  <!-- Index: 2 -->
   <StatAlloc>Con Con Str Dex Int Wis</StatAlloc>
-  <Castables Auto="true" SkillCategories="MonMonk">
+  <Castables Auto="false" SkillCategories="MonMonk">
     <Castable>Assail</Castable>
   </Castables>
   <Behavior>
-    <CastableSets>
-      <CastableSet Type="Offense" Interval="30" Priority="HighThreat" Categories="MonMonk"/>
-      <CastableSet Type="Assail" Interval="3" Priority="HighThreat" Random="false">
+    <CastingSets>
+      <CastingSet Type="Offense" Interval="20" TargetPriority="HighThreat" Categories="MonMonk" Random="true">
+      </CastingSet>
+      <CastingSet Type="Assail" Interval="6" TargetPriority="HighThreat">
         <Castable>Assail</Castable>
-      </CastableSet>
-    </CastableSets>
+      </CastingSet>
+    </CastingSets>
   </Behavior>
 </BehaviorSet>

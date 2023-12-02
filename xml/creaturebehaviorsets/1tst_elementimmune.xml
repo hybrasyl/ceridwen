@@ -1,11 +1,14 @@
 <?xml version="1.0"?>
-<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="BasicAssCritter">
-  <!-- Comment: BaseTemplate for Critters -->
-  <!-- Index: 1 -->
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="ElementImmune">
+  <!-- Comment: Test for Immune to Elements -->
+  <!-- Index: 901 -->
   <StatAlloc>Str Str Dex Con Int Wis</StatAlloc>
   <Castables Auto="false">
     <Castable>Assail</Castable>
   </Castables>
+  <Immunities>
+    <Immunity Type="Element" MessageType="Shout" Mesage="HAHAHA FIRE?  I WAS BORN OF THIS (Fire immune)">Fire</Immunity>
+  </Immunities>
   <Behavior>
     <CastingSets>
       <CastingSet Type="Assail" Interval="6" TargetPriority="HighThreat">

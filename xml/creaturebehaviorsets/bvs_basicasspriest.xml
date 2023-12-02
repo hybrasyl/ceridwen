@@ -1,20 +1,21 @@
 <?xml version="1.0"?>
 <BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="BasicAssPriest">
   <!-- Comment: Base template for Priests -->
+  <!-- Index: 3 -->
   <StatAlloc>Wis Wis Int Con Str Dex</StatAlloc>
-  <Castables Auto="true" SpellCategories="MonPriest">
+  <Castables Auto="false" SpellCategories="MonPriest">
     <Castable>Assail</Castable>
     <Castable>beag ioc</Castable>
   </Castables>
   <Behavior>
-    <CastableSets>
-      <CastableSet Type="Offense" Interval="25" Priority="HighThreat" Categories="MonPriest" Random="false"/>
-      <CastableSet Type="Defense" Interval="45" Priority="RandomAlly" Random="false">
+    <CastingSets>
+      <CastingSet Type="Offense" Interval="20" TargetPriority="HighThreat" Categories="MonPriest" Random="true">
+      </CastingSet>
+      <CastingSet Type="Defense" Interval="45" TargetPriority="RandomAlly">
         <Castable>beag ioc</Castable>
-      </CastableSet>
-      <CastableSet Type="Assail" Interval="4" Priority="HighThreat" Random="false">
-        <Castable>Assail</Castable>
-      </CastableSet>
-    </CastableSets>
+      </CastingSet>
+      <CastingSet Type="Assail">
+      </CastingSet>
+    </CastingSets>
   </Behavior>
 </BehaviorSet>

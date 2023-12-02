@@ -1,11 +1,14 @@
 <?xml version="1.0"?>
-<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="BasicAssCritter">
-  <!-- Comment: BaseTemplate for Critters -->
-  <!-- Index: 1 -->
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="CastCatImmune">
+  <!-- Comment: Test for Immune to Castable Categories -->
+  <!-- Index: 905 -->
   <StatAlloc>Str Str Dex Con Int Wis</StatAlloc>
   <Castables Auto="false">
     <Castable>Assail</Castable>
   </Castables>
+  <Immunities>
+    <Immunity Type="CastableCategory" MessageType="Shout" Mesage="Is this what passes for spellcasting, mortal? (Debuff Immune)">Debuff</Immunity>
+  </Immunities>
   <Behavior>
     <CastingSets>
       <CastingSet Type="Assail" Interval="6" TargetPriority="HighThreat">
