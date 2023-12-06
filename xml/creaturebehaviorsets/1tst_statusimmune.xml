@@ -7,7 +7,7 @@
     <Castable>Assail</Castable>
   </Castables>
   <Immunities>
-    <Immunity Type="Status" MessageType="Shout" Mesage="What joy is there in this curse? It means nothing (cradh Immune)">cradh</Immunity>
+    <Immunity Type="Status" MessageType="Shout" Message="What joy is there in this curse? It means nothing (cradh Immune)">cradh</Immunity>
   </Immunities>
   <Behavior>
     <CastingSets>

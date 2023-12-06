@@ -7,7 +7,7 @@
     <Castable>Assail</Castable>
   </Castables>
   <Immunities>
-    <Immunity Type="CastableCategory" MessageType="Shout" Mesage="Is this what passes for spellcasting, mortal? (Debuff Immune)">Debuff</Immunity>
+    <Immunity Type="CastableCategory" MessageType="Shout" Message="Is this what passes for spellcasting, mortal? (Debuff Immune)">Debuff</Immunity>
   </Immunities>
   <Behavior>
     <CastingSets>

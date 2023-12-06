@@ -25,8 +25,19 @@
       <CastingSet Type="Defense" Interval="20" TargetPriority="Self">
         <Castable>slan</Castable>
       </CastingSet>
-      <CastingSet Type="OnDeath" Interval="NearDeath" TargetPriority="Assail">
+      <CastingSet Type="OnDeath" TargetPriority="RandomAttacker">
+        <Castable UseOnce="true">mor creag gar</Castable>
       </CastingSet>
+      <CastingSet Type="NearDeath" Interval="10" TargetPriority="AttackingHealer" HealthPercentage="5" Random="true">
+        <Castable>athar gar</Castable>
+        <Castable>athar meall</Castable>
+        <Castable>athar lamh</Castable>
+      </CastingSet>
+      <CastingSet Type="Assail" Interval="6" TargetPriority="Attacker">
+        <Castable>Assail</Castable>
+        <Castable>Assault</Castable>
+        <Castable>Clobber</Castable>
+    </CastingSet>
     </CastingSets>
   </Behavior>
 </BehaviorSet>

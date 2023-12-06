@@ -7,7 +7,7 @@
     <Castable>Assail</Castable>
   </Castables>
   <Immunities>
-    <Immunity Type="StatusCategory" MessageType="Shout" Mesage="My strength is my own, you cannot alter it (Status Str Immune)">Str</Immunity>
+    <Immunity Type="StatusCategory" MessageType="Shout" Message="My strength is my own, you cannot alter it (Status Str Immune)">Str</Immunity>
   </Immunities>
   <Behavior>
     <CastingSets>

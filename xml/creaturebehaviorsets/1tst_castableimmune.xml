@@ -7,7 +7,7 @@
     <Castable>Assail</Castable>
   </Castables>
   <Immunities>
-    <Immunity Type="Castable" MessageType="Shout" Mesage="Your ard srad cannot burn me. (ard srad immune)">ard srad</Immunity>
+    <Immunity Type="Castable" MessageType="Shout" Message="Your ard srad cannot burn me. (ard srad immune)">ard srad</Immunity>
   </Immunities>
   <Behavior>
     <CastingSets>

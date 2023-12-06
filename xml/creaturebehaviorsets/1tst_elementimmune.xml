@@ -7,7 +7,7 @@
     <Castable>Assail</Castable>
   </Castables>
   <Immunities>
-    <Immunity Type="Element" MessageType="Shout" Mesage="HAHAHA FIRE?  I WAS BORN OF THIS (Fire immune)">Fire</Immunity>
+    <Immunity Type="Element" MessageType="Shout" Message="HAHAHA FIRE?  I WAS BORN OF THIS (Fire immune)">Fire</Immunity>
   </Immunities>
   <Behavior>
     <CastingSets>
