@@ -2,6 +2,7 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestMinusStr" Icon="44" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>Str</Category>
   </Categories>
   <Effects>
     <OnApply>
