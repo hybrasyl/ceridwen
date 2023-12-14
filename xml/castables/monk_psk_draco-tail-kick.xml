@@ -12,7 +12,7 @@
   </Categories>
   <Intents>
     <Intent UseType="NoTarget" MaxTargets="4" Flags="Hostile Pvp">
-      <Cross Direction="1"/>
+      <Cross Radius="1"/>
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->

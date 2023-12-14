@@ -16,7 +16,7 @@
   </CastCosts>
   <Intents>
     <Intent UseType="Target" MaxTargets="5" Flags="Hostile Pvp">
-      <Cross Direction="1" VisualEffect="AllTiles"/>
+      <Cross Radius="1" VisualEffect="AllTiles"/>
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
