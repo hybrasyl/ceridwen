@@ -46,7 +46,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>Confuse</Add>
+      <Add Duration="30">Confuse</Add>
     </Statuses>
   </Effects>
 </Castable>

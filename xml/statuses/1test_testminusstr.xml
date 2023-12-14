@@ -3,6 +3,7 @@
   <Categories>
     <Category>Test</Category>
     <Category>Str</Category>
+    <Category>Debuff</Category>
   </Categories>
   <Effects>
     <OnApply>

@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestMinusEarthResistance" Icon="138" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>EarthResistance</Category>
+    <Category>Debuff</Category>
   </Categories>
   <Effects>
     <OnApply>

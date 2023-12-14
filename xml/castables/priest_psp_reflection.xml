@@ -42,7 +42,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriReflectMag</Add>
+      <Add Duration="20">PriReflectMag</Add>
     </Statuses>
   </Effects>
 </Castable>

@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestMinusMagicCrit" Icon="35" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>MagicCrit</Category>
+    <Category>Debuff</Category>
   </Categories>
   <Effects>
     <OnApply>

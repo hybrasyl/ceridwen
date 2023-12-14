@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddSleep" Icon="15" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>Sleep</Category>
+    <Category>Buff</Category>
   </Categories>
   <Effects>
     <OnApply>
@@ -17,12 +19,12 @@
     </OnApply>
     <OnRemove>
       <Conditions>
-        <Remove>Sleep</Remove>
+        <Unset>Sleep</Unset>
       </Conditions>
     </OnRemove>
     <OnExpire>
       <Conditions>
-        <Remove>Sleep</Remove>
+        <Unset>Sleep</Unset>
       </Conditions>
     </OnExpire>
   </Effects>

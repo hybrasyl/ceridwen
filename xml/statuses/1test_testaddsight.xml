@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddSight" Icon="14" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>Sight</Category>
+    <Category>Buff</Category>
   </Categories>
   <Effects>
     <OnApply>
@@ -17,12 +19,12 @@
     </OnApply>
     <OnRemove>
       <Conditions>
-        <Remove>Sight</Remove>
+        <Unset>Sight</Unset>
       </Conditions>
     </OnRemove>
     <OnExpire>
       <Conditions>
-        <Remove>Sight</Remove>
+        <Unset>Sight</Unset>
       </Conditions>
     </OnExpire>
   </Effects>

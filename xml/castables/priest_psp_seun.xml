@@ -43,7 +43,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>Charm</Add>
+      <Add Duration="40">Charm</Add>
     </Statuses>
   </Effects>
 </Castable>

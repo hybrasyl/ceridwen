@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestSetWindOffense" Icon="97" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>Wind</Category>
+    <Category>Change</Category>
   </Categories>
   <Effects>
     <OnApply>

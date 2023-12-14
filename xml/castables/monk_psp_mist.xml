@@ -43,7 +43,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonDodge</Add>
+      <Add Duration="40">MonDodge</Add>
     </Statuses>
   </Effects>
 </Castable>

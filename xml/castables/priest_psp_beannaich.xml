@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriPlusHit</Add>
+      <Add Duration="30">PriPlusHit</Add>
     </Statuses>
   </Effects>
 </Castable>

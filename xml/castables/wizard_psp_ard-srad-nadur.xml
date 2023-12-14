@@ -46,7 +46,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>AirDefense</Add>
+      <Add Duration="30">AirDefense</Add>
     </Statuses>
   </Effects>
 </Castable>

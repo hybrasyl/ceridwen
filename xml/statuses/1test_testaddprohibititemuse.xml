@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddProhibitItemUse" Icon="9" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>ProhibitItemUse</Category>
+    <Category>Buff</Category>
   </Categories>
   <Effects>
     <OnApply>
@@ -17,12 +19,12 @@
     </OnApply>
     <OnRemove>
       <Conditions>
-        <Remove>ProhibitItemUse</Remove>
+        <Unset>ProhibitItemUse</Unset>
       </Conditions>
     </OnRemove>
     <OnExpire>
       <Conditions>
-        <Remove>ProhibitItemUse</Remove>
+        <Unset>ProhibitItemUse</Unset>
       </Conditions>
     </OnExpire>
   </Effects>

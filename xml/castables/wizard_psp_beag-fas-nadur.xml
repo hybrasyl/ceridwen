@@ -45,7 +45,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>WizIncreaseDmg</Add>
+      <Add Duration="60">WizIncreaseDmg</Add>
     </Statuses>
   </Effects>
 </Castable>

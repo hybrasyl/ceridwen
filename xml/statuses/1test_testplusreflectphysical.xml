@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestPlusReflectPhysical" Icon="70" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>ReflectPhysical</Category>
+    <Category>Buff</Category>
   </Categories>
   <Effects>
     <OnApply>

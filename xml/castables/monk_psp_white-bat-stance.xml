@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonBat</Add>
+      <Add Duration="30">MonBat</Add>
     </Statuses>
   </Effects>
 </Castable>

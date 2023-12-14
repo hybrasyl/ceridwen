@@ -47,7 +47,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>Poison</Add>
+      <Add Duration="30" Tick="3">Poison</Add>
     </Statuses>
   </Effects>
 </Castable>

@@ -48,7 +48,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriReduceDmg</Add>
+      <Add Duration="60">PriReduceDmg</Add>
     </Statuses>
   </Effects>
 </Castable>

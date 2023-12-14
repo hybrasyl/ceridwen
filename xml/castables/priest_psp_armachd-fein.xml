@@ -43,7 +43,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriMinusAc</Add>
+      <Add Duration="30">PriMinusAc</Add>
     </Statuses>
   </Effects>
 </Castable>

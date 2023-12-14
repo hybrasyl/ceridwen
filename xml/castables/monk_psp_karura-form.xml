@@ -44,7 +44,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonBird</Add>
+      <Add Duration="125">MonBird</Add>
     </Statuses>
   </Effects>
 </Castable>

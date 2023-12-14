@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>Stun</Add>
+      <Add Duration="8">Stun</Add>
     </Statuses>
   </Effects>
 </Castable>

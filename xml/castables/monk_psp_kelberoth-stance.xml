@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonKelb</Add>
+      <Add Duration="30">MonKelb</Add>
     </Statuses>
   </Effects>
 </Castable>

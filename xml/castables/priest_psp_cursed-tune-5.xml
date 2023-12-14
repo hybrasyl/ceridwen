@@ -47,7 +47,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriDot</Add>
+      <Add Duration="35" Tick="1">PriDot</Add>
     </Statuses>
   </Effects>
 </Castable>

@@ -44,7 +44,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add Duration="100" Intensity="1">Paralyze</Add>
+      <Add Duration="30" Intensity="1">Paralyze</Add>
     </Statuses>
   </Effects>
 </Castable>

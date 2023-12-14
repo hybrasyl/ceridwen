@@ -46,7 +46,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>WaterDefense</Add>
+      <Add Duration="30">WaterDefense</Add>
     </Statuses>
   </Effects>
 </Castable>

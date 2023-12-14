@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonStun</Add>
+      <Add Duration="10">MonStun</Add>
     </Statuses>
   </Effects>
 </Castable>

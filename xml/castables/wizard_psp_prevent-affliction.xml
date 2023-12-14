@@ -42,7 +42,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriPreventCradh</Add>
+      <Add Duration="60">PriPreventCradh</Add>
     </Statuses>
   </Effects>
 </Castable>

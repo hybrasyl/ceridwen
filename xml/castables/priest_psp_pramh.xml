@@ -48,7 +48,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>Sleep</Add>
+      <Add Duration="16">Sleep</Add>
     </Statuses>
   </Effects>
 </Castable>

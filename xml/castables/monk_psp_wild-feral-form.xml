@@ -45,7 +45,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonFeral</Add>
+      <Add Duration="135">MonFeral</Add>
     </Statuses>
   </Effects>
 </Castable>

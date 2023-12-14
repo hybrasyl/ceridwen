@@ -48,7 +48,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriHot</Add>
+      <Add Duration="30" Tick="1">PriHot2</Add>
     </Statuses>
   </Effects>
 </Castable>

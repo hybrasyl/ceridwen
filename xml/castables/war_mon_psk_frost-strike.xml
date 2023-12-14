@@ -38,7 +38,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>Slow</Add>
+      <Add Duration="2">Slow</Add>
     </Statuses>
   </Effects>
 </Castable>

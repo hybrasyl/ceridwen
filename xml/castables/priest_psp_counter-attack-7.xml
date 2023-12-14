@@ -48,7 +48,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriRetaliate</Add>
+      <Add Duration="60">PriRetaliate</Add>
     </Statuses>
   </Effects>
 </Castable>

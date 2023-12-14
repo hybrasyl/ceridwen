@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonDraco</Add>
+      <Add Duration="8">MonDraco</Add>
     </Statuses>
   </Effects>
 </Castable>

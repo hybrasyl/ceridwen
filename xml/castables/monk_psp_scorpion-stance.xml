@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonScorp</Add>
+      <Add Duration="20">MonScorp</Add>
     </Statuses>
   </Effects>
 </Castable>

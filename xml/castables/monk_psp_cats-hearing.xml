@@ -44,7 +44,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonSight</Add>
+      <Add Duration="60">MonSight</Add>
     </Statuses>
   </Effects>
 </Castable>

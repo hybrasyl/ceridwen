@@ -1,6 +1,8 @@
 <?xml version="1.0"?>
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestRemSleep" Icon="75" Duration="1" Tick="1" RemoveOnDeath="false">
     <Category>Test</Category>
+    <Category>Sleep</Category>
+    <Category>Dispel</Category>
     <OnApply>
       <Animations>
         <Target Id="44" Speed="20"/>
@@ -9,7 +11,7 @@
       <Messages>
       </Messages>
       <Conditions>
-        <Remove>Sleep</Remove>
+        <Unset>Sleep</Unset>
       </Conditions>
     </OnApply>
 </Status>

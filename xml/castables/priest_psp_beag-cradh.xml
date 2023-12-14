@@ -43,7 +43,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>BeagCradh</Add>
+      <Add Duration="30">BeagCradh</Add>
     </Statuses>
   </Effects>
 </Castable>

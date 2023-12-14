@@ -46,7 +46,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>EarthDefense</Add>
+      <Add Duration="30">EarthDefense</Add>
     </Statuses>
   </Effects>
 </Castable>

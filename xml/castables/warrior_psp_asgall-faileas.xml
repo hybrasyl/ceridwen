@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>WarReflectPhys</Add>
+      <Add Duration="30">WarReflectPhys</Add>
     </Statuses>
   </Effects>
 </Castable>

@@ -42,7 +42,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>DarkerSeal</Add>
+      <Add Duration="30">DarkerSeal</Add>
     </Statuses>
   </Effects>
 </Castable>

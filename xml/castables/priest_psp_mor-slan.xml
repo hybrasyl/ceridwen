@@ -46,7 +46,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriRegen</Add>
+      <Add Duration="40">PriPlusRegen</Add>
     </Statuses>
   </Effects>
 </Castable>

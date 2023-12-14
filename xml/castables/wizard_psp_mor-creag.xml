@@ -49,7 +49,7 @@
       <Formula>(SOURCEINT + SOURCECON) * 8</Formula>
     </Damage>
     <Statuses>
-      <Add>WaterDefense</Add>
+      <Add Duration="30">WaterDefense</Add>
     </Statuses>
   </Effects>
 </Castable>

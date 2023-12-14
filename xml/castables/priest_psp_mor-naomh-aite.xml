@@ -49,7 +49,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriMinusDmg</Add>
+      <Add Duration="100">PriReduceDmg</Add>
     </Statuses>
   </Effects>
 </Castable>

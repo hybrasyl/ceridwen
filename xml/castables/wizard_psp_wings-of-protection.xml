@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>Invulnerable</Add>
+      <Add Duration="16">Invulnerable</Add>
     </Statuses>
   </Effects>
 </Castable>

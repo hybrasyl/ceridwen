@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestMinusWindResistance" Icon="139" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>WindResistance</Category>
+    <Category>Debuff</Category>
   </Categories>
   <Effects>
     <OnApply>

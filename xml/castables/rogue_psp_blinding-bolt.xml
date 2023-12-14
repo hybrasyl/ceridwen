@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>Blind</Add>
+      <Add Duration="10">Blind</Add>
     </Statuses>
   </Effects>
 </Castable>

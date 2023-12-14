@@ -42,5 +42,8 @@
         </Player>
       </OnCast>
     </Animations>
+    <Statuses>
+      <Add Duration="8">Invulnerable</Add>
+    </Statuses>
   </Effects>
 </Castable>

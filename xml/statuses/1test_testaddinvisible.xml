@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddInvisible" Icon="5" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>Invisible</Category>
+    <Category>Buff</Category>
   </Categories>
   <Effects>
     <OnApply>
@@ -17,12 +19,12 @@
     </OnApply>
     <OnRemove>
       <Conditions>
-        <Remove>Invisible</Remove>
+        <Unset>Invisible</Unset>
       </Conditions>
     </OnRemove>
     <OnExpire>
       <Conditions>
-        <Remove>Invisible</Remove>
+        <Unset>Invisible</Unset>
       </Conditions>
     </OnExpire>
   </Effects>

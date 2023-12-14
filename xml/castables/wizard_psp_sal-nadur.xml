@@ -46,7 +46,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>FireDefense</Add>
+      <Add Duration="30">FireDefense</Add>
     </Statuses>
   </Effects>
 </Castable>

@@ -40,7 +40,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>WarMinusAc</Add>
+      <Add Duration="30">WarMinusAc</Add>
     </Statuses>
   </Effects>
 </Castable>

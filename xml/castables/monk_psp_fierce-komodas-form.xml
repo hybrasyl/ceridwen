@@ -45,7 +45,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonLizard</Add>
+      <Add Duration="145">MonLiz</Add>
     </Statuses>
   </Effects>
 </Castable>

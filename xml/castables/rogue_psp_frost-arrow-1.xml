@@ -43,7 +43,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>RogSlow</Add>
+      <Add Duration="10">RogSlow</Add>
     </Statuses>
   </Effects>
 </Castable>

@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestPlusMp" Icon="65" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>Mp</Category>
+    <Category>Buff</Category>
   </Categories>
   <Effects>
     <OnApply>

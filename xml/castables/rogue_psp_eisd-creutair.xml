@@ -48,7 +48,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>RogSight</Add>
+      <Add Duration="30">RogSight</Add>
     </Statuses>
   </Effects>
 </Castable>

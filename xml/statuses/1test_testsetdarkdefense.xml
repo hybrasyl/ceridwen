@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestSetDarkDefense" Icon="99" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>Dark</Category>
+    <Category>Change</Category>
   </Categories>
   <Effects>
     <OnApply>

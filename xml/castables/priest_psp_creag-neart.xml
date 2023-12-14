@@ -39,7 +39,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>PriPlusStr</Add>
+      <Add Duration="30">PriPlusStr</Add>
     </Statuses>
   </Effects>
 </Castable>

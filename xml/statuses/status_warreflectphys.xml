@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="WarReflectPhys" Icon="178" Duration="1" Tick="1">
+    <Category>Phys</Category>
+</Status>

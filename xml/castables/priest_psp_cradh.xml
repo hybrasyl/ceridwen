@@ -46,7 +46,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>Cradh</Add>
+      <Add Duration="30">Cradh</Add>
     </Statuses>
   </Effects>
 </Castable>

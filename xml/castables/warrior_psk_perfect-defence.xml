@@ -42,7 +42,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MagicImmune</Add>
+      <Add Duration="14">MagicImmune</Add>
     </Statuses>
   </Effects>
 </Castable>

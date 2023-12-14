@@ -44,7 +44,7 @@
       </OnCast>
     </Animations>
     <Statuses>
-      <Add>MonRegen</Add>
+      <Add Duration="60">MonRegen</Add>
     </Statuses>
   </Effects>
 </Castable>

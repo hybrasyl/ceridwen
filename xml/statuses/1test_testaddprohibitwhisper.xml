@@ -2,6 +2,8 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddProhibitWhisper" Icon="12" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
+    <Category>ProhibitWhisper</Category>
+    <Category>Buff</Category>
   </Categories>
   <Effects>
     <OnApply>
@@ -17,12 +19,12 @@
     </OnApply>
     <OnRemove>
       <Conditions>
-        <Remove>ProhibitWhisper</Remove>
+        <Unset>ProhibitWhisper</Unset>
       </Conditions>
     </OnRemove>
     <OnExpire>
       <Conditions>
-        <Remove>ProhibitWhisper</Remove>
+        <Unset>ProhibitWhisper</Unset>
       </Conditions>
     </OnExpire>
   </Effects>
