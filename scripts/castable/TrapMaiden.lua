@@ -1,8 +1,8 @@
--- TrapStiletto
--- Dead Ages Dagger? Trap
+-- TrapMaiden
+-- Dead Ages Starter Trap
 
 function OnEntry()
-  local dmg = 500
+  local dmg = 13000
   local casterName = caster.Name
 
   if (caster.IsPlayer and target.IsPlayer) then
