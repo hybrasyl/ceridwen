@@ -42,7 +42,7 @@
       </OnCast>
     </Animations>
     <Damage Type="Physical">
-      <Formula>(SOURCESTR + SOURCEWEAPONDAMAGESMALL)*2.5</Formula>
+      <Formula>(SOURCESTR + SOURCEWEAPONSMALLDAMAGE)*2.5</Formula>
     </Damage>
   </Effects>
 </Castable>
