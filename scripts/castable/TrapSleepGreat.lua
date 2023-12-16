@@ -1,4 +1,4 @@
--- TrapSleep
+-- TrapSleepGreat
 -- Dead Ages Sleep Trap
 
 function OnEntry()
@@ -8,8 +8,8 @@ function OnEntry()
     target.SystemMessage("You notice a trap nearby.")
   elseif (caster.IsPlayer == false and target.IsPlayer) then
     target.SystemMessage("You fall into " .. casterName .. "'s trap!")
-    target.ApplyStatus("Stun", 9)
+    target.ApplyStatus("Stun", 15)
   elseif (caster.IsPlayer and target.IsPlayer == false) then
-    target.ApplyStatus("Stun", 9)
+    target.ApplyStatus("Stun", 15)
   end
 end
