@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="RareGabba">
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="RareGabbaDynamic">
   <!-- Comment: Testing the Gabbaghoul -->
   <!-- Index: 906 -->
   <StatAlloc>Str Str Dex Con Int Wis</StatAlloc>
@@ -40,5 +40,5 @@
     </CastingSet>
     </CastingSets>
   </Behavior>
-  <StatModifiers BaseHp="100000" BaseMp="100000" BaseStr="100"/>
+  <StatModifiers BaseHp="SOURCESTR*200" BaseMp="SOURCEINT*200"/>
 </BehaviorSet>
