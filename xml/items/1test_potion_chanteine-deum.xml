@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
-  <Name>chateine deum</Name>
+  <Name>chanteine deum</Name>
   <Comment>Test Potion to make you less burnable</Comment>
   <Properties>
     <Appearance Sprite="64"/>

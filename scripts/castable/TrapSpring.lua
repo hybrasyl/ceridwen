@@ -10,7 +10,9 @@ function OnEntry()
   elseif (caster.IsPlayer == false and target.IsPlayer) then
     target.SystemMessage("You fall into " .. casterName .. "'s trap!")
     target.Damage(dmg)
+    origin.Uses = origin.Uses -1
   elseif (caster.IsPlayer and target.IsPlayer == false) then
     target.Damage(dmg)
+    origin.Uses = origin.Uses -1
   end
 end
