@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Remove>StstRemParalyze</Remove>
+      <Remove Quantity="1">TestAddParalyze</Remove>
     </Statuses>
   </Effects>
 </Castable>

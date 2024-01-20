@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="203" Book="SecondarySpell" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard" IncludeInMetafile="false">
-  <Name>TestRemSleep</Name>
+  <Name>TestRemFear</Name>
   <Descriptions>
-    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test to rem sleep.</Description>
+    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test to rem fear.</Description>
   </Descriptions>
   <Categories>
     <Category>Test</Category>
-    <Category>Sleep</Category>
+    <Category>Fear</Category>
     <Category>RemoveDebuff</Category>
   </Categories>
   <CastCosts>
@@ -41,11 +41,8 @@
       </OnCast>
     </Animations>
     <Sound Id="154"/>
-    <Damage Type="Elemental">
-      <Simple>100</Simple>
-    </Damage>
     <Statuses>
-      <Remove Quantity="1">TestAddSleep</Remove>
+      <Remove Quantity="1">TestAddFear</Remove>
     </Statuses>
   </Effects>
 </Castable>

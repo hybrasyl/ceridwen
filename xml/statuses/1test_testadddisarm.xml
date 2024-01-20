@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddDisarm" Icon="199" Duration="1" Tick="1" RemoveOnDeath="false">
+  <Categories>
+    <Category>Test</Category>
+    <Category>Disarm</Category>
+    <Category>Buff</Category>
+  </Categories>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+      <Conditions>
+        <Set>Disarm</Set>
+      </Conditions>
+    </OnApply>
+    <OnRemove>
+      <Conditions>
+        <Unset>Disarm</Unset>
+      </Conditions>
+    </OnRemove>
+    <OnExpire>
+      <Conditions>
+        <Unset>Disarm</Unset>
+      </Conditions>
+    </OnExpire>
+  </Effects>
+</Status>

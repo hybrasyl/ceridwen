@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Remove>StstRemProhibitShout</Remove>
+      <Remove Quantity="1">TestAddProhibitShout</Remove>
     </Statuses>
   </Effects>
 </Castable>

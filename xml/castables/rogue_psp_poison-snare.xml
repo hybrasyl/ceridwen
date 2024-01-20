@@ -31,7 +31,7 @@
   </Requirements>
   <Effects>
     <Reactors>
-      <Reactor Script="TrapPoison" RelativeX="0" RelativeY="0" Sprite="13051" Expiration="60" Uses="1" DisplayOwner="true" DisplayStatus="DetectTraps"/>
+      <Reactor Script="TrapPoisonSnare" RelativeX="0" RelativeY="0" Sprite="13051" Expiration="60" Uses="1" DisplayOwner="true" DisplayStatus="DetectTraps"/>
     </Reactors>
   </Effects>
 </Castable>

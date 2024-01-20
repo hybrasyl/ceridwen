@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Remove>StstRemInvulnerable</Remove>
+      <Remove Quantity="1">TestAddInvulnerable</Remove>
     </Statuses>
   </Effects>
 </Castable>

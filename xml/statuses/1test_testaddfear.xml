@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddFear" Icon="200" Duration="1" Tick="1" RemoveOnDeath="false">
+  <Categories>
+    <Category>Test</Category>
+    <Category>Fear</Category>
+    <Category>Buff</Category>
+  </Categories>
+  <Effects>
+    <OnApply>
+      <Animations>
+        <Target Id="44" Speed="20"/>
+      </Animations>
+      <Sound Id="154"/>
+      <Messages>
+      </Messages>
+      <Conditions>
+        <Set>Fear</Set>
+      </Conditions>
+    </OnApply>
+    <OnRemove>
+      <Conditions>
+        <Unset>Fear</Unset>
+      </Conditions>
+    </OnRemove>
+    <OnExpire>
+      <Conditions>
+        <Unset>Fear</Unset>
+      </Conditions>
+    </OnExpire>
+  </Effects>
+</Status>

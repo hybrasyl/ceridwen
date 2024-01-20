@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Remove>StstRemCharm</Remove>
+      <Remove Quantity="1">TestAddCharm</Remove>
     </Statuses>
   </Effects>
 </Castable>

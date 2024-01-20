@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Remove>StstRemBlind</Remove>
+      <Remove Quantity="1">TestAddBlind</Remove>
     </Statuses>
   </Effects>
 </Castable>

@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Remove>StstRemProhibitWhisper</Remove>
+      <Remove Quantity="1">TestAddProhibitWhisper</Remove>
     </Statuses>
   </Effects>
 </Castable>

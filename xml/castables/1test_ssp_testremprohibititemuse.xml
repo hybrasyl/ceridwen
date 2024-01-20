@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Remove>StstRemProhibitItemUse</Remove>
+      <Remove Quantity="1">TestAddProhibitItemUse</Remove>
     </Statuses>
   </Effects>
 </Castable>

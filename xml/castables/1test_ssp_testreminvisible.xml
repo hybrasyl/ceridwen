@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Remove>StstRemInvisible</Remove>
+      <Remove Quantity="1">TestAddInvisible</Remove>
     </Statuses>
   </Effects>
 </Castable>

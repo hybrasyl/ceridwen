@@ -32,7 +32,7 @@
   </Requirements>
   <Effects>
     <Reactors>
-      <Reactor Script="TrapSleep" RelativeX="0" RelativeY="0" Sprite="13051" Expiration="60" Uses="1" DisplayOwner="true" DisplayStatus="DetectTraps"/>
+      <Reactor Script="TrapSleepGreater" RelativeX="0" RelativeY="0" Sprite="13051" Expiration="60" Uses="1" DisplayOwner="true" DisplayStatus="DetectTraps"/>
     </Reactors>
   </Effects>
 </Castable>

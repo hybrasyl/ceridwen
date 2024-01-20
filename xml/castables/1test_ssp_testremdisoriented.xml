@@ -45,7 +45,7 @@
       <Simple>100</Simple>
     </Damage>
     <Statuses>
-      <Remove>StstRemDisoriented</Remove>
+      <Remove Quantity="1">TestAddDisoriented</Remove>
     </Statuses>
   </Effects>
 </Castable>
