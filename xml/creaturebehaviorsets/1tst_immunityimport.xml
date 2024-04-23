@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="CastableImmune" Import="BasicAssCritter">
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="ImmunityImport" Import="BasicAssCritter">
   <!-- Comment: Test for Immune to Castables -->
   <!-- Index: 902 -->
   <StatAlloc>Str Str Dex Con Int Wis</StatAlloc>
