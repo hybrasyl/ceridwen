@@ -42,7 +42,7 @@
     </Animations>
     <Sound Id="154"/>
     <Statuses>
-      <Add Duration="45" Intensity="1" Tick="1">TestCurseOne</Add>
+      <Add Duration="45" Intensity="1" Tick="1">TestCurse1</Add>
     </Statuses>
   </Effects>
 </Castable>

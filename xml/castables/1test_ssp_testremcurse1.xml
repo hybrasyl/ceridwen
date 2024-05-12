@@ -42,7 +42,7 @@
     </Animations>
     <Sound Id="154"/>
     <Statuses>
-      <Remove>TestCurse2</Remove>
+      <Remove>TestCurse1</Remove>
     </Statuses>
   </Effects>
 </Castable>
