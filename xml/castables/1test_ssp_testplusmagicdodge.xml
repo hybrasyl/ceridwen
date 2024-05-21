@@ -43,6 +43,7 @@
     <Sound Id="154"/>
     <Damage Type="Elemental">
       <Simple>100</Simple>
+        <--! Using old or no formula -->
     </Damage>
     <Statuses>
       <Add Duration="5" Intensity="1" Tick="1">TestPlusMagicDodge</Add>

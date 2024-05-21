@@ -46,6 +46,7 @@
       </OnCast>
     </Animations>
     <Damage Type="Elemental">
+        <--! Using old or no formula -->
       <Formula>(SOURCECURRENTMP*.95)</Formula>
     </Damage>
   </Effects>

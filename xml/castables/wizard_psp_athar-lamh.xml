@@ -49,6 +49,7 @@
       </OnCast>
     </Animations>
     <Damage Type="Elemental">
+        <--! Using old or no formula -->
       <Formula>(SOURCEINT + SOURCEDEX) * 3</Formula>
     </Damage>
   </Effects>

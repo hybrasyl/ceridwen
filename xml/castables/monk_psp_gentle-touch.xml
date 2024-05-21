@@ -46,6 +46,7 @@
       </OnCast>
     </Animations>
     <Heal Type="Formula">
+        <--! Using old or no formula -->
       <Formula>110 + (SOURCEINT + SOURCEWIS) *17</Formula>
     </Heal>
   </Effects>

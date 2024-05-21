@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" IncludeInMetafile="false">
+  <Name>Peasantware Hammer</Name>
+  <Comment>Test for item tags</Comment>
+  <Properties Tags="Peasantware">
+    <Appearance Sprite="516" EquipSprite="516" DisplaySprite="44"/>
+    <Categories>
+      <Category>Test</Category>
+      <Category>Hammer</Category>
+    </Categories>
+    <Stackable Max="1"/>
+    <Physical Value="1234567" Weight="1" Durability="10"/>
+    <Equipment Slot="Weapon" WeaponType="TwoHand"/>
+    <Flags>Bound</Flags>
+    <Variants>
+      <Group>testvariants</Group>
+    </Variants>
+    <Vendor ShopTab="Clutter"/>
+    <Damage SmallMin="1" SmallMax="2" LargeMin="3" LargeMax="4"/>
+    <Restrictions>
+      <Level Min="1" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

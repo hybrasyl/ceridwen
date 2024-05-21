@@ -43,6 +43,7 @@
     </Animations>
     <Damage Type="Direct">
       <Simple>36000</Simple>
+        <--! Using old or no formula -->
     </Damage>
   </Effects>
 </Castable>

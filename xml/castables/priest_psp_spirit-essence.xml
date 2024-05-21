@@ -43,6 +43,7 @@
       </OnCast>
     </Animations>
     <Heal Type="Formula">
+        <--! Using old or no formula -->
       <Formula>TARGETMAXIMUMHP</Formula>
     </Heal>
   </Effects>

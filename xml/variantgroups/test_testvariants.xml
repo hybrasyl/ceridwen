@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<VariantGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>testvariants</Name>
+  <Variant>
+    <Name>Academic</Name>
+    <Modifier>Academic</Modifier>
+    <Properties Tags="Academic">
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Political</Name>
+    <Modifier>Political</Modifier>
+    <Properties Tags="Political">
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Religious</Name>
+    <Modifier>Religious</Modifier>
+    <Properties Tags="Religious">
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Artifact</Name>
+    <Modifier>Artifact</Modifier>
+    <Properties Tags="Artifact">
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Social</Name>
+    <Modifier>Social</Modifier>
+    <Properties Tags="Social">
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Junk</Name>
+    <Modifier>Junk</Modifier>
+    <Properties Tags="Junk">
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Masterwork</Name>
+    <Modifier>Masterwork</Modifier>
+    <Properties Tags="Masterwork">
+    </Properties>
+  </Variant>
+  <Variant>
+    <Name>Legendary</Name>
+    <Modifier>Legendary</Modifier>
+    <Properties Tags="Legendary">
+    </Properties>
+  </Variant>
+</VariantGroup>
