@@ -43,7 +43,7 @@
       </OnCast>
     </Animations>
     <Damage Type="Direct">
-        <--! Using old or no formula -->
+        <!-- Using old or no formula -->
       <Formula>TARGETMAXIMUMHP*.01</Formula>
     </Damage>
   </Effects>

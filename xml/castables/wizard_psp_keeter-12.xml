@@ -50,7 +50,7 @@
       </OnCast>
     </Animations>
     <Damage Type="Elemental">
-        <--! Using old or no formula -->
+        <!-- Using old or no formula -->
       <Formula>(SOURCEDEX + SOURCEINT) *24</Formula>
     </Damage>
   </Effects>

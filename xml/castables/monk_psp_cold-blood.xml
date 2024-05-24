@@ -45,7 +45,7 @@
       </OnCast>
     </Animations>
     <Heal Type="Formula">
-        <--! Using old or no formula -->
+        <!-- Using old or no formula -->
       <Formula>SOURCEABILITY * 500</Formula>
     </Heal>
   </Effects>

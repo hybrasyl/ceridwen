@@ -45,7 +45,7 @@
     <Sound Id="154"/>
     <Damage Type="Elemental">
       <Simple>100</Simple>
-        <--! Using old or no formula -->
+        <!-- Using old or no formula -->
     </Damage>
   </Effects>
 </Castable>

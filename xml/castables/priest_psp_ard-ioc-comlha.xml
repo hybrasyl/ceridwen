@@ -43,7 +43,7 @@
       </OnCast>
     </Animations>
     <Heal Type="Formula">
-        <--! Using old or no formula -->
+        <!-- Using old or no formula -->
       <Formula>1800 + (SOURCEINT+SOURCEWIS)*100</Formula>
     </Heal>
   </Effects>

@@ -48,7 +48,7 @@
       </OnCast>
     </Animations>
     <Damage Type="Elemental">
-        <--! Using old or no formula -->
+        <!-- Using old or no formula -->
       <Formula>(SOURCEWIS + SOURCEINT) *18</Formula>
     </Damage>
   </Effects>

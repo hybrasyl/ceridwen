@@ -41,7 +41,7 @@
       </OnCast>
     </Animations>
     <Damage Type="Elemental">
-        <--! Using old or no formula -->
+        <!-- Using old or no formula -->
       <Formula>(SOURCEINT + SOURCEWIS)*10</Formula>
     </Damage>
   </Effects>

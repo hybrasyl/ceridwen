@@ -49,7 +49,7 @@
       </OnCast>
     </Animations>
     <Damage Type="Elemental">
-        <--! Using old or no formula -->
+        <!-- Using old or no formula -->
       <Formula>(SOURCECON + SOURCEINT) *19</Formula>
     </Damage>
   </Effects>

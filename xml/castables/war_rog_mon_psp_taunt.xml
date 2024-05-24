@@ -53,7 +53,7 @@
     </Animations>
     <Damage Type="Direct">
       <Simple>1</Simple>
-        <--! Using old or no formula -->
+        <!-- Using old or no formula -->
     </Damage>
   </Effects>
   <Script>Taunt</Script>
