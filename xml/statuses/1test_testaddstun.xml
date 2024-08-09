@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddParalyze" Icon="13" Duration="1" Tick="1" RemoveOnDeath="false">
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddStun" Icon="16" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
-    <Category>Paralyze</Category>
+    <Category>Stun</Category>
     <Category>Buff</Category>
   </Categories>
   <Effects>
@@ -14,17 +14,17 @@
       <Messages>
       </Messages>
       <Conditions>
-        <Set>Paralyze</Set>
+        <Set>Stun</Set>
       </Conditions>
     </OnApply>
     <OnRemove>
       <Conditions>
-        <Unset>Paralyze</Unset>
+        <Unset>Stun</Unset>
       </Conditions>
     </OnRemove>
     <OnExpire>
       <Conditions>
-        <Unset>Paralyze</Unset>
+        <Unset>Stun</Unset>
       </Conditions>
     </OnExpire>
   </Effects>

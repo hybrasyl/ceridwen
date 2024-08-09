@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddFreeze" Icon="16" Duration="1" Tick="1" RemoveOnDeath="false">
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddRoot" Icon="13" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
-    <Category>Freeze</Category>
+    <Category>Root</Category>
     <Category>Buff</Category>
   </Categories>
   <Effects>
@@ -14,17 +14,17 @@
       <Messages>
       </Messages>
       <Conditions>
-        <Set>Freeze</Set>
+        <Set>Root</Set>
       </Conditions>
     </OnApply>
     <OnRemove>
       <Conditions>
-        <Unset>Freeze</Unset>
+        <Unset>Root</Unset>
       </Conditions>
     </OnRemove>
     <OnExpire>
       <Conditions>
-        <Unset>Freeze</Unset>
+        <Unset>Root</Unset>
       </Conditions>
     </OnExpire>
   </Effects>
