@@ -26,9 +26,11 @@
         <Item Quantity="125">Warrior's Skull</Item>
         <Item Quantity="20">Hwarone Helmet Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Mass Strike 8</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

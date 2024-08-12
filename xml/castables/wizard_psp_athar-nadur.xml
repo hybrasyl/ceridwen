@@ -27,9 +27,11 @@
       <Items>
         <Item Quantity="1">fior athar </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="30">beag srad</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

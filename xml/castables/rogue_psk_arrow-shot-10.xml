@@ -25,9 +25,11 @@
         <Item Quantity="1">Band of Storms</Item>
         <Item Quantity="25">Silver Baem Egg</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Arrow Shot 9</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

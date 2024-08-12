@@ -26,9 +26,11 @@
         <Item Quantity="75">Rogue's Skull</Item>
         <Item Quantity="1">Hwarone Weapon Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Pounce 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

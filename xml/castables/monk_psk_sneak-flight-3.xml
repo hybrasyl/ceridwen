@@ -24,9 +24,11 @@
       <Items>
         <Item Quantity="5">Green Hitonic</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Sneak Flight 2</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

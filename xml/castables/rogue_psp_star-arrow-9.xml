@@ -31,9 +31,11 @@
         <Item Quantity="25">Wind Baem Missives </Item>
         <Item Quantity="1">Band of Storms </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Star Arrow 8</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

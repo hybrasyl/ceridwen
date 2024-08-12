@@ -31,9 +31,11 @@
         <Item Quantity="75">Wind Baem Missives </Item>
         <Item Quantity="75">Silver Baem Egg </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Mermaid 14</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

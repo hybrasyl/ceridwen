@@ -29,10 +29,12 @@
         <Item Quantity="5">Uncut Ruby </Item>
         <Item Quantity="2">Coral Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="70">armachd</Prerequisite>
         <Prerequisite Level="20"> naomh aite</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

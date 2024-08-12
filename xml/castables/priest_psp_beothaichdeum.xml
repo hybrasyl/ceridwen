@@ -28,9 +28,11 @@
         <Item Quantity="2">Cherry</Item>
         <Item Quantity="1">Grapes</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="10">beag ioc</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

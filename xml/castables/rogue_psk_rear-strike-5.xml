@@ -25,9 +25,11 @@
         <Item Quantity="50">Crystal Bar</Item>
         <Item Quantity="15">Hwarone Weapon Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Rear Strike 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

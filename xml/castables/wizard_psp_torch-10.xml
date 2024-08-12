@@ -30,9 +30,11 @@
         <Item Quantity="50">Rogue's Skull </Item>
         <Item Quantity="5">Hwarone Helmet Upgrade Plan </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Torch 9</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

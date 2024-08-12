@@ -24,9 +24,11 @@
         <Item Quantity="5">Dane Blade</Item>
         <Item Quantity="10">Exkuranum</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Thrust Attack 1</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

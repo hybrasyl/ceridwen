@@ -29,9 +29,11 @@
         <Item Quantity="4">Uncut Ruby </Item>
         <Item Quantity="2">Coral Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="60">Mist</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

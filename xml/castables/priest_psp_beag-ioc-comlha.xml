@@ -25,9 +25,11 @@
       <Level Min="8" Max="99"/>
       <Gold>2500</Gold>
       <Physical Str="3" Int="14" Wis="22" Con="3" Dex="3"/>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="30">beag ioc</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

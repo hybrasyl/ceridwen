@@ -30,9 +30,11 @@
         <Item Quantity="30">Grime's Skin </Item>
         <Item Quantity="20">Assassin Wolf Locks </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Cursed Tune 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

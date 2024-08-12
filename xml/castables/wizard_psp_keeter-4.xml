@@ -29,9 +29,11 @@
         <Item Quantity="3">Red Hitonic </Item>
         <Item Quantity="2">Wind Stone </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Keeter 3</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

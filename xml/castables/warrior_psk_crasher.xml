@@ -24,9 +24,11 @@
         <Item Quantity="1">Stilla</Item>
         <Item Quantity="1">Battle Sword</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="10">Wallop</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

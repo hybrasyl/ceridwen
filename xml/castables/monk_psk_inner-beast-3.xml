@@ -23,9 +23,11 @@
         <Item Quantity="10">Borim</Item>
         <Item Quantity="10">Green Tonic</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Inner Beast 2</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -29,9 +29,11 @@
         <Item Quantity="3">Borim </Item>
         <Item Quantity="3">Wind Stone </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Cursed Tune 1</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -29,9 +29,11 @@
         <Item Quantity="30">Stunned Fire Worm </Item>
         <Item Quantity="5">Hwarone Weapon Upgrade Plan </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Regeneration 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

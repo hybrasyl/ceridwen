@@ -30,10 +30,12 @@
         <Item Quantity="5">Finished Ruby </Item>
         <Item Quantity="2">Coral Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="60">ard sal</Prerequisite>
         <Prerequisite Level="90"> sal meall</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

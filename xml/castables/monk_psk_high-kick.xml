@@ -24,9 +24,11 @@
         <Item Quantity="1">Spider's Silk</Item>
         <Item Quantity="1">Centipede's Gland</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="5">Kick</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

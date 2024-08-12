@@ -29,9 +29,11 @@
         <Item Quantity="3">Pantica </Item>
         <Item Quantity="10">Wind Stone </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Cursed Tune 2</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

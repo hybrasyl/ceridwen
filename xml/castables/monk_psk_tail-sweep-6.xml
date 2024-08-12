@@ -26,9 +26,11 @@
         <Item Quantity="50">Priest's Skull</Item>
         <Item Quantity="5">Hwarone Armor Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Tail Sweep 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

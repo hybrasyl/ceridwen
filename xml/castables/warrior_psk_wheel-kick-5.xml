@@ -25,9 +25,11 @@
         <Item Quantity="2">Andor Saber</Item>
         <Item Quantity="40">Stunned Fire Worm</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Wheel Kick 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="4" Icon="42" Book="PrimarySpell" Elements="Fire" Class="Wizard">
+  <!--<Comment>Undine Wizard</Comment>-->
   <Name>ard srad</Name>
   <Descriptions>
     <Description Class="Wizard">Attacks the enemy with strong fire.</Description>
@@ -28,9 +29,11 @@
         <Item Quantity="3">Finished Ruby </Item>
         <Item Quantity="2">Beryl Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="75">mor srad</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

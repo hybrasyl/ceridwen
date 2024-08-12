@@ -31,9 +31,11 @@
         <Item Quantity="100">Monk's Skull </Item>
         <Item Quantity="15">Hwarone Weapon Upgrade Plan </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Mermaid 11</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

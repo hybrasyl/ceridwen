@@ -28,10 +28,12 @@
       <Items>
         <Item Quantity="1">Goblin's Skull </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="45">ioc</Prerequisite>
         <Prerequisite Level="5"> beag ioc comlha</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

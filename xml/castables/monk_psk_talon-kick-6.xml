@@ -26,9 +26,11 @@
         <Item Quantity="25">Wind Baem Missives</Item>
         <Item Quantity="1">Band of Gales</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Talon Kick 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

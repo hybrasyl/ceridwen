@@ -25,9 +25,11 @@
         <Item Quantity="100">Priest's Skull</Item>
         <Item Quantity="15">Hwarone Helmet Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Instrumental Attack 8</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

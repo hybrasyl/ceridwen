@@ -24,9 +24,11 @@
         <Item Quantity="5">Green Hitonic</Item>
         <Item Quantity="3">Andor Might earring</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Dune Swipe 2</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

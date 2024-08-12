@@ -25,9 +25,11 @@
         <Item Quantity="30">Grime's Skin</Item>
         <Item Quantity="30">Stunned Fire Worm</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Instrumental Attack 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

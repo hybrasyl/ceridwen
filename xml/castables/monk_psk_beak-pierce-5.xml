@@ -26,9 +26,11 @@
         <Item Quantity="1">Nunchaku</Item>
         <Item Quantity="10">Giant Beetalic Remains</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Beak Pierce 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

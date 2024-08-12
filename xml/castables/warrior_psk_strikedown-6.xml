@@ -25,9 +25,11 @@
         <Item Quantity="1">Andor Saber</Item>
         <Item Quantity="30">Assassin Wolf Locks</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Strikedown 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

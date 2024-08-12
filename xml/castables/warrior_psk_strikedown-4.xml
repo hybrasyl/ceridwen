@@ -25,9 +25,11 @@
         <Item Quantity="10">Aqua Stone</Item>
         <Item Quantity="4">Andor Power Earring</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Strikedown 3</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

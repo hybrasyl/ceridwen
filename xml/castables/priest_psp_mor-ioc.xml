@@ -29,9 +29,11 @@
         <Item Quantity="2">Uncut Ruby </Item>
         <Item Quantity="1">Beryl Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="75">ioc</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -29,9 +29,11 @@
         <Item Quantity="75">Monk's Skull </Item>
         <Item Quantity="10">Hwarone Helmet Upgrade Plan </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Counter Attack 6</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

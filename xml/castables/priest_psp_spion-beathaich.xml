@@ -29,9 +29,11 @@
         <Item Quantity="4">Uncut Ruby </Item>
         <Item Quantity="1">Coral Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="10">seun</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -25,9 +25,11 @@
         <Item Quantity="30">Slab of Marble</Item>
         <Item Quantity="30">Grime's Skin</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Sneak Flight 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

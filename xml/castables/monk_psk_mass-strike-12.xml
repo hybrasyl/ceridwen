@@ -26,9 +26,11 @@
         <Item Quantity="75">Wind Baem Missives</Item>
         <Item Quantity="75">Silver Baem Egg</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Mass Strike 11</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

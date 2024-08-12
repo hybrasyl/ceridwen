@@ -29,10 +29,12 @@
         <Item Quantity="1">Mold </Item>
         <Item Quantity="1">Wolf's Skin </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="60">creag</Prerequisite>
         <Prerequisite Level="5"> beag creag lamh</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

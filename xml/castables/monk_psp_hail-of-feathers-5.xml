@@ -31,9 +31,11 @@
         <Item Quantity="10">Red Extonic </Item>
         <Item Quantity="10">Tilian Claw </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Hail of Feathers 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

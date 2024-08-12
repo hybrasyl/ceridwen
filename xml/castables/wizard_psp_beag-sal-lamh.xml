@@ -29,9 +29,11 @@
         <Item Quantity="1">Raw Wax </Item>
         <Item Quantity="1">Spider's Silk </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="10">beag sal</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

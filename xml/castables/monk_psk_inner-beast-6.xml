@@ -24,9 +24,11 @@
         <Item Quantity="20">Giant Skeleton Remains</Item>
         <Item Quantity="20">Giant Beetalic Remains</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Inner Beast 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

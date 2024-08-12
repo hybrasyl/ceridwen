@@ -30,9 +30,11 @@
         <Item Quantity="50">Yowien Yellow Vine </Item>
         <Item Quantity="5">Hwarone Helmet Upgrade Plan </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Groo 9</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

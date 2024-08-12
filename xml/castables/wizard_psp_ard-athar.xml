@@ -29,9 +29,11 @@
         <Item Quantity="3">Finished Ruby </Item>
         <Item Quantity="2">Beryl Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="75">mor athar</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

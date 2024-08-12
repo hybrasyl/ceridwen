@@ -25,9 +25,11 @@
         <Item Quantity="75">Priest's Skull</Item>
         <Item Quantity="10">Hwarone Armor Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Strikedown 6</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

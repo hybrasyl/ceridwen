@@ -30,9 +30,11 @@
         <Item Quantity="30">Stunned Fire Worm </Item>
         <Item Quantity="5">Red Extonic </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Torch 6</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

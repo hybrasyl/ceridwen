@@ -31,9 +31,11 @@
         <Item Quantity="40">Grime's Skin </Item>
         <Item Quantity="1">Andor Staff </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Groo 7</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

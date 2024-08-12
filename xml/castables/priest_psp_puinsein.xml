@@ -28,9 +28,11 @@
         <Item Quantity="1">Scorpion's Sting </Item>
         <Item Quantity="1">Wolf's Lock </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="10">beag puinsein</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

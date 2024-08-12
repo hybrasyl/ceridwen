@@ -30,9 +30,11 @@
         <Item Quantity="50">Wind Baem Missives </Item>
         <Item Quantity="2">Band of Storms </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Cursed Tune 10</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

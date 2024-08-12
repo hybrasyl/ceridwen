@@ -28,10 +28,12 @@
         <Item Quantity="2">Coral Earrings </Item>
         <Item Quantity="1">beothaich deum </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="20">armachd</Prerequisite>
         <Prerequisite Level="20"> ioc</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

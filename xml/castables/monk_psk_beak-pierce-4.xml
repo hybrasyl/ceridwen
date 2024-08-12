@@ -25,9 +25,11 @@
         <Item Quantity="2">Kanna Metal Necklace</Item>
         <Item Quantity="10">Aqua Stone</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Beak Pierce 3</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

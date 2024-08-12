@@ -25,9 +25,11 @@
         <Item Quantity="1">Andor Whip</Item>
         <Item Quantity="20">Giant Beetalic Remains</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Rear Strike 2</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

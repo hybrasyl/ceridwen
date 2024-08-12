@@ -20,9 +20,11 @@
       <Level Min="3" Max="99"/>
       <Gold>5000</Gold>
       <Physical Str="5" Int="8" Wis="12" Con="4" Dex="5"/>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="10">Throw Surigum</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

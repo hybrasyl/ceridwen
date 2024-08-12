@@ -24,9 +24,11 @@
         <Item Quantity="5">Green Tonic</Item>
         <Item Quantity="3">Aqua Stone</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Arrow Shot 1</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

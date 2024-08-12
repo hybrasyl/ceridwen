@@ -29,10 +29,12 @@
         <Item Quantity="1">Finished Ruby </Item>
         <Item Quantity="1">Jade Ring </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="45">mor creag</Prerequisite>
         <Prerequisite Level="75"> creag lamh</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

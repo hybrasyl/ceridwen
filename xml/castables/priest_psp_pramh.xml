@@ -28,10 +28,12 @@
         <Item Quantity="1">Raw Honey </Item>
         <Item Quantity="1">Royal Wax </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="60">puinsein</Prerequisite>
         <Prerequisite Level="30"> beag pramh</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

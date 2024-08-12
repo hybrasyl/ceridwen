@@ -24,9 +24,11 @@
       <Level Min="12" Max="99"/>
       <Gold>5000</Gold>
       <Physical Str="3" Int="22" Wis="31" Con="3" Dex="3"/>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="10">beag seun</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

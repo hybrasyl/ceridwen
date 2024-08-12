@@ -29,9 +29,11 @@
         <Item Quantity="1">Staff of Ages </Item>
         <Item Quantity="30">Grime's Skin </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Counter Attack 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

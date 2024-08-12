@@ -24,9 +24,11 @@
         <Item Quantity="5">Wooden Bow</Item>
         <Item Quantity="10">Exkuranum</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Archery 1</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

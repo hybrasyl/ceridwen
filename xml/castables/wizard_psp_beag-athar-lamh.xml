@@ -29,9 +29,11 @@
         <Item Quantity="1">Viper's Gland </Item>
         <Item Quantity="1">Spider's Eye </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="10">beag athar</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -23,9 +23,11 @@
       <Items>
         <Item Quantity="1">Gremlin's Ear</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="70">Asgall Faileas</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

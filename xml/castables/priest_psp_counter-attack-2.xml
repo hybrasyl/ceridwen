@@ -28,9 +28,11 @@
         <Item Quantity="10">Red Tonic </Item>
         <Item Quantity="3">Wind Stone </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Counter Attack 1</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

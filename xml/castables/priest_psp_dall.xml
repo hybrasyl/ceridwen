@@ -28,9 +28,11 @@
         <Item Quantity="2">Finished Beryl </Item>
         <Item Quantity="1">Finished Ruby </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="75">breisleich</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

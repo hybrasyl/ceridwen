@@ -31,9 +31,11 @@
         <Item Quantity="20">Stunned Fire Worm</Item>
         <Item Quantity="1">Andor Whip</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Star Arrow 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

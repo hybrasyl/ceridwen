@@ -25,9 +25,11 @@
         <Item Quantity="30">Slab of Marble</Item>
         <Item Quantity="10">Green Extonic</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Arrow Shot 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

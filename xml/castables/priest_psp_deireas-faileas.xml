@@ -29,9 +29,11 @@
         <Item Quantity="8">Uncut Ruby </Item>
         <Item Quantity="4">Coral Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="90">mor dion</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

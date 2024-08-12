@@ -28,9 +28,11 @@
         <Item Quantity="1">Centipede's Gland </Item>
         <Item Quantity="1">Bee's Sting </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="30">beag srad</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

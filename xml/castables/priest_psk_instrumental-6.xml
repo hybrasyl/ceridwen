@@ -25,9 +25,11 @@
         <Item Quantity="30">Assassin Wolf Locks</Item>
         <Item Quantity="1">Staff of Ages</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Instrumental 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

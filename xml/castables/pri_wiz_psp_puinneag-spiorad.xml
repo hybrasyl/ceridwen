@@ -29,9 +29,11 @@
         <Item Quantity="1">Finished Ruby </Item>
         <Item Quantity="2">Beryl Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="60">deo saighead</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
     <Requirement Class="Wizard">
       <Level Min="20" Max="99"/>

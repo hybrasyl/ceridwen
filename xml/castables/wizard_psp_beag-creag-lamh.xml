@@ -29,9 +29,11 @@
         <Item Quantity="1">Rotten Tomato </Item>
         <Item Quantity="1">Mold </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="10">beag creag</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -29,9 +29,11 @@
         <Item Quantity="6">Uncut Ruby </Item>
         <Item Quantity="3">Coral Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="90">ard ioc</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

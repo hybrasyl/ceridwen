@@ -26,9 +26,11 @@
         <Item Quantity="25">Silver Baem Egg</Item>
         <Item Quantity="1">Band of Gales</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Sneak Flight 7</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

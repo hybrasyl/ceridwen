@@ -25,9 +25,11 @@
         <Item Quantity="30">Grime's Skin</Item>
         <Item Quantity="20">Stunned Fire Worm</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Archery 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

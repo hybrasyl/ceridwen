@@ -19,9 +19,11 @@
       <Level Min="3" Max="99"/>
       <Gold>5000</Gold>
       <Physical Str="5" Int="11" Wis="8" Con="3" Dex="3"/>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="20">Assail</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -26,9 +26,11 @@
         <Item Quantity="75">Rogue's Skull</Item>
         <Item Quantity="10">Hwarone Weapon Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Beak Pierce 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

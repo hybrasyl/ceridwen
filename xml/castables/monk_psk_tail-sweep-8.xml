@@ -26,9 +26,11 @@
         <Item Quantity="100">Warrior's Skull</Item>
         <Item Quantity="15">Hwarone Helmet Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Tail Sweep 7</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

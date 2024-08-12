@@ -24,9 +24,11 @@
         <Item Quantity="1">Gold Sapphire Gauntlet</Item>
         <Item Quantity="3">Green Hitonic</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Inner Beast 3</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

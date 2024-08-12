@@ -26,9 +26,11 @@
         <Item Quantity="1">Gold Sapphire Gauntlet</Item>
         <Item Quantity="1">Green Hitonic</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Archery 3</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

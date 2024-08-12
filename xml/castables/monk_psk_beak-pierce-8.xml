@@ -26,9 +26,11 @@
         <Item Quantity="125">Priest's Skull</Item>
         <Item Quantity="20">Hwarone Weapon Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Beak Pierce 7</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

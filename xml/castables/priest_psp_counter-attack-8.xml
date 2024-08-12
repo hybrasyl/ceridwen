@@ -29,9 +29,11 @@
         <Item Quantity="100">Crystal Bar </Item>
         <Item Quantity="15">Hwarone Armor Upgrade Plan </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Counter Attack 7</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

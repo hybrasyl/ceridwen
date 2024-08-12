@@ -26,9 +26,11 @@
         <Item Quantity="125">Rogue's Skull</Item>
         <Item Quantity="25">Hwarone Helmet Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Double Rake 6</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

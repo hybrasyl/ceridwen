@@ -26,9 +26,11 @@
         <Item Quantity="10">Green Extonic</Item>
         <Item Quantity="1">Minerva Bracer</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Pounce 2</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

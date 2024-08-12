@@ -24,9 +24,11 @@
         <Item Quantity="10">Green Tonic</Item>
         <Item Quantity="5">Aqua Stone</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Dune Swipe 1</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

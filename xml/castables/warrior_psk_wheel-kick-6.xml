@@ -25,9 +25,11 @@
         <Item Quantity="25">Yowien Blue Vine</Item>
         <Item Quantity="10">Hwarone Armor Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Wheel Kick 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

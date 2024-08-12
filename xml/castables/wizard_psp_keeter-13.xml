@@ -30,9 +30,11 @@
         <Item Quantity="25">Wind Baem Missives </Item>
         <Item Quantity="25">Silver Baem Egg </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Keeter 12</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -26,9 +26,11 @@
         <Item Quantity="1">Minerva Bracer</Item>
         <Item Quantity="10">Giant Skeleton Remains</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Tail Sweep 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

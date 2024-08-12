@@ -28,10 +28,12 @@
       <Items>
         <Item Quantity="2">White Bat's Wing </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="45">mor athar</Prerequisite>
         <Prerequisite Level="75">athar lamh</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

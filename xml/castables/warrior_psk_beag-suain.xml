@@ -25,9 +25,11 @@
         <Item Quantity="1">Wolf's Teeth</Item>
         <Item Quantity="1">Scorpion's Sting</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="70">Rescue 70</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

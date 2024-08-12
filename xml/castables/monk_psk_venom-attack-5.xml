@@ -26,9 +26,11 @@
         <Item Quantity="100">Rogue's Skull</Item>
         <Item Quantity="20">Hwarone Helmet Upgrade Plan</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Venom Attack 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

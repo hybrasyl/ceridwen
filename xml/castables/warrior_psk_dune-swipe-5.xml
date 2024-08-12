@@ -25,9 +25,11 @@
         <Item Quantity="20">Giant Beetalic Remains</Item>
         <Item Quantity="20">Giant Skeleton Remains</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Dune Swipe 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

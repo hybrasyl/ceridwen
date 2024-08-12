@@ -25,10 +25,12 @@
       <Gold>10000000</Gold>
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
       <AB Min="20" Max="99"/>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Wild Karura Form</Prerequisite>
         <Prerequisite Level="1"> Inner Beast 3</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

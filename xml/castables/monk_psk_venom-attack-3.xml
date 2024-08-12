@@ -26,9 +26,11 @@
         <Item Quantity="30">Slab of Marble</Item>
         <Item Quantity="10">Giant Beetalic Remains</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Venom Attack 2</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

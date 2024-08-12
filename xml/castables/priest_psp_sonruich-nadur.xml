@@ -29,9 +29,11 @@
         <Item Quantity="9">Uncut Ruby </Item>
         <Item Quantity="1">Uncut Talos </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="10">spion beathach</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -29,9 +29,11 @@
         <Item Quantity="30">Assassin Wolf Locks </Item>
         <Item Quantity="20">Stunned Fire Worm </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Keeter 6</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

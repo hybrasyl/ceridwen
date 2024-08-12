@@ -29,10 +29,12 @@
         <Item Quantity="1">Viper's Gland </Item>
         <Item Quantity="1">Bat's Wing </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="60">athar</Prerequisite>
         <Prerequisite Level="5">beag athar lamh</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

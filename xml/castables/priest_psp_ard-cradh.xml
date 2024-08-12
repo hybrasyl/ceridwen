@@ -29,9 +29,11 @@
         <Item Quantity="9">Finished Ruby </Item>
         <Item Quantity="6">Coral Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="70">mor cradh</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

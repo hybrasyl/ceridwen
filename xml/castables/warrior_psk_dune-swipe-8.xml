@@ -25,9 +25,11 @@
         <Item Quantity="25">Wind Baem Missives</Item>
         <Item Quantity="1">Band of Gales</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Dune Swipe 7</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

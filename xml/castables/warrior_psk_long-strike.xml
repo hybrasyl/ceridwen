@@ -22,9 +22,11 @@
       <Items>
         <Item Quantity="1">Good 2-Handed Claidhmore</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="20">Wallop</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

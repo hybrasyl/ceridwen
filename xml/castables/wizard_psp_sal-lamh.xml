@@ -29,10 +29,12 @@
         <Item Quantity="1">Raw Honey </Item>
         <Item Quantity="1">Spider's Silk </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="60">sal</Prerequisite>
         <Prerequisite Level="5"> beag sal lamh</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

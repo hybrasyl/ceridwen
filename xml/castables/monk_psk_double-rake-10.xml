@@ -26,9 +26,11 @@
         <Item Quantity="75">Silver Baem Egg</Item>
         <Item Quantity="3">Band of Gales</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Double Rake 9</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

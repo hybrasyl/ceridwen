@@ -29,9 +29,11 @@
         <Item Quantity="30">Grime's Skin</Item>
         <Item Quantity="1">Staff of Ages</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Regeneration 6</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

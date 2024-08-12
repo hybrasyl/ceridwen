@@ -24,9 +24,11 @@
         <Item Quantity="10">Aqua Stone</Item>
         <Item Quantity="4">Andor Power earring</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Dune Swipe 3</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -31,9 +31,11 @@
         <Item Quantity="125">Priest's Skull </Item>
         <Item Quantity="20">Hwarone Weapon Upgrade Plan </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Hail of Feathers 6</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

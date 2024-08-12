@@ -24,9 +24,11 @@
         <Item Quantity="10">Borim</Item>
         <Item Quantity="10">Green Tonic</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Instrumental Attack 2</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

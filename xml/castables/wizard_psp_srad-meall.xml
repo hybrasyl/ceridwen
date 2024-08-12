@@ -28,10 +28,12 @@
       <Items>
         <Item Quantity="2">Goblin's Skull </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="45">mor srad</Prerequisite>
         <Prerequisite Level="75"> srad lamh</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

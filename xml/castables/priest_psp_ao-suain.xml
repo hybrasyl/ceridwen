@@ -30,9 +30,11 @@
         <Item Quantity="3">Uncut Ruby </Item>
         <Item Quantity="2">Beryl Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="75">ao dall</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

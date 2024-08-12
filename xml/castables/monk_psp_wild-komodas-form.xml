@@ -25,10 +25,12 @@
       <Gold>5000000</Gold>
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
       <AB Min="10" Max="99"/>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Komodas Form</Prerequisite>
         <Prerequisite Level="1"> Inner Beast 2</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

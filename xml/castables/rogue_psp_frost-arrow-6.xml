@@ -29,9 +29,11 @@
         <Item Quantity="15">Hwarone Weapon Upgrade Plan </Item>
         <Item Quantity="100">Warrior's Skull </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Frost Arrow 5</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

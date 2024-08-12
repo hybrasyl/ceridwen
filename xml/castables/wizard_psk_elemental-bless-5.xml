@@ -25,9 +25,11 @@
         <Item Quantity="1">Andor Staff</Item>
         <Item Quantity="20">Giant Golem Remains</Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="1">Elemental Bless 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

@@ -30,9 +30,11 @@
         <Item Quantity="1">Andor Staff </Item>
         <Item Quantity="10">Giant Skeleton Remains </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Mermaid 6</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

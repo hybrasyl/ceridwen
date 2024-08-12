@@ -29,9 +29,11 @@
         <Item Quantity="10">Hwarone Weapon Upgrade Plan </Item>
         <Item Quantity="75">Priest's Skull </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="100">Frost Arrow 4</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>

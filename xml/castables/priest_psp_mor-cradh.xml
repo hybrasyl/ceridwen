@@ -29,9 +29,11 @@
         <Item Quantity="2">Finished Ruby </Item>
         <Item Quantity="1"> Beryl Earrings </Item>
       </Items>
-      <!-- <Prerequisites>
+      <!--
+      <Prerequisites>
         <Prerequisite Level="75">cradh</Prerequisite>
-      </Prerequisites> -->
+      </Prerequisites>
+      -->
     </Requirement>
   </Requirements>
   <Effects>
