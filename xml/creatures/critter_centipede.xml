@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Creature xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Centipede" Sprite="52" BehaviorSet="CritterCentipede">
+  <Hostility>
+    <Players/>
+  </Hostility>
+  <Types>
+    <Type Name="Scolopendra" Sprite="311" BehaviorSet="CritterCentipede">
+      <Hostility>
+        <Players/>
+      </Hostility>
+    </Type>
+  </Types>
+</Creature>

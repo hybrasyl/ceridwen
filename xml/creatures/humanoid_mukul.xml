@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Creature xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mukul" Sprite="102" BehaviorSet="MukulPeasant">
+  <Hostility>
+    <Players/>
+  </Hostility>
+  <Types>
+    <Type Name="Chandi Mukul" Sprite="102" BehaviorSet="MukulWizard">
+      <Hostility>
+        <Players/>
+      </Hostility>
+    </Type>
+    <Type Name="Suray Mukul" Sprite="102" BehaviorSet="MukulPriest">
+      <Hostility>
+        <Players/>
+      </Hostility>
+    </Type>
+    <Type Name="Nireth Sookh" Sprite="468" BehaviorSet="MukulWarrior">
+      <Hostility>
+        <Players/>
+      </Hostility>
+    </Type>
+    <Type Name="Shaya Sookh" Sprite="470" BehaviorSet="MukulRogue">
+      <Hostility>
+        <Players/>
+      </Hostility>
+    </Type>
+    <Type Name="Pavin Sookh" BehaviorSet="MukulMonk">
+      <Hostility>
+        <Players/>
+      </Hostility>
+    </Type>
+  </Types>
+</Creature>

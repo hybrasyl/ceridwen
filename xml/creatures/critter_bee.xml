@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Creature xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Bee" Sprite="1" BehaviorSet="CritterBee">
+  <Description>Whatever ancient magic caused these bees to grow this large fortunately did not make them more aggressive.</Description>
+  <Types>
+    <Type Name="Honey Bee" Sprite="1" BehaviorSet="CritterBee">
+      <Description>Often found foraging for pollen far from the hive, this creature is quite content to ignore you and chase after delicious, delicious flowers.</Description>
+    </Type>
+    <Type Name="Drone" Sprite="1" BehaviorSet="CritterBee">
+      <Description>While it is unusual to find one of these bees outside of the hive, one sure way to summon them is to hit it with a stick.</Description>
+    </Type>
+    <Type Name="Worker Bee" Sprite="1" BehaviorSet="CritterBee">
+      <Description>Usually passive, this bee is generally too busy working to pay you any mind.</Description>
+    </Type>
+    <Type Name="Queen Bee" Sprite="271" BehaviorSet="CritterBee">
+      <Description>You can call her Queen Bee.  Or anything, really. She doesn't understand words.</Description>
+    </Type>
+    <Type Name="Wasp" Sprite="277" BehaviorSet="CritterBee">
+    </Type>
+    <Type Name="Red Wasp" Sprite="276" BehaviorSet="CritterBee">
+    </Type>
+  </Types>
+</Creature>

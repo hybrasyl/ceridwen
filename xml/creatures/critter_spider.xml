@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Creature xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Spider" Sprite="53" BehaviorSet="CritterSpider">
+  <Hostility>
+    <Players/>
+  </Hostility>
+  <Types>
+    <Type Name="Cellar Spider" Sprite="53" BehaviorSet="CritterSpider">
+      <Hostility>
+        <Players/>
+      </Hostility>
+    </Type>
+    <Type Name="Green Widow" Sprite="176" BehaviorSet="CritterSpider">
+      <Hostility>
+        <Players/>
+      </Hostility>
+    </Type>
+  </Types>
+</Creature>
