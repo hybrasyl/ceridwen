@@ -2,7 +2,7 @@
 <Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Teague</Name>
   <!-- Location: Mileth Tavern -->
-  <!-- Comment: Other Other Due What Hangs Out In Tavern -->
+  <!-- Comment: Other Other Dude What Hangs Out In Tavern -->
   <DisplayName>Teague</DisplayName>
   <Appearance Sprite="21"/>
 </Npc>

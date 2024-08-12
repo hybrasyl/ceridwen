@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Vaughan</Name>
+  <Name>Vaughn</Name>
   <!-- Location: Mileth Mistake -->
-  <DisplayName>Vaughan</DisplayName>
+  <DisplayName>Vaughn</DisplayName>
   <Appearance Sprite="33"/>
 </Npc>
