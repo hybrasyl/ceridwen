@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="ImmunityImport" Import="BasicAssCritter">
+  <!-- Comment: Test for Immune to Elements with BVS Import -->
+  <StatAlloc>Str Str Dex Con Int Wis</StatAlloc>
+  <Castables Auto="false">
+    <Castable>Assail</Castable>
+  </Castables>
+  <Immunities>
+    <Immunity Type="Element" MessageType="Shout" Message="HAHAHA FIRE?  I WAS BORN OF THIS (Fire immune)!  And also a critter!">Fire</Immunity>
+  </Immunities>
+  <Behavior>
+    <CastingSets>
+      <CastingSet Type="Assail" Interval="6" TargetPriority="HighThreat">
+        <Castable TargetPriority="HighThreat">Assail</Castable>
+      </CastingSet>
+    </CastingSets>
+  </Behavior>
+</BehaviorSet>
