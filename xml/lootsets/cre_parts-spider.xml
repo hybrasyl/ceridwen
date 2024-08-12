@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Spider Parts">
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Parts-Spider">
   <Table Rolls="2" Chance="0.25">
     <Items Rolls="4" Chance="0.25">
       <Item Max="2" Unique="false" Always="false">Spider Eye</Item>
