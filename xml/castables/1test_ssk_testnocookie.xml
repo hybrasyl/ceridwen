@@ -7,13 +7,18 @@
   <Categories>
     <Category>Test</Category>
   </Categories>
+  <CastCosts>
+    <CastCost>
+      <Stat Mp="1"/>
+    </CastCost>
+  </CastCosts>
   <Intents>
     <Intent UseType="Target" MaxTargets="1" Flags="Self Hostile Friendly Pvp">
     </Intent>
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
-  <Requirements ForbidCookie="NoCookie" ForbidMessage="You cannot have NoCookie and learn TestNoCookie.">
-    <Requirement Class="Monk Priest Peasant Rogue Warrior Wizard">
+  <Requirements>
+    <Requirement Class="Monk Priest Peasant Rogue Warrior Wizard" ForbidCookie="NoCookie">
       <Level Min="1" Max="99"/>
       <Gold>1234</Gold>
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>

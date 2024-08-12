@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
-<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="206" Book="SecondarySkill" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard" BreakStealth="false" IncludeInMetafile="false">
-  <Name>TestReqCookie</Name>
+<Castable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Lines="1" Icon="197" Book="SecondarySpell" Elements="None" Class="Monk Priest Peasant Rogue Warrior Wizard" BreakStealth="false" IncludeInMetafile="false">
+  <Name>TestAddProhibitMpRegen</Name>
   <Descriptions>
-    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test to require a cookie to learn.</Description>
+    <Description Class="Monk Priest Peasant Rogue Warrior Wizard">Test to add ProhibitMpRegen.</Description>
   </Descriptions>
   <Categories>
     <Category>Test</Category>
+    <Category>Burnout</Category>
   </Categories>
   <CastCosts>
     <CastCost>
@@ -18,7 +19,7 @@
   </Intents>
   <!--<MaxLevel Monk="100" Warrior="100" Peasant="100" Wizard="100" Priest="100" Rogue="100"/> -->
   <Requirements>
-    <Requirement Class="Monk Priest Peasant Rogue Warrior Wizard" RequireCookie="ReqCookie">
+    <Requirement Class="Monk Priest Peasant Rogue Warrior Wizard">
       <Level Min="1" Max="99"/>
       <Gold>1234</Gold>
       <Physical Str="3" Int="3" Wis="3" Con="3" Dex="3"/>
@@ -39,5 +40,8 @@
       </OnCast>
     </Animations>
     <Sound Id="154"/>
+    <Statuses>
+      <Add Duration="45" Intensity="1" Tick="1">TestBurnout</Add>
+    </Statuses>
   </Effects>
 </Castable>
