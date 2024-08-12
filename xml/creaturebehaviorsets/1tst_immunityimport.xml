@@ -6,7 +6,7 @@
     <Castable>Assail</Castable>
   </Castables>
   <Immunities>
-    <Immunity Type="Element" MessageType="Shout" Message="HAHAHA FIRE?  I WAS BORN OF THIS (Fire immune)!  And also a critter!">Fire</Immunity>
+    <Immunity Type="Castable" MessageType="Shout" Message="Your ard srad cannot burn me. (ard srad immune)">ard srad</Immunity>
   </Immunities>
   <Behavior>
     <CastingSets>
