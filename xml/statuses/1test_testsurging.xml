@@ -1,9 +1,8 @@
 <?xml version="1.0"?>
-<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddStun" Icon="16" Duration="1" Tick="1" RemoveOnDeath="false">
+<Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestSurging" Icon="20" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
-    <Category>Freeze</Category>
-    <Category>Buff</Category>
+    <Category>Surging</Category>
   </Categories>
   <Effects>
     <OnApply>
@@ -14,17 +13,17 @@
       <Messages>
       </Messages>
       <Conditions>
-        <Set>Stun</Set>
+        <Set>ProhibitMpDecrease</Set>
       </Conditions>
     </OnApply>
     <OnRemove>
       <Conditions>
-        <Unset>Stun</Unset>
+        <Unset>ProhibitMpDecrease</Unset>
       </Conditions>
     </OnRemove>
     <OnExpire>
       <Conditions>
-        <Unset>Stun</Unset>
+        <Unset>ProhibitMpDecrease</Unset>
       </Conditions>
     </OnExpire>
   </Effects>

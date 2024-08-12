@@ -2,7 +2,7 @@
 <Status xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="TestAddRoot" Icon="13" Duration="1" Tick="1" RemoveOnDeath="false">
   <Categories>
     <Category>Test</Category>
-    <Category>Root</Category>
+    <Category>Paralyze</Category>
     <Category>Buff</Category>
   </Categories>
   <Effects>
