@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<BehaviorSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="RareGabbaDynamic" Import="RareGabba">
+  <!-- Comment: Testing the Gabbaghoul by testing the gabbaghoul -->
+  <StatAlloc>Str Str Dex Con Int Wis</StatAlloc>
+  <StatModifiers BaseHp="SOURCESTR*200" BaseMp="SOURCEINT*200"/>
+  <Castables Auto="true">
+    <Castable>mor ioc</Castable>
+  </Castables>
+  <Behavior>
+    <CastingSets>
+      <CastingSet Type="Defense" Interval="30" TargetPriority="Self">
+        <Castable TargetPriority="Self">mor ioc</Castable>
+      </CastingSet>
+    </CastingSets>
+  </Behavior>
+</BehaviorSet>

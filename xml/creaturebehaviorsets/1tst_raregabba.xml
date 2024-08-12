@@ -3,6 +3,7 @@
   <!-- Comment: Testing the Gabbaghoul -->
   <!-- Index: 906 -->
   <StatAlloc>Str Str Dex Con Int Wis</StatAlloc>
+  <StatModifiers BaseHp="100000" BaseMp="100000" BaseStr="100"/>
   <Castables Auto="true" SkillCategories="Assails" SpellCategories="ElementST">
     <Castable>Devastation</Castable>
     <Castable>Paralyze</Castable>
@@ -40,5 +41,4 @@
     </CastingSet>
     </CastingSets>
   </Behavior>
-  <StatModifiers BaseHp="100000" BaseMp="100000" BaseStr="100"/>
 </BehaviorSet>
