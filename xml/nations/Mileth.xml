@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<Nation xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Flag="4" Default="true">
-    <Name>Mileth</Name>
-    <SpawnPoints>
-        <SpawnPoint X="4" Y="8" MapName="Mileth Inn"/>
-        <SpawnPoint X="5" Y="8" MapName="Mileth Inn"/>
-    </SpawnPoints>
-</Nation>
