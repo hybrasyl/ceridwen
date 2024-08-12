@@ -4,7 +4,7 @@
     <Players/>
   </Hostility>
   <Types>
-    <Type Name="Brosciutto" Sprite="309" BehaviorSet="RareGabba">
+    <Type Name="Brosciutto" Sprite="309" BehaviorSet="RareGabbaDynamic">
       <Hostility>
         <Players/>
       </Hostility>

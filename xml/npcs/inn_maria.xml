@@ -4,4 +4,25 @@
   <!-- Location: Rucesion Inn -->
   <DisplayName>Maria</DisplayName>
   <Appearance Sprite="516" Portrait="inn.spf"/>
+  <Strings>
+      <String Key="greeting">I am Maria and I do fucking everything.</String>
+  </Strings>
+  <Roles >
+    <Bank Nation="Rucesion" Discount="0.5"/>
+    <Post Nation="Rucesion">
+      <Surcharge Nation="Mileth" Percent="1.05"/>
+      <Surcharge Nation="Abel" Percent="1.12"/>
+    </Post>
+    <Repair Nation="Rucesion" Discount="0.2" Type="All"/>
+    <Vend>
+      <Items>
+        <Item Name="Sausages" Quantity="100" Restock="60"/>
+        <Item Name="Bacon" Quantity="100" Restock="60"/>
+      </Items>
+    </Vend>
+    <Train>
+      <Castable Name="srad" Type="ElementST" Class="Wizard"/>
+      <Castable Name="sal" Type="ElementST" Class="Wizard"/>
+    </Train>
+  </Roles>
 </Npc>
