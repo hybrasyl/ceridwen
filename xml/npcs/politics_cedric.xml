@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Cedric</Name>
+  <!-- Location: Mileth Burgess -->
+  <!-- Comment: NOT DEAD! -->
+  <DisplayName>Cedric</DisplayName>
+  <Appearance Sprite="34" Portrait="seba.spf"/>
+</Npc>

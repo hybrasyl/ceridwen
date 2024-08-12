@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Marcelo</Name>
+  <!-- Location: Rucesion Weaponsmith -->
+  <DisplayName>Marcelo</DisplayName>
+  <Appearance Sprite="30" Portrait="buls.spf"/>
+</Npc>

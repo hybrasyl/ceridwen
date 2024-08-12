@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Keefe</Name>
-  <!-- Location: TOC Rogue Guide -->
-  <DisplayName>Keefe</DisplayName>
-  <Appearance Sprite="60" Portrait="seaus.spf"/>
-  <AllowDead>false</AllowDead>
-</Npc>

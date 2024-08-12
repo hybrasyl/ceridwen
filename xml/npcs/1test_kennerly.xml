@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Kennerly</Name>
+  <DisplayName>Damiel</DisplayName>
+  <Appearance Sprite="27" Portrait="knight1.spf"/>
+  <AllowDead>true</AllowDead>
+  <Responses>
+      <Response Call="what is your name?">I am David Kennerly, but you can call me Damiel.</Response>
+  </Responses>
+  <Strings>
+      <String Key="greeting">Your inspiration touches me, Aisling.</String>
+  </Strings>
+</Npc>

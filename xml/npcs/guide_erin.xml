@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Erin</Name>
+  <!-- Location: TOC Priest Guide -->
+  <DisplayName>Erin</DisplayName>
+  <Appearance Sprite="40" Portrait="ia.spf"/>
+</Npc>

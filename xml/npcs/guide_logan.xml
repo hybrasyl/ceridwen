@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Logan</Name>
+  <!-- Location: TOC Wizard Guide -->
+  <DisplayName>Logan</DisplayName>
+  <Appearance Sprite="59"/>
+</Npc>

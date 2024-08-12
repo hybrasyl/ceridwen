@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Blaithe</Name>
+  <!-- Location: Loures Librarian -->
+  <!-- Comment: Sonny, true love is the greatest thing in the world, except for a nice M.L.T. A mutton, lettuce, and tomato sandwich when the mutton is nice and lean and the tomato is ripe. They’re so perky. I love that. But that’s not what he said. He distinctly said, ‘To blaithe.’ And as we all know, ‘to blaithe’ means ‘to bluff.’ So, you’re probably playing cards and he cheated… -->
+  <DisplayName>Blaithe</DisplayName>
+  <Appearance Sprite="35" Portrait="mage.spf"/>
+</Npc>

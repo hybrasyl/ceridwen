@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Callough</Name>
-  <!-- Location: Mileth Weaponsmith -->
-  <!-- Comment: 1 -->
-  <DisplayName>Callough</DisplayName>
-  <Appearance Sprite="30" Portrait="buls.spf"/>
-  <AllowDead>false</AllowDead>
-</Npc>

@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Rory</Name>
-  <!-- Location: Mileth College Historian -->
-  <DisplayName>Rory</DisplayName>
-  <Appearance Sprite="34" Portrait="seba.spf"/>
-  <AllowDead>false</AllowDead>
-</Npc>
