@@ -21,8 +21,8 @@
       </Items>
     </Vend>
     <Train>
-      <Castable Name="srad" Type="ElementST" Class="Wizard"/>
-      <Castable Name="sal" Type="ElementST" Class="Wizard"/>
+      <Castable Name="srad" Type="Spell" Class="Wizard"/>
+      <Castable Name="sal" Type="Spell" Class="Wizard"/>
     </Train>
   </Roles>
 </Npc>
