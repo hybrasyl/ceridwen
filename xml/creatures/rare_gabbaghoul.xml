@@ -9,5 +9,10 @@
         <Players/>
       </Hostility>
     </Type>
+    <Type Name="Goreciale" Sprite="308" BehaviorSet="RareGabba">
+      <Hostility>
+        <Players/>
+      </Hostility>
+    </Type>
   </Types>
 </Creature>
