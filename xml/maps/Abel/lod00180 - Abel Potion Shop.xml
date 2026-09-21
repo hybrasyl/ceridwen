@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="180" X="15" Y="15" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Abel Potion Shop -->
+  <Name>Abel Potion Shop</Name>
+  <Warps>
+    <Warp X="6" Y="14">
+      <MapTarget X="44" Y="11">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="7" Y="14">
+      <MapTarget X="44" Y="11">Abel Port</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Egil" X="6" Y="6" Direction="South" />
+  </Npcs>
+</Map>

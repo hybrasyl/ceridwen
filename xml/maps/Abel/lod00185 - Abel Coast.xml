@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="185" Music="12" X="50" Y="50" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Abel Coast -->
+  <Name>Abel Coast</Name>
+  <Warps>
+    <Warp X="6" Y="47">
+      <MapTarget X="44" Y="64">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="7" Y="47">
+      <MapTarget X="44" Y="64">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="11" Y="47">
+      <MapTarget X="45" Y="64">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="7" Y="29">
+      <MapTarget X="8" Y="5">Coast Bar</MapTarget>
+    </Warp>
+  </Warps>
+  <Signs>
+    <Sign Type="Sign" X="8" Y="27">
+      <Message>Ase's Oasis - Drink, fight and drink some more!</Message>
+    </Sign>
+    <Sign Type="Sign" X="23" Y="33">
+      <Message>Folcha na Abel - Beware! Terrible beasts lurk within this ancient grotto</Message>
+    </Sign>
+  </Signs>
+</Map>

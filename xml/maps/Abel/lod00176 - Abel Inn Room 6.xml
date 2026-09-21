@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="176" X="8" Y="8" IsEnabled="true" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Abel Inn Room 6 -->
+  <Name>Abel Inn Room 6</Name>
+  <Warps>
+    <Warp X="4" Y="7">
+      <MapTarget X="1" Y="1">Abel Inn Hall 2</MapTarget>
+    </Warp>
+    <Warp X="5" Y="7">
+      <MapTarget X="1" Y="1">Abel Inn Hall 2</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

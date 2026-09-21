@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="305" X="15" Y="15" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Abel Combat Master -->
+  <Name>Abel Combat Master</Name>
+  <Warps>
+    <Warp X="6" Y="14">
+      <MapTarget X="44" Y="50">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="7" Y="14">
+      <MapTarget X="44" Y="50">Abel Port</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Bodil" X="5" Y="5" Direction="South" />
+  </Npcs>
+</Map>

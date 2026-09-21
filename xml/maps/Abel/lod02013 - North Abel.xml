@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="2013" X="70" Y="78" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: North Abel -->
+  <Name>North Abel</Name>
+  <Warps>
+    <Warp X="69" Y="22">
+      <MapTarget X="1" Y="23">East Abel</MapTarget>
+    </Warp>
+    <Warp X="69" Y="23">
+      <MapTarget X="1" Y="23">East Abel</MapTarget>
+    </Warp>
+    <Warp X="69" Y="24">
+      <MapTarget X="1" Y="23">East Abel</MapTarget>
+    </Warp>
+    <Warp X="69" Y="25">
+      <MapTarget X="1" Y="23">East Abel</MapTarget>
+    </Warp>
+    <Warp X="69" Y="26">
+      <MapTarget X="1" Y="23">East Abel</MapTarget>
+    </Warp>
+    <Warp X="0" Y="60">
+      <MapTarget X="14" Y="3">Abel Port Way</MapTarget>
+    </Warp>
+    <Warp X="0" Y="61">
+      <MapTarget X="14" Y="3">Abel Port Way</MapTarget>
+    </Warp>
+    <Warp X="28" Y="77">
+      <MapTarget X="30" Y="1">West Abel</MapTarget>
+    </Warp>
+    <Warp X="29" Y="77">
+      <MapTarget X="30" Y="1">West Abel</MapTarget>
+    </Warp>
+    <Warp X="30" Y="77">
+      <MapTarget X="30" Y="1">West Abel</MapTarget>
+    </Warp>
+    <Warp X="31" Y="77">
+      <MapTarget X="30" Y="1">West Abel</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

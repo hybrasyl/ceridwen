@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="389" X="13" Y="13" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Abel Salon -->
+  <Name>Abel Salon</Name>
+  <Npcs>
+    <Npc Name="Hauk" X="3" Y="3" Direction="South" />
+  </Npcs>
+</Map>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="2012" X="70" Y="78" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: East Abel -->
+  <Name>East Abel</Name>
+  <Warps>
+    <Warp X="0" Y="22">
+      <MapTarget X="68" Y="23">North Abel</MapTarget>
+    </Warp>
+    <Warp X="0" Y="23">
+      <MapTarget X="68" Y="23">North Abel</MapTarget>
+    </Warp>
+    <Warp X="0" Y="24">
+      <MapTarget X="68" Y="23">North Abel</MapTarget>
+    </Warp>
+    <Warp X="0" Y="25">
+      <MapTarget X="68" Y="23">North Abel</MapTarget>
+    </Warp>
+    <Warp X="0" Y="26">
+      <MapTarget X="68" Y="23">North Abel</MapTarget>
+    </Warp>
+    <Warp X="29" Y="77">
+      <MapTarget X="29" Y="1">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="30" Y="77">
+      <MapTarget X="29" Y="1">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="31" Y="77">
+      <MapTarget X="29" Y="1">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="32" Y="77">
+      <MapTarget X="29" Y="1">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="69" Y="58">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="59">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="60">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="61">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="62">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="63">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="49" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="50" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="51" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="52" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="53" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+</Map>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="195" Music="12" X="10" Y="10" IsEnabled="true" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Coast Bar -->
+  <Name>Coast Bar</Name>
+  <Warps>
+    <Warp X="9" Y="5">
+      <MapTarget X="8" Y="29">Abel Coast</MapTarget>
+    </Warp>
+    <Warp X="9" Y="6">
+      <MapTarget X="8" Y="29">Abel Coast</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Ase" X="4" Y="4" Direction="South" />
+    <Npc Name="Asea" X="5" Y="0" Direction="South" />
+  </Npcs>
+</Map>

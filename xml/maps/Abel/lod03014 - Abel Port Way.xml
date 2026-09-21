@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="3014" Music="59" X="16" Y="50" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Abel Port Way</Name>
+  <Warps>
+    <Warp X="0" Y="3">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="4">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="5">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="42">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="43">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="44">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="45">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="46">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="42">
+      <MapTarget X="1" Y="23">West Abel</MapTarget>
+    </Warp>
+    <Warp X="15" Y="43">
+      <MapTarget X="1" Y="23">West Abel</MapTarget>
+    </Warp>
+    <Warp X="15" Y="44">
+      <MapTarget X="1" Y="23">West Abel</MapTarget>
+    </Warp>
+    <Warp X="15" Y="45">
+      <MapTarget X="1" Y="23">West Abel</MapTarget>
+    </Warp>
+    <Warp X="15" Y="46">
+      <MapTarget X="1" Y="23">West Abel</MapTarget>
+    </Warp>
+    <Warp X="15" Y="3">
+      <MapTarget X="3" Y="61">North Abel</MapTarget>
+    </Warp>
+    <Warp X="15" Y="4">
+      <MapTarget X="3" Y="61">North Abel</MapTarget>
+    </Warp>
+    <Warp X="15" Y="5">
+      <MapTarget X="3" Y="61">North Abel</MapTarget>
+    </Warp>
+  </Warps>
+  <Signs>
+    <Sign Type="Sign" X="8" Y="12">
+      <Message>&lt;-- Port of Abel                                                    Shrine of Fiosachd - God of Fortune --&gt;</Message>
+    </Sign>
+    <Sign Type="Messageboard" X="10" Y="20" BoardKey="FiosachdBoard">
+      <Name>Fiosachd Fellowship Board</Name>
+      <Description>A board for the Fiosachd Shrine</Description>
+    </Sign>
+  </Signs>
+</Map>

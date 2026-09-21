@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="169" X="20" Y="20" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Abel Inn -->
+  <Name>Abel Inn</Name>
+  <Warps>
+    <Warp X="3" Y="19">
+      <MapTarget X="59" Y="39">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="4" Y="19">
+      <MapTarget X="59" Y="39">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="5" Y="19">
+      <MapTarget X="59" Y="39">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="6" Y="19">
+      <MapTarget X="59" Y="39">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="7" Y="19">
+      <MapTarget X="59" Y="39">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="3" Y="13">Abel Inn Hall 1</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Runa" X="3" Y="3" Direction="North" />
+  </Npcs>
+</Map>

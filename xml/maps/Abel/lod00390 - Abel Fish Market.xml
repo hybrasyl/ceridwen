@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="390" X="13" Y="13" IsEnabled="true" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Abel Fish Market -->
+  <Name>Abel Fish Market</Name>
+  <Warps>
+    <Warp X="12" Y="6">
+      <MapTarget X="27" Y="46">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="12" Y="7">
+      <MapTarget X="27" Y="46">Abel Port</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Kamel" X="3" Y="4" Direction="South" />
+  </Npcs>
+</Map>

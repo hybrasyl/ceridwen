@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3015" X="25" Y="16" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Shrine of Fiosachd</Name>
+  <Flags />
+  <Warps />
+  <Reactors />
+  <Npcs>
+    <Npc Name="Audny" X="3" Y="4" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

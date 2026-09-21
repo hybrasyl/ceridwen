@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="502" X="70" Y="78" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Abel Port -->
+  <Name>Abel Port</Name>
+  <Warps>
+    <Warp X="28" Y="0">
+      <MapTarget X="30" Y="75">East Abel</MapTarget>
+    </Warp>
+    <Warp X="14" Y="67">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="67">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="44" Y="10">
+      <MapTarget X="6" Y="13">Abel Potion Shop</MapTarget>
+    </Warp>
+    <Warp X="14" Y="8">
+      <MapTarget X="5" Y="18">Abel Storage</MapTarget>
+    </Warp>
+    <Warp X="24" Y="8">
+      <MapTarget X="6" Y="13">Abel Goods Shop</MapTarget>
+    </Warp>
+    <Warp X="12" Y="45">
+      <MapTarget X="13" Y="4">Abel Tavern</MapTarget>
+    </Warp>
+    <Warp X="7" Y="50">
+      <MapTarget X="8" Y="13">Abel Restaurant</MapTarget>
+    </Warp>
+    <Warp X="59" Y="38">
+      <MapTarget X="6" Y="18">Abel Inn</MapTarget>
+    </Warp>
+    <Warp X="55" Y="17">
+      <MapTarget X="6" Y="13">Abel Weapon Shop</MapTarget>
+    </Warp>
+    <Warp X="60" Y="12">
+      <MapTarget X="10" Y="8">Abel Armor Shop</MapTarget>
+    </Warp>
+    <Warp X="12" Y="16">
+      <MapTarget X="10" Y="8">Abel Shop 2</MapTarget>
+    </Warp>
+    <Warp X="7" Y="21">
+      <MapTarget X="6" Y="13">Abel Shop 1</MapTarget>
+    </Warp>
+    <Warp X="11" Y="32">
+      <MapTarget X="11" Y="7">Abel Salon</MapTarget>
+    </Warp>
+    <Warp X="44" Y="49">
+      <MapTarget X="6" Y="13">Abel Combat Master</MapTarget>
+    </Warp>
+    <Warp X="26" Y="46">
+      <MapTarget X="11" Y="6">Abel Fish Market</MapTarget>
+    </Warp>
+    <Warp X="29" Y="0">
+      <MapTarget X="30" Y="75">East Abel</MapTarget>
+    </Warp>
+    <Warp X="30" Y="0">
+      <MapTarget X="30" Y="75">East Abel</MapTarget>
+    </Warp>
+    <Warp X="31" Y="0">
+      <MapTarget X="30" Y="75">East Abel</MapTarget>
+    </Warp>
+    <Warp X="0" Y="22">
+      <MapTarget X="68" Y="17">West Abel</MapTarget>
+    </Warp>
+    <Warp X="0" Y="23">
+      <MapTarget X="68" Y="17">West Abel</MapTarget>
+    </Warp>
+    <Warp X="0" Y="24">
+      <MapTarget X="68" Y="17">West Abel</MapTarget>
+    </Warp>
+    <Warp X="0" Y="25">
+      <MapTarget X="68" Y="17">West Abel</MapTarget>
+    </Warp>
+    <Warp X="0" Y="26">
+      <MapTarget X="68" Y="17">West Abel</MapTarget>
+    </Warp>
+    <Warp X="69" Y="22">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="23">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="24">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="25">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="61">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="62">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="63">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="69" Y="64">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+</Map>

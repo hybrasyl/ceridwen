@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="2011" X="70" Y="78" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: West Abel -->
+  <Name>West Abel</Name>
+  <Warps>
+    <Warp X="28" Y="0">
+      <MapTarget X="29" Y="74">North Abel</MapTarget>
+    </Warp>
+    <Warp X="29" Y="0">
+      <MapTarget X="29" Y="74">North Abel</MapTarget>
+    </Warp>
+    <Warp X="30" Y="0">
+      <MapTarget X="29" Y="74">North Abel</MapTarget>
+    </Warp>
+    <Warp X="31" Y="0">
+      <MapTarget X="29" Y="74">North Abel</MapTarget>
+    </Warp>
+    <Warp X="32" Y="0">
+      <MapTarget X="29" Y="74">North Abel</MapTarget>
+    </Warp>
+    <Warp X="33" Y="0">
+      <MapTarget X="29" Y="74">North Abel</MapTarget>
+    </Warp>
+  </Warps>
+</Map>
