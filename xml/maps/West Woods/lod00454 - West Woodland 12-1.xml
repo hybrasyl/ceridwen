@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="454" X="50" Y="50">
+  <Name>West Woodland 12-1</Name>
+  <Warps>
+    <Warp X="0" Y="23">
+      <MapTarget X="25" Y="49">West Woodland 14-1</MapTarget>
+    </Warp>
+    <Warp X="0" Y="24">
+      <MapTarget X="25" Y="49">West Woodland 14-1</MapTarget>
+    </Warp>
+    <Warp X="25" Y="49">
+      <MapTarget X="0" Y="24">West Woodland 11-1</MapTarget>
+    </Warp>
+    <Warp X="26" Y="49">
+      <MapTarget X="0" Y="24">West Woodland 11-1</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Throttler" X="21" Y="20" Direction="South"/>
+  </Npcs>
+</Map>
