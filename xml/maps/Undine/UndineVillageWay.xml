@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3008" Music="59" X="16" Y="24" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Undine Village Way</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="18">
+      <MapTarget X="98" Y="50">Undine</MapTarget>
+    </Warp>
+    <Warp X="0" Y="17">
+      <MapTarget X="98" Y="49">Undine</MapTarget>
+    </Warp>
+    <Warp X="0" Y="19">
+      <MapTarget X="98" Y="51">Undine</MapTarget>
+    </Warp>
+    <Warp X="15" Y="15">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="16">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Sign" X="7" Y="14">
+      <Message>&lt;-- Undine Village                                               Shrine of Cail - God of Harmony --&gt;</Message>
+    </Sign>
+    <Sign Type="Messageboard" BoardKey="CailBoard" X="7" Y="9">
+      <Name>Cail Fellowship Board</Name>
+      <Description>A board for the Cail Shrine</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

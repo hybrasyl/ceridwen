@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="434" X="15" Y="15" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Undine Bar</Name>
+  <Flags />
+  <Warps>
+    <Warp X="14" Y="4">
+      <MapTarget X="19" Y="77">Undine</MapTarget>
+    </Warp>
+    <Warp X="14" Y="5">
+      <MapTarget X="19" Y="77">Undine</MapTarget>
+    </Warp>
+    <Warp X="10" Y="14">
+      <MapTarget X="13" Y="1">Undine Restaurant</MapTarget>
+    </Warp>
+    <Warp X="11" Y="14">
+      <MapTarget X="13" Y="1">Undine Restaurant</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Chloe" X="6" Y="5" />
+    <Npc Name="Kalliope" X="9" Y="3" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

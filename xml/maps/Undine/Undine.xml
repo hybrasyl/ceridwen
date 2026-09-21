@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="504" X="100" Y="100" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Undine</Name>
+  <Flags />
+  <Warps>
+    <Warp X="99" Y="50">
+      <MapTarget X="1" Y="18">Undine Village Way</MapTarget>
+    </Warp>
+    <Warp X="99" Y="49">
+      <MapTarget X="1" Y="17">Undine Village Way</MapTarget>
+    </Warp>
+    <Warp X="99" Y="51">
+      <MapTarget X="1" Y="19">Undine Village Way</MapTarget>
+    </Warp>
+    <Warp X="82" Y="76">
+      <MapTarget X="10" Y="8">Undine Armor Shop</MapTarget>
+    </Warp>
+    <Warp X="76" Y="82">
+      <MapTarget X="6" Y="13">Undine Weapon Shop</MapTarget>
+    </Warp>
+    <Warp X="18" Y="77">
+      <MapTarget X="13" Y="4">Undine Bar</MapTarget>
+    </Warp>
+    <Warp X="13" Y="31">
+      <MapTarget X="6" Y="13">Undine Recall Shop</MapTarget>
+    </Warp>
+    <Warp X="15" Y="12">
+      <MapTarget X="13" Y="7">Undine Dark Wizard</MapTarget>
+    </Warp>
+    <Warp X="86" Y="16">
+      <MapTarget X="5" Y="10">Undine Bank</MapTarget>
+    </Warp>
+    <Warp X="12" Y="83">
+      <MapTarget X="8" Y="13">Undine Restaurant</MapTarget>
+    </Warp>
+    <Warp X="9" Y="35">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="9" Y="86">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="9" Y="87">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="20" Y="72">
+      <MapTarget X="20" Y="36">Undine</MapTarget>
+    </Warp>
+    <Warp X="21" Y="72">
+      <MapTarget X="21" Y="36">Undine</MapTarget>
+    </Warp>
+    <Warp X="21" Y="38">
+      <MapTarget X="21" Y="73">Undine</MapTarget>
+    </Warp>
+    <Warp X="20" Y="38">
+      <MapTarget X="20" Y="73">Undine</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Sign" X="10" Y="34">
+      <Message>&lt;-- Road to Suomi                                               --&gt; Hali - Humble Higgler of Undine. All hail Loures!</Message>
+    </Sign>
+    <Sign Type="Sign" X="10" Y="84">
+      <Message>Damara - Undine fine foods, Ardmagh berries, and more. Bless Loures, our faithful watcher.</Message>
+    </Sign>
+    <Sign Type="Sign" X="17" Y="15">
+      <Message>Kiril - Magus Philosophicus of Temuair. Servant to none. All Fail Loures!</Message>
+    </Sign>
+    <Sign Type="Sign" X="19" Y="80">
+      <Message>Chloe - The sweetest wines from Ardmagh.</Message>
+    </Sign>
+    <Sign Type="Sign" X="78" Y="84">
+      <Message>Avel - ALL WEAPONS ARE PROHIBITED UNDER THE COLONIAL RULERSHIP OF LOURES - Signed, Court of Loures.</Message>
+    </Sign>
+    <Sign Type="Sign" X="84" Y="18">
+      <Message>Argus - Higgler of Undine and useful livestock devices. All hail Loures!</Message>
+    </Sign>
+    <Sign Type="Sign" X="84" Y="79">
+      <Message>Alexios - Fine Undine jewelry and accessories. All Hail Loures!</Message>
+    </Sign>
+  </Signs>
+</Map>
