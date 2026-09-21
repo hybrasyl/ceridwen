@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3028" Music="3" X="16" Y="16" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Sgath Pit</Name>
+  <Flags />
+  <Warps>
+    <Warp X="11" Y="1">
+      <MapTarget X="14" Y="14">Gigean's Dwelling</MapTarget>
+    </Warp>
+    <Warp X="0" Y="7">
+      <MapTarget X="3" Y="1">Mileth Threshold</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="18" Y="3">Rucesion Commons</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Kieran" X="1" Y="1" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Sign" X="0" Y="6">
+      <Message>To Mileth</Message>
+    </Sign>
+    <Sign Type="Sign" X="0" Y="9">
+      <Message>To Rucesion</Message>
+    </Sign>
+  </Signs>
+</Map>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="134" X="15" Y="15" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Tavern</Name>
+  <Flags />
+  <Warps>
+    <Warp X="10" Y="14">
+      <MapTarget X="12" Y="1">Mileth Restaurant</MapTarget>
+    </Warp>
+    <Warp X="11" Y="14">
+      <MapTarget X="12" Y="1">Mileth Restaurant</MapTarget>
+    </Warp>
+    <Warp X="14" Y="5">
+      <MapTarget X="71" Y="54">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="14" Y="4">
+      <MapTarget X="71" Y="54">Mileth Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors>
+    <Reactor X="14" Y="14">
+      <Description>Gives players 2000 gif they need it for training quest.</Description>
+      <Script>VaughanTrainingGold</Script>
+    </Reactor>
+  </Reactors>
+  <Npcs>
+    <Npc Name="Roibeard" X="3" Y="14" Direction="East" />
+    <Npc Name="Aingeal" X="6" Y="5" />
+    <Npc Name="Duana" X="7" Y="12" Direction="South" />
+    <Npc Name="Teague" X="12" Y="10" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

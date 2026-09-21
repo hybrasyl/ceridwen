@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3006" Music="59" X="16" Y="24" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Village Way</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="4">
+      <MapTarget X="98" Y="26">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="0" Y="5">
+      <MapTarget X="98" Y="27">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="0" Y="6">
+      <MapTarget X="98" Y="28">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="0" Y="7">
+      <MapTarget X="98" Y="29">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="0" Y="8">
+      <MapTarget X="98" Y="30">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="0" Y="9">
+      <MapTarget X="98" Y="31">Mileth Village</MapTarget>
+    </Warp>
+    <Warp X="15" Y="13">
+      <MapTarget X="1" Y="11">Mileth College</MapTarget>
+    </Warp>
+    <Warp X="15" Y="14">
+      <MapTarget X="1" Y="12">Mileth College</MapTarget>
+    </Warp>
+    <Warp X="9" Y="18">
+      <MapTarget X="23" Y="5">Shrine of Glioca</MapTarget>
+    </Warp>
+    <Warp X="9" Y="19">
+      <MapTarget X="23" Y="6">Shrine of Glioca</MapTarget>
+    </Warp>
+    <Warp X="9" Y="20">
+      <MapTarget X="23" Y="7">Shrine of Glioca</MapTarget>
+    </Warp>
+    <Warp X="15" Y="0">
+      <MapTarget X="15" Y="14">Mileth Commons</MapTarget>
+    </Warp>
+    <Warp X="14" Y="0">
+      <MapTarget X="14" Y="14">Mileth Commons</MapTarget>
+    </Warp>
+    <Warp X="13" Y="0">
+      <MapTarget X="13" Y="14">Mileth Commons</MapTarget>
+    </Warp>
+    <Warp X="12" Y="0">
+      <MapTarget X="12" Y="14">Mileth Commons</MapTarget>
+    </Warp>
+    <Warp X="15" Y="6">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="7">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="8">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="9">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="10">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="GliocaBoard" X="8" Y="15">
+      <Name>Glioca Fellowship Board</Name>
+      <Description>A board for the fellowship of Glioca.</Description>
+    </Sign>
+    <Sign Type="Sign" X="2" Y="10">
+      <Message>Mileth Village - All Aislings and mundanes, enter in peace and with welcome. --&gt;                                                                            &lt;-- Shrine of Glioca - Goddess of Compassion</Message>
+    </Sign>
+    <Sign Type="Sign" X="15" Y="15">
+      <Message>College - Read or write books in the Mileth Library. Learn Art, Literature, Lore, or Philosophy from Aisling teachers. Gain real experience. Be sure to pay attention, learn, and respect the Aisling kind enough to provide the class. See the board by the library for the latest schedule.</Message>
+    </Sign>
+    <Sign Type="Messageboard" BoardKey="MilethLawBoard" X="2" Y="3">
+      <Name>Mileth Law</Name>
+      <Description>The Laws of Mileth</Description>
+    </Sign>
+  </Signs>
+</Map>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="145" X="8" Y="8" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Inn Room 8</Name>
+  <Flags />
+  <Warps>
+    <Warp X="4" Y="7">
+      <MapTarget X="8" Y="1">Mileth Inn Corridor 2</MapTarget>
+    </Warp>
+    <Warp X="5" Y="7">
+      <MapTarget X="8" Y="1">Mileth Inn Corridor 2</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors>
+    <Reactor X="4" Y="2">
+      <Description>New player reactor</Description>
+      <Script>startup</Script>
+    </Reactor>
+    <Reactor X="4" Y="3">
+      <Description>New player reactor</Description>
+      <Script>startup</Script>
+    </Reactor>
+    <Reactor X="4" Y="4">
+      <Description>New player reactor</Description>
+      <Script>startup</Script>
+    </Reactor>
+    <Reactor X="3" Y="4">
+      <Description>New player reactor</Description>
+      <Script>startup</Script>
+    </Reactor>
+    <Reactor X="2" Y="4">
+      <Description>New player reactor</Description>
+      <Script>startup</Script>
+    </Reactor>
+    <Reactor X="1" Y="4">
+      <Description>New player reactor</Description>
+      <Script>startup</Script>
+    </Reactor>
+  </Reactors>
+  <Npcs />
+  <Signs />
+</Map>

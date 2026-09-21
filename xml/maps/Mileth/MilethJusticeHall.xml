@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3027" X="14" Y="20" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Justice Hall</Name>
+  <Flags />
+  <Warps>
+    <Warp X="6" Y="19">
+      <MapTarget X="27" Y="9">Mileth Commons</MapTarget>
+    </Warp>
+    <Warp X="7" Y="19">
+      <MapTarget X="27" Y="9">Mileth Commons</MapTarget>
+    </Warp>
+    <Warp X="1" Y="10">
+      <MapTarget X="2" Y="2">Mileth Justice Hall</MapTarget>
+    </Warp>
+    <Warp X="1" Y="2">
+      <MapTarget X="2" Y="10">Mileth Justice Hall</MapTarget>
+    </Warp>
+    <Warp X="13" Y="10">
+      <MapTarget X="12" Y="1">Mileth Justice Hall</MapTarget>
+    </Warp>
+    <Warp X="13" Y="11">
+      <MapTarget X="12" Y="2">Mileth Justice Hall</MapTarget>
+    </Warp>
+    <Warp X="13" Y="12">
+      <MapTarget X="12" Y="3">Mileth Justice Hall</MapTarget>
+    </Warp>
+    <Warp X="13" Y="1">
+      <MapTarget X="12" Y="10">Mileth Justice Hall</MapTarget>
+    </Warp>
+    <Warp X="13" Y="2">
+      <MapTarget X="12" Y="11">Mileth Justice Hall</MapTarget>
+    </Warp>
+    <Warp X="13" Y="3">
+      <MapTarget X="12" Y="12">Mileth Justice Hall</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Connlaoi" X="1" Y="8" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="MilJudgBoard" X="1" Y="12">
+      <Name>Mileth Judgments Board</Name>
+      <Description>A board for Mileth judgment cases</Description>
+      <Message />
+    </Sign>
+    <Sign Type="Messageboard" BoardKey="MilJustBoard" X="1" Y="16">
+      <Name>Mileth Justice Cases</Name>
+      <Description>A board for Mileth justice cases</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

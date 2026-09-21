@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3045" X="14" Y="14" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Literature</Name>
+  <Flags />
+  <Warps>
+    <Warp X="13" Y="3">
+      <MapTarget X="10" Y="17">Mileth College</MapTarget>
+    </Warp>
+    <Warp X="13" Y="4">
+      <MapTarget X="10" Y="18">Mileth College</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Steafan" X="3" Y="5" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="LitDiscBoard" X="1" Y="3">
+      <Name>College Literature Discourse</Name>
+      <Description>A board for literature discourse</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

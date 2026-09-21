@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3079" Music="18" X="14" Y="7" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Threshold</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="6">
+      <MapTarget X="14" Y="6">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="1" Y="6">
+      <MapTarget X="14" Y="7">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="2" Y="6">
+      <MapTarget X="14" Y="8">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="3" Y="6">
+      <MapTarget X="14" Y="9">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="4" Y="6">
+      <MapTarget X="14" Y="10">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="5" Y="6">
+      <MapTarget X="14" Y="11">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="6" Y="6">
+      <MapTarget X="14" Y="11">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="7" Y="6">
+      <MapTarget X="14" Y="6">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="8" Y="6">
+      <MapTarget X="14" Y="7">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="9" Y="6">
+      <MapTarget X="14" Y="8">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="10" Y="6">
+      <MapTarget X="14" Y="9">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="11" Y="6">
+      <MapTarget X="14" Y="10">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="12" Y="6">
+      <MapTarget X="14" Y="11">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="13" Y="6">
+      <MapTarget X="14" Y="11">Mileth Village Way</MapTarget>
+    </Warp>
+    <Warp X="3" Y="0">
+      <MapTarget X="1" Y="7">Sgath Pit</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>
