@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="522" X="12" Y="15" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>The Looking Glass</Name>
+  <Description>Tagor Salon</Description>
+  <Warps>
+    <Warp X="3" Y="14">
+      <MapTarget X="28" Y="77">Tagor</MapTarget>
+    </Warp>
+    <Warp X="4" Y="14">
+      <MapTarget X="28" Y="77">Tagor</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Sandra" X="10" Y="7" Direction="South" />
+  </Npcs>
+</Map>

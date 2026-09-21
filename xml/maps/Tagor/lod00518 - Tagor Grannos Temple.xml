@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="518" X="25" Y="17" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Temple of Grannos</Name>
+  <Warps>
+    <Warp X="24" Y="10">
+      <MapTarget X="68" Y="23">Tagor</MapTarget>
+    </Warp>
+    <Warp X="24" Y="9">
+      <MapTarget X="68" Y="23">Tagor</MapTarget>
+    </Warp>
+    <Warp X="24" Y="8">
+      <MapTarget X="68" Y="22">Tagor</MapTarget>
+    </Warp>
+    <Warp X="24" Y="7">
+      <MapTarget X="68" Y="21">Tagor</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Aurel" X="6" Y="11" Direction="South" />
+    <Npc Name="Madleen" X="6" Y="6" Direction="South" />
+  </Npcs>
+</Map>

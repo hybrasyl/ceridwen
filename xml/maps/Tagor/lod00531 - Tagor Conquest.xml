@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="531" X="15" Y="12" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Tagor Conquest</Name>
+  <Warps>
+    <Warp X="0" Y="5">
+      <MapTarget X="10" Y="3">Tagor Records Hall</MapTarget>
+    </Warp>
+    <Warp X="14" Y="6">
+      <MapTarget X="72" Y="71">Tagor</MapTarget>
+    </Warp>
+    <Warp X="14" Y="7">
+      <MapTarget X="72" Y="71">Tagor</MapTarget>
+    </Warp>
+    <Warp X="14" Y="8">
+      <MapTarget X="72" Y="71">Tagor</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Vendes" X="8" Y="6" Direction="South" />
+  </Npcs>
+</Map>

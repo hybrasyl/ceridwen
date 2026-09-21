@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="530" X="18" Y="12" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Tagor Courthouse</Name>
+  <Warps>
+    <Warp X="3" Y="11">
+      <MapTarget X="6" Y="1">Tagor Records Hall</MapTarget>
+    </Warp>
+    <Warp X="4" Y="11">
+      <MapTarget X="6" Y="1">Tagor Records Hall</MapTarget>
+    </Warp>
+    <Warp X="5" Y="11">
+      <MapTarget X="6" Y="1">Tagor Records Hall</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Iancu" X="8" Y="1" Direction="South" />
+  </Npcs>
+</Map>

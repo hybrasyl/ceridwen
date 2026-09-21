@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="575" X="8" Y="8" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Foxglove Room 8</Name>
+  <Warps>
+    <Warp X="4" Y="7">
+      <MapTarget X="7" Y="1">Foxglove Corridor 2</MapTarget>
+    </Warp>
+    <Warp X="5" Y="7">
+      <MapTarget X="7" Y="1">Foxglove Corridor 2</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

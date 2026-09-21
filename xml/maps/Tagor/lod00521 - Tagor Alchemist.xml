@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="521" X="15" Y="15" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Matei's Miracles</Name>
+  <Description>Tagor Alchemist</Description>
+  <Warps>
+    <Warp X="6" Y="14">
+      <MapTarget X="32" Y="39">Tagor</MapTarget>
+    </Warp>
+    <Warp X="7" Y="14">
+      <MapTarget X="32" Y="39">Tagor</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Matei" X="8" Y="6" Direction="South" />
+  </Npcs>
+</Map>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="514" X="13" Y="13" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Briar Blades</Name>
+  <Description>Tagor Weaponsmith</Description>
+  <Warps>
+    <Warp X="8" Y="1">
+      <MapTarget X="2" Y="8">The Black Buckler</MapTarget>
+    </Warp>
+    <Warp X="6" Y="12">
+      <MapTarget X="76" Y="70">Tagor</MapTarget>
+    </Warp>
+    <Warp X="7" Y="12">
+      <MapTarget X="76" Y="70">Tagor</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Razvan" X="4" Y="5" Direction="South" />
+  </Npcs>
+</Map>

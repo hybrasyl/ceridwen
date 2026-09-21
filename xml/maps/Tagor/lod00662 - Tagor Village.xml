@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="662" X="100" Y="100" IsEnabled="true" AllowCasting="true" DynamicLighting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Tagor Village -->
+  <Name>Tagor</Name>
+  <Warps>
+    <Warp X="16" Y="45">
+      <MapTarget X="10" Y="8">Bogdan's Curios</MapTarget>
+    </Warp>
+    <Warp X="11" Y="32">
+      <MapTarget X="7" Y="12">The Common Hall</MapTarget>
+    </Warp>
+    <Warp X="29" Y="52">
+      <MapTarget X="6" Y="13">Tagor Courier</MapTarget>
+    </Warp>
+    <Warp X="28" Y="76">
+      <MapTarget X="4" Y="13">The Looking Glass</MapTarget>
+    </Warp>
+    <Warp X="40" Y="50">
+      <MapTarget X="0" Y="0">Foxglove Inn</MapTarget>
+    </Warp>
+    <Warp X="45" Y="44">
+      <MapTarget X="16" Y="6">Tagor Trust</MapTarget>
+    </Warp>
+    <Warp X="32" Y="38">
+      <MapTarget X="6" Y="13">Matei's Miracles</MapTarget>
+    </Warp>
+    <Warp X="41" Y="32">
+      <MapTarget X="7" Y="13">Aurora's Vigil</MapTarget>
+    </Warp>
+    <Warp X="46" Y="26">
+      <MapTarget X="13" Y="7">Iuliana's Mysteries</MapTarget>
+    </Warp>
+    <Warp X="45" Y="12">
+      <MapTarget X="6" Y="13">The Seventh Bough</MapTarget>
+    </Warp>
+    <Warp X="37" Y="12">
+      <MapTarget X="6" Y="13">Tagor Free Legion Hall</MapTarget>
+    </Warp>
+    <Warp X="29" Y="12">
+      <MapTarget X="6" Y="13">The Hunter's Rest</MapTarget>
+    </Warp>
+    <Warp X="68" Y="23">
+      <MapTarget X="23" Y="9">Temple of Grannos</MapTarget>
+    </Warp>
+    <Warp X="68" Y="22">
+      <MapTarget X="23" Y="8">Temple of Grannos</MapTarget>
+    </Warp>
+    <Warp X="68" Y="21">
+      <MapTarget X="23" Y="7">Temple of Grannos</MapTarget>
+    </Warp>
+    <Warp X="83" Y="64">
+      <MapTarget X="10" Y="8">The Black Buckler</MapTarget>
+    </Warp>
+    <Warp X="76" Y="69">
+      <MapTarget X="6" Y="11">Briar Blades</MapTarget>
+    </Warp>
+    <Warp X="84" Y="14">
+      <MapTarget X="8" Y="13">Copperpot</MapTarget>
+    </Warp>
+    <Warp X="89" Y="8">
+      <MapTarget X="13" Y="4">The Crow &amp; Cask</MapTarget>
+    </Warp>
+    <Warp X="21" Y="99">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="22" Y="99">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="23" Y="99">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="34">
+      <MapTarget X="15" Y="48">Lithfel Croft</MapTarget>
+    </Warp>
+    <Warp X="0" Y="35">
+      <MapTarget X="15" Y="48">Lithfel Croft</MapTarget>
+    </Warp>
+    <Warp X="64" Y="76">
+      <MapTarget X="5" Y="13">Tagor Town Hall</MapTarget>
+    </Warp>
+    <Warp X="71" Y="71">
+      <MapTarget X="13" Y="7">Tagor Conquest</MapTarget>
+    </Warp>
+    <Warp X="46" Y="69">
+      <MapTarget X="8" Y="14">Nicolae's Books</MapTarget>
+    </Warp>
+  </Warps>
+  <Signs>
+    <Sign Type="Sign" X="16" Y="50">
+      <Name>tagorTrader</Name>
+      <Description>Sign for the Tagor Trader</Description>
+      <Message>Bogdan's Curios</Message>
+    </Sign>
+    <Sign Type="Sign" X="14" Y="32">
+      <Name>tagorProfession</Name>
+      <Description>Sign for Peasant Trainer</Description>
+      <Message>The Common Hall of the Steadfast Union</Message>
+    </Sign>
+    <Sign Type="Sign" X="27" Y="57">
+      <Name>tagorMessenger</Name>
+      <Description>Sign for Tagor Messenger</Description>
+      <Message>Tagor Courier</Message>
+    </Sign>
+    <Sign Type="Sign" X="25" Y="79">
+      <Name>tagorSalon</Name>
+      <Description>Sign for Tagor Salon</Description>
+      <Message>Look your best at The Looking Glass!</Message>
+    </Sign>
+    <Sign Type="Sign" X="49" Y="79">
+      <Name>tagorEmptyBuilding</Name>
+      <Description>Sign for Empty Building</Description>
+      <Message>Nicolae's Books - Closed</Message>
+    </Sign>
+    <Sign Type="Sign" X="62" Y="79">
+      <Name>tagorCivics</Name>
+      <Description>Sign for Tagor Town Hall</Description>
+      <Message>Tagor Civic Center</Message>
+    </Sign>
+    <Sign Type="Sign" X="80" Y="79">
+      <Name>tagorSmiths</Name>
+      <Description>Sign for Weapon and Armor Smiths</Description>
+      <Message>The Black Buckler and Briar Blades - Imperial quality at frontier prices!</Message>
+    </Sign>
+    <Sign Type="Sign" X="87" Y="52">
+      <Name>tagorFood</Name>
+      <Description>Sign for Restaurant and Tavern</Description>
+      <Message>This way for the Crow &amp; Cask and Copperpot</Message>
+    </Sign>
+    <Sign Type="Sign" X="78" Y="54">
+      <Name>tagorGrannos</Name>
+      <Description>Sign for Temple of Grannos</Description>
+      <Message>Temple of Grannos</Message>
+    </Sign>
+    <Sign Type="Sign" X="43" Y="51">
+      <Name>tagorInn</Name>
+      <Description>Sign for Foxglove Inn</Description>
+      <Message>Foxglove Inn</Message>
+    </Sign>
+    <Sign Type="Sign" X="48" Y="42">
+      <Name>tagorBank</Name>
+      <Description>Sign for Tagor Bank</Description>
+      <Message>Tagor Trust</Message>
+    </Sign>
+    <Sign Type="Sign" X="35" Y="38">
+      <Name>tagorAlchemist</Name>
+      <Description>Sign for Tagor Alchemist</Description>
+      <Message>Matei's Miracles</Message>
+    </Sign>
+    <Sign Type="Sign" X="39" Y="36">
+      <Name>tagorArchone</Name>
+      <Description>Sign for Tagor Archon Trainer</Description>
+      <Message>Aurora's Vigil</Message>
+    </Sign>
+    <Sign Type="Sign" X="49" Y="31">
+      <Name>tagorDarkWizard</Name>
+      <Description>Sign for Tagor Dark Wizard</Description>
+      <Message>Iuliana's Miracles</Message>
+    </Sign>
+    <Sign Type="Sign" X="48" Y="15">
+      <Name>tagorAnimist</Name>
+      <Description>Sign for Tagor Animist Trainer</Description>
+      <Message>The Seventh Bough</Message>
+    </Sign>
+    <Sign Type="Sign" X="35" Y="15">
+      <Name>tagorWarrior</Name>
+      <Description>Sign for Tagor Warrior Trainer</Description>
+      <Message>The Free Legion Hall</Message>
+    </Sign>
+    <Sign Type="Sign" X="32" Y="15">
+      <Name>tagorRogue</Name>
+      <Description>Sign for Tagor Rogue Trainer</Description>
+      <Message>The Hunter's Rest, Taxidermy</Message>
+    </Sign>
+  </Signs>
+</Map>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Luiza</Name>
+  <!-- Location: Tagor -->
+  <DisplayName>Luiza</DisplayName>
+  <Appearance Sprite="499"/>
+</Npc>

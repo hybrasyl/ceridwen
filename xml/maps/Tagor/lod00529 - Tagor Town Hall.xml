@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="529" X="12" Y="15" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Tagor Town Hall</Name>
+  <Warps>
+    <Warp X="4" Y="14">
+      <MapTarget X="64" Y="77">Tagor</MapTarget>
+    </Warp>
+    <Warp X="5" Y="14">
+      <MapTarget X="64" Y="77">Tagor</MapTarget>
+    </Warp>
+    <Warp X="6" Y="14">
+      <MapTarget X="64" Y="77">Tagor</MapTarget>
+    </Warp>
+    <Warp X="7" Y="14">
+      <MapTarget X="64" Y="77">Tagor</MapTarget>
+    </Warp>
+    <Warp X="6" Y="0">
+      <MapTarget X="6" Y="10">Tagor Records Hall</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Sorin" X="1" Y="10" Direction="South" />
+  </Npcs>
+</Map>

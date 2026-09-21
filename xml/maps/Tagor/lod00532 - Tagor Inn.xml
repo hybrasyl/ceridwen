@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="532" X="14" Y="14" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Foxglove Inn</Name>
+  <Description>Tagor Inn</Description>
+  <Warps>
+    <Warp X="5" Y="13">
+      <MapTarget X="40" Y="51">Tagor</MapTarget>
+    </Warp>
+    <Warp X="6" Y="13">
+      <MapTarget X="40" Y="51">Tagor</MapTarget>
+    </Warp>
+    <Warp X="7" Y="13">
+      <MapTarget X="40" Y="51">Tagor</MapTarget>
+    </Warp>
+    <Warp X="8" Y="13">
+      <MapTarget X="40" Y="51">Tagor</MapTarget>
+    </Warp>
+    <Warp X="12" Y="1">
+      <MapTarget X="8" Y="10">Tagor Trust</MapTarget>
+    </Warp>
+    <Warp X="0" Y="9">
+      <MapTarget X="3" Y="13">Foxglove Corridor 1</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Anica" X="3" Y="3" Direction="South" />
+  </Npcs>
+</Map>

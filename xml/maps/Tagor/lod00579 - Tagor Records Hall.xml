@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="579" X="12" Y="12" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Tagor Records Hall</Name>
+  <Warps>
+    <Warp X="6" Y="0">
+      <MapTarget X="4" Y="10">Tagor Courthouse</MapTarget>
+    </Warp>
+    <Warp X="11" Y="2">
+      <MapTarget X="1" Y="5">Tagor Conquest</MapTarget>
+    </Warp>
+    <Warp X="11" Y="3">
+      <MapTarget X="1" Y="5">Tagor Conquest</MapTarget>
+    </Warp>
+    <Warp X="11" Y="4">
+      <MapTarget X="1" Y="5">Tagor Conquest</MapTarget>
+    </Warp>
+    <Warp X="5" Y="11">
+      <MapTarget X="6" Y="1">Tagor Town Hall</MapTarget>
+    </Warp>
+    <Warp X="6" Y="11">
+      <MapTarget X="6" Y="1">Tagor Town Hall</MapTarget>
+    </Warp>
+    <Warp X="7" Y="11">
+      <MapTarget X="6" Y="1">Tagor Town Hall</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="527" X="15" Y="15" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>The Seventh Bough</Name>
+  <Description>Tagor Monk Trainer</Description>
+  <Warps>
+    <Warp X="6" Y="14">
+      <MapTarget X="45" Y="13">Tagor</MapTarget>
+    </Warp>
+    <Warp X="7" Y="14">
+      <MapTarget X="45" Y="13">Tagor</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Aurica" X="5" Y="9" Direction="South" />
+  </Npcs>
+</Map>

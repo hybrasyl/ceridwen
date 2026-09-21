@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="526" X="15" Y="15" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Aurora's Vigil</Name>
+  <Description>Tagor Archon Trainer</Description>
+  <Warps>
+    <Warp X="3" Y="1">
+      <MapTarget X="3" Y="13">Iuliana's Mysteries</MapTarget>
+    </Warp>
+    <Warp X="7" Y="14">
+      <MapTarget X="41" Y="33">Tagor</MapTarget>
+    </Warp>
+    <Warp X="8" Y="14">
+      <MapTarget X="41" Y="33">Tagor</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Aurora" X="1" Y="13" Direction="South" />
+  </Npcs>
+</Map>

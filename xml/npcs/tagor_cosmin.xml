@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Cosmin</Name>
+  <!-- Location: Tagor -->
+  <DisplayName>Cosmin</DisplayName>
+  <Appearance Sprite="33"/>
+</Npc>

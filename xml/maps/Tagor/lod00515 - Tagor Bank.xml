@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="515" X="18" Y="12" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Tagor Trust</Name>
+  <Description>Tagor Bank</Description>
+  <Warps>
+    <Warp X="17" Y="6">
+      <MapTarget X="46" Y="44">Tagor</MapTarget>
+    </Warp>
+    <Warp X="8" Y="11">
+      <MapTarget X="12" Y="1">Foxglove Inn</MapTarget>
+    </Warp>
+    <Warp X="9" Y="11">
+      <MapTarget X="12" Y="1">Foxglove Inn</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Cecil" X="4" Y="2" Direction="South" />
+  </Npcs>
+</Map>
