@@ -10,6 +10,74 @@
       <Name>Rucesion</Name>
       <Target X="48" Y="42">Rucesion Village</Target>
     </Point>
+    <Point X="302" Y="185">
+      <Name>Piet</Name>
+      <Target X="16" Y="1">Piet Village Way</Target>
+    </Point>
+    <Point X="74" Y="197">
+      <Name>Suomi</Name>
+      <Target X="16" Y="1">Suomi Village Way</Target>
+    </Point>
+    <Point X="140" Y="108">
+      <Name>Undine</Name>
+      <Target X="14" Y="15">Undine Village Way</Target>
+    </Point>
+    <Point X="127" Y="108">
+      <Name>Undine Village</Name>
+      <Target X="10" Y="87">Undine</Target>
+    </Point>
+    <Point X="352" Y="198">
+      <Name>Mehadi Swamp</Name>
+      <Target X="1" Y="8">Mehadi Entrance</Target>
+    </Point>
+    <Point X="110" Y="153">
+      <Name>Astrid</Name>
+      <Target X="8" Y="10">Astrid Entrance</Target>
+    </Point>
+    <Point X="345" Y="254">
+      <Name>Loures</Name>
+      <Target X="14" Y="9">Loures Castle Way</Target>
+    </Point>
+    <Point X="460" Y="144">
+      <Name>Dubhaim Castle</Name>
+      <Target X="25" Y="47">Dubhaim Castle</Target>
+    </Point>
+    <Point X="226" Y="104">
+      <Name>West Woodlands</Name>
+      <Target X="48" Y="25">West Woodland 8-1</Target>
+    </Point>
+    <Point X="87" Y="396">
+      <Name>Shinewood</Name>
+      <Target X="13" Y="22">Shinewood Forest Entranc</Target>
+    </Point>
+    <Point X="253" Y="117">
+      <Name>East Woodlands</Name>
+      <Target X="11" Y="23">East Woodlands Crossroads</Target>
+    </Point>
+    <Point X="251" Y="163">
+      <Name>Kasmanium Mines</Name>
+      <Target X="24" Y="48">Mine Entrance</Target>
+    </Point>
+    <Point X="150" Y="297">
+      <Name>Tagor</Name>
+      <Target X="22" Y="98">Tagor</Target>
+    </Point>
+    <Point X="284" Y="132">
+      <Name>Pravat Cave</Name>
+      <Target X="25" Y="24">Pravat South Entrance</Target>
+    </Point>
+    <Point X="284" Y="148">
+      <Name>Pravat Cave</Name>
+      <Target X="34" Y="24">Pravat South Entrance</Target>
+    </Point>
+    <Point X="576" Y="349">
+      <Name>Karlopos</Name>
+      <Target X="36" Y="40">Karlopos Island</Target>
+    </Point>
+    <Point X="96" Y="272">
+      <Name>House Macabre</Name>
+      <Target X="10" Y="18">Road to House Macabre</Target>
+    </Point>
 
 <!--
     <Point X="312" Y="84">
