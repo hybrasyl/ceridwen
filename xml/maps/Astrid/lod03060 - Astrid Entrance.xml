@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3060" Music="15" X="10" Y="20" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Astrid Entrance</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="0">
+      <MapTarget X="38" Y="30">Astrid South-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="1">
+      <MapTarget X="38" Y="31">Astrid South-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="2">
+      <MapTarget X="38" Y="32">Astrid South-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="3">
+      <MapTarget X="38" Y="33">Astrid South-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="4">
+      <MapTarget X="38" Y="34">Astrid South-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="14">
+      <MapTarget X="38" Y="4">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="0" Y="15">
+      <MapTarget X="38" Y="5">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="0" Y="16">
+      <MapTarget X="38" Y="6">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="0" Y="17">
+      <MapTarget X="38" Y="7">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="0" Y="18">
+      <MapTarget X="38" Y="8">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="0" Y="19">
+      <MapTarget X="38" Y="9">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="9" Y="9">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="9" Y="10">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="9" Y="11">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Beggar" X="4" Y="8" Direction="West" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Sign" X="0" Y="9">
+      <Message>Astrid: Site inhabited by Kobolds since history's beginning. Roads etched on the earth predate even the oldest Mundane history.</Message>
+    </Sign>
+  </Signs>
+</Map>

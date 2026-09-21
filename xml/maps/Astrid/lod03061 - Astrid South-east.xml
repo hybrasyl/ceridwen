@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3061" X="40" Y="40">
+  <Name>Astrid South-East</Name>
+  <Warps>
+    <Warp X="0" Y="15">
+      <MapTarget X="38" Y="35">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="16">
+      <MapTarget X="38" Y="36">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="17">
+      <MapTarget X="38" Y="37">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="18">
+      <MapTarget X="38" Y="38">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="19">
+      <MapTarget X="38" Y="39">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="20">
+      <MapTarget X="37" Y="39">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="21">
+      <MapTarget X="38" Y="1">Astrid Center</MapTarget>
+    </Warp>
+    <Warp X="0" Y="22">
+      <MapTarget X="38" Y="2">Astrid Center</MapTarget>
+    </Warp>
+    <Warp X="0" Y="23">
+      <MapTarget X="38" Y="3">Astrid Center</MapTarget>
+    </Warp>
+    <Warp X="0" Y="24">
+      <MapTarget X="38" Y="4">Astrid Center</MapTarget>
+    </Warp>
+    <Warp X="0" Y="25">
+      <MapTarget X="38" Y="5">Astrid Center</MapTarget>
+    </Warp>
+    <Warp X="0" Y="26">
+      <MapTarget X="38" Y="6">Astrid Center</MapTarget>
+    </Warp>
+    <Warp X="0" Y="27">
+      <MapTarget X="38" Y="7">Astrid Center</MapTarget>
+    </Warp>
+    <Warp X="0" Y="28">
+      <MapTarget X="38" Y="8">Astrid Center</MapTarget>
+    </Warp>
+    <Warp X="2" Y="39">
+      <MapTarget X="2" Y="1">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="3" Y="39">
+      <MapTarget X="3" Y="1">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="4" Y="39">
+      <MapTarget X="4" Y="1">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="5" Y="39">
+      <MapTarget X="5" Y="1">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="6" Y="39">
+      <MapTarget X="6" Y="1">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="18" Y="39">
+      <MapTarget X="18" Y="1">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="19" Y="39">
+      <MapTarget X="19" Y="1">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="20" Y="39">
+      <MapTarget X="20" Y="1">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="21" Y="39">
+      <MapTarget X="21" Y="1">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="22" Y="39">
+      <MapTarget X="22" Y="1">Astrid South</MapTarget>
+    </Warp>
+    <Warp X="39" Y="30">
+      <MapTarget X="1" Y="0">Astrid Entrance</MapTarget>
+    </Warp>
+    <Warp X="39" Y="31">
+      <MapTarget X="1" Y="1">Astrid Entrance</MapTarget>
+    </Warp>
+    <Warp X="39" Y="32">
+      <MapTarget X="1" Y="2">Astrid Entrance</MapTarget>
+    </Warp>
+    <Warp X="39" Y="33">
+      <MapTarget X="1" Y="3">Astrid Entrance</MapTarget>
+    </Warp>
+    <Warp X="39" Y="34">
+      <MapTarget X="1" Y="4">Astrid Entrance</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

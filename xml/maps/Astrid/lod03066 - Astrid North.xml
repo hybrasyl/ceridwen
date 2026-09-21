@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3066" X="40" Y="40">
+  <Name>Astrid North</Name>
+  <Warps>
+    <Warp X="17" Y="39">
+      <MapTarget X="17" Y="1">Astrid North-West</MapTarget>
+    </Warp>
+    <Warp X="18" Y="39">
+      <MapTarget X="18" Y="1">Astrid North-West</MapTarget>
+    </Warp>
+    <Warp X="19" Y="39">
+      <MapTarget X="19" Y="1">Astrid North-West</MapTarget>
+    </Warp>
+    <Warp X="20" Y="39">
+      <MapTarget X="20" Y="1">Astrid North-West</MapTarget>
+    </Warp>
+    <Warp X="21" Y="39">
+      <MapTarget X="21" Y="1">Astrid North-West</MapTarget>
+    </Warp>
+    <Warp X="32" Y="39">
+      <MapTarget X="32" Y="1">Astrid North-West</MapTarget>
+    </Warp>
+    <Warp X="33" Y="39">
+      <MapTarget X="33" Y="1">Astrid North-West</MapTarget>
+    </Warp>
+    <Warp X="34" Y="39">
+      <MapTarget X="34" Y="1">Astrid North-West</MapTarget>
+    </Warp>
+    <Warp X="35" Y="39">
+      <MapTarget X="35" Y="1">Astrid North-West</MapTarget>
+    </Warp>
+    <Warp X="36" Y="39">
+      <MapTarget X="36" Y="1">Astrid North-West</MapTarget>
+    </Warp>
+    <Warp X="39" Y="9">
+      <MapTarget X="1" Y="29">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="39" Y="10">
+      <MapTarget X="1" Y="30">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="39" Y="11">
+      <MapTarget X="1" Y="31">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="39" Y="12">
+      <MapTarget X="1" Y="32">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="39" Y="16">
+      <MapTarget X="1" Y="36">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="39" Y="17">
+      <MapTarget X="1" Y="37">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="39" Y="18">
+      <MapTarget X="1" Y="38">Astrid North-East</MapTarget>
+    </Warp>
+    <Warp X="39" Y="21">
+      <MapTarget X="1" Y="1">Astrid Center</MapTarget>
+    </Warp>
+    <Warp X="39" Y="22">
+      <MapTarget X="1" Y="2">Astrid Center</MapTarget>
+    </Warp>
+    <Warp X="39" Y="23">
+      <MapTarget X="1" Y="3">Astrid Center</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Zeroun" X="5" Y="15" Direction="South"/>
+  </Npcs>
+</Map>
