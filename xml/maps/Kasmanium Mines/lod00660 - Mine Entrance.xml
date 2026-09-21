@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="660" Music="59" X="50" Y="50" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mine Entrance</Name>
+  <Flags />
+  <Warps>
+    <Warp X="24" Y="49">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="25" Y="49">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Sennaan" X="21" Y="39" Direction="East" />
+  </Npcs>
+  <Signs />
+</Map>
