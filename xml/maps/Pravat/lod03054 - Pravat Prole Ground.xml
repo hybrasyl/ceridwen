@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3054" X="50" Y="50">
+  <Name>Pravat Prole Ground</Name>
+  <Warps>
+    <Warp X="0" Y="4">
+      <MapTarget X="48" Y="4">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="0" Y="5">
+      <MapTarget X="48" Y="6">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="0" Y="7">
+      <MapTarget X="48" Y="7">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="0" Y="23">
+      <MapTarget X="48" Y="23">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="0" Y="24">
+      <MapTarget X="48" Y="24">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="0" Y="25">
+      <MapTarget X="48" Y="25">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="14" Y="49">
+      <MapTarget X="14" Y="1">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="15" Y="49">
+      <MapTarget X="15" Y="1">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="16" Y="49">
+      <MapTarget X="16" Y="1">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="17" Y="49">
+      <MapTarget X="17" Y="1">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="39" Y="49">
+      <MapTarget X="39" Y="1">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="40" Y="49">
+      <MapTarget X="40" Y="1">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="41" Y="49">
+      <MapTarget X="41" Y="1">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="42" Y="49">
+      <MapTarget X="42" Y="1">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="43" Y="49">
+      <MapTarget X="43" Y="1">Pravat Shallow</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

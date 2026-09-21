@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3055" X="50" Y="50" Music="5">
+  <Name>Pravat Shallow</Name>
+  <Warps>
+    <Warp X="0" Y="20">
+      <MapTarget X="48" Y="20">Pravat Works</MapTarget>
+    </Warp>
+    <Warp X="0" Y="21">
+      <MapTarget X="48" Y="21">Pravat Works</MapTarget>
+    </Warp>
+    <Warp X="0" Y="22">
+      <MapTarget X="48" Y="22">Pravat Works</MapTarget>
+    </Warp>
+    <Warp X="0" Y="23">
+      <MapTarget X="48" Y="23">Pravat Works</MapTarget>
+    </Warp>
+    <Warp X="0" Y="39">
+      <MapTarget X="48" Y="39">Pravat Works</MapTarget>
+    </Warp>
+    <Warp X="0" Y="40">
+      <MapTarget X="48" Y="40">Pravat Works</MapTarget>
+    </Warp>
+    <Warp X="0" Y="41">
+      <MapTarget X="48" Y="41">Pravat Works</MapTarget>
+    </Warp>
+    <Warp X="0" Y="42">
+      <MapTarget X="48" Y="42">Pravat Works</MapTarget>
+    </Warp>
+    <Warp X="8" Y="49">
+      <MapTarget X="17" Y="14">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="9" Y="49">
+      <MapTarget X="18" Y="14">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="10" Y="49">
+      <MapTarget X="19" Y="14">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="11" Y="49">
+      <MapTarget X="20" Y="14">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="14" Y="0">
+      <MapTarget X="14" Y="48">Pravat Prole Ground</MapTarget>
+    </Warp>
+    <Warp X="15" Y="0">
+      <MapTarget X="15" Y="48">Pravat Prole Ground</MapTarget>
+    </Warp>
+    <Warp X="16" Y="0">
+      <MapTarget X="16" Y="48">Pravat Prole Ground</MapTarget>
+    </Warp>
+    <Warp X="17" Y="0">
+      <MapTarget X="17" Y="48">Pravat Prole Ground</MapTarget>
+    </Warp>
+    <Warp X="38" Y="49">
+      <MapTarget X="35" Y="15">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="39" Y="0">
+      <MapTarget X="39" Y="48">Pravat Prole Ground</MapTarget>
+    </Warp>
+    <Warp X="39" Y="49">
+      <MapTarget X="36" Y="15">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="40" Y="0">
+      <MapTarget X="40" Y="48">Pravat Prole Ground</MapTarget>
+    </Warp>
+    <Warp X="40" Y="49">
+      <MapTarget X="37" Y="15">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="41" Y="0">
+      <MapTarget X="41" Y="48">Pravat Prole Ground</MapTarget>
+    </Warp>
+    <Warp X="41" Y="49">
+      <MapTarget X="38" Y="15">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="42" Y="0">
+      <MapTarget X="42" Y="48">Pravat Prole Ground</MapTarget>
+    </Warp>
+    <Warp X="43" Y="0">
+      <MapTarget X="43" Y="48">Pravat Prole Ground</MapTarget>
+    </Warp>
+    <Warp X="49" Y="11">
+      <MapTarget X="1" Y="9">Pravat Heart</MapTarget>
+    </Warp>
+    <Warp X="49" Y="12">
+      <MapTarget X="1" Y="10">Pravat Heart</MapTarget>
+    </Warp>
+    <Warp X="49" Y="13">
+      <MapTarget X="1" Y="11">Pravat Heart</MapTarget>
+    </Warp>
+    <Warp X="49" Y="14">
+      <MapTarget X="1" Y="12">Pravat Heart</MapTarget>
+    </Warp>
+    <Warp X="49" Y="31">
+      <MapTarget X="8" Y="14">Pravat Heart</MapTarget>
+    </Warp>
+    <Warp X="49" Y="32">
+      <MapTarget X="9" Y="14">Pravat Heart</MapTarget>
+    </Warp>
+    <Warp X="49" Y="33">
+      <MapTarget X="10" Y="14">Pravat Heart</MapTarget>
+    </Warp>
+    <Warp X="49" Y="34">
+      <MapTarget X="11" Y="14">Pravat Heart</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3059" X="14" Y="21" Music="7">
+  <Name>Pravat West Entrance</Name>
+  <Warps>
+    <Warp X="4" Y="20">
+      <MapTarget X="14" Y="24">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="5" Y="0">
+      <MapTarget X="12" Y="18">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="5" Y="20">
+      <MapTarget X="15" Y="24">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="6" Y="0">
+      <MapTarget X="12" Y="19">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="6" Y="20">
+      <MapTarget X="16" Y="24">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="7" Y="0">
+      <MapTarget X="12" Y="20">Pravat South Entrance</MapTarget>
+    </Warp>
+    <Warp X="13" Y="0">
+      <MapTarget X="1" Y="24">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="13" Y="1">
+      <MapTarget X="1" Y="25">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="13" Y="2">
+      <MapTarget X="1" Y="26">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="13" Y="3">
+      <MapTarget X="1" Y="27">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="13" Y="17">
+      <MapTarget X="1" Y="41">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="13" Y="18">
+      <MapTarget X="1" Y="42">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="13" Y="19">
+      <MapTarget X="1" Y="43">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="13" Y="20">
+      <MapTarget X="1" Y="44">Pravat Hearth</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Bahadir" X="3" Y="9" Direction="South"/>
+    <Npc Name="Ozkan" X="7" Y="5" Direction="South"/>
+  </Npcs>
+</Map>

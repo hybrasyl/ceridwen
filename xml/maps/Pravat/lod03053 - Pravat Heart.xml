@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3053" X="16" Y="16">
+  <Name>Pravat Heart</Name>
+  <Warps>
+    <Warp X="0" Y="9">
+      <MapTarget X="48" Y="11">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="48" Y="12">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="0" Y="11">
+      <MapTarget X="48" Y="13">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="0" Y="12">
+      <MapTarget X="48" Y="14">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="8" Y="15">
+      <MapTarget X="48" Y="31">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="9" Y="15">
+      <MapTarget X="48" Y="32">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="10" Y="15">
+      <MapTarget X="48" Y="33">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="11" Y="15">
+      <MapTarget X="48" Y="34">Pravat Shallow</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Pricha" X="3" Y="3" Direction="South"/>
+    <Npc Name="Phailin" X="7" Y="1" Direction="South"/>
+  </Npcs>
+</Map>

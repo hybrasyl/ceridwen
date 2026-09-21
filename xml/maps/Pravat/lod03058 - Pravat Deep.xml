@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3058" Music="3" X="24" Y="24" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Pravat Deep</Name>
+  <Flags />
+  <Warps>
+    <Warp X="1" Y="23">
+      <MapTarget X="14" Y="1">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="2" Y="23">
+      <MapTarget X="15" Y="1">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="3" Y="23">
+      <MapTarget X="16" Y="1">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="4" Y="23">
+      <MapTarget X="17" Y="1">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="5" Y="23">
+      <MapTarget X="18" Y="1">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="19" Y="23">
+      <MapTarget X="31" Y="1">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="20" Y="23">
+      <MapTarget X="31" Y="1">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="21" Y="23">
+      <MapTarget X="31" Y="1">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="22" Y="23">
+      <MapTarget X="31" Y="1">Pravat Hearth</MapTarget>
+    </Warp>
+    <Warp X="8" Y="1">
+      <MapTarget X="10" Y="18">Chaos Entrance</MapTarget>
+    </Warp>
+    <Warp X="9" Y="1">
+      <MapTarget X="11" Y="18">Chaos Entrance</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

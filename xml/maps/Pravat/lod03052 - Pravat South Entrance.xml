@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3052" X="51" Y="26" Music="59">
+  <Name>Pravat South Entrance</Name>
+  <Warps>
+    <Warp X="11" Y="18">
+      <MapTarget X="5" Y="1">Pravat West Entrance</MapTarget>
+    </Warp>
+    <Warp X="11" Y="19">
+      <MapTarget X="6" Y="1">Pravat West Entrance</MapTarget>
+    </Warp>
+    <Warp X="11" Y="20">
+      <MapTarget X="7" Y="1">Pravat West Entrance</MapTarget>
+    </Warp>
+    <Warp X="14" Y="25">
+      <MapTarget X="4" Y="19">Pravat West Entrance</MapTarget>
+    </Warp>
+    <Warp X="15" Y="25">
+      <MapTarget X="5" Y="19">Pravat West Entrance</MapTarget>
+    </Warp>
+    <Warp X="16" Y="25">
+      <MapTarget X="6" Y="19">Pravat West Entrance</MapTarget>
+    </Warp>
+    <Warp X="17" Y="13">
+      <MapTarget X="8" Y="48">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="18" Y="13">
+      <MapTarget X="9" Y="48">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="19" Y="13">
+      <MapTarget X="10" Y="48">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="20" Y="13">
+      <MapTarget X="11" Y="48">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="35" Y="14">
+      <MapTarget X="38" Y="48">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="36" Y="14">
+      <MapTarget X="39" Y="48">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="37" Y="14">
+      <MapTarget X="40" Y="48">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="38" Y="14">
+      <MapTarget X="41" Y="48">Pravat Shallow</MapTarget>
+    </Warp>
+    <Warp X="25" Y="25">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="26" Y="25">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="34" Y="25">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="35" Y="25">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Beggar" X="14" Y="14" Direction="West"/>
+    <Npc Name="Evan" X="27" Y="14" Direction="South"/>
+    <Npc Name="Celesta" X="48" Y="21" Direction="East"/>
+  </Npcs>
+  <Signs>
+    <Sign Type="Sign" X="29" Y="14">
+      <Message>Pravat: The Grimlok and Goblins continue a war here for fragments of a sacred artifact. They grudge each other but fiercely attack any non-allied outsiders.</Message>
+    </Sign>
+  </Signs>
+</Map>
