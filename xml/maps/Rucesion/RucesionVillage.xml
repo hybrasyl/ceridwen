@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="505" Music="59" X="50" Y="50" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Rucesion Village</Name>
+  <Flags />
+  <Warps>
+    <Warp X="9" Y="34">
+      <MapTarget X="13" Y="9">Rucesion Special Skill M</MapTarget>
+    </Warp>
+    <Warp X="7" Y="23">
+      <MapTarget X="6" Y="13">Rucesion Goods Shop</MapTarget>
+    </Warp>
+    <Warp X="11" Y="11">
+      <MapTarget X="18" Y="23">Rucesion Church</MapTarget>
+    </Warp>
+    <Warp X="10" Y="11">
+      <MapTarget X="20" Y="23">Rucesion Church</MapTarget>
+    </Warp>
+    <Warp X="42" Y="11">
+      <MapTarget X="5" Y="10">Rucesion Storage</MapTarget>
+    </Warp>
+    <Warp X="37" Y="28">
+      <MapTarget X="10" Y="8">Rucesion Armor Shop</MapTarget>
+    </Warp>
+    <Warp X="32" Y="33">
+      <MapTarget X="6" Y="13">Rucesion Weapon Shop</MapTarget>
+    </Warp>
+    <Warp X="22" Y="19">
+      <MapTarget X="11" Y="6">Rucesion Empty Room 1</MapTarget>
+    </Warp>
+    <Warp X="41" Y="42">
+      <MapTarget X="5" Y="10">Rucesion Inn</MapTarget>
+    </Warp>
+    <Warp X="9" Y="33">
+      <MapTarget X="13" Y="8">Rucesion Special Skill M</MapTarget>
+    </Warp>
+    <Warp X="28" Y="0">
+      <MapTarget X="14" Y="14">Rucesion Village Way</MapTarget>
+    </Warp>
+    <Warp X="29" Y="0">
+      <MapTarget X="15" Y="14">Rucesion Village Way</MapTarget>
+    </Warp>
+    <Warp X="30" Y="0">
+      <MapTarget X="16" Y="14">Rucesion Village Way</MapTarget>
+    </Warp>
+    <Warp X="41" Y="41">
+      <MapTarget X="4" Y="10">Rucesion Inn</MapTarget>
+    </Warp>
+    <Warp X="41" Y="43">
+      <MapTarget X="6" Y="10">Rucesion Inn</MapTarget>
+    </Warp>
+    <Warp X="21" Y="44">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="22" Y="44">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="27" Y="44">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="28" Y="44">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Guillherme" X="49" Y="42" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="RucLawsBoard" X="23" Y="35">
+      <Name>Rucesion Law</Name>
+      <Description>A board for the laws of Rucesion</Description>
+      <Message />
+    </Sign>
+    <Sign Type="Messageboard" BoardKey="RucCommBoard" X="19" Y="3">
+      <Name>Rucesion Community Board</Name>
+      <Description>A board for the Rucesion community</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

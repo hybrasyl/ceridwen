@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="2006" X="50" Y="50" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>West Rucesion Port</Name>
+  <Flags />
+  <Warps />
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3010" Music="15" X="24" Y="16" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Rucesion Village Way</Name>
+  <Flags />
+  <Warps>
+    <Warp X="14" Y="15">
+      <MapTarget X="28" Y="1">Rucesion Village</MapTarget>
+    </Warp>
+    <Warp X="15" Y="15">
+      <MapTarget X="29" Y="1">Rucesion Village</MapTarget>
+    </Warp>
+    <Warp X="16" Y="15">
+      <MapTarget X="30" Y="1">Rucesion Village</MapTarget>
+    </Warp>
+    <Warp X="13" Y="0">
+      <WorldMapTarget>Dubh Castle Bridge</WorldMapTarget>
+    </Warp>
+    <Warp X="14" Y="0">
+      <WorldMapTarget>Dubh Castle Bridge</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="0">
+      <WorldMapTarget>Dubh Castle Bridge</WorldMapTarget>
+    </Warp>
+    <Warp X="16" Y="0">
+      <WorldMapTarget>Dubh Castle Bridge</WorldMapTarget>
+    </Warp>
+    <Warp X="17" Y="0">
+      <WorldMapTarget>Dubh Castle Bridge</WorldMapTarget>
+    </Warp>
+    <Warp X="9" Y="4">
+      <MapTarget X="23" Y="5">Shrine of Luathas</MapTarget>
+    </Warp>
+    <Warp X="9" Y="5">
+      <MapTarget X="23" Y="6">Shrine of Luathas</MapTarget>
+    </Warp>
+    <Warp X="9" Y="6">
+      <MapTarget X="23" Y="7">Shrine of Luathas</MapTarget>
+    </Warp>
+    <Warp X="23" Y="9">
+      <MapTarget X="1" Y="8">Rucesion Commons</MapTarget>
+    </Warp>
+    <Warp X="23" Y="10">
+      <MapTarget X="1" Y="9">Rucesion Commons</MapTarget>
+    </Warp>
+    <Warp X="23" Y="11">
+      <MapTarget X="1" Y="10">Rucesion Commons</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Sign" X="18" Y="0">
+      <Message>Shrine of Luathas - God of Gnosis lies to the left.  The lights behind herald the town of Rucesion.  The Rucesion Commons lies south toward the right.  Ahead lies the castle of unspeakable dubhaimid.</Message>
+    </Sign>
+  </Signs>
+</Map>
