@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="1" X="50" Y="50" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Crypt 1-1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="3" Y="4">
+      <MapTarget X="44" Y="23">Mileth Crypt 2-1</MapTarget>
+    </Warp>
+    <Warp X="45" Y="17">
+      <MapTarget X="43" Y="1">Mileth Crypt 2-3</MapTarget>
+    </Warp>
+    <Warp X="40" Y="45">
+      <MapTarget X="11" Y="19">Mileth Crypt 2-2</MapTarget>
+    </Warp>
+    <Warp X="12" Y="49">
+      <MapTarget X="7" Y="8">Crypt Vestibule</MapTarget>
+    </Warp>
+    <Warp X="14" Y="49">
+      <MapTarget X="8" Y="8">Crypt Vestibule</MapTarget>
+    </Warp>
+    <Warp X="13" Y="49">
+      <MapTarget X="7" Y="8">Crypt Vestibule</MapTarget>
+    </Warp>
+    <Warp X="15" Y="49">
+      <MapTarget X="8" Y="8">Crypt Vestibule</MapTarget>
+    </Warp>
+    <Warp X="16" Y="49">
+      <MapTarget X="9" Y="8">Crypt Vestibule</MapTarget>
+    </Warp>
+    <Warp X="17" Y="49">
+      <MapTarget X="9" Y="8">Crypt Vestibule</MapTarget>
+    </Warp>
+    <Warp X="18" Y="49">
+      <MapTarget X="9" Y="8">Crypt Vestibule</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

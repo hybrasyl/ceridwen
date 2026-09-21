@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="38" X="50" Y="50" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mileth Crypt 12-2</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="30">
+      <MapTarget X="11" Y="22">Mileth Crypt 11-3</MapTarget>
+    </Warp>
+    <Warp X="40" Y="2">
+      <MapTarget X="4" Y="1">Mileth Crypt 13-2</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>
