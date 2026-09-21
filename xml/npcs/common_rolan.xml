@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Rolan</Name>
+  <!-- Location: Abel Inn Room 7 -->
+  <DisplayName>Rolan</DisplayName>
+  <Appearance Sprite="33"/>
+</Npc>

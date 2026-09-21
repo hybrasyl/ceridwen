@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Kamel</Name>
+  <!-- Location: Abel Fish Market -->
+  <DisplayName>Kamel</DisplayName>
+  <Appearance Sprite="286"/>
+</Npc>
