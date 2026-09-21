@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="327" X="22" Y="22">
+  <Name>Dubhaim Castle North 2-1</Name>
+  <Warps>
+    <Warp X="13" Y="0">
+      <MapTarget X="11" Y="20">Dubhaim Castle North 3-1</MapTarget>
+    </Warp>
+    <Warp X="21" Y="12">
+      <MapTarget X="1" Y="13">Dubhaim Castle North 1-1</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

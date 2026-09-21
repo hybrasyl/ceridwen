@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="340" Music="15" X="50" Y="50" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Dubhaim Castle</Name>
+  <Flags />
+  <Warps>
+    <Warp X="34" Y="10">
+      <MapTarget X="9" Y="20">Dubhaim Castle North 1-1</MapTarget>
+    </Warp>
+    <Warp X="24" Y="49">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="25" Y="49">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="26" Y="49">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="27" Y="49">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="12" Y="26">
+      <MapTarget X="5" Y="38">Dubhaim Castle West Corr</MapTarget>
+    </Warp>
+    <Warp X="25" Y="31">
+      <MapTarget X="9" Y="20">Dubhaim Castle East 1-1</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="RucAdvBoard" X="21" Y="33">
+      <Name>Rucesion Adventure Board</Name>
+      <Description>A board for Rucesion Adventures</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

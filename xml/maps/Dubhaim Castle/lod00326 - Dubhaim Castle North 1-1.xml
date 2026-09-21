@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="326" Music="4" X="22" Y="22" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Dubhaim Castle North 1-1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="13">
+      <MapTarget X="20" Y="12">Dubhaim Castle North 2-1</MapTarget>
+    </Warp>
+    <Warp X="9" Y="0">
+      <MapTarget X="9" Y="20">Dubhaim Castle North 2-2</MapTarget>
+    </Warp>
+    <Warp X="9" Y="21">
+      <MapTarget X="34" Y="11">Dubhaim Castle</MapTarget>
+    </Warp>
+    <Warp X="21" Y="9">
+      <MapTarget X="1" Y="17">Dubhaim Castle North 2-3</MapTarget>
+    </Warp>
+    <Warp X="1" Y="11">
+      <MapTarget X="23" Y="6">Shrine of Sgrios</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

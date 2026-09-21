@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="308" X="22" Y="22" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Dubhaim Castle East 1-1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="9" Y="21">
+      <MapTarget X="25" Y="32">Dubhaim Castle</MapTarget>
+    </Warp>
+    <Warp X="1" Y="11">
+      <MapTarget X="23" Y="6">Shrine of Sgrios</MapTarget>
+    </Warp>
+    <Warp X="0" Y="13">
+      <MapTarget X="20" Y="12">Dubhaim Castle East 2-1</MapTarget>
+    </Warp>
+    <Warp X="9" Y="0">
+      <MapTarget X="11" Y="20">Dubhaim Castle East 2-2</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

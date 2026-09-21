@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3018" Music="8" X="25" Y="16" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Shrine of Sgrios</Name>
+  <Flags />
+  <Warps>
+    <Warp X="24" Y="6">
+      <MapTarget X="2" Y="11">Dubhaim Castle West 1-1</MapTarget>
+    </Warp>
+    <Warp X="24" Y="5">
+      <MapTarget X="2" Y="11">Dubhaim Castle West 1-1</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Greim" X="3" Y="4" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="SgriosBoard" X="2" Y="11">
+      <Name>Sgrios Fellowship Board</Name>
+      <Description>A board for the Sgrios Shrine</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>

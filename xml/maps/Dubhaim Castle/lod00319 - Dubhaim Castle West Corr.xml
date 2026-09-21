@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="319" Music="9" X="9" Y="40" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Dubhaim Castle West Corr</Name>
+  <Flags />
+  <Warps>
+    <Warp X="5" Y="39">
+      <MapTarget X="12" Y="27">Dubhaim Castle</MapTarget>
+    </Warp>
+    <Warp X="1" Y="26">
+      <MapTarget X="20" Y="11">Dubhaim Castle West 2-1</MapTarget>
+    </Warp>
+    <Warp X="1" Y="32">
+      <MapTarget X="20" Y="11">Dubhaim Castle West 1-1</MapTarget>
+    </Warp>
+    <Warp X="1" Y="20">
+      <MapTarget X="20" Y="11">Dubhaim Castle West 3-1</MapTarget>
+    </Warp>
+    <Warp X="1" Y="14">
+      <MapTarget X="20" Y="11">Dubhaim Castle West 4-1</MapTarget>
+    </Warp>
+    <Warp X="1" Y="8">
+      <MapTarget X="20" Y="11">Dubhaim Castle West 5-1</MapTarget>
+    </Warp>
+    <Warp X="1" Y="2">
+      <MapTarget X="20" Y="11">Dubhaim Castle West 6-1</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

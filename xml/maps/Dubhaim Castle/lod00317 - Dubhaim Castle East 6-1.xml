@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="317" X="22" Y="22" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Dubhaim Castle East 6-1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="21" Y="12">
+      <MapTarget X="1" Y="9">Dubhaim Castle East 5-1</MapTarget>
+    </Warp>
+    <Warp X="21" Y="7">
+      <MapTarget X="1" Y="8">Dubhaim Castle Jail</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>
