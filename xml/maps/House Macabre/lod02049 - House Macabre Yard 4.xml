@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="2049" X="100" Y="100">
+  <Name>House Macabre Yard 4</Name>
+  <Warps>
+    <Warp X="0" Y="42">
+      <MapTarget X="97" Y="42">House Macabre Yard 1</MapTarget>
+    </Warp>
+    <Warp X="9" Y="27">
+      <MapTarget X="17" Y="16">Macabre Study 4-1</MapTarget>
+    </Warp>
+    <Warp X="9" Y="28">
+      <MapTarget X="17" Y="16">Macabre Study 4-1</MapTarget>
+    </Warp>
+    <Warp X="9" Y="29">
+      <MapTarget X="17" Y="16">Macabre Study 4-1</MapTarget>
+    </Warp>
+    <Warp X="93" Y="12">
+      <MapTarget X="17" Y="4">Macabre Study 4-2</MapTarget>
+    </Warp>
+  </Warps>
+</Map>
