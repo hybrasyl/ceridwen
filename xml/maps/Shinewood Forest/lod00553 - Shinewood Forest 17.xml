@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="553" X="50" Y="50">
+  <Name>Shinewood Forest 17</Name>
+  <Warps>
+    <Warp X="0" Y="9">
+      <MapTarget X="48" Y="27">Shinewood Forest 19</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="48" Y="28">Shinewood Forest 19</MapTarget>
+    </Warp>
+    <Warp X="0" Y="11">
+      <MapTarget X="48" Y="29">Shinewood Forest 19</MapTarget>
+    </Warp>
+    <Warp X="15" Y="37">
+      <MapTarget X="8" Y="5">Shinewood Herbal Shop</MapTarget>
+    </Warp>
+    <Warp X="17" Y="0">
+      <MapTarget X="37" Y="98">Shinewood Forest 18</MapTarget>
+    </Warp>
+    <Warp X="18" Y="0">
+      <MapTarget X="38" Y="98">Shinewood Forest 18</MapTarget>
+    </Warp>
+    <Warp X="19" Y="0">
+      <MapTarget X="39" Y="98">Shinewood Forest 18</MapTarget>
+    </Warp>
+    <Warp X="20" Y="49">
+      <MapTarget X="17" Y="1">Shinewood Forest 16</MapTarget>
+    </Warp>
+    <Warp X="21" Y="49">
+      <MapTarget X="18" Y="1">Shinewood Forest 16</MapTarget>
+    </Warp>
+    <Warp X="22" Y="49">
+      <MapTarget X="19" Y="1">Shinewood Forest 16</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

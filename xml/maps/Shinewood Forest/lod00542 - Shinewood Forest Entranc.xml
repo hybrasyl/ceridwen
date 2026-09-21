@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="542" Music="28" X="25" Y="25" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Shinewood Forest Entranc</Name>
+  <Flags />
+  <Warps>
+    <Warp X="7" Y="0">
+      <MapTarget X="39" Y="98">Shinewood Forest 2</MapTarget>
+    </Warp>
+    <Warp X="8" Y="0">
+      <MapTarget X="40" Y="98">Shinewood Forest 2</MapTarget>
+    </Warp>
+    <Warp X="9" Y="0">
+      <MapTarget X="41" Y="98">Shinewood Forest 2</MapTarget>
+    </Warp>
+    <Warp X="18" Y="0">
+      <MapTarget X="75" Y="98">Shinewood Forest 2</MapTarget>
+    </Warp>
+    <Warp X="19" Y="0">
+      <MapTarget X="76" Y="98">Shinewood Forest 2</MapTarget>
+    </Warp>
+    <Warp X="20" Y="0">
+      <MapTarget X="77" Y="98">Shinewood Forest 2</MapTarget>
+    </Warp>
+    <Warp X="13" Y="24">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="14" Y="24">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="24">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Sign" X="5" Y="2">
+      <Message>Welcome to Shinewood Forest!</Message>
+    </Sign>
+    <Sign Type="Sign" X="17" Y="2">
+      <Message>Welcome to Shinewood Forest!</Message>
+    </Sign>
+  </Signs>
+</Map>

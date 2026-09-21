@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="991" X="50" Y="50">
+  <Name>Shinewood Forest 8</Name>
+  <Warps>
+    <Warp X="18" Y="0">
+      <MapTarget X="41" Y="98">Shinewood Forest 7</MapTarget>
+    </Warp>
+    <Warp X="19" Y="0">
+      <MapTarget X="42" Y="98">Shinewood Forest 7</MapTarget>
+    </Warp>
+    <Warp X="20" Y="0">
+      <MapTarget X="43" Y="98">Shinewood Forest 7</MapTarget>
+    </Warp>
+  </Warps>
+</Map>
