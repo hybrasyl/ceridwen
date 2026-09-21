@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Shant</Name>
+  <!-- Location: Astrid North-West -->
+  <DisplayName>Shant</DisplayName>
+  <Appearance Sprite="50"/>
+</Npc>

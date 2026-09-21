@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Pricha</Name>
+  <!-- Location: Pravat -->
+  <DisplayName>Pricha</DisplayName>
+  <Appearance Sprite="8"/>
+</Npc>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Gigean</Name>
+  <!-- Location: Gigean's Dwelling -->
+  <DisplayName>Gigean</DisplayName>
+  <Appearance Sprite="205"/>
+</Npc>

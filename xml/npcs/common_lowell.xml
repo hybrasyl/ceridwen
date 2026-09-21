@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Lowell</Name>
+  <!-- Location: Loures 2 Floor Weapon Storage -->
+  <DisplayName>Lowell</DisplayName>
+  <Appearance Sprite="30" Portrait="buls.spf"/>
+</Npc>

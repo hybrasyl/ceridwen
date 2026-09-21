@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Dislaidir</Name>
+  <!-- Location: Road to House Macabre -->
+  <DisplayName>Dislaidir</DisplayName>
+  <Appearance Sprite="678"/>
+</Npc>

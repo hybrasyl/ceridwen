@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Celesta</Name>
+  <!-- Location: Pravat -->
+  <DisplayName>Celesta</DisplayName>
+  <Appearance Sprite="57" Portrait="helper.spf"/>
+</Npc>

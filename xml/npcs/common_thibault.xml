@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Thibault</Name>
+  <!-- Location: Loures 3 Floor Office -->
+  <DisplayName>Thibault</DisplayName>
+  <Appearance Sprite="28" Portrait="knight.spf"/>
+</Npc>

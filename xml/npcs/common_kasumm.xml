@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Kasumm</Name>
+  <!-- Location: Loures Store 14 -->
+  <DisplayName>Kasumm</DisplayName>
+  <Appearance Sprite="56" Portrait="bank.spf"/>
+</Npc>

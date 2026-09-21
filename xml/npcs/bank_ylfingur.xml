@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Ylfingur</Name>
+  <!-- Location: Suomi Banker -->
+  <DisplayName>Ylfingur</DisplayName>
+  <Appearance Sprite="56" Portrait="bank.spf"/>
+  <Roles >
+    <Bank/>
+  </Roles>
+</Npc>

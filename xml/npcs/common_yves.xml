@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Yves</Name>
+  <!-- Location: Loures Underground Jail -->
+  <DisplayName>Yves</DisplayName>
+  <Appearance Sprite="23"/>
+</Npc>
