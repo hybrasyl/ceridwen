@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="501" X="70" Y="70" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Piet</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="8">
+      <MapTarget X="22" Y="8">Piet Village Way</MapTarget>
+    </Warp>
+    <Warp X="0" Y="9">
+      <MapTarget X="22" Y="9">Piet Village Way</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="22" Y="10">Piet Village Way</MapTarget>
+    </Warp>
+    <Warp X="0" Y="11">
+      <MapTarget X="22" Y="11">Piet Village Way</MapTarget>
+    </Warp>
+    <Warp X="29" Y="12">
+      <MapTarget X="11" Y="7">Piet Empty Room</MapTarget>
+    </Warp>
+    <Warp X="10" Y="46">
+      <MapTarget X="8" Y="13">Piet Restaurant</MapTarget>
+    </Warp>
+    <Warp X="11" Y="46">
+      <MapTarget X="9" Y="13">Piet Restaurant</MapTarget>
+    </Warp>
+    <Warp X="17" Y="39">
+      <MapTarget X="13" Y="4">Piet Bar</MapTarget>
+    </Warp>
+    <Warp X="17" Y="40">
+      <MapTarget X="13" Y="5">Piet Bar</MapTarget>
+    </Warp>
+    <Warp X="29" Y="55">
+      <MapTarget X="13" Y="8">Piet Fae Priestess</MapTarget>
+    </Warp>
+    <Warp X="38" Y="13">
+      <MapTarget X="5" Y="10">Piet Inn</MapTarget>
+    </Warp>
+    <Warp X="39" Y="13">
+      <MapTarget X="6" Y="10">Piet Inn</MapTarget>
+    </Warp>
+    <Warp X="43" Y="49">
+      <MapTarget X="6" Y="13">Piet Recall Shop</MapTarget>
+    </Warp>
+    <Warp X="44" Y="49">
+      <MapTarget X="7" Y="13">Piet Recall Shop</MapTarget>
+    </Warp>
+    <Warp X="48" Y="28">
+      <MapTarget X="6" Y="13">Piet Weapon Shop</MapTarget>
+    </Warp>
+    <Warp X="49" Y="28">
+      <MapTarget X="7" Y="13">Piet Weapon Shop</MapTarget>
+    </Warp>
+    <Warp X="50" Y="13">
+      <MapTarget X="5" Y="10">Piet Bank</MapTarget>
+    </Warp>
+    <Warp X="51" Y="13">
+      <MapTarget X="6" Y="10">Piet Bank</MapTarget>
+    </Warp>
+    <Warp X="55" Y="21">
+      <MapTarget X="10" Y="8">Piet Armor Shop</MapTarget>
+    </Warp>
+    <Warp X="55" Y="22">
+      <MapTarget X="10" Y="9">Piet Armor Shop</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Sign" X="31" Y="10">
+      <Name>Piet Foreclosed Building</Name>
+      <Message>Foreclosed for taxes unpaid. - Burgess of Loures</Message>
+    </Sign>
+    <Sign Type="Sign" X="41" Y="16">
+      <Name>Piet Inn Sign</Name>
+      <Message>Saskia - Piet Inn.  Rest your head on a bed fit for an Aisling</Message>
+    </Sign>
+    <Sign Type="Sign" X="49" Y="15">
+      <Name>Piet Trader Board</Name>
+      <Message>Jilt - Leather goods, ornaments and exotic wares from Kasmanium to Loures</Message>
+    </Sign>
+    <Sign Type="Sign" X="56" Y="25">
+      <Name>Piet Armory Sign</Name>
+      <Message>Leo - Fine Northern Ardmagh armor and jewel, made with pride</Message>
+    </Sign>
+    <Sign Type="Sign" X="47" Y="29">
+      <Name>Piet Weaponry Sign</Name>
+      <Message>Gunnar - Fine armaments made from tempered Louresian steel</Message>
+    </Sign>
+    <Sign Type="Sign" X="13" Y="48">
+      <Name>Piet Restaurant Sign</Name>
+      <Message>Alleen - Sweets &amp; Meats from the fields of Piet and all Northern Ardmagh</Message>
+    </Sign>
+    <Sign Type="Sign" X="19" Y="43">
+      <Name>Piet Tavern Sign</Name>
+      <Message>Lia - The Tulsi Brew, with drinks, laughter and intrigue</Message>
+    </Sign>
+    <Sign Type="Sign" X="31" Y="52">
+      <Name>Piet Fae Priestess Sign</Name>
+      <Message>Narve - Fae Priestess. Secrets of the Fae shared with kindred spirits.</Message>
+    </Sign>
+    <Sign Type="Sign" X="41" Y="50">
+      <Name>Piet Alchemist Sign</Name>
+      <Message>Appie - Philosophicus of Magic and Alchemy</Message>
+    </Sign>
+  </Signs>
+</Map>

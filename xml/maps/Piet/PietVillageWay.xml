@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3020" Music="15" X="24" Y="16" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Piet Village Way</Name>
+  <Flags />
+  <Warps>
+    <Warp X="23" Y="8">
+      <MapTarget X="1" Y="8">Piet</MapTarget>
+    </Warp>
+    <Warp X="23" Y="9">
+      <MapTarget X="1" Y="9">Piet</MapTarget>
+    </Warp>
+    <Warp X="23" Y="10">
+      <MapTarget X="1" Y="10">Piet</MapTarget>
+    </Warp>
+    <Warp X="23" Y="11">
+      <MapTarget X="1" Y="11">Piet</MapTarget>
+    </Warp>
+    <Warp X="23" Y="12">
+      <MapTarget X="1" Y="9">Piet</MapTarget>
+    </Warp>
+    <Warp X="23" Y="13">
+      <MapTarget X="1" Y="11">Piet</MapTarget>
+    </Warp>
+    <Warp X="15" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="16" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Sign" X="20" Y="6">
+      <Message>Piet Village --&gt;                                                 &lt;-- Shrine of Ceannlaidir God of War</Message>
+    </Sign>
+    <Sign Type="Messageboard" BoardKey="CeannlaidirBoard" X="7" Y="10">
+      <Name>Ceannlaidir Fellowship Board</Name>
+      <Description>A board for the Ceannlaidir Shrine</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>
