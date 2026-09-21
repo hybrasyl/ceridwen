@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3004" X="12" Y="12" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Suomi Grape Farmer</Name>
+  <Flags />
+  <Warps>
+    <Warp X="11" Y="5">
+      <MapTarget X="62" Y="41">Suomi Village</MapTarget>
+    </Warp>
+    <Warp X="11" Y="6">
+      <MapTarget X="62" Y="41">Suomi Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Alvar" X="7" Y="6" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

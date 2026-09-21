@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="413" X="15" Y="15" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Suomi Bar</Name>
+  <Flags />
+  <Warps>
+    <Warp X="10" Y="14">
+      <MapTarget X="12" Y="1">Suomi Restaurant</MapTarget>
+    </Warp>
+    <Warp X="11" Y="14">
+      <MapTarget X="12" Y="1">Suomi Restaurant</MapTarget>
+    </Warp>
+    <Warp X="14" Y="4">
+      <MapTarget X="82" Y="15">Suomi Village</MapTarget>
+    </Warp>
+    <Warp X="14" Y="5">
+      <MapTarget X="82" Y="15">Suomi Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Mioas" X="3" Y="14" />
+    <Npc Name="Atena" X="6" Y="5" />
+  </Npcs>
+  <Signs />
+</Map>

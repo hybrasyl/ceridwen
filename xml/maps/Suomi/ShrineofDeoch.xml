@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3017" Music="14" X="25" Y="16" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Shrine of Deoch</Name>
+  <Flags />
+  <Warps>
+    <Warp X="24" Y="6">
+      <MapTarget X="10" Y="8">Suomi Village Way</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Sigdora" X="3" Y="4" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

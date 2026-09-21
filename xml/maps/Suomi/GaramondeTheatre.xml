@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="6806" X="22" Y="29" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Garamonde Theatre</Name>
+  <Flags />
+  <Warps>
+    <Warp X="21" Y="15">
+      <MapTarget X="12" Y="30">Suomi Village</MapTarget>
+    </Warp>
+    <Warp X="21" Y="16">
+      <MapTarget X="12" Y="29">Suomi Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Thulin" X="2" Y="9" Direction="East" />
+  </Npcs>
+  <Signs />
+</Map>

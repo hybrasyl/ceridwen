@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="503" Music="19" X="100" Y="100" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Suomi Village</Name>
+  <Flags />
+  <Warps>
+    <Warp X="11" Y="29">
+      <MapTarget X="20" Y="16">Garamonde Theatre</MapTarget>
+    </Warp>
+    <Warp X="11" Y="30">
+      <MapTarget X="20" Y="15">Garamonde Theatre</MapTarget>
+    </Warp>
+    <Warp X="11" Y="54">
+      <MapTarget X="6" Y="13">Suomi Weapon Shop</MapTarget>
+    </Warp>
+    <Warp X="12" Y="17">
+      <MapTarget X="6" Y="13">Suomi Special Skills</MapTarget>
+    </Warp>
+    <Warp X="13" Y="17">
+      <MapTarget X="7" Y="13">Suomi Special Skills</MapTarget>
+    </Warp>
+    <Warp X="15" Y="72">
+      <MapTarget X="10" Y="5">Suomi Empty Room</MapTarget>
+    </Warp>
+    <Warp X="15" Y="86">
+      <MapTarget X="13" Y="7">Suomi Fae Priestess</MapTarget>
+    </Warp>
+    <Warp X="15" Y="87">
+      <MapTarget X="13" Y="8">Suomi Fae Priestess</MapTarget>
+    </Warp>
+    <Warp X="18" Y="48">
+      <MapTarget X="10" Y="9">Suomi Armor Shop</MapTarget>
+    </Warp>
+    <Warp X="32" Y="54">
+      <MapTarget X="6" Y="10">Suomi Inn</MapTarget>
+    </Warp>
+    <Warp X="39" Y="0">
+      <MapTarget X="15" Y="14">Suomi Village Way</MapTarget>
+    </Warp>
+    <Warp X="39" Y="48">
+      <MapTarget X="10" Y="2">Suomi Inn</MapTarget>
+    </Warp>
+    <Warp X="40" Y="0">
+      <MapTarget X="16" Y="14">Suomi Village Way</MapTarget>
+    </Warp>
+    <Warp X="41" Y="0">
+      <MapTarget X="17" Y="14">Suomi Village Way</MapTarget>
+    </Warp>
+    <Warp X="61" Y="41">
+      <MapTarget X="10" Y="5">Suomi Grape Farmer</MapTarget>
+    </Warp>
+    <Warp X="61" Y="42">
+      <MapTarget X="10" Y="6">Suomi Grape Farmer</MapTarget>
+    </Warp>
+    <Warp X="71" Y="80">
+      <MapTarget X="6" Y="13">Suomi Combat Master</MapTarget>
+    </Warp>
+    <Warp X="74" Y="21">
+      <MapTarget X="8" Y="13">Suomi Restaurant</MapTarget>
+    </Warp>
+    <Warp X="75" Y="21">
+      <MapTarget X="9" Y="13">Suomi Restaurant</MapTarget>
+    </Warp>
+    <Warp X="78" Y="74">
+      <MapTarget X="13" Y="7">Suomi Dark Wizard</MapTarget>
+    </Warp>
+    <Warp X="81" Y="15">
+      <MapTarget X="13" Y="4">Suomi Bar</MapTarget>
+    </Warp>
+    <Warp X="81" Y="16">
+      <MapTarget X="13" Y="5">Suomi Bar</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Keane" X="38" Y="56" Direction="East" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Sign" X="9" Y="57">
+      <Message>Ulfedin - Suomi blades, obvious and secret</Message>
+    </Sign>
+    <Sign Type="Sign" X="10" Y="20">
+      <Message>Arngeir - Keeper of Lore of Greater Suomi</Message>
+    </Sign>
+    <Sign Type="Sign" X="19" Y="89">
+      <Message>Simael - Fae Priestess. A mentor's mentor</Message>
+    </Sign>
+    <Sign Type="Sign" X="22" Y="51">
+      <Message>Hjalmtyr - Suomi's finest jeweler, since Danaan 3250. </Message>
+    </Sign>
+    <Sign Type="Sign" X="65" Y="44">
+      <Message>Alvar - Fruits and Vegetables of Suomi.</Message>
+    </Sign>
+    <Sign Type="Sign" X="69" Y="83">
+      <Message>Reinhold - Battle Master of Greater Suomi. Leader of defiance against Loures</Message>
+    </Sign>
+    <Sign Type="Sign" X="82" Y="77">
+      <Message>Lytingur - Master Wizard of the Darker Arts. All fail Loures!</Message>
+    </Sign>
+    <Sign Type="Sign" X="84" Y="18">
+      <Message>Atena - Suomi Tavern. Travelers welcome.</Message>
+    </Sign>
+  </Signs>
+</Map>

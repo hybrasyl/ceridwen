@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3016" Music="15" X="24" Y="16" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Suomi Village Way</Name>
+  <Flags />
+  <Warps>
+    <Warp X="15" Y="15">
+      <MapTarget X="39" Y="1">Suomi Village</MapTarget>
+    </Warp>
+    <Warp X="16" Y="15">
+      <MapTarget X="40" Y="1">Suomi Village</MapTarget>
+    </Warp>
+    <Warp X="17" Y="15">
+      <MapTarget X="41" Y="1">Suomi Village</MapTarget>
+    </Warp>
+    <Warp X="16" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="17" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="9" Y="6">
+      <MapTarget X="23" Y="5">Shrine of Deoch</MapTarget>
+    </Warp>
+    <Warp X="9" Y="7">
+      <MapTarget X="23" Y="6">Shrine of Deoch</MapTarget>
+    </Warp>
+    <Warp X="9" Y="8">
+      <MapTarget X="23" Y="7">Shrine of Deoch</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs>
+    <Sign Type="Sign" X="14" Y="13">
+      <Message>&lt;-- Suomi Village                                                Shrine of Deoch - God of Rapture --&gt;</Message>
+    </Sign>
+    <Sign Type="Messageboard" BoardKey="DeochBoard" X="6" Y="10">
+      <Name>Deoch Fellowship Board</Name>
+      <Description>A board for the Deoch Fellowship</Description>
+      <Message />
+    </Sign>
+  </Signs>
+</Map>
