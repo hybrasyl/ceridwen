@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="509" X="55" Y="55" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Battle Ring</Name>
+  <Flags />
+  <Warps />
+  <Reactors />
+  <Npcs>
+    <Npc Name="Bastilli" X="10" Y="10" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

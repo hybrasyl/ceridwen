@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="126" X="5" Y="33" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures 2 Floor Corridor</Name>
+  <Flags />
+  <Warps>
+    <Warp X="2" Y="32">
+      <MapTarget X="14" Y="7">Loures 1 Floor Hall</MapTarget>
+    </Warp>
+    <Warp X="0" Y="28">
+      <MapTarget X="6" Y="5">Loures 2 Floor Empty Room 1</MapTarget>
+    </Warp>
+    <Warp X="0" Y="22">
+      <MapTarget X="6" Y="6">Guild Master's Room</MapTarget>
+    </Warp>
+    <Warp X="0" Y="16">
+      <MapTarget X="14" Y="10">Loures 2 Floor Restaurant</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="7" Y="6">Loures 2 Floor Tavern</MapTarget>
+    </Warp>
+    <Warp X="0" Y="4">
+      <MapTarget X="7" Y="6">Loures 2 Floor Bed Room</MapTarget>
+    </Warp>
+    <Warp X="2" Y="0">
+      <MapTarget X="6" Y="13">Loures 2 Floor Hall</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

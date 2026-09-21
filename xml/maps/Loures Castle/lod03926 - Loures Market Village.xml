@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3926" X="78" Y="80" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Market Village</Name>
+  <Flags />
+  <Warps>
+    <Warp X="39" Y="79">
+      <MapTarget X="31" Y="1">Loures Entrance Yard</MapTarget>
+    </Warp>
+    <Warp X="40" Y="79">
+      <MapTarget X="32" Y="1">Loures Entrance Yard</MapTarget>
+    </Warp>
+    <Warp X="41" Y="79">
+      <MapTarget X="33" Y="1">Loures Entrance Yard</MapTarget>
+    </Warp>
+    <Warp X="42" Y="79">
+      <MapTarget X="34" Y="1">Loures Entrance Yard</MapTarget>
+    </Warp>
+    <Warp X="38" Y="79">
+      <MapTarget X="30" Y="1">Loures Entrance Yard</MapTarget>
+    </Warp>
+    <Warp X="55" Y="71">
+      <MapTarget X="9" Y="17">Loures Store 6</MapTarget>
+    </Warp>
+    <Warp X="62" Y="70">
+      <MapTarget X="9" Y="17">Loures Store 7</MapTarget>
+    </Warp>
+    <Warp X="67" Y="65">
+      <MapTarget X="17" Y="13">Loures Store 14</MapTarget>
+    </Warp>
+    <Warp X="53" Y="50">
+      <MapTarget X="9" Y="17">Loures Store 5</MapTarget>
+    </Warp>
+    <Warp X="58" Y="45">
+      <MapTarget X="17" Y="13">Loures Store 16</MapTarget>
+    </Warp>
+    <Warp X="67" Y="45">
+      <MapTarget X="17" Y="13">Loures Store 15</MapTarget>
+    </Warp>
+    <Warp X="66" Y="21">
+      <MapTarget X="9" Y="17">Loures Store 9</MapTarget>
+    </Warp>
+    <Warp X="60" Y="21">
+      <MapTarget X="9" Y="17">Loures Store 8</MapTarget>
+    </Warp>
+    <Warp X="43" Y="34">
+      <MapTarget X="17" Y="13">Loures Store 13</MapTarget>
+    </Warp>
+    <Warp X="14" Y="18">
+      <MapTarget X="17" Y="13">Loures Store 12</MapTarget>
+    </Warp>
+    <Warp X="36" Y="0">
+      <MapTarget X="30" Y="75">Loures Castle</MapTarget>
+    </Warp>
+    <Warp X="37" Y="0">
+      <MapTarget X="31" Y="75">Loures Castle</MapTarget>
+    </Warp>
+    <Warp X="38" Y="0">
+      <MapTarget X="32" Y="75">Loures Castle</MapTarget>
+    </Warp>
+    <Warp X="39" Y="0">
+      <MapTarget X="33" Y="75">Loures Castle</MapTarget>
+    </Warp>
+    <Warp X="40" Y="0">
+      <MapTarget X="34" Y="75">Loures Castle</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

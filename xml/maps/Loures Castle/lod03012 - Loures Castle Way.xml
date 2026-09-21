@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3012" X="16" Y="24" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Castle Way</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="5">
+      <MapTarget X="41" Y="36">Loures Soccer Field</MapTarget>
+    </Warp>
+    <Warp X="0" Y="4">
+      <MapTarget X="41" Y="35">Loures Soccer Field</MapTarget>
+    </Warp>
+    <Warp X="0" Y="3">
+      <MapTarget X="41" Y="34">Loures Soccer Field</MapTarget>
+    </Warp>
+    <Warp X="6" Y="0">
+      <MapTarget X="32" Y="58">Loures Entrance Yard</MapTarget>
+    </Warp>
+    <Warp X="7" Y="0">
+      <MapTarget X="33" Y="58">Loures Entrance Yard</MapTarget>
+    </Warp>
+    <Warp X="8" Y="0">
+      <MapTarget X="34" Y="58">Loures Entrance Yard</MapTarget>
+    </Warp>
+    <Warp X="9" Y="0">
+      <MapTarget X="35" Y="58">Loures Entrance Yard</MapTarget>
+    </Warp>
+    <Warp X="15" Y="8">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="9">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="15" Y="10">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

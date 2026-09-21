@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3041" X="16" Y="16" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Library</Name>
+  <Flags />
+  <Warps>
+    <Warp X="8" Y="15">
+      <MapTarget X="5" Y="2">Loures 3 Floor Corridor</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Blaise" X="9" Y="11" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

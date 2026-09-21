@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3070" X="10" Y="10" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Cyril Corridor</Name>
+  <Flags />
+  <Warps>
+    <Warp X="1" Y="5">
+      <MapTarget X="13" Y="14">Loures 2 Floor Hall</MapTarget>
+    </Warp>
+    <Warp X="1" Y="4">
+      <MapTarget X="13" Y="13">Loures 2 Floor Hall</MapTarget>
+    </Warp>
+    <Warp X="1" Y="6">
+      <MapTarget X="13" Y="15">Loures 2 Floor Hall</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Paulin" X="2" Y="2" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

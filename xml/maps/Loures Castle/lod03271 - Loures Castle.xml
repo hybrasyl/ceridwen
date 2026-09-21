@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3271" X="65" Y="77" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Castle</Name>
+  <Flags />
+  <Warps>
+    <Warp X="31" Y="76">
+      <MapTarget X="37" Y="1">Loures Market Village</MapTarget>
+    </Warp>
+    <Warp X="30" Y="76">
+      <MapTarget X="36" Y="1">Loures Market Village</MapTarget>
+    </Warp>
+    <Warp X="32" Y="76">
+      <MapTarget X="38" Y="1">Loures Market Village</MapTarget>
+    </Warp>
+    <Warp X="33" Y="76">
+      <MapTarget X="39" Y="1">Loures Market Village</MapTarget>
+    </Warp>
+    <Warp X="34" Y="76">
+      <MapTarget X="40" Y="1">Loures Market Village</MapTarget>
+    </Warp>
+    <Warp X="13" Y="55">
+      <MapTarget X="28" Y="16">Recovery Camp          PK value 30000</MapTarget>
+    </Warp>
+    <Warp X="13" Y="56">
+      <MapTarget X="28" Y="17">Recovery Camp          PK value 30000</MapTarget>
+    </Warp>
+    <Warp X="13" Y="57">
+      <MapTarget X="28" Y="18">Recovery Camp          PK value 30000</MapTarget>
+    </Warp>
+    <Warp X="13" Y="58">
+      <MapTarget X="28" Y="19">Recovery Camp          PK value 30000</MapTarget>
+    </Warp>
+    <Warp X="13" Y="59">
+      <MapTarget X="28" Y="20">Recovery Camp          PK value 30000</MapTarget>
+    </Warp>
+    <Warp X="28" Y="37">
+      <MapTarget X="5" Y="13">Loures 1 Floor Hall</MapTarget>
+    </Warp>
+    <Warp X="29" Y="37">
+      <MapTarget X="6" Y="13">Loures 1 Floor Hall</MapTarget>
+    </Warp>
+    <Warp X="30" Y="37">
+      <MapTarget X="6" Y="13">Loures 1 Floor Hall</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

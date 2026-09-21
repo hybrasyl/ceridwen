@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3272" X="65" Y="61" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Entrance Yard</Name>
+  <Flags />
+  <Warps>
+    <Warp X="32" Y="60">
+      <MapTarget X="6" Y="2">Loures Castle Way</MapTarget>
+    </Warp>
+    <Warp X="33" Y="60">
+      <MapTarget X="7" Y="2">Loures Castle Way</MapTarget>
+    </Warp>
+    <Warp X="34" Y="60">
+      <MapTarget X="8" Y="2">Loures Castle Way</MapTarget>
+    </Warp>
+    <Warp X="35" Y="60">
+      <MapTarget X="9" Y="2">Loures Castle Way</MapTarget>
+    </Warp>
+    <Warp X="31" Y="0">
+      <MapTarget X="39" Y="78">Loures Market Village</MapTarget>
+    </Warp>
+    <Warp X="32" Y="0">
+      <MapTarget X="40" Y="78">Loures Market Village</MapTarget>
+    </Warp>
+    <Warp X="33" Y="0">
+      <MapTarget X="41" Y="78">Loures Market Village</MapTarget>
+    </Warp>
+    <Warp X="34" Y="0">
+      <MapTarget X="42" Y="78">Loures Market Village</MapTarget>
+    </Warp>
+    <Warp X="30" Y="0">
+      <MapTarget X="38" Y="78">Loures Market Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

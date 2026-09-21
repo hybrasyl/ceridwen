@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3200" X="43" Y="68" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Soccer Field</Name>
+  <Flags />
+  <Warps>
+    <Warp X="42" Y="36">
+      <MapTarget X="1" Y="5">Loures Castle Way</MapTarget>
+    </Warp>
+    <Warp X="42" Y="35">
+      <MapTarget X="1" Y="4">Loures Castle Way</MapTarget>
+    </Warp>
+    <Warp X="42" Y="34">
+      <MapTarget X="1" Y="3">Loures Castle Way</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Ronaldinho" X="35" Y="36" Direction="East" />
+  </Npcs>
+  <Signs />
+</Map>

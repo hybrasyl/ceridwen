@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="117" X="10" Y="10" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures 2 Floor Bed Room</Name>
+  <Flags />
+  <Warps>
+    <Warp X="5" Y="0">
+      <MapTarget X="7" Y="7">Loures 2 Floor Weapon Storage</MapTarget>
+    </Warp>
+    <Warp X="9" Y="6">
+      <MapTarget X="1" Y="4">Loures 2 Floor Corridor</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Blanchefleur" X="2" Y="7" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

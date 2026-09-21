@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="123" X="10" Y="10" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures 3 Floor Corridor</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="5">
+      <MapTarget X="7" Y="7">Loures 3 Floor Magic Room</MapTarget>
+    </Warp>
+    <Warp X="5" Y="0">
+      <MapTarget X="8" Y="13">Loures Library</MapTarget>
+    </Warp>
+    <Warp X="9" Y="6">
+      <MapTarget X="1" Y="8">Loures 3 Floor Office</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

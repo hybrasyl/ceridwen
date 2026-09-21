@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3993" X="40" Y="40" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Recovery Camp          PK value 30000</Name>
+  <Flags />
+  <Warps>
+    <Warp X="29" Y="16">
+      <MapTarget X="15" Y="55">Loures Castle</MapTarget>
+    </Warp>
+    <Warp X="29" Y="17">
+      <MapTarget X="15" Y="56">Loures Castle</MapTarget>
+    </Warp>
+    <Warp X="29" Y="18">
+      <MapTarget X="15" Y="57">Loures Castle</MapTarget>
+    </Warp>
+    <Warp X="29" Y="19">
+      <MapTarget X="15" Y="58">Loures Castle</MapTarget>
+    </Warp>
+    <Warp X="29" Y="20">
+      <MapTarget X="15" Y="59">Loures Castle</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Bilge" X="18" Y="18" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

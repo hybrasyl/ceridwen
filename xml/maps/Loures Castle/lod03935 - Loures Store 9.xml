@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3935" X="20" Y="20" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Store 9</Name>
+  <Flags />
+  <Warps>
+    <Warp X="9" Y="19">
+      <MapTarget X="66" Y="23">Loures Market Village</MapTarget>
+    </Warp>
+    <Warp X="10" Y="19">
+      <MapTarget X="66" Y="23">Loures Market Village</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>
