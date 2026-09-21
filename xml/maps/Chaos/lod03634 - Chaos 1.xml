@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3634" X="30" Y="30">
+  <Name>Chaos 1</Name>
+  <Warps>
+    <Warp X="1" Y="14">
+      <MapTarget X="6" Y="5">Chaos Entrance</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Fallen Soldier" X="19" Y="2" Direction="East"/>
+  </Npcs>
+</Map>
