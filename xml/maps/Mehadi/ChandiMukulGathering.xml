@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3074" Music="7" X="32" Y="32" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Chandi Mukul Gathering</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="1">
+      <MapTarget X="30" Y="21">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="0" Y="2">
+      <MapTarget X="30" Y="22">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="0" Y="3">
+      <MapTarget X="30" Y="23">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="0" Y="4">
+      <MapTarget X="30" Y="24">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="30" Y="30">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="0" Y="11">
+      <MapTarget X="30" Y="31">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="7" Y="0">
+      <MapTarget X="7" Y="30">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="8" Y="0">
+      <MapTarget X="8" Y="30">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="9" Y="0">
+      <MapTarget X="9" Y="30">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="10" Y="0">
+      <MapTarget X="10" Y="30">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="11" Y="31">
+      <MapTarget X="1" Y="11">Shifting Swamp West</MapTarget>
+    </Warp>
+    <Warp X="12" Y="31">
+      <MapTarget X="1" Y="12">Shifting Swamp West</MapTarget>
+    </Warp>
+    <Warp X="13" Y="31">
+      <MapTarget X="1" Y="13">Shifting Swamp West</MapTarget>
+    </Warp>
+    <Warp X="14" Y="31">
+      <MapTarget X="1" Y="14">Shifting Swamp West</MapTarget>
+    </Warp>
+    <Warp X="31" Y="11">
+      <MapTarget X="1" Y="11">Shifting Swamp North</MapTarget>
+    </Warp>
+    <Warp X="31" Y="12">
+      <MapTarget X="1" Y="12">Shifting Swamp North</MapTarget>
+    </Warp>
+    <Warp X="31" Y="13">
+      <MapTarget X="1" Y="13">Shifting Swamp North</MapTarget>
+    </Warp>
+    <Warp X="31" Y="14">
+      <MapTarget X="1" Y="14">Shifting Swamp North</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

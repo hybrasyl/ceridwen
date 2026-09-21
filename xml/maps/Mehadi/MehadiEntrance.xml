@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3071" Music="15" X="8" Y="16" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mehadi Entrance</Name>
+  <Flags />
+  <Warps>
+    <Warp X="7" Y="0">
+      <MapTarget X="1" Y="7">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="7" Y="1">
+      <MapTarget X="1" Y="8">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="7" Y="2">
+      <MapTarget X="1" Y="9">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="7" Y="3">
+      <MapTarget X="1" Y="10">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="7" Y="10">
+      <MapTarget X="1" Y="17">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="7" Y="11">
+      <MapTarget X="1" Y="18">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="7" Y="12">
+      <MapTarget X="1" Y="19">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="7" Y="13">
+      <MapTarget X="1" Y="20">Mehadi Hema</MapTarget>
+    </Warp>
+    <Warp X="0" Y="6">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="7">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="8">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="9">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Beggar" X="2" Y="1" Direction="West" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Sign" X="7" Y="8">
+      <Message>Mehadi Swamp: Inhabited by the wise and old Muluk. Legend has it that their culture predates Piet. Be cautious and learn well, for their culture is vastly different from human culture.</Message>
+    </Sign>
+  </Signs>
+</Map>

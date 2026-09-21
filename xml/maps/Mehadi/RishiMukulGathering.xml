@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3075" X="32" Y="32" Music="12">
+  <Name>Rishi Mukul Gathering</Name>
+  <Warps>
+    <Warp X="0" Y="29">
+      <MapTarget X="5" Y="1">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="1" Y="29">
+      <MapTarget X="6" Y="1">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="2" Y="29">
+      <MapTarget X="7" Y="1">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="3" Y="29">
+      <MapTarget X="8" Y="1">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="17" Y="31">
+      <MapTarget X="26" Y="1">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="18" Y="31">
+      <MapTarget X="27" Y="1">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="19" Y="31">
+      <MapTarget X="28" Y="1">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="20" Y="31">
+      <MapTarget X="29" Y="1">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="28" Y="31">
+      <MapTarget X="5" Y="1">Mehadi Shashi</MapTarget>
+    </Warp>
+    <Warp X="29" Y="31">
+      <MapTarget X="6" Y="1">Mehadi Shashi</MapTarget>
+    </Warp>
+    <Warp X="30" Y="31">
+      <MapTarget X="7" Y="1">Mehadi Shashi</MapTarget>
+    </Warp>
+    <Warp X="31" Y="31">
+      <MapTarget X="8" Y="1">Mehadi Shashi</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Bhrigus" X="1" Y="9" Direction="South"/>
+    <Npc Name="Ganesha" X="16" Y="27" Direction="South"/>
+    <Npc Name="Chandra" X="19" Y="0" Direction="South"/>
+    <Npc Name="Varuna" X="29" Y="20" Direction="South"/>
+  </Npcs>
+</Map>

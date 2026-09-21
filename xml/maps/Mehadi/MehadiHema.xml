@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3072" Music="6" X="32" Y="32" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mehadi Hema</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="7">
+      <MapTarget X="6" Y="0">Mehadi Entrance</MapTarget>
+    </Warp>
+    <Warp X="0" Y="8">
+      <MapTarget X="6" Y="1">Mehadi Entrance</MapTarget>
+    </Warp>
+    <Warp X="0" Y="9">
+      <MapTarget X="6" Y="2">Mehadi Entrance</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="6" Y="3">Mehadi Entrance</MapTarget>
+    </Warp>
+    <Warp X="0" Y="17">
+      <MapTarget X="6" Y="10">Mehadi Entrance</MapTarget>
+    </Warp>
+    <Warp X="0" Y="18">
+      <MapTarget X="6" Y="11">Mehadi Entrance</MapTarget>
+    </Warp>
+    <Warp X="0" Y="19">
+      <MapTarget X="6" Y="12">Mehadi Entrance</MapTarget>
+    </Warp>
+    <Warp X="0" Y="20">
+      <MapTarget X="6" Y="13">Mehadi Entrance</MapTarget>
+    </Warp>
+    <Warp X="31" Y="2">
+      <MapTarget X="1" Y="15">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="31" Y="3">
+      <MapTarget X="1" Y="16">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="31" Y="4">
+      <MapTarget X="1" Y="17">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="31" Y="5">
+      <MapTarget X="1" Y="18">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="31" Y="21">
+      <MapTarget X="1" Y="1">Chandi Mukul Gathering</MapTarget>
+    </Warp>
+    <Warp X="31" Y="22">
+      <MapTarget X="1" Y="2">Chandi Mukul Gathering</MapTarget>
+    </Warp>
+    <Warp X="31" Y="23">
+      <MapTarget X="1" Y="3">Chandi Mukul Gathering</MapTarget>
+    </Warp>
+    <Warp X="31" Y="24">
+      <MapTarget X="1" Y="4">Chandi Mukul Gathering</MapTarget>
+    </Warp>
+    <Warp X="31" Y="30">
+      <MapTarget X="1" Y="10">Chandi Mukul Gathering</MapTarget>
+    </Warp>
+    <Warp X="31" Y="31">
+      <MapTarget X="1" Y="11">Chandi Mukul Gathering</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

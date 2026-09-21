@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3076" X="32" Y="32" Music="6">
+  <Name>Mehadi Shashi</Name>
+  <Warps>
+    <Warp X="0" Y="14">
+      <MapTarget X="30" Y="14">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="0" Y="15">
+      <MapTarget X="30" Y="15">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="0" Y="16">
+      <MapTarget X="30" Y="16">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="0" Y="17">
+      <MapTarget X="30" Y="17">Mehadi Ellama</MapTarget>
+    </Warp>
+    <Warp X="5" Y="0">
+      <MapTarget X="28" Y="30">Rishi Mukul Gathering</MapTarget>
+    </Warp>
+    <Warp X="6" Y="0">
+      <MapTarget X="29" Y="30">Rishi Mukul Gathering</MapTarget>
+    </Warp>
+    <Warp X="7" Y="0">
+      <MapTarget X="30" Y="30">Rishi Mukul Gathering</MapTarget>
+    </Warp>
+    <Warp X="8" Y="0">
+      <MapTarget X="31" Y="30">Rishi Mukul Gathering</MapTarget>
+    </Warp>
+    <Warp X="11" Y="31">
+      <MapTarget X="11" Y="1">Shifting Swamp North</MapTarget>
+    </Warp>
+    <Warp X="12" Y="31">
+      <MapTarget X="12" Y="1">Shifting Swamp North</MapTarget>
+    </Warp>
+    <Warp X="13" Y="31">
+      <MapTarget X="13" Y="1">Shifting Swamp North</MapTarget>
+    </Warp>
+    <Warp X="14" Y="31">
+      <MapTarget X="14" Y="1">Shifting Swamp North</MapTarget>
+    </Warp>
+    <Warp X="31" Y="11">
+      <MapTarget X="11" Y="1">Shifting Swamp East</MapTarget>
+    </Warp>
+    <Warp X="31" Y="12">
+      <MapTarget X="12" Y="1">Shifting Swamp East</MapTarget>
+    </Warp>
+    <Warp X="31" Y="13">
+      <MapTarget X="13" Y="1">Shifting Swamp East</MapTarget>
+    </Warp>
+    <Warp X="31" Y="14">
+      <MapTarget X="14" Y="1">Shifting Swamp East</MapTarget>
+    </Warp>
+  </Warps>
+</Map>
