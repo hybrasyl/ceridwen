@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="600" Music="59" X="25" Y="25" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>East Woodlands Crossroads</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="7">
+      <MapTarget X="98" Y="49">Enchanted Garden</MapTarget>
+    </Warp>
+    <Warp X="0" Y="8">
+      <MapTarget X="98" Y="50">Enchanted Garden</MapTarget>
+    </Warp>
+    <Warp X="21" Y="0">
+      <MapTarget X="25" Y="48">East Woodland 14-1</MapTarget>
+    </Warp>
+    <Warp X="22" Y="0">
+      <MapTarget X="26" Y="48">East Woodland 14-1</MapTarget>
+    </Warp>
+    <Warp X="24" Y="15">
+      <MapTarget X="2" Y="48">Wasteland</MapTarget>
+    </Warp>
+    <Warp X="24" Y="16">
+      <MapTarget X="2" Y="49">Wasteland</MapTarget>
+    </Warp>
+    <Warp X="11" Y="24">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="12" Y="24">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="3" Y="0">
+      <MapTarget X="25" Y="98">East Woodland 3-1</MapTarget>
+    </Warp>
+    <Warp X="4" Y="0">
+      <MapTarget X="26" Y="98">East Woodland 3-1</MapTarget>
+    </Warp>
+    <Warp X="8" Y="0">
+      <MapTarget X="25" Y="98">East Woodland 4-1</MapTarget>
+    </Warp>
+    <Warp X="9" Y="0">
+      <MapTarget X="26" Y="98">East Woodland 4-1</MapTarget>
+    </Warp>
+    <Warp X="13" Y="0">
+      <MapTarget X="25" Y="98">East Woodland 5-1</MapTarget>
+    </Warp>
+    <Warp X="14" Y="0">
+      <MapTarget X="26" Y="98">East Woodland 5-1</MapTarget>
+    </Warp>
+    <Warp X="17" Y="0">
+      <MapTarget X="25" Y="48">East Woodland 6-1</MapTarget>
+    </Warp>
+    <Warp X="18" Y="0">
+      <MapTarget X="26" Y="48">East Woodland 6-1</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Beggar" X="19" Y="9" Direction="South" />
+  </Npcs>
+  <Signs>
+    <Sign Type="Messageboard" BoardKey="EWDiscussion" X="18" Y="9">
+      <Name>East Woodlands Discussion</Name>
+      <Description>East Woodlands Discussion Board</Description>
+    </Sign>
+    <Sign Type="Sign" X="0" Y="9">
+      <Message>Enchanted Garden - Here dance the Fae. When you sniff the flowers, beware, for there are green mantises that will catch a whiff of you, and more, if you are not cautious or fleet!</Message>
+    </Sign>
+    <Sign Type="Sign" X="1" Y="0">
+      <Message>Woodland Trail - Wolf walk the trail in hunt of fair Aislings. Adventure in a group, or better: Keep your distance from this place!</Message>
+    </Sign>
+    <Sign Type="Sign" X="6" Y="0">
+      <Message>Woodland Trail - Sinister and elemental wolves lurk the path. Beware and do not travel further!</Message>
+    </Sign>
+    <Sign Type="Sign" X="11" Y="0">
+      <Message>Kobold's Vale - Journey not, lest you should perish under their jackaline grin!</Message>
+    </Sign>
+    <Sign Type="Sign" X="15" Y="0">
+      <Message>Kobold's Vale - The other vale pales to the dangers herein. Heed warnings well. Hereforth await kobolds with teeth barred for your death!</Message>
+    </Sign>
+    <Sign Type="Sign" X="19" Y="0">
+      <Message>Goblin's Way - Turn back. Turn back! Goblins hunt within these woods. Don't fall prey to their blow or elemental summons! Turn back, I pray!</Message>
+    </Sign>
+    <Sign Type="Sign" X="23" Y="14">
+      <Message>Wasteland - All the green has been eaten away by the hungry things. Young Aisling, adventure cautiously within.</Message>
+    </Sign>
+  </Signs>
+</Map>

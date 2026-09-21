@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3005" X="16" Y="16" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Lover's Glade</Name>
+  <Flags />
+  <Warps>
+    <Warp X="4" Y="15">
+      <MapTarget X="94" Y="1">Enchanted Garden</MapTarget>
+    </Warp>
+    <Warp X="5" Y="15">
+      <MapTarget X="95" Y="1">Enchanted Garden</MapTarget>
+    </Warp>
+    <Warp X="6" Y="15">
+      <MapTarget X="96" Y="1">Enchanted Garden</MapTarget>
+    </Warp>
+    <Warp X="7" Y="15">
+      <MapTarget X="97" Y="1">Enchanted Garden</MapTarget>
+    </Warp>
+    <Warp X="8" Y="15">
+      <MapTarget X="98" Y="1">Enchanted Garden</MapTarget>
+    </Warp>
+    <Warp X="9" Y="15">
+      <MapTarget X="99" Y="1">Enchanted Garden</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

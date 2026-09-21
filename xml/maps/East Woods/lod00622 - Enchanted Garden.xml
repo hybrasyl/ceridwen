@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="622" Music="11" X="100" Y="100" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Enchanted Garden</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="2">
+      <MapTarget X="22" Y="20">Druid Circle</MapTarget>
+    </Warp>
+    <Warp X="0" Y="3">
+      <MapTarget X="22" Y="21">Druid Circle</MapTarget>
+    </Warp>
+    <Warp X="0" Y="4">
+      <MapTarget X="22" Y="22">Druid Circle</MapTarget>
+    </Warp>
+    <Warp X="94" Y="0">
+      <MapTarget X="4" Y="14">Lover's Glade</MapTarget>
+    </Warp>
+    <Warp X="95" Y="0">
+      <MapTarget X="5" Y="14">Lover's Glade</MapTarget>
+    </Warp>
+    <Warp X="96" Y="0">
+      <MapTarget X="6" Y="14">Lover's Glade</MapTarget>
+    </Warp>
+    <Warp X="97" Y="0">
+      <MapTarget X="7" Y="14">Lover's Glade</MapTarget>
+    </Warp>
+    <Warp X="98" Y="0">
+      <MapTarget X="8" Y="14">Lover's Glade</MapTarget>
+    </Warp>
+    <Warp X="99" Y="0">
+      <MapTarget X="9" Y="14">Lover's Glade</MapTarget>
+    </Warp>
+    <Warp X="99" Y="49">
+      <MapTarget X="1" Y="7">East Woodlands Crossroads</MapTarget>
+    </Warp>
+    <Warp X="99" Y="50">
+      <MapTarget X="1" Y="7">East Woodlands Crossroads</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

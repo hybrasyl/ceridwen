@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="617" X="50" Y="50" Music="8">
+  <Name>East Woodland 15-1</Name>
+  <Warps>
+    <Warp X="0" Y="23">
+      <MapTarget X="48" Y="23">East Woodland 18-1</MapTarget>
+    </Warp>
+    <Warp X="0" Y="24">
+      <MapTarget X="48" Y="23">East Woodland 18-1</MapTarget>
+    </Warp>
+    <Warp X="17" Y="0">
+      <MapTarget X="3" Y="6">Great Sylvan Glade</MapTarget>
+    </Warp>
+    <Warp X="18" Y="0">
+      <MapTarget X="4" Y="6">Great Sylvan Glade</MapTarget>
+    </Warp>
+    <Warp X="25" Y="49">
+      <MapTarget X="23" Y="1">East Woodland 14-1</MapTarget>
+    </Warp>
+    <Warp X="26" Y="49">
+      <MapTarget X="23" Y="1">East Woodland 14-1</MapTarget>
+    </Warp>
+    <Warp X="49" Y="23">
+      <MapTarget X="1" Y="23">East Woodland 16-1</MapTarget>
+    </Warp>
+    <Warp X="49" Y="24">
+      <MapTarget X="1" Y="23">East Woodland 16-1</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

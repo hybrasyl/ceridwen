@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map Id="623" Music="9" X="100" Y="100" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Wasteland</Name>
+  <Warps>
+    <Warp X="0" Y="47">
+      <MapTarget X="23" Y="15">East Woodlands Crossroads</MapTarget>
+    </Warp>
+    <Warp X="0" Y="48">
+      <MapTarget X="23" Y="15">East Woodlands Crossroads</MapTarget>
+    </Warp>
+    <Warp X="0" Y="49">
+      <MapTarget X="23" Y="15">East Woodlands Crossroads</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

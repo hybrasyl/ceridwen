@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="615" X="50" Y="50">
+  <Name>East Woodland 19-2</Name>
+  <Warps>
+    <Warp X="25" Y="49">
+      <MapTarget X="23" Y="1">East Woodland 18-1</MapTarget>
+    </Warp>
+    <Warp X="26" Y="49">
+      <MapTarget X="23" Y="1">East Woodland 18-1</MapTarget>
+    </Warp>
+    <Warp X="49" Y="25">
+      <MapTarget X="1" Y="23">East Woodland 20-1</MapTarget>
+    </Warp>
+    <Warp X="49" Y="26">
+      <MapTarget X="1" Y="23">East Woodland 20-1</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="675" X="24" Y="24" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Druid Circle</Name>
+  <Flags />
+  <Warps>
+    <Warp X="23" Y="20">
+      <MapTarget X="1" Y="2">Enchanted Garden</MapTarget>
+    </Warp>
+    <Warp X="23" Y="21">
+      <MapTarget X="1" Y="3">Enchanted Garden</MapTarget>
+    </Warp>
+    <Warp X="23" Y="22">
+      <MapTarget X="1" Y="4">Enchanted Garden</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Coibhi" X="7" Y="5" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

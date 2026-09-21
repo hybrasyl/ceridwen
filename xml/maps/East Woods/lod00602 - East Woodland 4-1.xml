@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="602" X="100" Y="100" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>East Woodland 4-1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="25" Y="99">
+      <MapTarget X="8" Y="1">East Woodlands Crossroads</MapTarget>
+    </Warp>
+    <Warp X="26" Y="99">
+      <MapTarget X="9" Y="1">East Woodlands Crossroads</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>
