@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="5022" X="100" Y="100">
+  <Name>Cthonic Remains 22</Name>
+  <Warps>
+    <Warp X="1" Y="53">
+      <MapTarget X="7" Y="54">Cthonic Remains 21</MapTarget>
+    </Warp>
+    <Warp X="26" Y="57">
+      <MapTarget X="29" Y="58">Cthonic Remains 23</MapTarget>
+    </Warp>
+  </Warps>
+</Map>
