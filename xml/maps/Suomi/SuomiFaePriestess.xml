@@ -12,7 +12,7 @@
   </Warps>
   <Reactors />
   <Npcs>
-    <Npc Name="Ardis" X="5" Y="2" Direction="South" />
+    <Npc Name="Bertil" X="5" Y="2" Direction="South" />
   </Npcs>
   <Signs />
 </Map>

@@ -11,6 +11,8 @@
     </Warp>
   </Warps>
   <Reactors />
-  <Npcs />
+  <Npcs>
+    <Npc Name="Braz" X="3" Y="3" Direction="South" />
+  </Npcs>
   <Signs />
 </Map>

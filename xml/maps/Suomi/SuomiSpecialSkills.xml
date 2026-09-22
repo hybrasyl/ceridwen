@@ -12,7 +12,7 @@
   </Warps>
   <Reactors />
   <Npcs>
-    <Npc Name="Arngeir" X="5" Y="5" Direction="South" />
+    <Npc Name="Fisk" X="5" Y="5" Direction="South" />
   </Npcs>
   <Signs />
 </Map>

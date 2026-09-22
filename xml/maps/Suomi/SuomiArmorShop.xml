@@ -15,7 +15,7 @@
   </Warps>
   <Reactors />
   <Npcs>
-    <Npc Name="Hjalmtyr" X="3" Y="5" Direction="South" />
+    <Npc Name="Valdemar" X="3" Y="5" Direction="South" />
   </Npcs>
   <Signs />
 </Map>

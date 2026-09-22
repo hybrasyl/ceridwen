@@ -61,6 +61,7 @@
     <Npc Name="Beggar" X="14" Y="14" Direction="West"/>
     <Npc Name="Evan" X="27" Y="14" Direction="South"/>
     <Npc Name="Celesta" X="48" Y="21" Direction="East"/>
+    <Npc Name="Quinly" X="14" Y="16" Direction="South" />
   </Npcs>
   <Signs>
     <Sign Type="Sign" X="29" Y="14">

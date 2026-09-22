@@ -76,28 +76,28 @@
   </Npcs>
   <Signs>
     <Sign Type="Sign" X="9" Y="57">
-      <Message>Ulfedin - Suomi blades, obvious and secret</Message>
+      <Message>Torbjorn - Suomi blades, obvious and secret</Message>
     </Sign>
     <Sign Type="Sign" X="10" Y="20">
-      <Message>Arngeir - Keeper of Lore of Greater Suomi</Message>
+      <Message>Fisk - Keeper of Lore of Greater Suomi</Message>
     </Sign>
     <Sign Type="Sign" X="19" Y="89">
-      <Message>Simael - Fae Priestess. A mentor's mentor</Message>
+      <Message>Bertil - Fae Priestess. A mentor's mentor</Message>
     </Sign>
     <Sign Type="Sign" X="22" Y="51">
-      <Message>Hjalmtyr - Suomi's finest jeweler, since Danaan 3250. </Message>
+      <Message>Valdemar - Suomi's finest jeweler, since Danaan 3250. </Message>
     </Sign>
     <Sign Type="Sign" X="65" Y="44">
       <Message>Alvar - Fruits and Vegetables of Suomi.</Message>
     </Sign>
     <Sign Type="Sign" X="69" Y="83">
-      <Message>Reinhold - Battle Master of Greater Suomi. Leader of defiance against Loures</Message>
+      <Message>Berg - Battle Master of Greater Suomi. Leader of defiance against Loures</Message>
     </Sign>
     <Sign Type="Sign" X="82" Y="77">
-      <Message>Lytingur - Master Wizard of the Darker Arts. All fail Loures!</Message>
+      <Message>Hadrian - Master Wizard of the Darker Arts. All fail Loures!</Message>
     </Sign>
     <Sign Type="Sign" X="84" Y="18">
-      <Message>Atena - Suomi Tavern. Travelers welcome.</Message>
+      <Message>Viveka - Suomi Tavern. Travelers welcome.</Message>
     </Sign>
   </Signs>
 </Map>

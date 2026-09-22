@@ -19,7 +19,7 @@
   <Reactors />
   <Npcs>
     <Npc Name="Mioas" X="3" Y="14" />
-    <Npc Name="Atena" X="6" Y="5" />
+    <Npc Name="Viveka" X="6" Y="5" />
   </Npcs>
   <Signs />
 </Map>

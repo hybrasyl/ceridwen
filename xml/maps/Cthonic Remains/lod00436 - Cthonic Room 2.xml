@@ -4,6 +4,8 @@
   <Flags />
   <Warps />
   <Reactors />
-  <Npcs />
+  <Npcs>
+    <Npc Name="Shambler" X="5" Y="5" Direction="South" />
+  </Npcs>
   <Signs />
 </Map>

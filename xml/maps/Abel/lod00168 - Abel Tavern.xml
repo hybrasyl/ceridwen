@@ -2,4 +2,8 @@
 <Map Id="168" X="15" Y="15" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <!-- Generic Name: Abel Tavern -->
   <Name>Abel Tavern</Name>
+  <Npcs>
+    <Npc Name="Frida" X="6" Y="5" Direction="North" />
+    <Npc Name="Aricin" X="9" Y="3" Direction="South" />
+  </Npcs>
 </Map>

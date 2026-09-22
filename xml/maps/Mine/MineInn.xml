@@ -4,6 +4,8 @@
   <Flags />
   <Warps />
   <Reactors />
-  <Npcs />
+  <Npcs>
+    <Npc Name="Stefan" X="10" Y="6" Direction="South" />
+  </Npcs>
   <Signs />
 </Map>

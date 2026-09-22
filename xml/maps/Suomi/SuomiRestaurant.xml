@@ -15,7 +15,7 @@
   </Warps>
   <Reactors />
   <Npcs>
-    <Npc Name="Groa" X="6" Y="4" Direction="South" />
+    <Npc Name="Gudny" X="6" Y="4" Direction="South" />
   </Npcs>
   <Signs />
 </Map>

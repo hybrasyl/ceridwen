@@ -14,6 +14,8 @@
     </Warp>
   </Warps>
   <Reactors />
-  <Npcs />
+  <Npcs>
+    <Npc Name="Avel" X="8" Y="7" Direction="South" />
+  </Npcs>
   <Signs />
 </Map>

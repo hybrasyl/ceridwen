@@ -15,7 +15,7 @@
   </Warps>
   <Reactors />
   <Npcs>
-    <Npc Name="Ulfedin" X="8" Y="7" Direction="South" />
+    <Npc Name="Torbjorn" X="8" Y="7" Direction="South" />
   </Npcs>
   <Signs />
 </Map>

@@ -14,6 +14,8 @@
     </Warp>
   </Warps>
   <Reactors />
-  <Npcs />
+  <Npcs>
+    <Npc Name="Damara" X="6" Y="4" Direction="South" />
+  </Npcs>
   <Signs />
 </Map>

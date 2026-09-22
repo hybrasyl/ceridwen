@@ -46,6 +46,7 @@
   <Reactors />
   <Npcs>
     <Npc Name="Beggar" X="2" Y="1" Direction="West" />
+    <Npc Name="Niomope" X="2" Y="3" Direction="East" />
   </Npcs>
   <Signs>
     <Sign Type="Sign" X="7" Y="8">

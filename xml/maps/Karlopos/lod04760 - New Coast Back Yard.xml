@@ -4,6 +4,8 @@
   <Flags />
   <Warps />
   <Reactors />
-  <Npcs />
+  <Npcs>
+    <Npc Name="Mireh" X="7" Y="5" Direction="South" />
+  </Npcs>
   <Signs />
 </Map>
