@@ -21,5 +21,50 @@
     <Warp X="33" Y="0">
       <MapTarget X="29" Y="74">North Abel</MapTarget>
     </Warp>
+    <Warp X="69" Y="16">
+      <MapTarget X="1" Y="23">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="69" Y="17">
+      <MapTarget X="1" Y="23">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="69" Y="18">
+      <MapTarget X="1" Y="23">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="69" Y="19">
+      <MapTarget X="1" Y="23">Abel Port</MapTarget>
+    </Warp>
+    <Warp X="0" Y="61">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="62">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="63">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="64">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="65">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="32" Y="67">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="31" Y="67">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="22">
+      <MapTarget X="13" Y="44">Abel Port Way</MapTarget>
+    </Warp>
+    <Warp X="0" Y="23">
+      <MapTarget X="13" Y="44">Abel Port Way</MapTarget>
+    </Warp>
+    <Warp X="0" Y="24">
+      <MapTarget X="13" Y="44">Abel Port Way</MapTarget>
+    </Warp>
+    <Warp X="0" Y="25">
+      <MapTarget X="13" Y="44">Abel Port Way</MapTarget>
+    </Warp>
   </Warps>
 </Map>

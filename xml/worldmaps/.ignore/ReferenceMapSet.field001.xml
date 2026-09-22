@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WorldMap ClientMap="field001" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Master Map Set</Name>
+  <Name>Reference Map Set Field 1</Name>
   <Points>
     <Point X="241" Y="84">
       <Name>Mileth</Name>
