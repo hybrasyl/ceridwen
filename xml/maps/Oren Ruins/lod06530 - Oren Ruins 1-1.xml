@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="6530" X="75" Y="75">
+  <Name>Oren Ruins 1-1</Name>
+  <Warps>
+    <Warp X="1" Y="0">
+      <MapTarget X="4" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="2" Y="0">
+      <MapTarget X="4" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="3" Y="0">
+      <MapTarget X="4" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="4" Y="0">
+      <MapTarget X="4" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="5" Y="0">
+      <MapTarget X="4" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="6" Y="0">
+      <MapTarget X="9" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="7" Y="0">
+      <MapTarget X="9" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="8" Y="0">
+      <MapTarget X="9" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="9" Y="0">
+      <MapTarget X="9" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="10" Y="0">
+      <MapTarget X="13" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="11" Y="0">
+      <MapTarget X="13" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="12" Y="0">
+      <MapTarget X="13" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="13" Y="0">
+      <MapTarget X="13" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="14" Y="0">
+      <MapTarget X="16" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="15" Y="0">
+      <MapTarget X="16" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="16" Y="0">
+      <MapTarget X="16" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="17" Y="0">
+      <MapTarget X="16" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="18" Y="0">
+      <MapTarget X="19" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="19" Y="0">
+      <MapTarget X="19" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="20" Y="0">
+      <MapTarget X="19" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="27" Y="0">
+      <MapTarget X="28" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="28" Y="0">
+      <MapTarget X="28" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="29" Y="0">
+      <MapTarget X="29" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="30" Y="0">
+      <MapTarget X="29" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="31" Y="0">
+      <MapTarget X="31" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="32" Y="0">
+      <MapTarget X="31" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="33" Y="0">
+      <MapTarget X="31" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="35" Y="0">
+      <MapTarget X="38" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="36" Y="0">
+      <MapTarget X="38" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="37" Y="0">
+      <MapTarget X="38" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="38" Y="0">
+      <MapTarget X="39" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="39" Y="0">
+      <MapTarget X="39" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="40" Y="0">
+      <MapTarget X="39" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="41" Y="0">
+      <MapTarget X="40" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="42" Y="0">
+      <MapTarget X="40" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="43" Y="0">
+      <MapTarget X="40" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="45" Y="0">
+      <MapTarget X="46" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="46" Y="0">
+      <MapTarget X="46" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="47" Y="0">
+      <MapTarget X="46" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="48" Y="0">
+      <MapTarget X="46" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="49" Y="0">
+      <MapTarget X="49" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="50" Y="0">
+      <MapTarget X="49" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="51" Y="0">
+      <MapTarget X="49" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="52" Y="0">
+      <MapTarget X="52" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="53" Y="0">
+      <MapTarget X="52" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="54" Y="0">
+      <MapTarget X="52" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="55" Y="0">
+      <MapTarget X="55" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="56" Y="0">
+      <MapTarget X="55" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="57" Y="0">
+      <MapTarget X="55" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="58" Y="0">
+      <MapTarget X="58" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="59" Y="0">
+      <MapTarget X="58" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="60" Y="0">
+      <MapTarget X="58" Y="72">Oren Ruins 1-2</MapTarget>
+    </Warp>
+    <Warp X="74" Y="1">
+      <MapTarget X="1" Y="2">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="2">
+      <MapTarget X="1" Y="3">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="3">
+      <MapTarget X="1" Y="4">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="4">
+      <MapTarget X="1" Y="5">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="5">
+      <MapTarget X="1" Y="6">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="16">
+      <MapTarget X="2" Y="17">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="17">
+      <MapTarget X="2" Y="17">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="18">
+      <MapTarget X="2" Y="17">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="19">
+      <MapTarget X="2" Y="19">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="20">
+      <MapTarget X="2" Y="19">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="21">
+      <MapTarget X="2" Y="19">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="22">
+      <MapTarget X="2" Y="21">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="23">
+      <MapTarget X="2" Y="21">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="24">
+      <MapTarget X="2" Y="21">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="26">
+      <MapTarget X="2" Y="27">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="27">
+      <MapTarget X="2" Y="27">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="28">
+      <MapTarget X="2" Y="27">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="29">
+      <MapTarget X="2" Y="29">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="30">
+      <MapTarget X="2" Y="29">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="31">
+      <MapTarget X="2" Y="29">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="32">
+      <MapTarget X="2" Y="31">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="33">
+      <MapTarget X="2" Y="31">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="34">
+      <MapTarget X="2" Y="31">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="36">
+      <MapTarget X="2" Y="36">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="37">
+      <MapTarget X="2" Y="36">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="38">
+      <MapTarget X="2" Y="38">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="39">
+      <MapTarget X="2" Y="38">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="40">
+      <MapTarget X="2" Y="40">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="41">
+      <MapTarget X="2" Y="40">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="42">
+      <MapTarget X="2" Y="40">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="43">
+      <MapTarget X="2" Y="42">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="44">
+      <MapTarget X="2" Y="42">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="45">
+      <MapTarget X="2" Y="44">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="46">
+      <MapTarget X="2" Y="44">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="48">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="49">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="50">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="51">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="52">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="53">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="54">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="55">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="56">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="57">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="58">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="59">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="60">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="61">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="62">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="63">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="64">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="65">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="66">
+      <MapTarget X="2" Y="57">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="68">
+      <MapTarget X="2" Y="68">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="69">
+      <MapTarget X="2" Y="68">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="70">
+      <MapTarget X="2" Y="70">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="71">
+      <MapTarget X="2" Y="70">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="72">
+      <MapTarget X="2" Y="71">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="74" Y="73">
+      <MapTarget X="2" Y="71">Oren Ruins 1-3</MapTarget>
+    </Warp>
+    <Warp X="39" Y="74">
+      <MapTarget X="27" Y="1">Nobis Village</MapTarget>
+    </Warp>
+    <Warp X="40" Y="74">
+      <MapTarget X="28" Y="1">Nobis Village</MapTarget>
+    </Warp>
+    <Warp X="41" Y="74">
+      <MapTarget X="29" Y="1">Nobis Village</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

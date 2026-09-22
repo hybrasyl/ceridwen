@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="6525" X="100" Y="150">
+  <Name>Oren Island Ruins 0</Name>
+  <Warps>
+    <Warp X="32" Y="149">
+      <MapTarget X="48" Y="1">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="33" Y="149">
+      <MapTarget X="49" Y="1">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="34" Y="149">
+      <MapTarget X="50" Y="1">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="35" Y="149">
+      <MapTarget X="51" Y="1">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="59" Y="149">
+      <MapTarget X="69" Y="2">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="60" Y="149">
+      <MapTarget X="69" Y="2">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="61" Y="149">
+      <MapTarget X="69" Y="2">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="62" Y="149">
+      <MapTarget X="69" Y="2">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="63" Y="149">
+      <MapTarget X="69" Y="2">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="64" Y="149">
+      <MapTarget X="69" Y="2">Oren Island City</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

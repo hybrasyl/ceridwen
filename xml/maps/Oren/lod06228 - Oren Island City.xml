@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="6228" Music="16" X="133" Y="200" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Oren Island City</Name>
+  <Flags />
+  <Warps>
+    <Warp X="27" Y="104">
+      <MapTarget X="13" Y="11">Oren Island Shop 2</MapTarget>
+    </Warp>
+    <Warp X="28" Y="0">
+      <MapTarget X="8" Y="21">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="29" Y="0">
+      <MapTarget X="8" Y="21">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="30" Y="0">
+      <MapTarget X="8" Y="21">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="31" Y="0">
+      <MapTarget X="10" Y="21">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="31" Y="84">
+      <MapTarget X="4" Y="16">Oren Island Downstairs 0</MapTarget>
+    </Warp>
+    <Warp X="32" Y="0">
+      <MapTarget X="10" Y="21">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="33" Y="0">
+      <MapTarget X="10" Y="21">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="33" Y="94">
+      <MapTarget X="9" Y="6">Oren Island Upstairs 0</MapTarget>
+    </Warp>
+    <Warp X="33" Y="126">
+      <MapTarget X="16" Y="10">Oren Island Magic Shop1</MapTarget>
+    </Warp>
+    <Warp X="34" Y="50">
+      <MapTarget X="9" Y="18">Tower 1-1</MapTarget>
+    </Warp>
+    <Warp X="35" Y="50">
+      <MapTarget X="10" Y="18">Tower 1-1</MapTarget>
+    </Warp>
+    <Warp X="36" Y="48">
+      <MapTarget X="18" Y="8">Tower 1-1</MapTarget>
+    </Warp>
+    <Warp X="36" Y="49">
+      <MapTarget X="18" Y="9">Tower 1-1</MapTarget>
+    </Warp>
+    <Warp X="44" Y="87">
+      <MapTarget X="4" Y="16">Oren Island Downstairs 1</MapTarget>
+    </Warp>
+    <Warp X="48" Y="0">
+      <MapTarget X="32" Y="148">Oren Island Ruins 0</MapTarget>
+    </Warp>
+    <Warp X="49" Y="0">
+      <MapTarget X="33" Y="148">Oren Island Ruins 0</MapTarget>
+    </Warp>
+    <Warp X="50" Y="0">
+      <MapTarget X="34" Y="148">Oren Island Ruins 0</MapTarget>
+    </Warp>
+    <Warp X="51" Y="0">
+      <MapTarget X="35" Y="148">Oren Island Ruins 0</MapTarget>
+    </Warp>
+    <Warp X="52" Y="35">
+      <MapTarget X="8" Y="28">Oren Island Throne Room</MapTarget>
+    </Warp>
+    <Warp X="53" Y="35">
+      <MapTarget X="8" Y="28">Oren Island Throne Room</MapTarget>
+    </Warp>
+    <Warp X="54" Y="35">
+      <MapTarget X="8" Y="28">Oren Island Throne Room</MapTarget>
+    </Warp>
+    <Warp X="56" Y="124">
+      <MapTarget X="26" Y="6">Oren Island House 0</MapTarget>
+    </Warp>
+    <Warp X="56" Y="128">
+      <MapTarget X="9" Y="6">Oren Sewers Entrance</MapTarget>
+    </Warp>
+    <Warp X="56" Y="132">
+      <MapTarget X="26" Y="6">Oren Island House 2</MapTarget>
+    </Warp>
+    <Warp X="64" Y="120">
+      <MapTarget X="13" Y="11">Oren Island Shop 1</MapTarget>
+    </Warp>
+    <Warp X="67" Y="0">
+      <MapTarget X="62" Y="146">Oren Island Ruins 0</MapTarget>
+    </Warp>
+    <Warp X="68" Y="0">
+      <MapTarget X="62" Y="146">Oren Island Ruins 0</MapTarget>
+    </Warp>
+    <Warp X="69" Y="0">
+      <MapTarget X="63" Y="146">Oren Island Ruins 0</MapTarget>
+    </Warp>
+    <Warp X="70" Y="0">
+      <MapTarget X="64" Y="146">Oren Island Ruins 0</MapTarget>
+    </Warp>
+    <Warp X="71" Y="0">
+      <MapTarget X="64" Y="146">Oren Island Ruins 0</MapTarget>
+    </Warp>
+    <Warp X="71" Y="112">
+      <MapTarget X="13" Y="11">Oren Island Shop 0</MapTarget>
+    </Warp>
+    <Warp X="72" Y="0">
+      <MapTarget X="64" Y="146">Oren Island Ruins 0</MapTarget>
+    </Warp>
+    <Warp X="72" Y="97">
+      <MapTarget X="16" Y="9">Franchesco's Tavern</MapTarget>
+    </Warp>
+    <Warp X="74" Y="105">
+      <MapTarget X="16" Y="5">Chef Deleon's Bistro</MapTarget>
+    </Warp>
+    <Warp X="76" Y="77">
+      <MapTarget X="9" Y="15">Oren Island Armor Shop</MapTarget>
+    </Warp>
+    <Warp X="76" Y="91">
+      <MapTarget X="16" Y="9">Oren Island Bank</MapTarget>
+    </Warp>
+    <Warp X="82" Y="77">
+      <MapTarget X="9" Y="15">Octavio's Armory</MapTarget>
+    </Warp>
+    <Warp X="88" Y="117">
+      <MapTarget X="9" Y="18">Oren Jewelry Shop</MapTarget>
+    </Warp>
+    <Warp X="58" Y="175">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Jasmine" X="55" Y="169" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

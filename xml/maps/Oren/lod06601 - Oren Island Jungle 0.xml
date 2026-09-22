@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="6601" X="70" Y="70" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Oren Island Jungle 0</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="28">
+      <MapTarget X="27" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="0" Y="29">
+      <MapTarget X="27" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="0" Y="30">
+      <MapTarget X="27" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="0" Y="31">
+      <MapTarget X="27" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="0" Y="32">
+      <MapTarget X="27" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="0" Y="33">
+      <MapTarget X="27" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="0" Y="34">
+      <MapTarget X="27" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="69" Y="30">
+      <MapTarget X="2" Y="12">Oren Island Jungle 1</MapTarget>
+    </Warp>
+    <Warp X="69" Y="31">
+      <MapTarget X="2" Y="12">Oren Island Jungle 1</MapTarget>
+    </Warp>
+    <Warp X="69" Y="32">
+      <MapTarget X="2" Y="13">Oren Island Jungle 1</MapTarget>
+    </Warp>
+    <Warp X="69" Y="33">
+      <MapTarget X="2" Y="14">Oren Island Jungle 1</MapTarget>
+    </Warp>
+    <Warp X="69" Y="34">
+      <MapTarget X="2" Y="14">Oren Island Jungle 1</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

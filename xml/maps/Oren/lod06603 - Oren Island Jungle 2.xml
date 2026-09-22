@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="6603" X="70" Y="70">
+  <Name>Oren Island Jungle 2</Name>
+  <Warps>
+    <Warp X="0" Y="30">
+      <MapTarget X="67" Y="18">Oren Island Jungle 3</MapTarget>
+    </Warp>
+    <Warp X="0" Y="31">
+      <MapTarget X="67" Y="18">Oren Island Jungle 3</MapTarget>
+    </Warp>
+    <Warp X="0" Y="32">
+      <MapTarget X="67" Y="19">Oren Island Jungle 3</MapTarget>
+    </Warp>
+    <Warp X="0" Y="33">
+      <MapTarget X="67" Y="20">Oren Island Jungle 3</MapTarget>
+    </Warp>
+    <Warp X="0" Y="34">
+      <MapTarget X="67" Y="20">Oren Island Jungle 3</MapTarget>
+    </Warp>
+    <Warp X="69" Y="25">
+      <MapTarget X="2" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="69" Y="26">
+      <MapTarget X="2" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="69" Y="27">
+      <MapTarget X="2" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="69" Y="28">
+      <MapTarget X="2" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+    <Warp X="69" Y="29">
+      <MapTarget X="2" Y="14">Oren Island Path</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

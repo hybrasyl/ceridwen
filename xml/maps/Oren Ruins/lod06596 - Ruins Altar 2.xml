@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="6596" X="30" Y="30">
+  <Name>Ruins Altar 2</Name>
+  <Warps>
+    <Warp X="0" Y="14">
+      <MapTarget X="48" Y="21">Oren Ruins 3-16</MapTarget>
+    </Warp>
+    <Warp X="0" Y="15">
+      <MapTarget X="48" Y="22">Oren Ruins 3-16</MapTarget>
+    </Warp>
+  </Warps>
+  <Npcs>
+    <Npc Name="Stone2" X="8" Y="15" Direction="South"/>
+  </Npcs>
+</Map>

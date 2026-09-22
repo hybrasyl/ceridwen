@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="6512" Music="28" X="21" Y="32" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Oren Island Throne Room</Name>
+  <Flags />
+  <Warps>
+    <Warp X="6" Y="31">
+      <MapTarget X="53" Y="37">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="7" Y="31">
+      <MapTarget X="53" Y="37">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="8" Y="31">
+      <MapTarget X="53" Y="37">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="9" Y="31">
+      <MapTarget X="53" Y="37">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="10" Y="31">
+      <MapTarget X="53" Y="37">Oren Island City</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

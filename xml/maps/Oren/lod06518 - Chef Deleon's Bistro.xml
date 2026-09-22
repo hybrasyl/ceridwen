@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="6518" X="20" Y="20" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Chef Deleon's Bistro</Name>
+  <Flags />
+  <Warps>
+    <Warp X="19" Y="3">
+      <MapTarget X="75" Y="105">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="19" Y="4">
+      <MapTarget X="75" Y="105">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="19" Y="5">
+      <MapTarget X="75" Y="105">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="19" Y="6">
+      <MapTarget X="75" Y="105">Oren Island City</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Deleon" X="3" Y="8" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

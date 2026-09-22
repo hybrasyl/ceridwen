@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="6516" X="20" Y="20" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Oren Island Magic Shop1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="19" Y="9">
+      <MapTarget X="34" Y="125">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="19" Y="10">
+      <MapTarget X="34" Y="125">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="19" Y="11">
+      <MapTarget X="34" Y="125">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="19" Y="12">
+      <MapTarget X="34" Y="125">Oren Island City</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Reto" X="3" Y="17" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

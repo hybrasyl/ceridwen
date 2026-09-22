@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="6701" X="50" Y="50">
+  <Name>Oren Ruins Gateway2</Name>
+  <Warps>
+    <Warp X="0" Y="10">
+      <MapTarget X="68" Y="27">Nobis Village</MapTarget>
+    </Warp>
+    <Warp X="0" Y="11">
+      <MapTarget X="68" Y="28">Nobis Village</MapTarget>
+    </Warp>
+    <Warp X="0" Y="12">
+      <MapTarget X="68" Y="29">Nobis Village</MapTarget>
+    </Warp>
+    <Warp X="0" Y="13">
+      <MapTarget X="68" Y="30">Nobis Village</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

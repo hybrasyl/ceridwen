@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="6602" X="70" Y="70" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Oren Island Jungle 1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="0" Y="11">
+      <MapTarget X="67" Y="31">Oren Island Jungle 0</MapTarget>
+    </Warp>
+    <Warp X="0" Y="12">
+      <MapTarget X="67" Y="31">Oren Island Jungle 0</MapTarget>
+    </Warp>
+    <Warp X="0" Y="13">
+      <MapTarget X="67" Y="32">Oren Island Jungle 0</MapTarget>
+    </Warp>
+    <Warp X="0" Y="14">
+      <MapTarget X="67" Y="33">Oren Island Jungle 0</MapTarget>
+    </Warp>
+    <Warp X="0" Y="15">
+      <MapTarget X="67" Y="33">Oren Island Jungle 0</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

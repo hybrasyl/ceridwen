@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="6504" X="13" Y="20" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Oren Island Downstairs 1</Name>
+  <Flags />
+  <Warps>
+    <Warp X="3" Y="19">
+      <MapTarget X="45" Y="87">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="4" Y="19">
+      <MapTarget X="45" Y="87">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="5" Y="19">
+      <MapTarget X="45" Y="87">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="6" Y="19">
+      <MapTarget X="45" Y="87">Oren Island City</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

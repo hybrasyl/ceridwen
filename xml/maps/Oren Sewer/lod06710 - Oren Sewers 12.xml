@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="6710" X="40" Y="40">
+  <Name>Oren Sewers 12</Name>
+  <Warps>
+    <Warp X="0" Y="17">
+      <MapTarget X="38" Y="23">Oren Sewers 9</MapTarget>
+    </Warp>
+    <Warp X="0" Y="18">
+      <MapTarget X="38" Y="24">Oren Sewers 9</MapTarget>
+    </Warp>
+    <Warp X="12" Y="0">
+      <MapTarget X="13" Y="38">Oren Sewers 13</MapTarget>
+    </Warp>
+    <Warp X="13" Y="0">
+      <MapTarget X="14" Y="38">Oren Sewers 13</MapTarget>
+    </Warp>
+    <Warp X="13" Y="39">
+      <MapTarget X="12" Y="1">Oren Sewers 11</MapTarget>
+    </Warp>
+    <Warp X="14" Y="39">
+      <MapTarget X="13" Y="1">Oren Sewers 11</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

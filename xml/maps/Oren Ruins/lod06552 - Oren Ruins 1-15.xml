@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="6552" X="90" Y="70">
+  <Name>Oren Ruins 1-15</Name>
+  <Warps>
+    <Warp X="34" Y="0">
+      <MapTarget X="34" Y="68">Oren Ruins 1-16</MapTarget>
+    </Warp>
+    <Warp X="34" Y="69">
+      <MapTarget X="50" Y="2">Oren Ruins 1-4</MapTarget>
+    </Warp>
+    <Warp X="35" Y="0">
+      <MapTarget X="35" Y="68">Oren Ruins 1-16</MapTarget>
+    </Warp>
+    <Warp X="35" Y="69">
+      <MapTarget X="50" Y="2">Oren Ruins 1-4</MapTarget>
+    </Warp>
+    <Warp X="36" Y="0">
+      <MapTarget X="36" Y="68">Oren Ruins 1-16</MapTarget>
+    </Warp>
+    <Warp X="36" Y="69">
+      <MapTarget X="51" Y="2">Oren Ruins 1-4</MapTarget>
+    </Warp>
+    <Warp X="37" Y="0">
+      <MapTarget X="37" Y="68">Oren Ruins 1-16</MapTarget>
+    </Warp>
+    <Warp X="37" Y="69">
+      <MapTarget X="51" Y="2">Oren Ruins 1-4</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

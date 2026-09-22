@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="6624" X="20" Y="20" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Oren Jewelry Shop</Name>
+  <Flags />
+  <Warps>
+    <Warp X="9" Y="19">
+      <MapTarget X="88" Y="118">Oren Island City</MapTarget>
+    </Warp>
+    <Warp X="10" Y="19">
+      <MapTarget X="89" Y="118">Oren Island City</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Alane" X="2" Y="9" Direction="East" />
+  </Npcs>
+  <Signs />
+</Map>
