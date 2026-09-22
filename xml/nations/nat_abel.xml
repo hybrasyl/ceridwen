@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Nation xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Flag="11">
+  <Name>Abel</Name>
+  <Description>The port of Abel</Description>
+  <SpawnPoints>
+    <SpawnPoint X="4" Y="8" MapName="Abel Inn"/>
+    <SpawnPoint X="5" Y="8" MapName="Abel Inn"/>
+  </SpawnPoints>
+</Nation>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Nation xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Flag="0">
+  <Name>None</Name>
+  <Description>No citizenship</Description>
+  <SpawnPoints>
+    <SpawnPoint X="1" Y="8" MapName="Mehadi Entrance"/>
+  </SpawnPoints>
+</Nation>

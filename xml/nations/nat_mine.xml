@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Nation xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Flag="2">
+  <Name>Mine</Name>
+  <Description>The mining town of Kasmanium</Description>
+  <SpawnPoints>
+    <SpawnPoint X="4" Y="8" MapName="Mine Inn"/>
+    <SpawnPoint X="5" Y="8" MapName="Mine Inn"/>
+  </SpawnPoints>
+</Nation>

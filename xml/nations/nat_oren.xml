@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Nation xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Flag="8">
+  <Name>Oren</Name>
+  <Description>The island city of Oren</Description>
+  <SpawnPoints>
+    <SpawnPoint X="12" Y="5" MapName="Chef Deleon's Bistro"/>
+    <SpawnPoint X="13" Y="5" MapName="Chef Deleon's Bistro"/>
+  </SpawnPoints>
+</Nation>

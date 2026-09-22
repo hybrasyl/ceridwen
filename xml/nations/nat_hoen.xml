@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Nation xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Flag="10">
+  <Name>Hoen</Name>
+  <Description>The town of Hoen</Description>
+  <SpawnPoints>
+    <SpawnPoint X="4" Y="8" MapName="Hoen Inn"/>
+    <SpawnPoint X="5" Y="8" MapName="Hoen Inn"/>
+  </SpawnPoints>
+</Nation>
