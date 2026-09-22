@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="448" X="15" Y="15" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Roton Restaurant</Name>
+  <Flags />
+  <Warps>
+    <Warp X="8" Y="14">
+      <MapTarget X="74" Y="22">Roton</MapTarget>
+    </Warp>
+    <Warp X="9" Y="14">
+      <MapTarget X="74" Y="22">Roton</MapTarget>
+    </Warp>
+    <Warp X="12" Y="0">
+      <MapTarget X="10" Y="13">Roton Tavern</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>
