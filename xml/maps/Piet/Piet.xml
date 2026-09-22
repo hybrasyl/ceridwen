@@ -25,10 +25,10 @@
       <MapTarget X="9" Y="13">Piet Restaurant</MapTarget>
     </Warp>
     <Warp X="17" Y="39">
-      <MapTarget X="13" Y="4">Piet Bar</MapTarget>
+      <MapTarget X="13" Y="4">The Tulsi Brew</MapTarget>
     </Warp>
     <Warp X="17" Y="40">
-      <MapTarget X="13" Y="5">Piet Bar</MapTarget>
+      <MapTarget X="13" Y="5">The Tulsi Brew</MapTarget>
     </Warp>
     <Warp X="29" Y="55">
       <MapTarget X="13" Y="8">Piet Fae Priestess</MapTarget>
@@ -40,10 +40,10 @@
       <MapTarget X="6" Y="10">Piet Inn</MapTarget>
     </Warp>
     <Warp X="43" Y="49">
-      <MapTarget X="6" Y="13">Piet Recall Shop</MapTarget>
+      <MapTarget X="6" Y="13">Piet Alchemist</MapTarget>
     </Warp>
     <Warp X="44" Y="49">
-      <MapTarget X="7" Y="13">Piet Recall Shop</MapTarget>
+      <MapTarget X="7" Y="13">Piet Alchemist</MapTarget>
     </Warp>
     <Warp X="48" Y="28">
       <MapTarget X="6" Y="13">Piet Weapon Shop</MapTarget>
