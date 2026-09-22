@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="664" X="100" Y="100" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Harbor</Name>
+  <Flags />
+  <Warps>
+    <Warp X="60" Y="10">
+      <MapTarget X="6" Y="13">Loures Harbor Alchemist</MapTarget>
+    </Warp>
+    <Warp X="43" Y="79">
+      <MapTarget X="6" Y="13">Loures Harbor Goods Shop</MapTarget>
+    </Warp>
+    <Warp X="22" Y="17">
+      <MapTarget X="10" Y="2">Loures Harbor Inn</MapTarget>
+    </Warp>
+    <Warp X="17" Y="22">
+      <MapTarget X="5" Y="10">Loures Harbor Inn</MapTarget>
+    </Warp>
+    <Warp X="39" Y="20">
+      <MapTarget X="5" Y="10">Loures Harbor Storage</MapTarget>
+    </Warp>
+    <Warp X="12" Y="80">
+      <MapTarget X="6" Y="13">Loures Harbor Shop 1</MapTarget>
+    </Warp>
+    <Warp X="24" Y="80">
+      <MapTarget X="6" Y="13">Loures Harbor Shop 2</MapTarget>
+    </Warp>
+    <Warp X="64" Y="79">
+      <MapTarget X="6" Y="13">Loures Harbor Shop 3</MapTarget>
+    </Warp>
+    <Warp X="81" Y="41">
+      <MapTarget X="6" Y="13">Loures Harbor Shop 5</MapTarget>
+    </Warp>
+    <Warp X="81" Y="20">
+      <MapTarget X="6" Y="13">Loures Harbor Shop 6</MapTarget>
+    </Warp>
+    <Warp X="20" Y="59">
+      <MapTarget X="10" Y="8">Loures Harbor Shop 4</MapTarget>
+    </Warp>
+    <Warp X="86" Y="59">
+      <MapTarget X="10" Y="8">Loures Harbor Armor Shop</MapTarget>
+    </Warp>
+    <Warp X="81" Y="64">
+      <MapTarget X="6" Y="13">Loures Harbor Weapon Shop</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

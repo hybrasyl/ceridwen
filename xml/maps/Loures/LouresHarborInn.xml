@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="1962" X="20" Y="20" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Harbor Inn</Name>
+  <Flags />
+  <Warps>
+    <Warp X="11" Y="2">
+      <MapTarget X="23" Y="17">Loures Harbor</MapTarget>
+    </Warp>
+    <Warp X="11" Y="3">
+      <MapTarget X="23" Y="17">Loures Harbor</MapTarget>
+    </Warp>
+    <Warp X="5" Y="11">
+      <MapTarget X="17" Y="23">Loures Harbor</MapTarget>
+    </Warp>
+    <Warp X="6" Y="11">
+      <MapTarget X="17" Y="23">Loures Harbor</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="582" X="12" Y="12" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Loures Harbor Armor Shop</Name>
+  <Flags />
+  <Warps>
+    <Warp X="11" Y="8">
+      <MapTarget X="87" Y="59">Loures Harbor</MapTarget>
+    </Warp>
+    <Warp X="11" Y="9">
+      <MapTarget X="87" Y="59">Loures Harbor</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="13" Y="1">Loures Harbor Weapon Shop</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

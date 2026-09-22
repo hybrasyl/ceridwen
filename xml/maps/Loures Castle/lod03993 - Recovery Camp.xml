@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3993" X="40" Y="40" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Recovery Camp          PK value 30000</Name>
+  <Name>Recovery Camp</Name>
   <Flags />
   <Warps>
     <Warp X="29" Y="16">
