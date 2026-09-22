@@ -2,7 +2,59 @@
 <Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="663" X="100" Y="100" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Hoen</Name>
   <Flags />
-  <Warps />
+  <Warps>
+    <Warp X="23" Y="17">
+      <MapTarget X="10" Y="2">Hoen Inn</MapTarget>
+    </Warp>
+    <Warp X="23" Y="18">
+      <MapTarget X="10" Y="3">Hoen Inn</MapTarget>
+    </Warp>
+    <Warp X="17" Y="84">
+      <MapTarget X="5" Y="10">Hoen Storage</MapTarget>
+    </Warp>
+    <Warp X="57" Y="37">
+      <MapTarget X="13" Y="7">Hoen Goods Shop</MapTarget>
+    </Warp>
+    <Warp X="57" Y="38">
+      <MapTarget X="13" Y="8">Hoen Goods Shop</MapTarget>
+    </Warp>
+    <Warp X="17" Y="23">
+      <MapTarget X="6" Y="13">Hoen Blacksmith</MapTarget>
+    </Warp>
+    <Warp X="78" Y="21">
+      <MapTarget X="6" Y="13">Hoen Potion Shop</MapTarget>
+    </Warp>
+    <Warp X="81" Y="59">
+      <MapTarget X="5" Y="10">Hoen Shop 1</MapTarget>
+    </Warp>
+    <Warp X="38" Y="16">
+      <MapTarget X="6" Y="13">Hoen Shop 2</MapTarget>
+    </Warp>
+    <Warp X="55" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="56" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="57" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="58" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="59" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="60" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="61" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="62" Y="0">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
   <Reactors />
   <Npcs />
   <Signs />
