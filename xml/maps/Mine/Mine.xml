@@ -2,7 +2,29 @@
 <Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="666" X="100" Y="100" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Mine</Name>
   <Flags />
-  <Warps />
+  <Warps>
+    <Warp X="15" Y="32">
+      <MapTarget X="6" Y="13">Mine Potion Shop</MapTarget>
+    </Warp>
+    <Warp X="46" Y="20">
+      <MapTarget X="6" Y="13">Mine Goods Shop</MapTarget>
+    </Warp>
+    <Warp X="86" Y="16">
+      <MapTarget X="6" Y="13">Mine Weapon Shop</MapTarget>
+    </Warp>
+    <Warp X="84" Y="51">
+      <MapTarget X="5" Y="10">Mine Inn</MapTarget>
+    </Warp>
+    <Warp X="49" Y="49">
+      <MapTarget X="5" Y="10">Mine Storage</MapTarget>
+    </Warp>
+    <Warp X="27" Y="72">
+      <MapTarget X="6" Y="13">Mine Shop 1</MapTarget>
+    </Warp>
+    <Warp X="75" Y="80">
+      <MapTarget X="6" Y="13">Mine Shop 2</MapTarget>
+    </Warp>
+  </Warps>
   <Reactors />
   <Npcs />
   <Signs />
