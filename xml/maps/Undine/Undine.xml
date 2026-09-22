@@ -22,13 +22,13 @@
       <MapTarget X="13" Y="4">Undine Bar</MapTarget>
     </Warp>
     <Warp X="13" Y="31">
-      <MapTarget X="6" Y="13">Undine Recall Shop</MapTarget>
+      <MapTarget X="6" Y="13">Undine Goods Shop</MapTarget>
     </Warp>
     <Warp X="15" Y="12">
       <MapTarget X="13" Y="7">Undine Dark Wizard</MapTarget>
     </Warp>
     <Warp X="86" Y="16">
-      <MapTarget X="5" Y="10">Undine Bank</MapTarget>
+      <MapTarget X="5" Y="10">Undine Storage</MapTarget>
     </Warp>
     <Warp X="12" Y="83">
       <MapTarget X="8" Y="13">Undine Restaurant</MapTarget>
