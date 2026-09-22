@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Stefan</Name>
-  <!-- Location: Mine Inn -->
-  <DisplayName>Stefan</DisplayName>
-  <Appearance Sprite="516" Portrait="inn.spf"/>
-</Npc>
