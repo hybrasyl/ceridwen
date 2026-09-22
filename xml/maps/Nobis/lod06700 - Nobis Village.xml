@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="6700" X="70" Y="70" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Nobis Village</Name>
+  <Flags />
+  <Warps>
+    <Warp X="27" Y="0">
+      <MapTarget X="39" Y="73">Oren Ruins 1-1</MapTarget>
+    </Warp>
+    <Warp X="28" Y="0">
+      <MapTarget X="40" Y="73">Oren Ruins 1-1</MapTarget>
+    </Warp>
+    <Warp X="28" Y="26">
+      <MapTarget X="13" Y="13">Nobis House 1</MapTarget>
+    </Warp>
+    <Warp X="29" Y="0">
+      <MapTarget X="41" Y="73">Oren Ruins 1-1</MapTarget>
+    </Warp>
+    <Warp X="29" Y="49">
+      <MapTarget X="18" Y="4">Nobis Restaurant</MapTarget>
+    </Warp>
+    <Warp X="29" Y="69">
+      <MapTarget X="24" Y="1">Oren Ruins Gateway3</MapTarget>
+    </Warp>
+    <Warp X="30" Y="69">
+      <MapTarget X="25" Y="1">Oren Ruins Gateway3</MapTarget>
+    </Warp>
+    <Warp X="31" Y="25">
+      <MapTarget X="28" Y="10">Nobis House 1</MapTarget>
+    </Warp>
+    <Warp X="31" Y="69">
+      <MapTarget X="26" Y="1">Oren Ruins Gateway3</MapTarget>
+    </Warp>
+    <Warp X="32" Y="42">
+      <MapTarget X="18" Y="9">Nobis Tavern</MapTarget>
+    </Warp>
+    <Warp X="32" Y="69">
+      <MapTarget X="27" Y="1">Oren Ruins Gateway3</MapTarget>
+    </Warp>
+    <Warp X="33" Y="69">
+      <MapTarget X="28" Y="1">Oren Ruins Gateway3</MapTarget>
+    </Warp>
+    <Warp X="44" Y="25">
+      <MapTarget X="9" Y="18">Nobis Storage</MapTarget>
+    </Warp>
+    <Warp X="48" Y="51">
+      <MapTarget X="11" Y="6">Nobis House 2</MapTarget>
+    </Warp>
+    <Warp X="50" Y="25">
+      <MapTarget X="9" Y="18">Nobis Weapon Shop</MapTarget>
+    </Warp>
+    <Warp X="69" Y="27">
+      <MapTarget X="1" Y="10">Oren Ruins Gateway2</MapTarget>
+    </Warp>
+    <Warp X="69" Y="28">
+      <MapTarget X="1" Y="11">Oren Ruins Gateway2</MapTarget>
+    </Warp>
+    <Warp X="69" Y="29">
+      <MapTarget X="1" Y="12">Oren Ruins Gateway2</MapTarget>
+    </Warp>
+    <Warp X="69" Y="30">
+      <MapTarget X="1" Y="13">Oren Ruins Gateway2</MapTarget>
+    </Warp>
+    <Warp X="0" Y="27">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="28">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+    <Warp X="0" Y="29">
+      <WorldMapTarget>Master Map Set</WorldMapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>
