@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Ceres</Name>
+  <!-- Location: Oren -->
+  <DisplayName>Ceres</DisplayName>
+  <Appearance Sprite="57" Portrait="helper.spf"/>
+  <Roles >
+    <Post Nation="Oren"/>
+  </Roles>
+</Npc>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Giotto</Name>
+  <!-- Location: Oren -->
+  <DisplayName>Giotto</DisplayName>
+  <Appearance Sprite="30" Portrait="buls.spf"/>
+  <Roles >
+    <Repair/>
+  </Roles>
+</Npc>

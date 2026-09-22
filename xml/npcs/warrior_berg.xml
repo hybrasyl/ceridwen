@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Reinhold</Name>
+  <Name>Berg</Name>
   <!-- Location: Suomi Combat Master -->
-  <DisplayName>Reinhold</DisplayName>
+  <DisplayName>Berg</DisplayName>
   <Appearance Sprite="93" Portrait="man1.spf"/>
 </Npc>

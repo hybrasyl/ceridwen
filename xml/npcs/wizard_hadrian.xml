@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Lytingur</Name>
+  <Name>Hadrian</Name>
   <!-- Location: Suomi Dark Wizard -->
-  <DisplayName>Lytingur</DisplayName>
+  <DisplayName>Hadrian</DisplayName>
   <Appearance Sprite="37" Portrait="black.spf"/>
 </Npc>

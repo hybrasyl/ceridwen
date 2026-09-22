@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Uliam</Name>
+  <!-- Location: Nobis -->
+  <DisplayName>Uliam</DisplayName>
+  <Appearance Sprite="249"/>
+</Npc>

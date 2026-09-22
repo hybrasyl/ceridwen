@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Stone3</Name>
+  <!-- Location: Oren -->
+  <DisplayName>Stone3</DisplayName>
+  <Appearance Sprite="360"/>
+</Npc>

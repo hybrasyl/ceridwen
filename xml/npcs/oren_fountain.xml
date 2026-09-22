@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Fountain</Name>
+  <!-- Location: Oren -->
+  <DisplayName>Fountain</DisplayName>
+  <Appearance Sprite="244"/>
+</Npc>

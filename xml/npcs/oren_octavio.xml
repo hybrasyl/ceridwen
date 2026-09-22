@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Ulfedin</Name>
-  <!-- Location: Suomi Weaponsmith -->
-  <DisplayName>Ulfedin</DisplayName>
+  <Name>Octavio</Name>
+  <!-- Location: Oren -->
+  <DisplayName>Octavio</DisplayName>
   <Appearance Sprite="30" Portrait="buls.spf"/>
   <Roles >
     <Repair/>

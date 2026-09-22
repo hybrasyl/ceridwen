@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Shambler</Name>
+  <!-- Location: Cthonic Room 2 -->
+  <DisplayName>Shambler</DisplayName>
+  <Appearance Sprite="96"/>
+</Npc>
