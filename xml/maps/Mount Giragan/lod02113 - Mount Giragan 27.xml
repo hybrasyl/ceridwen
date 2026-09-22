@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="2113" X="100" Y="100">
+  <Name>Mount Giragan 27</Name>
+  <Warps>
+    <Warp X="0" Y="75">
+      <MapTarget X="18" Y="8">Mount Giragan 31</MapTarget>
+    </Warp>
+    <Warp X="0" Y="76">
+      <MapTarget X="18" Y="9">Mount Giragan 31</MapTarget>
+    </Warp>
+    <Warp X="0" Y="77">
+      <MapTarget X="18" Y="10">Mount Giragan 31</MapTarget>
+    </Warp>
+    <Warp X="0" Y="78">
+      <MapTarget X="18" Y="11">Mount Giragan 31</MapTarget>
+    </Warp>
+    <Warp X="72" Y="0">
+      <MapTarget X="6" Y="38">Mount Giragan 26</MapTarget>
+    </Warp>
+    <Warp X="73" Y="0">
+      <MapTarget X="7" Y="38">Mount Giragan 26</MapTarget>
+    </Warp>
+    <Warp X="74" Y="0">
+      <MapTarget X="8" Y="38">Mount Giragan 26</MapTarget>
+    </Warp>
+    <Warp X="75" Y="0">
+      <MapTarget X="9" Y="38">Mount Giragan 26</MapTarget>
+    </Warp>
+    <Warp X="99" Y="45">
+      <MapTarget X="1" Y="5">Mount Giragan 28</MapTarget>
+    </Warp>
+    <Warp X="99" Y="46">
+      <MapTarget X="1" Y="6">Mount Giragan 28</MapTarget>
+    </Warp>
+    <Warp X="99" Y="47">
+      <MapTarget X="1" Y="7">Mount Giragan 28</MapTarget>
+    </Warp>
+    <Warp X="99" Y="48">
+      <MapTarget X="1" Y="8">Mount Giragan 28</MapTarget>
+    </Warp>
+  </Warps>
+</Map>

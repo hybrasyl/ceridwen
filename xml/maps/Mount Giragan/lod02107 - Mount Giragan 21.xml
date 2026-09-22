@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="2107" X="100" Y="100">
+  <Name>Mount Giragan 21</Name>
+  <Warps>
+    <Warp X="99" Y="45">
+      <MapTarget X="1" Y="10">Mount Giragan 20</MapTarget>
+    </Warp>
+    <Warp X="99" Y="46">
+      <MapTarget X="1" Y="11">Mount Giragan 20</MapTarget>
+    </Warp>
+    <Warp X="99" Y="47">
+      <MapTarget X="1" Y="12">Mount Giragan 20</MapTarget>
+    </Warp>
+    <Warp X="99" Y="48">
+      <MapTarget X="1" Y="13">Mount Giragan 20</MapTarget>
+    </Warp>
+  </Warps>
+</Map>
