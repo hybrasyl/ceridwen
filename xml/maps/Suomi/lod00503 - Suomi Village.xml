@@ -64,10 +64,10 @@
       <MapTarget X="13" Y="7">Suomi Dark Wizard</MapTarget>
     </Warp>
     <Warp X="81" Y="15">
-      <MapTarget X="13" Y="4">Suomi Bar</MapTarget>
+      <MapTarget X="13" Y="4">Suomi Tavern</MapTarget>
     </Warp>
     <Warp X="81" Y="16">
-      <MapTarget X="13" Y="5">Suomi Bar</MapTarget>
+      <MapTarget X="13" Y="5">Suomi Tavern</MapTarget>
     </Warp>
   </Warps>
   <Reactors />

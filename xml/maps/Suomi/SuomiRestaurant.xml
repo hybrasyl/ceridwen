@@ -10,7 +10,7 @@
       <MapTarget X="75" Y="22">Suomi Village</MapTarget>
     </Warp>
     <Warp X="12" Y="0">
-      <MapTarget X="10" Y="13">Suomi Bar</MapTarget>
+      <MapTarget X="10" Y="13">Suomi Tavern</MapTarget>
     </Warp>
   </Warps>
   <Reactors />
