@@ -2,7 +2,23 @@
 <Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="426" X="26" Y="26" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Piet Dungeon Vestibule</Name>
   <Flags />
-  <Warps />
+  <Warps>
+    <!-- inferred -->
+    <Warp X="9" Y="0">
+      <MapTarget X="57" Y="58">Piet</MapTarget>
+    </Warp>
+    <!-- inferred -->
+    <Warp X="10" Y="0">
+      <MapTarget X="57" Y="58">Piet</MapTarget>
+    </Warp>
+    <!-- inferred -->
+    <Warp X="11" Y="0">
+      <MapTarget X="57" Y="58">Piet</MapTarget>
+    </Warp>
+    <Warp X="20" Y="19">
+      <MapTarget X="10" Y="3">Piet Dungeon 1-1</MapTarget>
+    </Warp>
+  </Warps>
   <Reactors />
   <Npcs />
   <Signs />

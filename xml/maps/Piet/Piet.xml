@@ -3,6 +3,9 @@
   <Name>Piet</Name>
   <Flags />
   <Warps>
+    <Warp X="57" Y="58">
+      <MapTarget X="10" Y="1">Piet Dungeon Vestibule</MapTarget>
+    </Warp>
     <Warp X="0" Y="8">
       <MapTarget X="22" Y="8">Piet Village Way</MapTarget>
     </Warp>

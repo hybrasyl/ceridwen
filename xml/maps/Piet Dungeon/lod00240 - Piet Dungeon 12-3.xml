@@ -2,7 +2,16 @@
 <Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="240" X="50" Y="50" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Piet Dungeon 12-3</Name>
   <Flags />
-  <Warps />
+  <Warps>
+    <!-- Warp tiles read from the da-wizard crypt maps; arrival points marked
+         below are inferred from the portal on the far side, not observed. -->
+    <Warp X="3" Y="11">
+      <MapTarget X="34" Y="1">Piet Dungeon 13-2</MapTarget>
+    </Warp>
+    <Warp X="14" Y="49">
+      <MapTarget X="13" Y="4">Piet Dungeon 11-2</MapTarget>
+    </Warp>
+  </Warps>
   <Reactors />
   <Npcs />
   <Signs />
