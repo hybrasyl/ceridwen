@@ -2,8 +2,13 @@
 <Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3634" X="30" Y="30">
   <Name>Chaos 1</Name>
   <Warps>
+    <!-- Forward tiles from the DAWalker route file; the way back and all
+         arrival points are read off da-wizard's maps, so they are approximate. -->
     <Warp X="1" Y="14">
-      <MapTarget X="6" Y="5">Chaos Entrance</MapTarget>
+      <MapTarget X="9" Y="9">Chaos Entrance</MapTarget>
+    </Warp>
+    <Warp X="28" Y="16">
+      <MapTarget X="3" Y="14">Chaos 2</MapTarget>
     </Warp>
   </Warps>
   <Npcs>

@@ -2,7 +2,19 @@
 <Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3616" X="80" Y="80" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Chaos 17</Name>
   <Flags />
-  <Warps />
+  <Warps>
+    <!-- Forward tiles from the DAWalker route file; the way back and all
+         arrival points are read off da-wizard's maps, so they are approximate. -->
+    <Warp X="22" Y="1">
+      <MapTarget X="26" Y="48">Chaos 16</MapTarget>
+    </Warp>
+    <Warp X="31" Y="79">
+      <MapTarget X="27" Y="1">Chaos 18</MapTarget>
+    </Warp>
+    <Warp X="32" Y="79">
+      <MapTarget X="27" Y="1">Chaos 18</MapTarget>
+    </Warp>
+  </Warps>
   <Reactors />
   <Npcs />
   <Signs />
