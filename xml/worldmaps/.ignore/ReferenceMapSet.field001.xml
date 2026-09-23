@@ -56,7 +56,7 @@
     </Point>
     <Point X="251" Y="163">
       <Name>Kasmanium Mines</Name>
-      <Target X="24" Y="48">Mine Entrance</Target>
+      <Target X="3" Y="51">Mine</Target>
     </Point>
     <Point X="150" Y="297">
       <Name>Tagor</Name>
@@ -101,6 +101,10 @@
     <Point X="42" Y="178">
       <Name>Mount Giragan</Name>
       <Target X="38" Y="7">Mount Giragan 1</Target>
+    </Point>
+    <Point X="30" Y="365">
+      <Name>Roton</Name>
+      <Target X="58" Y="1">Roton</Target>
     </Point>
   </Points>
 </WorldMap>

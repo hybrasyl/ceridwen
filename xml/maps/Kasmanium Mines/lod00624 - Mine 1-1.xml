@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="624" X="100" Y="100" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+<Map Id="624" X="100" Y="100" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Mine 1-1</Name>
-  <Flags />
   <Warps>
     <!-- Stair tiles from the map files; which stair leads where comes from
          the da-wizard route arrows. Arrival points are one step in from the
@@ -12,8 +11,8 @@
     <Warp X="24" Y="92">
       <MapTarget X="17" Y="5">Mine 2-2</MapTarget>
     </Warp>
+    <Warp X="2" Y="80">
+      <MapTarget X="24" Y="16">Mine Entrance</MapTarget>
+    </Warp>
   </Warps>
-  <Reactors />
-  <Npcs />
-  <Signs />
 </Map>
