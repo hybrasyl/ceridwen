@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="266" X="40" Y="40" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Abel Dungeon 4-3</Name>
+  <Flags />
+  <Warps>
+    <!-- Portal tiles read from the da-wizard Abel Crypt maps; every arrival
+         point is inferred from the marker on the far side. -->
+    <Warp X="7" Y="7">
+      <MapTarget X="19" Y="19">Abel Dungeon 5-2</MapTarget>
+    </Warp>
+    <Warp X="29" Y="27">
+      <MapTarget X="19" Y="19">Abel Dungeon 5-3</MapTarget>
+    </Warp>
+    <Warp X="1" Y="29">
+      <MapTarget X="27" Y="31">Abel Dungeon 3-3</MapTarget>
+    </Warp>
+    <Warp X="3" Y="36">
+      <MapTarget X="8" Y="34">Abel Dungeon 3-4</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>

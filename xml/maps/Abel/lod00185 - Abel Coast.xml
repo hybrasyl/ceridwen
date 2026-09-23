@@ -3,6 +3,12 @@
   <!-- Generic Name: Abel Coast -->
   <Name>Abel Coast</Name>
   <Warps>
+    <Warp X="26" Y="31">
+      <MapTarget X="22" Y="1">Abel Dungeon 1-1</MapTarget>
+    </Warp>
+    <Warp X="27" Y="30">
+      <MapTarget X="22" Y="1">Abel Dungeon 1-1</MapTarget>
+    </Warp>
     <Warp X="6" Y="47">
       <MapTarget X="44" Y="64">Abel Port</MapTarget>
     </Warp>
