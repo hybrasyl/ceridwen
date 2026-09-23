@@ -2,7 +2,17 @@
 <Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="652" X="100" Y="100" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <Name>Mine 28-2</Name>
   <Flags />
-  <Warps />
+  <Warps>
+    <!-- Stair tiles from the map files; which stair leads where comes from
+         the da-wizard route arrows. Arrival points are one step in from the
+         stair on the far side. -->
+    <Warp X="92" Y="44">
+      <MapTarget X="27" Y="84">Mine 27-2</MapTarget>
+    </Warp>
+    <Warp X="27" Y="2">
+      <MapTarget X="50" Y="50">Mine 28-1</MapTarget>
+    </Warp>
+  </Warps>
   <Reactors />
   <Npcs />
   <Signs />
