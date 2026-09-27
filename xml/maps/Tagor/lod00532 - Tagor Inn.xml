@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Map Id="532" X="14" Y="14" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Tagor Inn -->
   <Name>Foxglove Inn</Name>
   <Description>Tagor Inn</Description>
   <Warps>

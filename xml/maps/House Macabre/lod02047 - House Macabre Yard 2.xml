@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="2047" X="100" Y="100">
+  <!-- Generic Name: House Macabre Yard 2 -->
   <Name>House Macabre Yard 2</Name>
   <Warps>
     <Warp X="11" Y="11">

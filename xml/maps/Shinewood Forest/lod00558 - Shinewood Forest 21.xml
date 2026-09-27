@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="558" X="50" Y="50">
+  <!-- Generic Name: Shinewood Forest 21 -->
   <Name>Shinewood Forest 21</Name>
   <Warps>
     <Warp X="27" Y="0">

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Map Id="660" Music="59" X="50" Y="50" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Mine Entrance -->
   <Name>Mine Entrance</Name>
   <Warps>
     <Warp X="23" Y="14">
@@ -9,10 +10,10 @@
       <MapTarget X="4" Y="80">Mine 1-1</MapTarget>
     </Warp>
     <Warp X="24" Y="49">
-      <MapTarget X="58" Y="2">mine</MapTarget>
+      <MapTarget X="58" Y="2">Kasman</MapTarget>
     </Warp>
     <Warp X="25" Y="49">
-      <MapTarget X="58" Y="2">mine</MapTarget>
+      <MapTarget X="58" Y="2">Kasman</MapTarget>
     </Warp>
   </Warps>
   <Npcs>

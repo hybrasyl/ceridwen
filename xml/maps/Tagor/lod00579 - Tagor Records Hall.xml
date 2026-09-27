@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Map Id="579" X="12" Y="12" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Tagor Records Hall -->
   <Name>Tagor Records Hall</Name>
   <Warps>
     <Warp X="6" Y="0">

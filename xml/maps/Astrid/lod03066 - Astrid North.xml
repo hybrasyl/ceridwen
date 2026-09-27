@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="3066" X="40" Y="40">
+  <!-- Generic Name: Astrid North -->
   <Name>Astrid North</Name>
   <Warps>
     <Warp X="17" Y="39">

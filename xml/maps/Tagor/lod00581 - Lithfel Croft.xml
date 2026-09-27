@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Map Id="581" Music="25" X="70" Y="50" IsEnabled="true" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Lithfel Croft -->
   <Name>Lithfel Croft</Name>
-  <Description>Lithfel Croft</Description>
   <Flags>Rain</Flags>
   <Warps>
     <Warp X="15" Y="49">

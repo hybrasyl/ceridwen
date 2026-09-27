@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Map Id="515" X="18" Y="12" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Tagor Bank -->
   <Name>Tagor Trust</Name>
   <Description>Tagor Bank</Description>
   <Warps>

@@ -120,8 +120,10 @@ Doors assigned by elimination rather than by an arrow:
 
 ## Other
 
-- Loures Harbor, Mine and Roton: the Inn and Bank warps are placed as if the maps were still 12x12. Move them to suit the 20x20 layouts.
+- Loures Harbor, Kasman and Ronda: the Inn and Bank warps are placed as if the maps were still 12x12. Move them to suit the 20x20 layouts.
 - Loures Harbor Armor Shop and Loures Harbor Shop 4 are copies of Abel Armor Shop; Loures Harbor Weapon Shop is a copy of Abel Weapon Shop. Shops 1, 2, 3, 5 and 6 are copies of West Rucesion Port Recall Shop.
 - Abel Armor Shop 2 (443) still has an internal door that targets "Abel Weapon Shop", not its own pair.
 - Tagor village (662) uses the retail map file, and 16 warps sit on tiles that the world repo had altered.
 - Nobis has no verified position on the world map; the point is a guess.
+- Loures Harbor has no point on the world map, so it is reachable only through its neighbours.
+- Edits to the world map must go in MasterMapSet.xml. The copy under xml/worldmaps/.ignore/ is a reference only, because the loader drops any path containing ".ignore".

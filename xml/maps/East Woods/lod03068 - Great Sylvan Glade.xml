@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3068" Music="11" X="8" Y="8" AllowCasting="false" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Great Sylvan Glade -->
   <Name>Great Sylvan Glade</Name>
   <Flags />
   <Warps>

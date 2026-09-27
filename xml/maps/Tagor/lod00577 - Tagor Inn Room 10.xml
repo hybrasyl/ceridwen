@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Map Id="577" X="8" Y="8" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Tagor Inn Room 10 -->
   <Name>Foxglove Room 10</Name>
+  <Description>Tagor Inn Room 10</Description>
   <Warps>
     <Warp X="4" Y="7">
       <MapTarget X="13" Y="1">Foxglove Corridor 2</MapTarget>

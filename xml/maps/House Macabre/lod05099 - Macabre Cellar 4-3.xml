@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="5099" X="20" Y="20" Music="3">
+  <!-- Generic Name: Macabre Cellar 4-3 -->
   <Name>Macabre Cellar 4-3</Name>
   <Warps>
     <Warp X="1" Y="2">

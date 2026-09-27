@@ -2,6 +2,7 @@
 <Map Id="662" X="100" Y="100" IsEnabled="true" AllowCasting="true" DynamicLighting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
   <!-- Generic Name: Tagor Village -->
   <Name>Tagor</Name>
+  <Description>Tagor Village</Description>
   <Warps>
     <Warp X="16" Y="45">
       <MapTarget X="10" Y="8">Bogdan's Curios</MapTarget>

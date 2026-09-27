@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="5086" X="20" Y="20" Music="4">
+  <!-- Generic Name: Macabre Study 3-2 -->
   <Name>Macabre Study 3-2</Name>
   <Warps>
     <Warp X="2" Y="2">

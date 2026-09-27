@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="6598" X="20" Y="40">
+  <!-- Generic Name: Ruins Altar 4 -->
   <Name>Ruins Altar 4</Name>
   <Warps>
     <Warp X="19" Y="32">

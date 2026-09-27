@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="6525" X="100" Y="150">
+  <!-- Generic Name: Oren Island Ruins 0 -->
   <Name>Oren Island Ruins 0</Name>
   <Warps>
     <Warp X="32" Y="149">

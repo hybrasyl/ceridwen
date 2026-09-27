@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <Map xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Id="5001" X="100" Y="100">
+  <!-- Generic Name: Cthonic Remains 1 -->
   <Name>Cthonic Remains 1</Name>
   <Warps>
     <Warp X="7" Y="39">

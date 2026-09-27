@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Map Id="623" Music="9" X="100" Y="100" IsEnabled="true" AllowCasting="true" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Wasteland -->
   <Name>Wasteland</Name>
   <Warps>
     <Warp X="0" Y="47">
