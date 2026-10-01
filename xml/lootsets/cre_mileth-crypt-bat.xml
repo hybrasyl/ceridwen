@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Bat">
+  <!-- Rates from DA-Items: 252 kills in Mileth Crypt. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.75">  <!-- 189 in 252 -->
+    <Items>
+      <Item>Bat's Wing</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0119">  <!-- 3 in 252 -->
+    <Items>
+      <Item Variants="element-def">Leather Belt</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0119">  <!-- 3 in 252 -->
+    <Items>
+      <Item>fior athar</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0079">  <!-- 2 in 252 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Leather Greaves</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0079">  <!-- 2 in 252 -->
+    <Items>
+      <Item>fior creag</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0079">  <!-- 2 in 252 -->
+    <Items>
+      <Item>fior sal</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0079">  <!-- 2 in 252 -->
+    <Items>
+      <Item Variants="element-off">Gold Jade Necklace</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 252 -->
+    <Items>
+      <Item>fior srad</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 252 -->
+    <Items>
+      <Item>Flawed Ruby</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 252 -->
+    <Items>
+      <Item Variants="element-off">Pearl Necklace</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 252 -->
+    <Items>
+      <Item Variants="consecrated">Leather Bracer</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 252 -->
+    <Items>
+      <Item Variants="enchant1">Cured Boots</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 252 -->
+    <Items>
+      <Item>Uncut Beryl</Item>
+    </Items>
+  </Table>
+</LootSet>

@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Scorpion">
+  <!-- Rates from DA-Items: 250 kills in Mileth Crypt. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.504">  <!-- 126 in 250 -->
+    <Items>
+      <Item>Scorpion's Sting</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.048">  <!-- 12 in 250 -->
+    <Items>
+      <Item>fior srad</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.008">  <!-- 2 in 250 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Boots</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.008">  <!-- 2 in 250 -->
+    <Items>
+      <Item Variants="enchant1">Cured Boots</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.008">  <!-- 2 in 250 -->
+    <Items>
+      <Item>fior athar</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 250 -->
+    <Items>
+      <Item>Scorpion's Claw</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 250 -->
+    <Items>
+      <Item>Scorpion's Tail</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 250 -->
+    <Items>
+      <Item Variants="consecrated">Leather Bracer</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 250 -->
+    <Items>
+      <Item Variants="consecrated">Leather Greaves</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 250 -->
+    <Items>
+      <Item Variants="element-off">Amber Necklace</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 250 -->
+    <Items>
+      <Item Variants="element-def">Mythril Belt</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.004">  <!-- 1 in 250 -->
+    <Items>
+      <Item Variants="consecrated">Leather Gauntlet</Item>
+    </Items>
+  </Table>
+</LootSet>

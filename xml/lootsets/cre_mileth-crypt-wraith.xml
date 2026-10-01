@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Wraith">
+  <!-- Rates from DA-Items: 8 kills in Mileth Crypt. Each table rolls once. -->
+  <!-- TODO: Scythe is listed by vorlof but has no logged drop; rate unknown -->
+  <Table Rolls="1" Chance="0.375">  <!-- 3 in 8 -->
+    <Items>
+      <Item>fior creag</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.25">  <!-- 2 in 8 -->
+    <Items>
+      <Item>fior srad</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.125">  <!-- 1 in 8 -->
+    <Items>
+      <Item Variants="consecrated">Lapis Ring</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.125">  <!-- 1 in 8 -->
+    <Items>
+      <Item>ard ioc deum</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="1">  <!-- Gold Pile; TODO: amount is the vorlof sprite band -->
+    <Gold Min="1000" Max="1000"/>
+  </Table>
+</LootSet>

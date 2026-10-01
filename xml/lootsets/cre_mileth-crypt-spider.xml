@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Spider">
+  <!-- Rates from DA-Items: 267 kills in Mileth Crypt. Each table rolls once. -->
+  <!-- TODO: Spider's Eggs is listed by vorlof but has no logged drop; rate unknown -->
+  <Table Rolls="1" Chance="0.3483">  <!-- 93 in 267 -->
+    <Items>
+      <Item>Spider's Eye</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0787">  <!-- 21 in 267 -->
+    <Items>
+      <Item>Spider's Legs</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0524">  <!-- 14 in 267 -->
+    <Items>
+      <Item>Spider's Silk</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0112">  <!-- 3 in 267 -->
+    <Items>
+      <Item Variants="element-off">Pearl Necklace</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0037">  <!-- 1 in 267 -->
+    <Items>
+      <Item>fior srad</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0037">  <!-- 1 in 267 -->
+    <Items>
+      <Item>fior athar</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0037">  <!-- 1 in 267 -->
+    <Items>
+      <Item>fior sal</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0037">  <!-- 1 in 267 -->
+    <Items>
+      <Item Variants="element-def">Leather Belt</Item>
+    </Items>
+  </Table>
+</LootSet>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Mouse">
+  <!-- Rates from DA-Items: 239 kills in Mileth Crypt. Each table rolls once. -->
+  <!-- TODO: Mouldy Baguette is listed by vorlof but has no logged drop; rate unknown -->
+  <Table Rolls="1" Chance="0.1004">  <!-- 24 in 239 -->
+    <Items>
+      <Item>Rotten Grapes</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0962">  <!-- 23 in 239 -->
+    <Items>
+      <Item>Rotten Apple</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0586">  <!-- 14 in 239 -->
+    <Items>
+      <Item>Rotten Vegetable</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0502">  <!-- 12 in 239 -->
+    <Items>
+      <Item>Mold</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0335">  <!-- 8 in 239 -->
+    <Items>
+      <Item>Moldy Bread Slice</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0251">  <!-- 6 in 239 -->
+    <Items>
+      <Item>Rotten Tomato</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0126">  <!-- 3 in 239 -->
+    <Items>
+      <Item>Rotten Cherry</Item>
+    </Items>
+  </Table>
+</LootSet>

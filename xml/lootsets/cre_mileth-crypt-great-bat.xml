@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Great Bat">
+  <!-- Rates from DA-Items: 269 kills in Mileth Crypt. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.4312">  <!-- 116 in 269 -->
+    <Items>
+      <Item>Great Bat's Wing</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0372">  <!-- 10 in 269 -->
+    <Items>
+      <Item>fior creag</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0335">  <!-- 9 in 269 -->
+    <Items>
+      <Item>fior athar</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.026">  <!-- 7 in 269 -->
+    <Items>
+      <Item>fior sal</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0223">  <!-- 6 in 269 -->
+    <Items>
+      <Item>fior srad</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0186">  <!-- 5 in 269 -->
+    <Items>
+      <Item>Flawed Beryl</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0149">  <!-- 4 in 269 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Cordovan Boots</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0149">  <!-- 4 in 269 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Iron Greaves</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0112">  <!-- 3 in 269 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Shagreen Boots</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0074">  <!-- 2 in 269 -->
+    <Items>
+      <Item>Uncut Beryl</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0037">  <!-- 1 in 269 -->
+    <Items>
+      <Item Variants="consecrated">Beryl Ring</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0037">  <!-- 1 in 269 -->
+    <Items>
+      <Item Variants="enchant1">Talos Ring</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0037">  <!-- 1 in 269 -->
+    <Items>
+      <Item Variants="element-def">Mythril Belt</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0037">  <!-- 1 in 269 -->
+    <Items>
+      <Item Variants="element-off">Jade Necklace</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0037">  <!-- 1 in 269 -->
+    <Items>
+      <Item>Finished Beryl</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0037">  <!-- 1 in 269 -->
+    <Items>
+      <Item>Finished Ruby</Item>
+    </Items>
+  </Table>
+</LootSet>

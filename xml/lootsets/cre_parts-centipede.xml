@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Parts-Centipede">
-  <Table Rolls="2" Chance="0.25">
-    <Items Rolls="4" Chance="0.25">
-      <Item Max="2" Unique="false" Always="false">Centipede Flank</Item>
-      <Item Max="2" Unique="false" Always="false">Centipede Gland</Item>
+  <!-- ceridwen addition, not retail. The rate matches a secondary retail part, such as Spider's Legs. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.1">
+    <Items>
+      <Item>Centipede Flank</Item>
     </Items>
   </Table>
 </LootSet>

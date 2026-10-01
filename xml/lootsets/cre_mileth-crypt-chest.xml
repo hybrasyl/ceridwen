@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Chest">
+  <!-- Rates from DA-Items: 315 kills in Mileth Crypt. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.0444">  <!-- 14 in 315 -->
+    <Items>
+      <Item>fior srad</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0349">  <!-- 11 in 315 -->
+    <Items>
+      <Item>fior creag</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0317">  <!-- 10 in 315 -->
+    <Items>
+      <Item>mor ioc deum</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.019">  <!-- 6 in 315 -->
+    <Items>
+      <Item>fior athar</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0127">  <!-- 4 in 315 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Amethyst Ring</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0127">  <!-- 4 in 315 -->
+    <Items>
+      <Item>beag spiorad deum</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0095">  <!-- 3 in 315 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Gold Earrings</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0095">  <!-- 3 in 315 -->
+    <Items>
+      <Item Variants="consecrated">Coral Earrings</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0095">  <!-- 3 in 315 -->
+    <Items>
+      <Item Variants="consecrated">Iron Bracer</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0063">  <!-- 2 in 315 -->
+    <Items>
+      <Item>fior sal</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0063">  <!-- 2 in 315 -->
+    <Items>
+      <Item Variants="consecrated">Iron Greaves</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0063">  <!-- 2 in 315 -->
+    <Items>
+      <Item Variants="element-off">Amber Necklace</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0032">  <!-- 1 in 315 -->
+    <Items>
+      <Item Variants="consecrated">Ruby Ring</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0032">  <!-- 1 in 315 -->
+    <Items>
+      <Item Variants="element-def">Mythril Belt</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="1">  <!-- Gold Pile; TODO: amount is the vorlof sprite band -->
+    <Gold Min="1000" Max="1000"/>
+  </Table>
+  <Table Rolls="1" Chance="0.0698">  <!-- Gold Coin; TODO: amount is the vorlof sprite band -->
+    <Gold Min="2" Max="99"/>
+  </Table>
+</LootSet>

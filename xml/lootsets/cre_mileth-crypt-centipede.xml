@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Centipede">
+  <!-- Rates from DA-Items: 300 kills in Mileth Crypt. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.4333">  <!-- 130 in 300 -->
+    <Items>
+      <Item>Centipede's Gland</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0167">  <!-- 5 in 300 -->
+    <Items>
+      <Item>Mold</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0133">  <!-- 4 in 300 -->
+    <Items>
+      <Item>Uncut Beryl</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.01">  <!-- 3 in 300 -->
+    <Items>
+      <Item Variants="element-off">Pearl Necklace</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.01">  <!-- 3 in 300 -->
+    <Items>
+      <Item>Flawed Beryl</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.01">  <!-- 3 in 300 -->
+    <Items>
+      <Item>Finished Beryl</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0067">  <!-- 2 in 300 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Cured Boots</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0067">  <!-- 2 in 300 -->
+    <Items>
+      <Item>Uncut Ruby</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0067">  <!-- 2 in 300 -->
+    <Items>
+      <Item>Flawed Ruby</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0067">  <!-- 2 in 300 -->
+    <Items>
+      <Item>Flawed Coral</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0067">  <!-- 2 in 300 -->
+    <Items>
+      <Item>fior sal</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0033">  <!-- 1 in 300 -->
+    <Items>
+      <Item>Uncut Coral</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0033">  <!-- 1 in 300 -->
+    <Items>
+      <Item>Finished Ruby</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0033">  <!-- 1 in 300 -->
+    <Items>
+      <Item>fior creag</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0033">  <!-- 1 in 300 -->
+    <Items>
+      <Item Variants="consecrated">Boots</Item>
+    </Items>
+  </Table>
+</LootSet>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Marauder">
+  <!-- Rates from DA-Items: 67 kills in Mileth Crypt. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.0896">  <!-- 6 in 67 -->
+    <Items>
+      <Item>Marauder's Spine</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0746">  <!-- 5 in 67 -->
+    <Items>
+      <Item>fior sal</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0448">  <!-- 3 in 67 -->
+    <Items>
+      <Item>fior srad</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0448">  <!-- 3 in 67 -->
+    <Items>
+      <Item>fior athar</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0149">  <!-- 1 in 67 -->
+    <Items>
+      <Item Variants="consecrated">Talos Shield</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0149">  <!-- 1 in 67 -->
+    <Items>
+      <Item Variants="smithed">Two-handed Gladius</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0149">  <!-- 1 in 67 -->
+    <Items>
+      <Item>Uncut Coral</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0149">  <!-- 1 in 67 -->
+    <Items>
+      <Item Variants="enchant1">Mythril Bracer</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0149">  <!-- 1 in 67 -->
+    <Items>
+      <Item Variants="consecrated">Jade Ring</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0149">  <!-- 1 in 67 -->
+    <Items>
+      <Item Variants="consecrated">Ruby Earrings</Item>
+    </Items>
+  </Table>
+</LootSet>

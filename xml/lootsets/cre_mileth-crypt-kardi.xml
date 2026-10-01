@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Kardi">
+  <!-- Rates from DA-Items: 117 kills in Mileth Crypt. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.0769">  <!-- 9 in 117 -->
+    <Items>
+      <Item>fior sal</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0598">  <!-- 7 in 117 -->
+    <Items>
+      <Item>fior athar</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0513">  <!-- 6 in 117 -->
+    <Items>
+      <Item>fior creag</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0256">  <!-- 3 in 117 -->
+    <Items>
+      <Item>beag spiorad deum</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0256">  <!-- 3 in 117 -->
+    <Items>
+      <Item Variants="element-off">Bone Necklace</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0171">  <!-- 2 in 117 -->
+    <Items>
+      <Item Variants="consecrated">Mythril Bracer</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0171">  <!-- 2 in 117 -->
+    <Items>
+      <Item>mor ioc deum</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0171">  <!-- 2 in 117 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Mythril Greaves</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0085">  <!-- 1 in 117 -->
+    <Items>
+      <Item Variants="consecrated">Iron Shield</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0085">  <!-- 1 in 117 -->
+    <Items>
+      <Item Variants="smithed">Sun Dagger</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0085">  <!-- 1 in 117 -->
+    <Items>
+      <Item Variants="smithed">Two-handed Claidhmore</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.9829">  <!-- Gold Pile; TODO: amount is the vorlof sprite band -->
+    <Gold Min="1000" Max="1000"/>
+  </Table>
+  <Table Rolls="1" Chance="0.1795">  <!-- Gold Coin; TODO: amount is the vorlof sprite band -->
+    <Gold Min="2" Max="99"/>
+  </Table>
+</LootSet>

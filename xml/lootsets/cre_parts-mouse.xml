@@ -1,9 +1,14 @@
 <?xml version="1.0"?>
 <LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Parts-Mouse">
-  <Table Rolls="2" Chance="0.25">
-    <Items Rolls="2" Chance="0.25">
-      <Item Max="1" Unique="false" Always="false">Cheese</Item>
-      <Item Max="1" Unique="false" Always="false">Mouse Tail</Item>
+  <!-- ceridwen additions, not retail. Rates match the retail creature parts. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.35">
+    <Items>
+      <Item>Mouse Tail</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.1">
+    <Items>
+      <Item>Cheese</Item>
     </Items>
   </Table>
 </LootSet>

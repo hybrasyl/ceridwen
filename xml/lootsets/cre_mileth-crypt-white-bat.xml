@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt White Bat">
+  <!-- Rates from DA-Items: 218 kills in Mileth Crypt. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.5138">  <!-- 112 in 218 -->
+    <Items>
+      <Item>White Bat's Wing</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0459">  <!-- 10 in 218 -->
+    <Items>
+      <Item>fior srad</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0413">  <!-- 9 in 218 -->
+    <Items>
+      <Item>fior sal</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0229">  <!-- 5 in 218 -->
+    <Items>
+      <Item>fior creag</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0138">  <!-- 3 in 218 -->
+    <Items>
+      <Item Variants="enchant1">Ruby Ring</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0138">  <!-- 3 in 218 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Iron Bracer</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0092">  <!-- 2 in 218 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Iron Gauntlet</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0092">  <!-- 2 in 218 -->
+    <Items>
+      <Item>fior athar</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0092">  <!-- 2 in 218 -->
+    <Items>
+      <Item Variants="element-off">Bone Necklace</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0092">  <!-- 2 in 218 -->
+    <Items>
+      <Item>Flawed Ruby</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0092">  <!-- 2 in 218 -->
+    <Items>
+      <Item Variants="consecrated enchant1">Mythril Greaves</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
+    <Items>
+      <Item Variants="smithed">Two-handed Emerald Sword</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
+    <Items>
+      <Item Variants="consecrated">Iron Shield</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
+    <Items>
+      <Item Variants="consecrated">Gold Earrings</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
+    <Items>
+      <Item Variants="enchant1">Amethyst Ring</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
+    <Items>
+      <Item>Uncut Beryl</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
+    <Items>
+      <Item>Uncut Coral</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
+    <Items>
+      <Item>Uncut Ruby</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
+    <Items>
+      <Item Variants="consecrated">Mythril Shield</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
+    <Items>
+      <Item Variants="consecrated">Saffian Boots</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
+    <Items>
+      <Item Variants="enchant1">Magma Boots</Item>
+    </Items>
+  </Table>
+</LootSet>

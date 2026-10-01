@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt Succubus">
+  <!-- Rates from DA-Items: 29 kills in Mileth Crypt. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.8621">  <!-- 25 in 29 -->
+    <Items>
+      <Item>Succubus's Hair</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.1379">  <!-- 4 in 29 -->
+    <Items>
+      <Item>fior athar</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.1034">  <!-- 3 in 29 -->
+    <Items>
+      <Item>fior creag</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.069">  <!-- 2 in 29 -->
+    <Items>
+      <Item>fior srad</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0345">  <!-- 1 in 29 -->
+    <Items>
+      <Item Variants="enchant1">Talos Shield</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0345">  <!-- 1 in 29 -->
+    <Items>
+      <Item>ard ioc deum</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.0345">  <!-- 1 in 29 -->
+    <Items>
+      <Item Variants="consecrated">Mythril Bracer</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="1">  <!-- Gold Pile; TODO: amount is the vorlof sprite band -->
+    <Gold Min="1000" Max="1000"/>
+  </Table>
+</LootSet>
