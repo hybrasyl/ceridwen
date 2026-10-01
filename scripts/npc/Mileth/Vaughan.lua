@@ -19,7 +19,7 @@ training = {
     "Ah, I see... Go to the Mileth Tavern where Aingeal keeps the bar. In the south-east corner of the tavern I hid a bag of coins under a loose floorboard.\nGo there now.",
     "I have already told you where I had some money hidden. Did someone already take it from the Mileth Tavern?",
     "You seem to have the necessary armor to protect yourself from wolves.",
-    "Now you need to get a lure. A Centipede Gland has the same odor as cow meat. Go to the Mileth Crypt and find yourself a Centipede Gland.",
+    "Now you need to get a lure. A Centipede's Gland has the same odor as cow meat. Go to the Mileth Crypt and find yourself a Centipede's Gland.",
     "If you must, kill a centipede. Sometimes they will drop their glands, but be careful. These are hostile and dangerous creatures for young Aislings.",
     "To get to the Mileth Crypt, follow the path along the river. When you pass the Church, you will come to a bridge. Cross the bridge and make a left. You will see the entrance to the Mileth Crypt there.",
     "When you have the gland, come and see me.",
@@ -246,7 +246,7 @@ function training_check()
                 invoker.StartSequence("training_you_need_protection")
             end
         elseif training_position == "2" then
-            if invoker.HasItem("Centipede Gland", 1) then
+            if invoker.HasItem("Centipede's Gland", 1) then
                 invoker.StartSequence("training_go_get_the_wolves")
             else
                 invoker.StartSequence("training_get_a_lure_again")
