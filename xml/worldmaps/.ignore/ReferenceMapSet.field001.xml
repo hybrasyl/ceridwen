@@ -56,7 +56,7 @@
     </Point>
     <Point X="251" Y="163">
       <Name>Kasmanium Mines</Name>
-      <Target X="3" Y="51">Kasman</Target>
+      <Target X="24" Y="47">Mine Entrance</Target>
     </Point>
     <Point X="150" Y="297">
       <Name>Tagor</Name>
@@ -105,6 +105,10 @@
     <Point X="30" Y="365">
       <Name>Ronda</Name>
       <Target X="58" Y="1">Ronda</Target>
+    </Point>
+    <Point X="243" Y="176">
+      <Name>Kasman</Name>
+      <Target X="5" Y="50">Kasman</Target>
     </Point>
   </Points>
 </WorldMap>
