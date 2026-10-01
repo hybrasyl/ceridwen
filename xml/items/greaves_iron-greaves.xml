@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Iron Greaves</Name>
+  <Properties>
+    <Appearance Sprite="250"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="20000" Weight="6" Durability="6000"/>
+    <Categories>
+      <Category>Greaves</Category>
+    </Categories>
+    <Equipment Slot="Leg"/>
+    <StatModifiers BonusAc="-4" BonusMp="-750">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Consecratable Enchantable</Flags>
+    <Variants>
+      <Group>consecrated</Group>
+      <Group>enchant1</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="20" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

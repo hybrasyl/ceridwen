@@ -7,7 +7,7 @@
       <Category>Reagent</Category>
     </Categories>
     <Stackable Max="30"/>
-    <Physical Value="25" Weight="1" Durability="0"/>
+    <Physical Value="100" Weight="1" Durability="0"/>
     <Equipment Slot="None"/>
     <StatModifiers CurrentHp="-5">
     </StatModifiers>

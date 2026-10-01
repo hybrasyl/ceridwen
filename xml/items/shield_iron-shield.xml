@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Iron Shield</Name>
+  <Properties>
+    <Appearance Sprite="190"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="6750" Weight="20" Durability="9000"/>
+    <Categories>
+      <Category>Shield</Category>
+    </Categories>
+    <Equipment Slot="Shield"/>
+    <StatModifiers BonusAc="-10" BonusMp="-3000" BonusMr="10">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Consecratable Enchantable</Flags>
+    <Variants>
+      <Group>consecrated</Group>
+      <Group>enchant1</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="45" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

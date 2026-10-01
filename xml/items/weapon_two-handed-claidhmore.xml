@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Two-handed Claidhmore</Name>
+  <Properties>
+    <Appearance Sprite="175"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="46500" Weight="45" Durability="46500"/>
+    <Categories>
+      <Category>Weapon</Category>
+    </Categories>
+    <Equipment Slot="Weapon" WeaponType="TwoHand"/>
+    <Flags>Depositable Exchangeable Vendorable Smithable</Flags>
+    <Variants>
+      <Group>smithed</Group>
+    </Variants>
+    <Damage SmallMin="140" SmallMax="180" LargeMin="124" LargeMax="164"/>
+    <Restrictions>
+      <Level Min="71" Max="99"/>
+      <Class>Warrior</Class>
+    </Restrictions>
+  </Properties>
+</Item>

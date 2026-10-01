@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Two-handed Gladius</Name>
+  <Properties>
+    <Appearance Sprite="182"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="64500" Weight="70" Durability="80000"/>
+    <Categories>
+      <Category>Weapon</Category>
+    </Categories>
+    <Equipment Slot="Weapon" WeaponType="TwoHand"/>
+    <Flags>Depositable Exchangeable Vendorable Smithable</Flags>
+    <Variants>
+      <Group>smithed</Group>
+    </Variants>
+    <Damage SmallMin="150" SmallMax="210" LargeMin="134" LargeMax="194"/>
+    <Restrictions>
+      <Level Min="86" Max="99"/>
+      <Class>Warrior</Class>
+    </Restrictions>
+  </Properties>
+</Item>

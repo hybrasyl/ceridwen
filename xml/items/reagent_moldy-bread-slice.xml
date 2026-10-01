@@ -9,7 +9,7 @@
     <Stackable Max="30"/>
     <Physical Value="25" Weight="1" Durability="0"/>
     <Equipment Slot="None"/>
-    <StatModifiers CurrentHp="-10">
+    <StatModifiers CurrentHp="-56">
     </StatModifiers>
     <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
     <Vendor ShopTab="Reagent"/>

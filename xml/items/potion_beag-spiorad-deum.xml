@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
 <Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Cheese</Name>
+  <Name>beag spiorad deum</Name>
   <Properties>
-    <Appearance Sprite="1658"/>
-    <Categories>
-      <Category>Food</Category>
-    </Categories>
+    <Appearance Sprite="47"/>
     <Stackable Max="30"/>
-    <Physical Value="155" Weight="1" Durability="0"/>
+    <Physical Value="600" Weight="1" Durability="0"/>
+    <Categories>
+      <Category>Potion</Category>
+    </Categories>
     <Equipment Slot="None"/>
-    <StatModifiers CurrentMp="15">
+    <StatModifiers CurrentMp="30">
     </StatModifiers>
     <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
-    <Vendor ShopTab="Food"/>
     <Restrictions>
       <Level Min="1" Max="99"/>
     </Restrictions>

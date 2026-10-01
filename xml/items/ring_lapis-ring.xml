@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Lapis Ring</Name>
+  <Properties>
+    <Appearance Sprite="213"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <!-- TODO: Value (vorlof has no price) -->
+    <Physical Value="0" Weight="1" Durability="4000"/>
+    <Categories>
+      <Category>Ring</Category>
+    </Categories>
+    <Equipment Slot="Ring"/>
+    <StatModifiers BonusHp="300" BonusDmg="2">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Consecratable Enchantable</Flags>
+    <Variants>
+      <Group>consecrated</Group>
+      <Group>enchant1</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="8" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

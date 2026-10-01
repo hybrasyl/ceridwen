@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Talos Ring</Name>
+  <Properties>
+    <Appearance Sprite="211"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="3000" Weight="1" Durability="2000"/>
+    <Categories>
+      <Category>Ring</Category>
+    </Categories>
+    <Equipment Slot="Ring"/>
+    <StatModifiers BonusHp="100">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Consecratable Enchantable</Flags>
+    <Variants>
+      <Group>consecrated</Group>
+      <Group>enchant1</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="4" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

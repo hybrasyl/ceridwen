@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Saffian Boots</Name>
+  <Properties>
+    <Appearance Sprite="95"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <!-- TODO: Value (vorlof has no price) -->
+    <Physical Value="0" Weight="2" Durability="27000"/>
+    <Categories>
+      <Category>Boots</Category>
+    </Categories>
+    <Equipment Slot="Foot"/>
+    <StatModifiers BonusDex="4">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Consecratable Enchantable</Flags>
+    <Variants>
+      <Group>consecrated</Group>
+      <Group>enchant1</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="66" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

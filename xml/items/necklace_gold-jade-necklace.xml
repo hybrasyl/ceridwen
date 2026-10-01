@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Gold Jade Necklace</Name>
+  <Properties>
+    <Appearance Sprite="195"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="800" Weight="1" Durability="2000"/>
+    <Categories>
+      <Category>Necklace</Category>
+    </Categories>
+    <Equipment Slot="Necklace"/>
+    <StatModifiers BonusDmg="1">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable</Flags>
+    <Variants>
+      <Group>element-off</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="10" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

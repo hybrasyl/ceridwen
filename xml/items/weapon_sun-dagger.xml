@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Sun Dagger</Name>
+  <Properties>
+    <Appearance Sprite="253"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="17250" Weight="13" Durability="12000"/>
+    <Categories>
+      <Category>Weapon</Category>
+    </Categories>
+    <Equipment Slot="Weapon" WeaponType="Dagger"/>
+    <Flags>Depositable Exchangeable Vendorable Smithable</Flags>
+    <Variants>
+      <Group>smithed</Group>
+    </Variants>
+    <Damage SmallMin="75" SmallMax="95" LargeMin="70" LargeMax="90"/>
+    <Restrictions>
+      <Level Min="60" Max="99"/>
+      <Class>Rogue</Class>
+    </Restrictions>
+  </Properties>
+</Item>

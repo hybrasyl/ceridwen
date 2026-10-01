@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Bone Necklace</Name>
+  <Properties>
+    <Appearance Sprite="201"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="1500" Weight="1" Durability="2500"/>
+    <Categories>
+      <Category>Necklace</Category>
+    </Categories>
+    <Equipment Slot="Necklace"/>
+    <StatModifiers BonusHit="5" BonusDmg="1">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable</Flags>
+    <Variants>
+      <Group>element-off</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="15" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

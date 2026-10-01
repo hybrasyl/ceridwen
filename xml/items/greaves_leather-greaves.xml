@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Leather Greaves</Name>
+  <Properties>
+    <Appearance Sprite="238"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="4000" Weight="4" Durability="3000"/>
+    <Categories>
+      <Category>Greaves</Category>
+    </Categories>
+    <Equipment Slot="Leg"/>
+    <StatModifiers BonusAc="-2" BonusMp="-500">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Consecratable Enchantable</Flags>
+    <Variants>
+      <Group>consecrated</Group>
+      <Group>enchant1</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="6" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

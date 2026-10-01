@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Amber Necklace</Name>
+  <Properties>
+    <Appearance Sprite="204"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="1600" Weight="1" Durability="3000"/>
+    <Categories>
+      <Category>Necklace</Category>
+    </Categories>
+    <Equipment Slot="Necklace"/>
+    <StatModifiers BonusDmg="2">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable</Flags>
+    <Variants>
+      <Group>element-off</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="14" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

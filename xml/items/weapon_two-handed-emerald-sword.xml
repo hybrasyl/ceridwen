@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Two-handed Emerald Sword</Name>
+  <Properties>
+    <Appearance Sprite="177"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="93500" Weight="50" Durability="66000"/>
+    <Categories>
+      <Category>Weapon</Category>
+    </Categories>
+    <Equipment Slot="Weapon" WeaponType="TwoHand"/>
+    <Flags>Depositable Exchangeable Vendorable Smithable</Flags>
+    <Variants>
+      <Group>smithed</Group>
+    </Variants>
+    <Damage SmallMin="124" SmallMax="164" LargeMin="140" LargeMax="180"/>
+    <Restrictions>
+      <Level Min="77" Max="99"/>
+      <Class>Warrior</Class>
+    </Restrictions>
+  </Properties>
+</Item>

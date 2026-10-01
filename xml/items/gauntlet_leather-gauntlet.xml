@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Leather Gauntlet</Name>
+  <Properties>
+    <Appearance Sprite="227"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <Physical Value="2000" Weight="2" Durability="3000"/>
+    <Categories>
+      <Category>Gauntlet</Category>
+    </Categories>
+    <Equipment Slot="Gauntlet"/>
+    <StatModifiers BonusAc="-1" BonusMp="-500">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Consecratable Enchantable</Flags>
+    <Variants>
+      <Group>consecrated</Group>
+      <Group>enchant1</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="9" Max="99"/>
+    </Restrictions>
+  </Properties>
+</Item>

@@ -1,18 +1,15 @@
 <?xml version="1.0"?>
 <Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
-  <Name>Rotten Apple</Name>
+  <Name>Uncut Beryl</Name>
   <Properties>
-    <Appearance Sprite="2261"/>
+    <Appearance Sprite="232"/>
+    <Stackable Max="30"/>
+    <Physical Value="1250" Weight="1" Durability="0"/>
     <Categories>
       <Category>Reagent</Category>
     </Categories>
-    <Stackable Max="30"/>
-    <Physical Value="50" Weight="1" Durability="0"/>
     <Equipment Slot="None"/>
-    <StatModifiers CurrentHp="-48">
-    </StatModifiers>
-    <Flags>Depositable Exchangeable Vendorable Consumable</Flags>
-    <Vendor ShopTab="Reagent"/>
+    <Flags>Depositable Exchangeable Vendorable</Flags>
     <Restrictions>
       <Level Min="1" Max="99"/>
     </Restrictions>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Item xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Mythril Bracer</Name>
+  <Properties>
+    <Appearance Sprite="225"/>
+    <!-- TODO: EquipSprite and DisplaySprite (vorlof does not hold them) -->
+    <Stackable Max="1"/>
+    <!-- TODO: Value (vorlof has no price) -->
+    <Physical Value="0" Weight="4" Durability="7000"/>
+    <Categories>
+      <Category>Gauntlet</Category>
+    </Categories>
+    <Equipment Slot="Gauntlet"/>
+    <StatModifiers BonusAc="-3" BonusDex="2">
+    </StatModifiers>
+    <Flags>Depositable Exchangeable Vendorable Consecratable Enchantable</Flags>
+    <Variants>
+      <Group>consecrated</Group>
+      <Group>enchant1</Group>
+    </Variants>
+    <Restrictions>
+      <Level Min="63" Max="99"/>
+      <Class>Monk</Class>
+    </Restrictions>
+  </Properties>
+</Item>
