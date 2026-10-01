@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <Creature xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Spider" Sprite="53" BehaviorSet="CritterSpider">
+  <Loot>
+    <Set Name="Mileth Crypt Spider" Rolls="1" Chance="1"/>
+  </Loot>
   <Hostility>
     <Players/>
   </Hostility>

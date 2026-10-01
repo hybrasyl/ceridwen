@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
 <Creature xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mouse" Sprite="7" BehaviorSet="CritterMouse">
+  <Loot>
+    <Set Name="Mileth Crypt Mouse" Rolls="1" Chance="1"/>
+    <Set Name="Parts-Mouse" Rolls="1" Chance="1"/>
+  </Loot>
   <Hostility>
     <Players/>
   </Hostility>

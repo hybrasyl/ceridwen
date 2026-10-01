@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Creature xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Succubus" Sprite="13" BehaviorSet="BasicAssCritter">
+  <!-- TODO: behavior set (none exists for this creature yet) -->
+  <Loot>
+    <Set Name="Mileth Crypt Succubus" Rolls="1" Chance="1"/>
+  </Loot>
+  <Hostility>
+    <Players/>
+  </Hostility>
+</Creature>
