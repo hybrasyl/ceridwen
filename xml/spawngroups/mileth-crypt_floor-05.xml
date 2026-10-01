@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<SpawnGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt 5" BaseLevel="5">
+  <!-- The server does not read BaseLevel from an imported group, so each spawn sets Base Level too. -->
+  <Spawns>
+    <Spawn Name="Centipede" Flags="Active">
+      <!-- TODO: MinDmg/MaxDmg and Ac/Mr (vorlof holds no combat stats) -->
+      <Damage Elements="RandomTemuair"/>
+      <Defense Elements="RandomTemuair"/>
+      <Spec MinCount="1" MaxCount="10" MaxPerInterval="2" Interval="30" Limit="10"/>
+      <Base Level="5"/>  <!-- TODO: the floor number, a guess. vorlof holds no levels. -->
+    </Spawn>
+    <Spawn Name="Bat" Flags="Active">
+      <!-- TODO: MinDmg/MaxDmg and Ac/Mr (vorlof holds no combat stats) -->
+      <Damage Elements="RandomTemuair"/>
+      <Defense Elements="RandomTemuair"/>
+      <Spec MinCount="1" MaxCount="10" MaxPerInterval="2" Interval="30" Limit="10"/>
+      <Base Level="5"/>  <!-- TODO: the floor number, a guess. vorlof holds no levels. -->
+    </Spawn>
+    <Spawn Name="Scorpion" Flags="Active">
+      <!-- TODO: MinDmg/MaxDmg and Ac/Mr (vorlof holds no combat stats) -->
+      <Damage Elements="RandomTemuair"/>
+      <Defense Elements="RandomTemuair"/>
+      <Spec MinCount="1" MaxCount="10" MaxPerInterval="2" Interval="30" Limit="10"/>
+      <Base Level="5"/>  <!-- TODO: the floor number, a guess. vorlof holds no levels. -->
+    </Spawn>
+  </Spawns>
+</SpawnGroup>

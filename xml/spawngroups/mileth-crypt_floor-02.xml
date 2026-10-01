@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<SpawnGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Mileth Crypt 2" BaseLevel="2">
+  <!-- The server does not read BaseLevel from an imported group, so each spawn sets Base Level too. -->
+  <Spawns>
+    <Spawn Name="Mouse" Flags="Active">
+      <!-- TODO: MinDmg/MaxDmg and Ac/Mr (vorlof holds no combat stats) -->
+      <Damage Elements="None"/>
+      <Defense Elements="None"/>
+      <Spec MinCount="1" MaxCount="10" MaxPerInterval="2" Interval="30" Limit="10"/>
+      <Base Level="2"/>  <!-- TODO: the floor number, a guess. vorlof holds no levels. -->
+    </Spawn>
+    <Spawn Name="Spider" Flags="Active">
+      <!-- TODO: MinDmg/MaxDmg and Ac/Mr (vorlof holds no combat stats) -->
+      <Damage Elements="None"/>
+      <Defense Elements="None"/>
+      <Spec MinCount="1" MaxCount="10" MaxPerInterval="2" Interval="30" Limit="10"/>
+      <Base Level="2"/>  <!-- TODO: the floor number, a guess. vorlof holds no levels. -->
+    </Spawn>
+    <Spawn Name="Centipede" Flags="Active">
+      <!-- TODO: MinDmg/MaxDmg and Ac/Mr (vorlof holds no combat stats) -->
+      <Damage Elements="None"/>
+      <Defense Elements="None"/>
+      <Spec MinCount="1" MaxCount="10" MaxPerInterval="2" Interval="30" Limit="10"/>
+      <Base Level="2"/>  <!-- TODO: the floor number, a guess. vorlof holds no levels. -->
+    </Spawn>
+  </Spawns>
+</SpawnGroup>
