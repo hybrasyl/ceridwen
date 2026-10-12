@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Loures Chamber Lesser Servitor">
+  <!-- Chances from wanderlustdb.com: an estimate (~) from the map page, or a measured rate from the item page. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.5206">  <!-- 52.06% measured -->
+    <Items>
+      <Item>Talos Fragment</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.016">  <!-- ~1.6% estimate, Sgrios Silver Earrings -->
+    <Items>
+      <Item Variants="consecrated">Silver Earrings</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.006">  <!-- ~0.6% estimate, Sgrios Amethyst Ring -->
+    <Items>
+      <Item Variants="consecrated">Amethyst Ring</Item>
+    </Items>
+  </Table>
+</LootSet>

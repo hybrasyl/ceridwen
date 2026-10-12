@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<LootSet xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Loures Chamber Dunan">
+  <!-- Chances from wanderlustdb.com: an estimate (~) from the map page, or a measured rate from the item page. Each table rolls once. -->
+  <Table Rolls="1" Chance="0.03">  <!-- ~3% estimate -->
+    <Items>
+      <Item>Talos Fragment</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.02">  <!-- ~2% estimate -->
+    <Items>
+      <Item>Dark Belt</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.01">  <!-- ~1% estimate -->
+    <Items>
+      <Item>Talos Ring</Item>
+    </Items>
+  </Table>
+  <Table Rolls="1" Chance="0.01">  <!-- ~1% estimate, Sgrios Talos Ring -->
+    <Items>
+      <Item Variants="consecrated">Talos Ring</Item>
+    </Items>
+  </Table>
+</LootSet>
