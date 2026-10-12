@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<SpawnGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Chamber I West">
+  <!-- From wanderlustdb.com, map 4007. Imported by that map only. -->
+  <Spawns>
+    <Spawn Name="Dunan" Flags="Active">
+      <!-- Retail: level 11, HP 669 to 1,339, 1,060 experience. TODO: MinDmg/MaxDmg, Ac, Mr. -->
+      <Damage Elements="Light"/>
+      <Defense Elements="Light"/>
+      <Spec MaxCount="6" MaxPerInterval="6" Interval="30"/>
+      <Base Level="11"/>
+    </Spawn>
+    <Spawn Name="Dunan" Flags="Active">
+      <!-- Retail: level 16, HP 838 to 1,677, 1,940 experience. TODO: MinDmg/MaxDmg, Ac, Mr. -->
+      <Damage Elements="Light"/>
+      <Defense Elements="Light"/>
+      <Spec MaxCount="6" MaxPerInterval="6" Interval="30"/>
+      <Base Level="16"/>
+    </Spawn>
+  </Spawns>
+</SpawnGroup>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="4016" X="28" Y="28" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Chamber IV North -->
+  <!-- Loures chamber. A script gives access; no warp leads in or out. Warp tiles come from wanderlustdb.com. The arrival tile keeps the direction of travel: a warp on the east edge arrives one tile inside the west edge of the target map. -->
+  <!-- Ring IV is not symmetric: the target edge does not always lead back here (4017). The retail arrival tile is not known. -->
+  <Name>Chamber IV North</Name>
+  <Flags />
+  <Warps>
+    <Warp X="10" Y="0">
+      <MapTarget X="10" Y="26">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="11" Y="0">
+      <MapTarget X="11" Y="26">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="12" Y="0">
+      <MapTarget X="12" Y="26">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="13" Y="0">
+      <MapTarget X="13" Y="26">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="14" Y="0">
+      <MapTarget X="14" Y="26">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="15" Y="0">
+      <MapTarget X="15" Y="26">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="16" Y="0">
+      <MapTarget X="16" Y="26">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="17" Y="0">
+      <MapTarget X="17" Y="26">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="0" Y="10">
+      <MapTarget X="26" Y="10">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="27" Y="10">
+      <MapTarget X="1" Y="10">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="11">
+      <MapTarget X="26" Y="11">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="27" Y="11">
+      <MapTarget X="1" Y="11">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="12">
+      <MapTarget X="26" Y="12">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="27" Y="12">
+      <MapTarget X="1" Y="12">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="13">
+      <MapTarget X="26" Y="13">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="27" Y="13">
+      <MapTarget X="1" Y="13">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="14">
+      <MapTarget X="26" Y="14">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="27" Y="14">
+      <MapTarget X="1" Y="14">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="15">
+      <MapTarget X="26" Y="15">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="27" Y="15">
+      <MapTarget X="1" Y="15">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="16">
+      <MapTarget X="26" Y="16">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="27" Y="16">
+      <MapTarget X="1" Y="16">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="0" Y="17">
+      <MapTarget X="26" Y="17">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="27" Y="17">
+      <MapTarget X="1" Y="17">Chamber IV East</MapTarget>
+    </Warp>
+    <Warp X="10" Y="27">
+      <MapTarget X="10" Y="1">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="11" Y="27">
+      <MapTarget X="11" Y="1">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="12" Y="27">
+      <MapTarget X="12" Y="1">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="13" Y="27">
+      <MapTarget X="13" Y="1">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="14" Y="27">
+      <MapTarget X="14" Y="1">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="15" Y="27">
+      <MapTarget X="15" Y="1">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="16" Y="27">
+      <MapTarget X="16" Y="1">Chamber IV West</MapTarget>
+    </Warp>
+    <Warp X="17" Y="27">
+      <MapTarget X="17" Y="1">Chamber IV West</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <SpawnGroup>
+    <Spawns>
+      <Spawn Import="Chamber IV North" />
+    </Spawns>
+  </SpawnGroup>
+  <Npcs />
+  <Signs />
+</Map>

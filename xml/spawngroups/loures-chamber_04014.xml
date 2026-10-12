@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<SpawnGroup xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Chamber III South">
+  <!-- From wanderlustdb.com, map 4014. Imported by that map only. -->
+  <Spawns>
+    <Spawn Name="Nightgaunt" Flags="Active">
+      <!-- Retail: level 45, HP 7,371 to 14,743, 19,343 experience. TODO: MinDmg/MaxDmg, Ac, Mr. -->
+      <Damage Elements="Light"/>
+      <Defense Elements="Light"/>
+      <Spec MaxCount="4" MaxPerInterval="4" Interval="30"/>
+      <Base Level="45"/>
+    </Spawn>
+    <Spawn Name="Lesser Servitor" Flags="Active">
+      <!-- Retail: level 75, HP 19,182 to 38,365, 50,252 experience. TODO: MinDmg/MaxDmg, Ac, Mr. -->
+      <Damage Elements="Light"/>
+      <Defense Elements="Light"/>
+      <Spec MaxCount="1" MaxPerInterval="1" Interval="30"/>
+      <Base Level="75"/>
+    </Spawn>
+  </Spawns>
+</SpawnGroup>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3093" X="16" Y="16" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Heart of Stone -->
+  <!-- Loures chamber. A script gives access; no warp leads in or out. wanderlustdb.com lists no warps and no monsters for this map. -->
+  <Name>Heart of Stone</Name>
+  <Flags />
+  <Warps />
+  <Reactors />
+  <Npcs />
+  <Signs />
+</Map>
