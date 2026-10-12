@@ -4,16 +4,14 @@
   <Name>Abel Dungeon 6-1</Name>
   <Flags />
   <Warps>
-    <!-- Portal tiles read from the da-wizard Abel Crypt maps; every arrival
-         point is inferred from the marker on the far side. -->
+    <Warp X="0" Y="33">
+      <MapTarget X="11" Y="8">Abel Dungeon 5-1</MapTarget>
+    </Warp>
     <Warp X="6" Y="0">
-      <MapTarget X="19" Y="19">Abel Dungeon 5-2</MapTarget>
+      <MapTarget X="36" Y="7">Abel Dungeon 5-2</MapTarget>
     </Warp>
-    <Warp X="35" Y="3">
-      <MapTarget X="12" Y="2">Abel Dungeon 7-1</MapTarget>
-    </Warp>
-    <Warp X="2" Y="38">
-      <MapTarget X="10" Y="6">Abel Dungeon 5-1</MapTarget>
+    <Warp X="37" Y="3">
+      <MapTarget X="10" Y="1">Abel Dungeon 7-1</MapTarget>
     </Warp>
   </Warps>
   <Reactors />

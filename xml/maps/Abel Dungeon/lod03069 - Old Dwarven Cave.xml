@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3069" X="8" Y="8" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Old Dwarven Cave -->
+  <!-- Abel Dungeon. The door on 5-1 at (16,0) leads here. -->
+  <Name>Old Dwarven Cave</Name>
+  <Flags />
+  <Warps>
+    <Warp X="4" Y="7">
+      <MapTarget X="16" Y="1">Abel Dungeon 5-1</MapTarget>
+    </Warp>
+  </Warps>
+  <Reactors />
+  <Npcs>
+    <Npc Name="Ake" X="2" Y="1" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>

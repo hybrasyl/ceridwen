@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3084" X="8" Y="8" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Ancient Dwarven Cave -->
+  <!-- Abel Dungeon. The door on 10-2 at (7,0) leads here. -->
+  <!-- TODO: retail has no exit from this map. Add warps back to the prior floors. -->
+  <Name>Ancient Dwarven Cave</Name>
+  <Flags />
+  <Warps />
+  <Reactors />
+  <Npcs>
+    <Npc Name="Torgny" X="2" Y="1" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>
