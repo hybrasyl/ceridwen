@@ -1,0 +1,5 @@
+# Store and check out all text files with LF line endings.
+* text=auto eol=lf
+
+# Map files are binary tile data.
+*.map binary

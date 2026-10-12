@@ -27,8 +27,12 @@ Use these tools to create and manage an independent server:
 
 ## Contributing
 
-We welcome contributions to the project! We encourage new developers to visit
-us on Discord and get to know us first, especially if you plan on tackling a substantial feature or change.
+We welcome contributions to the project! We encourage new developers to visit us on Discord and get to know us first, especially if you plan on tackling a substantial feature or change.
 
 If you would like to contribute content to the Ceridwen database, feel free to fork and submit a pull request.
+
+File format rules:
+
+- Use LF line endings in all text files. `.gitattributes` and `.editorconfig` set LF.
+- Do not hard-wrap Markdown prose at a column. Write each paragraph or list item as one line.
 
