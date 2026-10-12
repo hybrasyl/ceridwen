@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="3910" X="13" Y="13" xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <!-- Generic Name: Giant Mantis Underground -->
+  <!-- Porte Forest. The quest diagram shows this map next to the Peak Waiting Room and the Peak. -->
+  <!-- TODO: no source gives the warps into or out of this map. -->
+  <Name>Giant Mantis Underground</Name>
+  <Flags />
+  <Warps />
+  <Reactors />
+  <Npcs>
+    <Npc Name="Rennie" X="4" Y="4" Direction="South" />
+  </Npcs>
+  <Signs />
+</Map>
