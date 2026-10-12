@@ -3,7 +3,20 @@
   <!-- Generic Name: Mileth Crypt 14-3 -->
   <Name>Mileth Crypt 14-3</Name>
   <Flags />
-  <Warps />
+  <Warps>
+    <Warp X="0" Y="36">
+      <!-- Arrival tile inferred: a floor tile next to the stair that leads back. -->
+      <MapTarget X="20" Y="42">Mileth Crypt 13-2</MapTarget>
+    </Warp>
+    <Warp X="27" Y="2">
+      <!-- Arrival tile inferred: a floor tile next to the stair that leads back. -->
+      <MapTarget X="39" Y="1">Mileth Crypt 15-3</MapTarget>
+    </Warp>
+    <Warp X="45" Y="25">
+      <!-- Arrival tile inferred: a floor tile next to the stair that leads back. -->
+      <MapTarget X="9" Y="19">Mileth Crypt 15-4</MapTarget>
+    </Warp>
+  </Warps>
   <Reactors />
   <Npcs />
   <Signs />

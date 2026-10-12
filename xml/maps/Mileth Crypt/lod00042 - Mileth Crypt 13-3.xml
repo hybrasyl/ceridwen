@@ -7,6 +7,10 @@
     <Warp X="0" Y="39">
       <MapTarget X="28" Y="27">Mileth Crypt 12-3</MapTarget>
     </Warp>
+    <Warp X="45" Y="1">
+      <!-- Arrival tile inferred: a floor tile next to the stair that leads back. -->
+      <MapTarget X="42" Y="1">Mileth Crypt 14-4</MapTarget>
+    </Warp>
   </Warps>
   <Reactors />
   <Npcs />

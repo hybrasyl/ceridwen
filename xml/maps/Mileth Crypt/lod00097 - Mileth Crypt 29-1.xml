@@ -8,10 +8,10 @@
       <MapTarget X="36" Y="1">Mileth Crypt 30-1</MapTarget>
     </Warp>
     <Warp X="2" Y="15">
-      <MapTarget X="1" Y="44">Mileth Crypt 30-2</MapTarget>
+      <MapTarget X="24" Y="27">Mileth Crypt 30-2</MapTarget>
     </Warp>
     <Warp X="44" Y="0">
-      <MapTarget X="43" Y="1">Mileth Crypt 28-1</MapTarget>
+      <MapTarget X="12" Y="31">Mileth Crypt 28-1</MapTarget>
     </Warp>
   </Warps>
   <Reactors />

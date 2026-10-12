@@ -5,7 +5,7 @@
   <Flags />
   <Warps>
     <Warp X="44" Y="0">
-      <MapTarget X="32" Y="38">Mileth Crypt 13-1</MapTarget>
+      <MapTarget X="10" Y="1">Mileth Crypt 13-1</MapTarget>
     </Warp>
     <Warp X="19" Y="9">
       <MapTarget X="1" Y="5">Mileth Crypt 15-1</MapTarget>

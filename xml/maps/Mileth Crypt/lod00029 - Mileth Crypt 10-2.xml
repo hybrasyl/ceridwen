@@ -8,7 +8,7 @@
       <MapTarget X="16" Y="9">Mileth Crypt 9-2</MapTarget>
     </Warp>
     <Warp X="6" Y="27">
-      <MapTarget X="1" Y="39">Mileth Crypt 11-2</MapTarget>
+      <MapTarget X="30" Y="1">Mileth Crypt 11-2</MapTarget>
     </Warp>
   </Warps>
   <Reactors />
