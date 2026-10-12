@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Npc xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02">
+  <Name>Torgny</Name>
+  <!-- Location: Ancient Dwarven Cave (Abel Dungeon 10-2) -->
+  <DisplayName>Torgny</DisplayName>
+  <Appearance Sprite="65"/>
+</Npc>
