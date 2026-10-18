@@ -48,4 +48,13 @@
       </StartMaps>
     </NewPlayer>
   </Handlers>
+  <!-- Retail Dark Ages experience scaling, by the player's level minus the monster's (HS-1666).
+       A monster above the player gives no bonus. -->
+  <ExperienceScaling>
+    <Step Min="4" Max="5" Percent="80" />
+    <Step Min="6" Max="8" Percent="60" />
+    <Step Min="9" Max="11" Percent="40" />
+    <Step Min="12" Max="14" Percent="20" />
+    <Step Min="15" Fixed="1" />
+  </ExperienceScaling>
 </ServerConfig>
