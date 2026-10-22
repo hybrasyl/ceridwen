@@ -16,6 +16,7 @@
   </Variant>
   <Variant>
     <Name>Manasteal</Name>
+    <Modifier>Mana Steal</Modifier>
     <Properties>
       <Flags>Depositable Vendorable Exchangeable</Flags>
       <Physical Value="1.2" Durability="1.5"/>
