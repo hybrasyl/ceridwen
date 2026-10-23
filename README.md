@@ -36,3 +36,13 @@ File format rules:
 - Use LF line endings in all text files. `.gitattributes` and `.editorconfig` set LF.
 - Do not hard-wrap Markdown prose at a column. Write each paragraph or list item as one line.
 
+## Tests
+
+Run the tests from the repository root with any Lua 5.3 or later interpreter. They have no dependencies:
+
+```sh
+lua tests/run.lua
+```
+
+CI runs the tests for each push and pull request to `main`. The `formula_tokens` spec fails on each formula token in `xml/` that the server does not define, because the server evaluates such a formula to 0. `tests/formula_tokens.lua` holds the token list, copied from the server source. That file names the server commit. Update the list when the server adds or renames a `[FormulaVariable]` property.
+
