@@ -12,7 +12,7 @@
   </Categories>
   <CastCosts>
     <CastCost>
-      <Stat Mp="SOURCECURRENTMP*0.95"/>
+      <Stat Mp="SOURCEMP*0.95"/>
     </CastCost>
   </CastCosts>
   <Intents>
@@ -46,8 +46,8 @@
       </OnCast>
     </Animations>
     <Damage Type="Elemental">
-        <!-- Using old or no formula -->
-      <Formula>(SOURCECURRENTMP*.95)</Formula>
+        <!-- The server takes the 95% MP cost before it evaluates damage, so SOURCEMP*19 is the MP spent. -->
+      <Formula>(SOURCEMP*19)</Formula>
     </Damage>
   </Effects>
 </Castable>

@@ -11,7 +11,7 @@
   </Categories>
   <CastCosts>
     <CastCost>
-      <Stat Hp="SOURCECURRENTHP*0.1"/>
+      <Stat Hp="SOURCEHP*0.1"/>
     </CastCost>
   </CastCosts>
   <Intents>

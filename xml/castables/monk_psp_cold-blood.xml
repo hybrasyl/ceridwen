@@ -11,7 +11,7 @@
   </Categories>
   <CastCosts>
     <CastCost>
-      <Stat Mp="SOURCEAB*250"/>
+      <Stat Mp="SOURCEABILITY*250"/>
     </CastCost>
   </CastCosts>
   <Intents>
