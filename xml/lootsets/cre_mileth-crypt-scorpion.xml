@@ -13,12 +13,12 @@
   </Table>
   <Table Rolls="1" Chance="0.008">  <!-- 2 in 250 -->
     <Items>
-      <Item Variants="consecrated enchant1">Boots</Item>
+      <Item Variants="consecrated enchant">Boots</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.008">  <!-- 2 in 250 -->
     <Items>
-      <Item Variants="enchant1">Cured Boots</Item>
+      <Item Variants="enchant">Cured Boots</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.008">  <!-- 2 in 250 -->

@@ -9,9 +9,7 @@
     <Equipment Slot="Waist"/>
     <Flags>Bound Enchantable</Flags>
     <Variants>
-      <Group>enchant1</Group>
-      <Group>enchant2</Group>
-      <Group>enchant3</Group>
+      <Group>enchant</Group>
     </Variants>
     <Vendor ShopTab="Clutter"/>
     <Restrictions>

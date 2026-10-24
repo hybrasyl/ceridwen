@@ -10,7 +10,7 @@
     <Flags>Bound</Flags>
     <Variants>
       <Name Group="element-def">Light</Name>
-      <Name Group="element2-def">Metal</Name>
+      <Name Group="element-def">Metal</Name>
     </Variants>
     <Vendor ShopTab="Clutter"/>
     <Restrictions>

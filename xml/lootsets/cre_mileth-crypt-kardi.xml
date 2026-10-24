@@ -38,7 +38,7 @@
   </Table>
   <Table Rolls="1" Chance="0.0171">  <!-- 2 in 117 -->
     <Items>
-      <Item Variants="consecrated enchant1">Mythril Greaves</Item>
+      <Item Variants="consecrated enchant">Mythril Greaves</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0085">  <!-- 1 in 117 -->

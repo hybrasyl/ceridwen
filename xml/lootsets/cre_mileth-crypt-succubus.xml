@@ -23,7 +23,7 @@
   </Table>
   <Table Rolls="1" Chance="0.0345">  <!-- 1 in 29 -->
     <Items>
-      <Item Variants="enchant1">Talos Shield</Item>
+      <Item Variants="enchant">Talos Shield</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0345">  <!-- 1 in 29 -->

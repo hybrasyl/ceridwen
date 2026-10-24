@@ -23,7 +23,7 @@
   </Table>
   <Table Rolls="1" Chance="0.0127">  <!-- 4 in 315 -->
     <Items>
-      <Item Variants="consecrated enchant1">Amethyst Ring</Item>
+      <Item Variants="consecrated enchant">Amethyst Ring</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0127">  <!-- 4 in 315 -->
@@ -33,7 +33,7 @@
   </Table>
   <Table Rolls="1" Chance="0.0095">  <!-- 3 in 315 -->
     <Items>
-      <Item Variants="consecrated enchant1">Gold Earrings</Item>
+      <Item Variants="consecrated enchant">Gold Earrings</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0095">  <!-- 3 in 315 -->

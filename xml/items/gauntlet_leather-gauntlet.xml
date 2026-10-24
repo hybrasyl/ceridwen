@@ -15,7 +15,7 @@
     <Flags>Depositable Exchangeable Vendorable Consecratable Enchantable</Flags>
     <Variants>
       <Group>consecrated</Group>
-      <Group>enchant1</Group>
+      <Group>enchant</Group>
     </Variants>
     <Restrictions>
       <Level Min="9" Max="99"/>

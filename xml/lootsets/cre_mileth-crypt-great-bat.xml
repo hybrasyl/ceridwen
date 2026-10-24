@@ -33,17 +33,17 @@
   </Table>
   <Table Rolls="1" Chance="0.0149">  <!-- 4 in 269 -->
     <Items>
-      <Item Variants="consecrated enchant1">Cordovan Boots</Item>
+      <Item Variants="consecrated enchant">Cordovan Boots</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0149">  <!-- 4 in 269 -->
     <Items>
-      <Item Variants="consecrated enchant1">Iron Greaves</Item>
+      <Item Variants="consecrated enchant">Iron Greaves</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0112">  <!-- 3 in 269 -->
     <Items>
-      <Item Variants="consecrated enchant1">Shagreen Boots</Item>
+      <Item Variants="consecrated enchant">Shagreen Boots</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0074">  <!-- 2 in 269 -->
@@ -58,7 +58,7 @@
   </Table>
   <Table Rolls="1" Chance="0.0037">  <!-- 1 in 269 -->
     <Items>
-      <Item Variants="enchant1">Talos Ring</Item>
+      <Item Variants="enchant">Talos Ring</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0037">  <!-- 1 in 269 -->

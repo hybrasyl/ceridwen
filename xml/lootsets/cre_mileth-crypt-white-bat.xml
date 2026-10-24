@@ -23,17 +23,17 @@
   </Table>
   <Table Rolls="1" Chance="0.0138">  <!-- 3 in 218 -->
     <Items>
-      <Item Variants="enchant1">Ruby Ring</Item>
+      <Item Variants="enchant">Ruby Ring</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0138">  <!-- 3 in 218 -->
     <Items>
-      <Item Variants="consecrated enchant1">Iron Bracer</Item>
+      <Item Variants="consecrated enchant">Iron Bracer</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0092">  <!-- 2 in 218 -->
     <Items>
-      <Item Variants="consecrated enchant1">Iron Gauntlet</Item>
+      <Item Variants="consecrated enchant">Iron Gauntlet</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0092">  <!-- 2 in 218 -->
@@ -53,7 +53,7 @@
   </Table>
   <Table Rolls="1" Chance="0.0092">  <!-- 2 in 218 -->
     <Items>
-      <Item Variants="consecrated enchant1">Mythril Greaves</Item>
+      <Item Variants="consecrated enchant">Mythril Greaves</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
@@ -73,7 +73,7 @@
   </Table>
   <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
     <Items>
-      <Item Variants="enchant1">Amethyst Ring</Item>
+      <Item Variants="enchant">Amethyst Ring</Item>
     </Items>
   </Table>
   <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
@@ -103,7 +103,7 @@
   </Table>
   <Table Rolls="1" Chance="0.0046">  <!-- 1 in 218 -->
     <Items>
-      <Item Variants="enchant1">Magma Boots</Item>
+      <Item Variants="enchant">Magma Boots</Item>
     </Items>
   </Table>
 </LootSet>
