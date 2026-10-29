@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <ElementTable xmlns="http://www.hybrasyl.com/XML/Hybrasyl/2020-02" Name="Default">
-  <!-- Element data sourced from http://www.da-wizard.com/elements.html -->
+  <!-- Comment: Element data sourced from http://www.da-wizard.com/elements.html -->
   <Source Element="None">
     <Target Element="None" Multiplier="0.58"/>
     <Target Element="Fire" Multiplier="0.37"/>
